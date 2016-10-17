@@ -1,0 +1,5 @@
+Park in Handicapped Zone,OneTimeExpense,100
+Birthday!,ChildCost,100,0
+Go Out to Dinner,OneTimeExpense,50
+Tax Audit,OneTimeExpense,350
+Go to the Air Show,OneTimeExpense,120

@@ -1,0 +1,160 @@
+{
+	"MarketCard001": {
+		"Title": "Apartment House Buyer",
+		"Cost": 25000,
+		"Must Sell": "False"
+	},
+	"MarketCard002": {
+		"Title": "Apartment House Buyer",
+		"Cost": 30000,
+		"Must Sell": "False"
+	},
+	"MarketCard003": {
+		"Title": "Apartment House Buyer",
+		"Cost": 40000,
+		"Must Sell": "False"
+	},
+	"MarketCard004": {
+		"Title": "Apartment House Buyer",
+		"Cost": 45000,
+		"Must Sell": "False"
+	},
+	"MarketCard005": {
+		"Title": "Buyer for 20 Acres",
+		"Cost": 200000,
+		"Must Sell": "False"
+	},
+	"MarketCard006": {
+		"Title": "Car Wash Buyer",
+		"Cost": 250000,
+		"Must Sell": "False"
+	},
+	"MarketCard007": {
+		"Title": "Condo Buyer - 2Br/1Ba",
+		"Cost": 45000,
+		"Must Sell": "False"
+	},
+	"MarketCard008": {
+		"Title": "Condo Buyer - 2Br/1Ba",
+		"Cost": 55000,
+		"Must Sell": "False"
+	},
+	"MarketCard009": {
+		"Title": "Condo Buyer - 2Br/1Ba",
+		"Cost": 55000,
+		"Must Sell": "False"
+	},
+	"MarketCard010": {
+		"Title": "Condo Buyer - 2Br/1Ba",
+		"Cost": 65000,
+		"Must Sell": "False"
+	},
+	"MarketCard011": {
+		"Title": "House Buyer - 3Br/2Ba",
+		"Cost": 90000,
+		"Must Sell": "False"
+	},
+	"MarketCard012": {
+		"Title": "House Buyer - 3Br/2Ba",
+		"Cost": 100000,
+		"Must Sell": "False"
+	},
+	"MarketCard013": {
+		"Title": "House Buyer - 3Br/2Ba",
+		"Cost": 100000,
+		"Must Sell": "False"
+	},
+	"MarketCard014": {
+		"Title": "House Buyer - 3Br/2Ba",
+		"Cost": 100000,
+		"Must Sell": "False"
+	},
+	"MarketCard015": {
+		"Title": "House Buyer - 3Br/2Ba",
+		"Cost": 110000,
+		"Must Sell": "False"
+	},
+	"MarketCard016": {
+		"Title": "House Buyer - 3Br/2Ba",
+		"Cost": 135000,
+		"Must Sell": "False"
+	},
+	"MarketCard017": {
+		"Title": "House Buyer - 3Br/2Ba",
+		"Cost": 135000,
+		"Must Sell": "False"
+	},
+	"MarketCard018": {
+		"Title": "Inflation Hits!"
+	},
+	"MarketCard019": {
+		"Title": "Interest Rates Drop!",
+		"Cost": 50000,
+		"Self Only": "True",
+		"Must Sell": "False"
+	},
+	"MarketCard020": {
+		"Title": "Limited Partnership Sold",
+		"Cost": 2,
+		"Must Sell": "True"
+	},
+	"MarketCard021": {
+		"Title": "Limited Partnership Sold",
+		"Cost": 2,
+		"Must Sell": "True"
+	},
+	"MarketCard022": {
+		"Title": "Plex Buyer",
+		"Cost": 25000,
+		"Must Sell": "False"
+	},
+	"MarketCard023": {
+		"Title": "Plex Buyer",
+		"Cost": 30000,
+		"Must Sell": "False"
+	},
+	"MarketCard024": {
+		"Title": "Plex Buyer",
+		"Cost": 30000,
+		"Must Sell": "False"
+	},
+	"MarketCard025": {
+		"Title": "Plex Buyer",
+		"Cost": 35000,
+		"Must Sell": "False"
+	},
+	"MarketCard026": {
+		"Title": "Plex Buyer",
+		"Cost": 35000,
+		"Must Sell": "False"
+	},
+	"MarketCard027": {
+		"Title": "Plex Buyer",
+		"Cost": 40000,
+		"Must Sell": "False"
+	},
+	"MarketCard028": {
+		"Title": "Plex Buyer",
+		"Cost": 40000,
+		"Must Sell": "False"
+	},
+	"MarketCard029": {
+		"Title": "Price of Gold Soars",
+		"Cost": 600,
+		"Must Sell": "False"
+	},
+	"MarketCard030": {
+		"Title": "Shopping Mall Wanted",
+		"Cost": 100000,
+		"Must Sell": "False"
+	},
+	"MarketCard031": {
+		"Title": "Small Business Improves",
+		"Increased Cash Flow": 250
+	},
+	"MarketCard032": {
+		"Title": "Software Company Buyer",
+		"Cost": 100000,
+		"Must Sell": "False"
+	}
+}

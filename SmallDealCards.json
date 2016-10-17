@@ -1,0 +1,522 @@
+{
+	"SmallDealCard001": {
+		"Title": "Certificate of Deposit",
+		"Type": "Stock",
+		"Symbol": "CD",
+		"Cost": 4000,
+		"Dividend": 20,
+		"Price Range Low": 4000,
+		"Price Range High": 5000,
+		"All May Buy": "True"
+	},
+	"SmallDealCard002": {
+		"Title": "Certificate of Deposit",
+		"Type": "Stock",
+		"Symbol": "CD",
+		"Cost": 5000,
+		"Dividend": 20,
+		"Price Range Low": 4000,
+		"Price Range High": 5000,
+		"All May Buy": "True"
+	},
+	"SmallDealCard003": {
+		"Title": "Mutal Fund - GRO4US Fund",
+		"Type": "Stock",
+		"Symbol": "GRO4US",
+		"Cost": 10,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard004": {
+		"Title": "Mutal Fund - GRO4US Fund",
+		"Type": "Stock",
+		"Symbol": "GRO4US",
+		"Cost": 20,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard005": {
+		"Title": "Mutal Fund - GRO4US Fund",
+		"Type": "Stock",
+		"Symbol": "GRO4US",
+		"Cost": 30,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard006": {
+		"Title": "Mutal Fund - GRO4US Fund",
+		"Type": "Stock",
+		"Symbol": "GRO4US",
+		"Cost": 30,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard007": {
+		"Title": "Mutal Fund - GRO4US Fund",
+		"Type": "Stock",
+		"Symbol": "GRO4US",
+		"Cost": 40,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard008": {
+		"Title": "Preferred Stock - 2BIG Power",
+		"Type": "Stock",
+		"Symbol": "2BIG",
+		"Cost": 1200,
+		"Dividend": 10,
+		"Price Range Low": 1200,
+		"Price Range High": 1200,
+		"All May Buy": "True"
+	},
+	"SmallDealCard009": {
+		"Title": "Preferred Stock - 2BIG Power",
+		"Type": "Stock",
+		"Symbol": "2BIG",
+		"Cost": 1200,
+		"Dividend": 10,
+		"Price Range Low": 1200,
+		"Price Range High": 1200,
+		"All May Buy": "True"
+	},
+	"SmallDealCard010": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 1,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard011": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 5,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard012": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 5,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard013": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 10,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard014": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 20,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard015": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 30,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard016": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 30,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard017": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "Stock",
+		"Symbol": "MYT4U",
+		"Cost": 40,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard018": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 1,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard019": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 5,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard020": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 10,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard021": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 10,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard022": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 30,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard023": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 40,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard024": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 40,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard025": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "Stock",
+		"Symbol": "OK4U",
+		"Cost": 50,
+		"Dividend": 0,
+		"Price Range Low": 5,
+		"Price Range High": 40,
+		"All May Buy": "False"
+	},
+	"SmallDealCard026": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 5,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard027": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 10,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard028": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 10,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard029": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 20,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard030": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 20,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard031": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 30,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard032": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 30,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard033": {
+		"Title": "Stock - ON2U Entertainment Co.",
+		"Type": "Stock",
+		"Symbol": "ON2U",
+		"Cost": 40,
+		"Dividend": 0,
+		"Price Range Low": 10,
+		"Price Range High": 30,
+		"All May Buy": "False"
+	},
+	"SmallDealCard034": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "StockSplit",
+		"Symbol": "MYT4U",
+		"Split Ratio": 0.5
+	},
+	"SmallDealCard035": {
+		"Title": "Stock - OK4U Drug Co.",
+		"Type": "StockSplit",
+		"Symbol": "MYT4U",
+		"Split Ratio": 2
+	},
+	"SmallDealCard036": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "StockSplit",
+		"Symbol": "MYT4U",
+		"Split Ratio": 0.5
+	},
+	"SmallDealCard037": {
+		"Title": "Stock - MYT4U Electronics Co.",
+		"Type": "StockSplit",
+		"Symbol": "MYT4U",
+		"Split Ratio": 2
+	},
+	"SmallDealCard038": {
+		"Title": "Condo For Sale - 2Br/1Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "Condo",
+		"Cost": 40000,
+		"Down Payment": 4000,
+		"Cash Flow": 140,
+		"Price Range Low": 45000,
+		"Price Range High": 65000
+	},
+	"SmallDealCard039": {
+		"Title": "Condo For Sale - 2Br/1Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "Condo",
+		"Cost": 40000,
+		"Down Payment": 5000,
+		"Cash Flow": 220,
+		"Price Range Low": 45000,
+		"Price Range High": 65000
+	},
+	"SmallDealCard040": {
+		"Title": "Condo For Sale - 2Br/1Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "Condo",
+		"Cost": 40000,
+		"Down Payment": 5000,
+		"Cash Flow": 100,
+		"Price Range Low": 45000,
+		"Price Range High": 65000
+	},
+	"SmallDealCard041": {
+		"Title": "Condo For Sale - 2Br/1Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "Condo",
+		"Cost": 40000,
+		"Down Payment": 5000,
+		"Cash Flow": 160,
+		"Price Range Low": 45000,
+		"Price Range High": 65000
+	},
+	"SmallDealCard042": {
+		"Title": "Condo For Sale - 2Br/1Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "Condo",
+		"Cost": 40000,
+		"Down Payment": 5000,
+		"Cash Flow": -100,
+		"Price Range Low": 45000,
+		"Price Range High": 65000
+	},
+	"SmallDealCard043": {
+		"Title": "House For Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "House",
+		"Cost": 50000,
+		"Down Payment": 0,
+		"Cash Flow": 100,
+		"Price Range Low": 65000,
+		"Price Range High": 135000
+	},
+	"SmallDealCard044": {
+		"Title": "House For Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "House",
+		"Cost": 50000,
+		"Down Payment": 0,
+		"Cash Flow": -100,
+		"Price Range Low": 65000,
+		"Price Range High": 135000
+	},
+	"SmallDealCard045": {
+		"Title": "House For Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "House",
+		"Cost": 50000,
+		"Down Payment": 3000,
+		"Cash Flow": 100,
+		"Price Range Low": 65000,
+		"Price Range High": 135000
+	},
+	"SmallDealCard046": {
+		"Title": "House For Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "House",
+		"Cost": 50000,
+		"Down Payment": 4000,
+		"Cash Flow": 200,
+		"Price Range Low": 65000,
+		"Price Range High": 135000
+	},
+	"SmallDealCard047": {
+		"Title": "House For Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "House",
+		"Cost": 65000,
+		"Down Payment": 5000,
+		"Cash Flow": 160,
+		"Price Range Low": 65000,
+		"Price Range High": 135000
+	},
+	"SmallDealCard048": {
+		"Title": "You Find a Great Deal!",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "House",
+		"Cost": 35000,
+		"Down Payment": 2000,
+		"Cash Flow": 220,
+		"Price Range Low": 65000,
+		"Price Range High": 135000
+	},
+	"SmallDealCard049": {
+		"Title": "You Find a Great Deal!",
+		"Type": "HouseForSale",
+		"HouseOrCondo": "House",
+		"Cost": 45000,
+		"Down Payment": 2000,
+		"Cash Flow": 250,
+		"Price Range Low": 65000,
+		"Price Range High": 135000
+	},
+	"SmallDealCard050": {
+		"Title": "Start a Company Part Time",
+		"Type": "StartCompany",
+		"HouseOrCondo": "House",
+		"Cost": 3000,
+		"Down Payment": 3000,
+		"Cash Flow": 0
+	},
+	"SmallDealCard051": {
+		"Title": "Start a Company Part Time",
+		"Type": "StartCompany",
+		"HouseOrCondo": "House",
+		"Cost": 5000,
+		"Down Payment": 5000,
+		"Cash Flow": 0
+	},
+	"SmallDealCard052": {
+		"Title": "Rare Gold Coin",
+		"Type": "Asset",
+		"Cost": 500,
+		"Cash Flow": 0,
+		"Price Range Low": 0,
+		"Price Range High": 4000
+	},
+	"SmallDealCard053": {
+		"Title": "10 Acres Raw Land",
+		"Type": "Land",
+		"Cost": 5000,
+		"Down Payment": 5000,
+		"Acres": 10
+	},
+	"SmallDealCard054": {
+		"Title": "Sister-in-Law Borrows Money",
+		"Type": "LoanNotToBeRepaid",
+		"Cost": 5000
+	},
+	"SmallDealCard055": {
+		"Title": "Friend Needs Cash...Quick",
+		"Type": "LoanNotToBeRepaid",
+		"Cost": 3000
+	},
+	"SmallDealCard056": {
+		"Title": "Tenant Damages YourPropert",
+		"Type": "CostIfRentalProperty",
+		"Cost": 500
+	}
+}

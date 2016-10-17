@@ -1,0 +1,223 @@
+{
+	"DoodadCard001": {
+		"Title": "Park in Handicapped Zone",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard002": {
+		"Title": "Go Out to Dinner",
+		"Type": "OneTimeExpense",
+		"Cost": 50
+	},
+	"DoodadCard003": {
+		"Title": "Tax Audit",
+		"Type": "OneTimeExpense",
+		"Cost": 350
+	},
+	"DoodadCard004": {
+		"Title": "Go to the Air Show",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard005": {
+		"Title": "Go to Casino!",
+		"Type": "OneTimeExpense",
+		"Cost": 200
+	},
+	"DoodadCard006": {
+		"Title": "Buy New Clothes",
+		"Type": "OneTimeExpense",
+		"Cost": 250
+	},
+	"DoodadCard007": {
+		"Title": "Buy New Golf Balls",
+		"Type": "OneTimeExpense",
+		"Cost": 20
+	},
+	"DoodadCard008": {
+		"Title": "High School Reunion",
+		"Type": "OneTimeExpense",
+		"Cost": 250
+	},
+	"DoodadCard009": {
+		"Title": "Buy Cappuccino Machine",
+		"Type": "OneTimeExpense",
+		"Cost": 150
+	},
+	"DoodadCard010": {
+		"Title": "Buy New Cellular Phone",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard011": {
+		"Title": "Must Have New Sunglasses",
+		"Type": "OneTimeExpense",
+		"Cost": 75
+	},
+	"DoodadCard012": {
+		"Title": "Buy a Cafe Latte & Cappuccino for You & a Friend",
+		"Type": "OneTimeExpense",
+		"Cost": 10
+	},
+	"DoodadCard013": {
+		"Title": "Couldn't Resist New Painting By Local Artist",
+		"Type": "OneTimeExpense",
+		"Cost": 200
+	},
+	"DoodadCard014": {
+		"Title": "Furniture Sale",
+		"Type": "OneTimeExpense",
+		"Cost": 300
+	},
+	"DoodadCard015": {
+		"Title": "Car's Air Conditioning Dies",
+		"Type": "OneTimeExpense",
+		"Cost": 700
+	},
+	"DoodadCard016": {
+		"Title": "Family Vacation!",
+		"Type": "OneTimeExpense",
+		"Cost": 2000
+	},
+	"DoodadCard017": {
+		"Title": "Repaint House",
+		"Type": "OneTimeExpense",
+		"Cost": 600
+	},
+	"DoodadCard018": {
+		"Title": "Shopping!",
+		"Type": "OneTimeExpense",
+		"Cost": 350
+	},
+	"DoodadCard019": {
+		"Title": "Water Heater Leaks",
+		"Type": "OneTimeExpense",
+		"Cost": 450
+	},
+	"DoodadCard020": {
+		"Title": "Visit Dentist",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard021": {
+		"Title": "Go to Ball Game",
+		"Type": "OneTimeExpense",
+		"Cost": 50
+	},
+	"DoodadCard022": {
+		"Title": "Play You Lucky Lottery Number",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard023": {
+		"Title": "Go to a Concert!",
+		"Type": "OneTimeExpense",
+		"Cost": 180
+	},
+	"DoodadCard024": {
+		"Title": "Buy New Music CDs",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard025": {
+		"Title": "Buy a Food Processor",
+		"Type": "OneTimeExpense",
+		"Cost": 150
+	},
+	"DoodadCard026": {
+		"Title": "Buy New Tennis Racket",
+		"Type": "OneTimeExpense",
+		"Cost": 200
+	},
+	"DoodadCard027": {
+		"Title": "Shopping Spree!",
+		"Type": "OneTimeExpense",
+		"Cost": 150
+	},
+	"DoodadCard028": {
+		"Title": "Play 2 Rounds of Golf",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard029": {
+		"Title": "Lunch with Friends",
+		"Type": "OneTimeExpense",
+		"Cost": 40
+	},
+	"DoodadCard030": {
+		"Title": "Your Anniversary!",
+		"Type": "OneTimeExpense",
+		"Cost": 200
+	},
+	"DoodadCard031": {
+		"Title": "Buy New Speakers for Stereo",
+		"Type": "OneTimeExpense",
+		"Cost": 500
+	},
+	"DoodadCard032": {
+		"Title": "Buy New Bowling Ball",
+		"Type": "OneTimeExpense",
+		"Cost": 60
+	},
+	"DoodadCard033": {
+		"Title": "Rumor of Layoff",
+		"Type": "OneTimeExpense",
+		"Cost": 220
+	},
+	"DoodadCard034": {
+		"Title": "Buy New Fishing Rod",
+		"Type": "OneTimeExpense",
+		"Cost": 100
+	},
+	"DoodadCard035": {
+		"Title": "Car Needs Tires",
+		"Type": "OneTimeExpense",
+		"Cost": 300
+	},
+	"DoodadCard036": {
+		"Title": "Birthday!",
+		"Type": "ChildCost",
+		"Cost if any Child": 100,
+		"Cost per Child": 0
+	},
+	"DoodadCard037": {
+		"Title": "Son's College Tuition",
+		"Type": "ChildCost",
+		"Cost if any Child": 1500,
+		"Cost per Child": 0
+	},
+	"DoodadCard038": {
+		"Title": "Your Daughter's Wedding",
+		"Type": "ChildCost",
+		"Cost if any Child": 2000,
+		"Cost per Child": 0
+	},
+	"DoodadCard039": {
+		"Title": "Buy Toys for Your Kids",
+		"Type": "ChildCost",
+		"Cost if any Child": 0,
+		"Cost per Child": 50
+	},
+	"DoodadCard040": {
+		"Title": "Your Child Needs Braces",
+		"Type": "ChildCost",
+		"Cost if any Child": 2000,
+		"Cost per Child": 0
+	},
+	"DoodadCard041": {
+		"Title": "New Boat!",
+		"Type": "NewLoan",
+		"Loan Name": "Boat Loan",
+		"Loan Amount": 17000,
+		"Payment": 340,
+		"Down Payment": 1000
+	},
+	"DoodadCard042": {
+		"Title": "Buy Big Screen TV",
+		"Type": "NewLoan",
+		"Loan Name": "Big Screen TV Loan",
+		"Loan Amount": 4000,
+		"Payment": 120,
+		"Down Payment": 0
+	}
+}

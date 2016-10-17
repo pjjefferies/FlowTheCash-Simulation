@@ -1,0 +1,326 @@
+{
+	"Lawyer": {
+		"Salary": 7500,
+		"ExpenseTaxes": 1830,
+		"ExpenseOther": 1650,
+		"CostPerChild": 380,
+		"Savings": 400,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 115000,
+				"Payment": 1100
+			},
+			"School Loans": {
+				"Balance": 78000,
+				"Payment": 390
+			},
+			"Car Loans": {
+				"Balance": 11000,
+				"Payment": 220
+			},
+			"Credit Cards": {
+				"Balance": 6000,
+				"Payment":  180
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Engineer": {
+		"Salary": 4900,
+		"ExpenseTaxes": 1050,
+		"ExpenseOther": 1090,
+		"CostPerChild": 250,
+		"Savings": 400,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 75000,
+				"Payment": 700
+			},
+			"School Loans": {
+				"Balance": 12000,
+				"Payment": 60
+			},
+			"Car Loans": {
+				"Balance": 7000,
+				"Payment": 140
+			},
+			"Credit Cards": {
+				"Balance": 4000,
+				"Payment":  120
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Doctor": {
+		"Salary": 13200,
+		"ExpenseTaxes": 3420,
+		"ExpenseOther": 2880,
+		"CostPerChild": 640,
+		"Savings": 400,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 202000,
+				"Payment": 1900
+			},
+			"School Loans": {
+				"Balance": 150000,
+				"Payment": 750
+			},
+			"Car Loans": {
+				"Balance": 19000,
+				"Payment": 380
+			},
+			"Credit Cards": {
+				"Balance": 9000,
+				"Payment":  270
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Secretary": {
+		"Salary": 2500,
+		"ExpenseTaxes": 460,
+		"ExpenseOther": 570,
+		"CostPerChild": 140,
+		"Savings": 710,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 38000,
+				"Payment": 400
+			},
+			"Car Loans": {
+				"Balance": 4000,
+				"Payment": 80
+			},
+			"Credit Cards": {
+				"Balance": 2000,
+				"Payment":  60
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Nurse": {
+		"Salary": 3100,
+		"ExpenseTaxes": 600,
+		"ExpenseOther": 710,
+		"CostPerChild": 170,
+		"Savings": 480,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 47000,
+				"Payment": 400
+			},
+			"School Loans": {
+				"Balance": 6000,
+				"Payment": 30
+			},
+			"Car Loans": {
+				"Balance": 5000,
+				"Payment": 100
+			},
+			"Credit Cards": {
+				"Balance": 3000,
+				"Payment":  90
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Business Manager": {
+		"Salary": 4600,
+		"ExpenseTaxes": 910,
+		"ExpenseOther": 1000,
+		"CostPerChild": 240,
+		"Savings": 400,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 75000,
+				"Payment": 700
+			},
+			"School Loans": {
+				"Balance": 12000,
+				"Payment": 60
+			},
+			"Car Loans": {
+				"Balance": 6000,
+				"Payment": 120
+			},
+			"Credit Cards": {
+				"Balance": 3000,
+				"Payment":  90
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Airline Pilot": {
+		"Salary": 9500,
+		"ExpenseTaxes": 2350,
+		"ExpenseOther": 2210,
+		"CostPerChild": 480,
+		"Savings": 400,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 143000,
+				"Payment": 1330
+			},
+			"Car Loans": {
+				"Balance": 15000,
+				"Payment": 300
+			},
+			"Credit Cards": {
+				"Balance": 22000,
+				"Payment":  660
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Mechanic": {
+		"Salary": 2000,
+		"ExpenseTaxes": 360,
+		"ExpenseOther": 450,
+		"CostPerChild": 110,
+		"Savings": 670,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 31000,
+				"Payment": 300
+			},
+			"Car Loans": {
+				"Balance": 3000,
+				"Payment": 60
+			},
+			"Credit Cards": {
+				"Balance": 2000,
+				"Payment":  60
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Teacher (K-12)": {
+		"Salary": 3300,
+		"ExpenseTaxes": 630,
+		"ExpenseOther": 760,
+		"CostPerChild": 180,
+		"Savings": 400,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 50000,
+				"Payment": 500
+			},
+			"School Loans": {
+				"Balance": 12000,
+				"Payment": 60
+			},
+			"Car Loans": {
+				"Balance": 5000,
+				"Payment": 100
+			},
+			"Credit Cards": {
+				"Balance": 3000,
+				"Payment":  90
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Truck Driver": {
+		"Salary": 2500,
+		"ExpenseTaxes": 460,
+		"ExpenseOther": 570,
+		"CostPerChild": 140,
+		"Savings": 750,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 38000,
+				"Payment": 400
+			},
+			"Car Loans": {
+				"Balance": 4000,
+				"Payment": 80
+			},
+			"Credit Cards": {
+				"Balance": 2000,
+				"Payment":  60
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Police Officer": {
+		"Salary": 3000,
+		"ExpenseTaxes": 580,
+		"ExpenseOther": 690,
+		"CostPerChild": 160,
+		"Savings": 520,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 46000,
+				"Payment": 400
+			},
+			"Car Loans": {
+				"Balance": 5000,
+				"Payment": 100
+			},
+			"Credit Cards": {
+				"Balance": 2000,
+				"Payment":  60
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	},
+	"Janitor": {
+		"Salary": 1600,
+		"ExpenseTaxes": 280,
+		"ExpenseOther": 300,
+		"CostPerChild": 70,
+		"Savings": 560,
+		"Loans": {
+			"Mortgage": {
+				"Balance": 20000,
+				"Payment": 200
+			},
+			"Car Loans": {
+				"Balance": 4000,
+				"Payment": 60
+			},
+			"Credit Cards": {
+				"Balance": 2000,
+				"Payment":  60
+			},
+			"Retail Debt": {
+				"Balance": 1000,
+				"Payment": 50
+			}
+		}
+	}
+}

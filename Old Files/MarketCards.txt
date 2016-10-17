@@ -1,0 +1,60 @@
+#Market Deck Cards
+
+#Plex Buyer,Price per unit,mustSell=True/False
+#Small Business Improves,Increased Cash Flow
+
+#Condo Buyer - 2Br/1Ba,Price,mustSell=True/False
+#Shopping Mall Wanted,Price,mustSell=True/False
+#Buyer for 20 Acres,Price,mustSell=True/False
+#Price of Gold Soars,Price (per Ounce),mustSell=True/False
+#Car Wash Buyer,Price,mustSell=True/False
+#Software Company Buyer,Price,selfOnly=False
+#Apartment House Buyer,Price per unit,mustSell=True/False
+#House Buyer - 3Br/2Ba,Price,mustSell=True/False
+#Plex Buyer,Price,mustSell=True/False
+
+#Limited Partnership Sold,Price Multiple,mustSell=True/False
+
+#Interest Rates Drop!,(Added) Price,selfOnly=True/False,mustSell=True/False
+
+#Inflation Hits!
+
+#Page 1
+Plex Buyer,35000,False
+Apartment House Buyer,30000,False
+Plex Buyer,40000,False
+Plex Buyer,30000,False
+House Buyer - 3Br/2Ba,100000,False
+Apartment House Buyer,45000,False
+Small Business Improves,250
+Apartment House Buyer,25000,False
+Plex Buyer,35000,False
+Condo Buyer - 2Br/1Ba,55000,False
+Condo Buyer - 2Br/1Ba,65000,False
+Shopping Mall Wanted,100000,False
+Apartment House Buyer,40000,False
+House Buyer - 3Br/2Ba,100000,False
+Plex Buyer,25000,False
+Limited Partnership Sold,2,True
+
+#Page 2
+Buyer for 20 Acres,200000,False
+Price of Gold Soars,600,False
+House Buyer - 3Br/2Ba,90000,False
+Limited Partnership Sold,2,True
+Car Wash Buyer,250000,False
+Software Company Buyer,100000,False
+House Buyer - 3Br/2Ba,135000,False
+House Buyer - 3Br/2Ba,100000,False
+Interest Rates Drop!,50000,True,False
+Plex Buyer,30000,False
+Plex Buyer,40000,False
+Condo Buyer - 2Br/1Ba,55000,False
+Condo Buyer - 2Br/1Ba,45000,False
+House Buyer - 3Br/2Ba,110000,False
+Inflation Hits!
+House Buyer - 3Br/2Ba,135000,False
+
+
+#Duplicates for testing specific ones without shuffling
+Small Business Improves,250

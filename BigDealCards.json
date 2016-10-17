@@ -1,0 +1,382 @@
+{
+	"BigDealCard001": {
+		"Title": "Apartment House for Sale",
+		"Type": "ApartmentHouseForSale",
+		"Units": 12,
+		"Cost": 350000,
+		"Down Payment": 50000,
+		"Cash Flow": 2400,
+		"Price Range Low": 300000,
+		"Price Range High": 480000
+	},
+	"BigDealCard002": {
+		"Title": "Apartment House for Sale",
+		"Type": "ApartmentHouseForSale",
+		"Units": 24,
+		"Cost": 575000,
+		"Down Payment": 75000,
+		"Cash Flow": 3400,
+		"Price Range Low": 600000,
+		"Price Range High": 960000
+	},
+	"BigDealCard003": {
+		"Title": "Apartment House for Sale",
+		"Type": "ApartmentHouseForSale",
+		"Units": 24,
+		"Cost": 550000,
+		"Down Payment": 50000,
+		"Cash Flow": 2800,
+		"Price Range Low": 600000,
+		"Price Range High": 960000
+	},
+	"BigDealCard004": {
+		"Title": "Apartment House for Sale",
+		"Type": "ApartmentHouseForSale",
+		"Units": 60,
+		"Cost": 1200000,
+		"Down Payment": 200000,
+		"Cash Flow": 11000,
+		"Price Range Low": 1500000,
+		"Price Range High": 2700000
+	},
+	"BigDealCard005": {
+		"Title": "4-plex for Sale",
+		"Type": "XPlex",
+		"Units": 4,
+		"Cost": 80000,
+		"Down Payment": 20000,
+		"Cash Flow": 400,
+		"Price Range Low": 100000,
+		"Price Range High":140000
+	},
+	"BigDealCard006": {
+		"Title": "4-plex for Sale",
+		"Type": "XPlex",
+		"Units": 4,
+		"Cost": 90000,
+		"Down Payment": 14000,
+		"Cash Flow": 500,
+		"Price Range Low": 100000,
+		"Price Range High":140000
+	},
+	"BigDealCard007": {
+		"Title": "4-plex for Sale",
+		"Type": "XPlex",
+		"Units": 4,
+		"Cost": 100000,
+		"Down Payment": 20000,
+		"Cash Flow": 800,
+		"Price Range Low": 100000,
+		"Price Range High":140000
+	},
+	"BigDealCard008": {
+		"Title": "4-plex for Sale",
+		"Type": "XPlex",
+		"Units": 4,
+		"Cost": 125000,
+		"Down Payment": 15000,
+		"Cash Flow": 600,
+		"Price Range Low": 100000,
+		"Price Range High":140000
+	},
+	"BigDealCard009": {
+		"Title": "4-plex for Sale",
+		"Type": "XPlex",
+		"Units": 4,
+		"Cost": 140000,
+		"Down Payment": 23000,
+		"Cash Flow": 2000,
+		"Price Range Low": 100000,
+		"Price Range High":140000
+	},
+	"BigDealCard010": {
+		"Title": "8-plex for Sale",
+		"Type": "XPlex",
+		"Units": 8,
+		"Cost": 160000,
+		"Down Payment": 32000,
+		"Cash Flow": 1700,
+		"Price Range Low": 200000,
+		"Price Range High": 280000
+	},
+	"BigDealCard011": {
+		"Title": "8-plex for Sale",
+		"Type": "XPlex",
+		"Units": 8,
+		"Cost": 200000,
+		"Down Payment": 40000,
+		"Cash Flow": 1600,
+		"Price Range Low": 200000,
+		"Price Range High": 280000
+	},
+	"BigDealCard012": {
+		"Title": "8-plex for Sale",
+		"Type": "XPlex",
+		"Units": 8,
+		"Cost": 220000,
+		"Down Payment": 40000,
+		"Cash Flow": 1700,
+		"Price Range Low": 200000,
+		"Price Range High": 280000
+	},
+	"BigDealCard013": {
+		"Title": "8-plex for Sale",
+		"Type": "XPlex",
+		"Units": 8,
+		"Cost": 240000,
+		"Down Payment": 40000,
+		"Cash Flow": 950,
+		"Price Range Low": 200000,
+		"Price Range High": 280000
+	},
+	"BigDealCard014": {
+		"Title": "Duplex for Sale",
+		"Type": "XPlex",
+		"Units": 2,
+		"Cost": 45000,
+		"Down Payment": 8000,
+		"Cash Flow": 320,
+		"Price Range Low":  50000,
+		"Price Range High": 80000
+	},
+	"BigDealCard015": {
+		"Title": "Duplex for Sale",
+		"Type": "XPlex",
+		"Units": 2,
+		"Cost": 50000,
+		"Down Payment": 8000,
+		"Cash Flow": 240,
+		"Price Range Low":  50000,
+		"Price Range High": 80000
+	},
+	"BigDealCard016": {
+		"Title": "Duplex for Sale",
+		"Type": "XPlex",
+		"Units": 2,
+		"Cost": 60000,
+		"Down Payment": 12000,
+		"Cash Flow": 400,
+		"Price Range Low":  50000,
+		"Price Range High": 80000
+	},
+	"BigDealCard017": {
+		"Title": "Duplex for Sale",
+		"Type": "XPlex",
+		"Units": 2,
+		"Cost": 60000,
+		"Down Payment": 6000,
+		"Cash Flow": 300,
+		"Price Range Low":  50000,
+		"Price Range High": 80000
+	},
+	"BigDealCard018": {
+		"Title": "Duplex for Sale",
+		"Type": "XPlex",
+		"Units": 2,
+		"Cost": 70000,
+		"Down Payment": 7000,
+		"Cash Flow": 140,
+		"Price Range Low":  50000,
+		"Price Range High": 80000
+	},
+	"BigDealCard019": {
+		"Title": "Automated Business for Sale",
+		"Type": "Business",
+		"Cost": 100000,
+		"Down Payment": 20000,
+		"Cash Flow": 1600,
+		"Price Range Low":  100000,
+		"Price Range High": 100000
+	},
+	"BigDealCard020": {
+		"Title": "Automated Business for Sale",
+		"Type": "Business",
+		"Cost": 125000,
+		"Down Payment": 25000,
+		"Cash Flow": 1800,
+		"Price Range Low":  125000,
+		"Price Range High": 125000
+	},
+	"BigDealCard021": {
+		"Title": "Automated Business for Sale",
+		"Type": "Business",
+		"Cost": 150000,
+		"Down Payment": 30000,
+		"Cash Flow": 2500,
+		"Price Range Low":  150000,
+		"Price Range High": 150000
+	},
+	"BigDealCard022": {
+		"Title": "Automated Business for Sale",
+		"Type": "Business",
+		"Cost": 200000,
+		"Down Payment": 40000,
+		"Cash Flow": 2700,
+		"Price Range Low":  200000,
+		"Price Range High": 200000
+	},
+	"BigDealCard023": {
+		"Title": "Bed & Breakfast for Sale",
+		"Type": "Business",
+		"Cost": 150000,
+		"Down Payment": 30000,
+		"Cash Flow": 1000,
+		"Price Range Low":  100000,
+		"Price Range High": 300000
+	},
+	"BigDealCard024": {
+		"Title": "Car Wash for Sale",
+		"Type": "Business",
+		"Cost": 350000,
+		"Down Payment": 50000,
+		"Cash Flow": 1500,
+		"Price Range Low":  216000,
+		"Price Range High": 450000
+	},
+	"BigDealCard025": {
+		"Title": "Limited Partner Wanted",
+		"Type": "Business",
+		"Cost": 20000,
+		"Down Payment": 20000,
+		"Cash Flow": 800,
+		"Price Range Low":  40000,
+		"Price Range High": 60000
+	},
+	"BigDealCard026": {
+		"Title": "Limited Partner Wanted",
+		"Type": "Business",
+		"Cost": 25000,
+		"Down Payment": 25000,
+		"Cash Flow": 1000,
+		"Price Range Low":  50000,
+		"Price Range High": 75000
+	},
+	"BigDealCard027": {
+		"Title": "Limited Partner Wanted",
+		"Type": "Business",
+		"Cost": 30000,
+		"Down Payment": 30000,
+		"Cash Flow": 1000,
+		"Price Range Low":  60000,
+		"Price Range High": 90000
+	},
+	"BigDealCard028": {
+		"Title": "Limited Partner Wanted",
+		"Type": "Business",
+		"Cost": 30000,
+		"Down Payment": 30000,
+		"Cash Flow": 1500,
+		"Price Range Low":  60000,
+		"Price Range High": 90000
+	},
+	"BigDealCard029": {
+		"Title": "Pizza Franchise for Sale",
+		"Type": "Business",
+		"Cost": 500000,
+		"Down Payment": 100000,
+		"Cash Flow": 5000,
+		"Price Range Low":  520000,
+		"Price Range High": 800000
+	},
+	"BigDealCard030": {
+		"Title": "Small Shopping Mall for Sale",
+		"Type": "Business",
+		"Cost": 50000,
+		"Down Payment": 50000,
+		"Cash Flow": 800,
+		"Price Range Low":   35000,
+		"Price Range High": 150000
+	},
+	"BigDealCard031": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 65000,
+		"Down Payment": 7000,
+		"Cash Flow": 150,
+		"Price Range Low":   65000,
+		"Price Range High": 135000
+	},
+	"BigDealCard032": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 65000,
+		"Down Payment": 8000,
+		"Cash Flow": 300,
+		"Price Range Low":   65000,
+		"Price Range High": 150000
+	},
+	"BigDealCard033": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 67000,
+		"Down Payment": 12000,
+		"Cash Flow": 400,
+		"Price Range Low":   65000,
+		"Price Range High": 150000
+	},
+	"BigDealCard034": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 70000,
+		"Down Payment": 20000,
+		"Cash Flow": 500,
+		"Price Range Low":   65000,
+		"Price Range High": 135000
+	},
+	"BigDealCard035": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 70000,
+		"Down Payment": 9000,
+		"Cash Flow": 300,
+		"Price Range Low":   65000,
+		"Price Range High": 150000
+	},
+	"BigDealCard036": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 75000,
+		"Down Payment": 7000,
+		"Cash Flow": 300,
+		"Price Range Low":   65000,
+		"Price Range High": 150000
+	},
+	"BigDealCard037": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 115000,
+		"Down Payment": 10000,
+		"Cash Flow": -100,
+		"Price Range Low":   65000,
+		"Price Range High": 150000
+	},
+	"BigDealCard038": {
+		"Title": "House for Sale - 3Br/2Ba",
+		"Type": "HouseForSale",
+		"Cost": 125000,
+		"Down Payment": 20000,
+		"Cash Flow": -100,
+		"Price Range Low":   65000,
+		"Price Range High": 150000
+	},
+	"BigDealCard039": {
+		"Title": "20 Acres for Sale",
+		"Type": "Land",
+		"Acres": 20,
+		"Cost": 20000,
+		"Down Payment": 20000,
+		"Cash Flow": 0
+	},
+	"BigDealCard040": {
+		"Title": "Tenant Damages Your Property",
+		"Type": "Expense",
+		"Cost If Have Real Estate": 1000,
+		"Cost If Have 8-Plex": 0
+	},
+	"BigDealCard041": {
+		"Title": "Sewer Line Breaks",
+		"Type": "Expense",
+		"Cost If Have Real Estate": 0,
+		"Cost If Have 8-Plex": 2000
+	}
+}

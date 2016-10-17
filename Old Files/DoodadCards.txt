@@ -1,0 +1,52 @@
+#Doodad Cards with one of the following information separated by commas
+#Title,OneTimeExpense,OneTimePayment
+#Title,ChildCost,CostIfAnyChild,CostperChild
+#Title,NewLoan,LoanTitle,LoanAmount,PaymentAmount,DownPayment
+
+#First Page
+Park in Handicapped Zone,OneTimeExpense,100
+Birthday!,ChildCost,100,0
+Go Out to Dinner,OneTimeExpense,50
+Tax Audit,OneTimeExpense,350
+Go to the Air Show,OneTimeExpense,120
+Go to Casino!,OneTimeExpense,200
+Buy New Clothes,OneTimeExpense,250
+Buy New Golf Balls,OneTimeExpense,20
+High School Reunion,OneTimeExpense,250
+Son's College Tuition,ChildCost,1500,0
+Buy Cappuccino Machine,OneTimeExpense,150
+Buy New Cellular Phone,OneTimeExpense,100
+Must Have New Sunglasses,OneTimeExpense,75
+Buy a Cafe Latte & Cappuccino for You & a Friend,OneTimeExpense,10
+Couldn't Resist New Painting By Local Artist,OneTimeExpense,200
+Furniture Sale,OneTimeExpense,300
+
+#Second Page
+Car's Air Conditioning Dies,OneTimeExpense,700
+Family Vacation!,OneTimeExpense,2000
+Repaint House,OneTimeExpense,600
+Shopping!,OneTimeExpense,350
+Water Heater Leaks,OneTimeExpense,450
+Visit Dentist,OneTimeExpense,100
+Go to Ball Game,OneTimeExpense,50
+Play You Lucky Lottery Number,OneTimeExpense,100
+Go to a Concert!,OneTimeExpense,180
+Buy New Music CDs,OneTimeExpense,100
+Buy a Food Processor,OneTimeExpense,150
+Buy New Tennis Racket,OneTimeExpense,200
+Shopping Spree!,OneTimeExpense,150
+Your Daughter's Wedding,ChildCost,2000,0
+Play 2 Rounds of Golf,OneTimeExpense,100
+Lunch with Friends,OneTimeExpense,40
+
+#Third Page
+Your Anniversary!,OneTimeExpense,200
+Buy New Speakers for Stereo,OneTimeExpense,500
+Buy New Bowling Ball,OneTimeExpense,60
+Rumor of Layoff,OneTimeExpense,220
+New Boat!,NewLoan,Boat Loan,17000,340,1000
+Buy New Fishing Rod,OneTimeExpense,100
+Car Needs Tires,OneTimeExpense,300
+Buy Toys for Your Kids,ChildCost,0,50
+Buy Big Screen TV,NewLoan,Big Screen TV Loan,4000,120,0
+Your Child Needs Braces,ChildCost,2000,0

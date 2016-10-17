@@ -1,0 +1,98 @@
+Module Testing Status
+ assets
+	Asset class - tested
+	Stock class - tested
+	RealEstate class - tested
+	Business class - tested
+
+ board
+	BoardSpace class - tested
+	Board class - class - tested
+	getBoardSpaces function - tested
+
+
+ boardSpaceAction
+	boardSpaceAction - TO WRITE/FINISH & TEST,
+			 - Put this back into CashFlowRatRaceSimulations
+			 - Add option for verbose output to file
+
+
+ cards
+	DoodadCard class - tested
+	MarketCard class - tested
+	SmallDealCard class - tested
+	BigDealCard class - tested
+	loadAllDoodadCards function - tested
+	loadAllMarketCards function - tested
+	loadAllSmallDealCards function - tested
+	loadAllBigDealCards function - tested
+	Deck class - tested
+
+ CashFlowRatRaceSimulation
+	main - TO WRITE/FINISH & TEST
+
+When testing game playing, output a CSV file with one row per turn, columns for attributes
+
+
+ chooseToPayoffLoan
+	chooseToPayOffLoad - NOT TESTED, ALSO NEED TO ADD ACTIONS BASED ON AUTOMATIC STRATEGIES
+
+
+ dieRoll
+	rollDie function - tested
+
+
+ loans
+	Loan class - tested
+
+
+ player
+	Profession class - tested in board and in player
+	Player class - tested in board and in player
+	getProfessionDict function - tested in board and in player
+
+
+ player_choice
+	
+
+
+Finish putting cards in data files - complete & tested
+	Market Cards - complete
+	Doodad Cards - complete
+	Small Deal Cards - complete
+	Big Deal Cards - complete
+
+#make strategy a object - put in JSON file
+
+
+
+Force activation of LoanNotToBeRepaid card when I don't have enough money to debug loaning of money
+
+
+turnHistory entry contents
+    turnNo, Name, Profession, Strategy Name, Salary, Taxes, Other Expenses, Child Cost, Savings, # Loans,
+    #Sold Assets, No. Children, Monthly Cash Flow, No. Stock Assets, No. Real Estate Assets,
+    No. Business Assets.
+	noOfDice, (Use Layoff), dieRoll, StartingLoc, EndingLoc, BoardSpaceType,
+
+
+Profile
+
+End Goals
+	Run simulation with following variations
+		Each Profession
+		Each Strategy (or possibly Taguchi combination if needed for speed or possibly profile to speed-up)
+		1000 Repitiions
+	Results of each run
+		Number of turns until rich
+		Bankrupt as very high number of turns to rich?
+
+	Summary of each profession/strategy combination & each strategy & each profession
+		Ratio of runs ending rich
+		Distribution of runs turns to rich
+
+	Comparison between
+		Strategies for all
+		Strategies for each profession
+		Professions
+		

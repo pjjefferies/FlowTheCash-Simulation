@@ -1,0 +1,7264 @@
+
+Sample Turn: 1 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           400
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3210
+Monthly Cash Flow: 1690
+
+No. Loans:         5
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+
+No. Assets:        0
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Stock - ON2U Entertainment Co.
+Type:        Stock
+Symbol:      ON2U
+Price:       5
+Dividends:   0
+Price Range: 10 - 30 
+No. Cards left: 55
+In doSmallDealAction, Savings: 2090 Card: 
+Small Deal Card:
+Title:       Stock - ON2U Entertainment Co.
+Type:        Stock
+Symbol:      ON2U
+Price:       5
+Dividends:   0
+Price Range: 10 - 30
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           0
+   Cost per Share:   5
+   Total Cost:       0
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Choosing to buy 418 shares of ON2U
+
+Sample Turn: 2 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           0
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3210
+Monthly Cash Flow: 1690
+
+No. Loans:         5
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  3
+Board Space:
+ 
+Type:        Doodads
+Description: 
+Doodad Picked Card: 
+Title:           Buy Cappuccino Machine
+Type:            OneTimeExpense
+One Time Payment:150 
+No. Cards left: 41
+In doDoodadAction, Savings: 0 Card: 
+Title:           Buy Cappuccino Machine
+Type:            OneTimeExpense
+One Time Payment:150
+Making payment of 150
+Savings before: 1000
+Savings  after: 850
+
+Sample Turn: 3 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           850
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     House Buyer - 3Br/2Ba
+Price:     110000
+Must Sell: False 
+No. Cards left: 32
+In doMarketAction: Card: 
+Title:     House Buyer - 3Br/2Ba
+Price:     110000
+Must Sell: False
+
+Sample Turn: 4 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           2440
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 5 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           4030
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  3
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title: Stock - MYT4U Electronics Co.
+Type: StockSplit
+Symbol: MYT4U
+Split Ratio: 2.0 
+No. Cards left: 54
+In doSmallDealAction, Savings: 4030 Card: 
+Small Deal Card:
+Title: Stock - MYT4U Electronics Co.
+Type: StockSplit
+Symbol: MYT4U
+Split Ratio: 2.0
+
+Sample Turn: 6 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           4030
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  4
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:          Rare Gold Coin
+Type:           Asset
+Price:          500
+Cash Flow:      0
+Price Range:    0 - 4000 
+No. Cards left: 53
+In doSmallDealAction, Savings: 4030 Card: 
+Small Deal Card:
+Title:          Rare Gold Coin
+Type:           Asset
+Price:          500
+Cash Flow:      0
+Price Range:    0 - 4000
+In choosing to buy asset: 
+  Type:         Asset
+   Name:        Rare Gold Coin
+   Cost:        500
+   Down Payment:500
+   Cash Flow:   0
+   Price Range: 0 - 4000
+   ROI:         0.0
+Choosing not to buy asset: Rare Gold Coin
+
+Sample Turn: 7 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           4030
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   10000
+Cash Flow:      -100
+Price Range:    65000 - 150000 
+No. Cards left: 40
+In doBigDealAction, Savings: 5620 Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   10000
+Cash Flow:      -100
+Price Range:    65000 - 150000
+In choosing to buy asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        115000
+   Down Payment:10000
+   Cash Flow:   -100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         -0.12
+Choosing not to buy asset: House for Sale - 3Br/2Ba
+
+Sample Turn: 8 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           5620
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  3
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 9 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           7210
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  4
+Board Space:
+ 
+Type:        Doodads
+Description: 
+Doodad Picked Card: 
+Title:           Your Anniversary!
+Type:            OneTimeExpense
+One Time Payment:200 
+No. Cards left: 40
+In doDoodadAction, Savings: 7210 Card: 
+Title:           Your Anniversary!
+Type:            OneTimeExpense
+One Time Payment:200
+Making payment of 200
+Savings before: 7210
+Savings  after: 7010
+
+Sample Turn: 10 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           7010
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  4
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 11 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           8600
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  1
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:        Limited Partner Wanted
+Type:         Business
+Price:        30000
+Down Payment: 30000
+Cash Flow:    1000
+Price Range:    60000 - 90000 
+No. Cards left: 39
+In doBigDealAction, Savings: 8600 Card: 
+Big Deal Card:
+Title:        Limited Partner Wanted
+Type:         Business
+Price:        30000
+Down Payment: 30000
+Cash Flow:    1000
+Price Range:    60000 - 90000
+In choosing to buy asset: 
+  Type:         Business
+   Name:        Limited Partner Wanted
+   Cost:        30000
+   Down Payment:30000
+   Cash Flow:   1000
+   Price Range: 60000 - 90000
+   ROI:         0.4
+Choosing to buy asset: Limited Partner Wanted
+Loan to buy asset attempt amount: 22000.0 with payment of 2200
+Can't buy, not enough cash flow to get loan
+
+Sample Turn: 12 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           8600
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  1
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     Apartment House Buyer
+Price:     30000
+Must Sell: False 
+No. Cards left: 31
+In doMarketAction: Card: 
+Title:     Apartment House Buyer
+Price:     30000
+Must Sell: False
+
+Sample Turn: 13 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           8600
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  3
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:                    Sewer Line Breaks
+Type:                     Expense
+Cost if Have Real Estate: 0
+Cost if Have 8-Plex     : 2000 
+No. Cards left: 38
+In doBigDealAction, Savings: 8600 Card: 
+Big Deal Card:
+Title:                    Sewer Line Breaks
+Type:                     Expense
+Cost if Have Real Estate: 0
+Cost if Have 8-Plex     : 2000
+
+Sample Turn: 14 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           8600
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    3310
+Monthly Cash Flow: 1590
+
+No. Loans:         6
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  4
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          4-plex for Sale
+Type:           XPlex
+Units:          4
+Price:          100000
+Down Payment:   20000
+Cash Flow:      800
+Price Range:    100000 - 140000 
+No. Cards left: 37
+In doBigDealAction, Savings: 10190 Card: 
+Big Deal Card:
+Title:          4-plex for Sale
+Type:           XPlex
+Units:          4
+Price:          100000
+Down Payment:   20000
+Cash Flow:      800
+Price Range:    100000 - 140000
+In choosing to buy asset: 
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        100000
+   Down Payment:20000
+   Cash Flow:   800
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.48
+Choosing to buy asset: 4-plex for Sale
+Loan to buy asset attempt amount: 10000.0 with payment of 1000
+Still enough cash flow for loan, let's buy!
+
+Sample Turn: 15 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           190.0
+Total Income:      5700
+Passive Income:    800
+Total Expenses:    4310.0
+Monthly Cash Flow: 1390.0
+
+No. Loans:         7
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        2
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        100000
+   Down Payment:20000
+   Cash Flow:   800
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.48
+Total Dice:  3
+Board Space:
+ 
+Type:        Doodads
+Description: 
+Doodad Picked Card: 
+Title:           Couldn't Resist New Painting By Local Artist
+Type:            OneTimeExpense
+One Time Payment:200 
+No. Cards left: 39
+In doDoodadAction, Savings: 190.0 Card: 
+Title:           Couldn't Resist New Painting By Local Artist
+Type:            OneTimeExpense
+One Time Payment:200
+Making payment of 200
+Savings before: 1190.0
+Savings  after: 990.0
+
+Sample Turn: 16 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           990.0
+Total Income:      5700
+Passive Income:    800
+Total Expenses:    4410.0
+Monthly Cash Flow: 1290.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        2
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        100000
+   Down Payment:20000
+   Cash Flow:   800
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.48
+Total Dice:  4
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 17 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           2280
+Total Income:      5700
+Passive Income:    800
+Total Expenses:    4410.0
+Monthly Cash Flow: 1290.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        2
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        100000
+   Down Payment:20000
+   Cash Flow:   800
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.48
+Total Dice:  2
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     Plex Buyer
+Price:     30000
+Must Sell: False 
+No. Cards left: 30
+In doMarketAction: Card: 
+Title:     Plex Buyer
+Price:     30000
+Must Sell: False
+Choosing to sell asset: 
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        100000
+   Down Payment:20000
+   Cash Flow:   800
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.48
+Sold 4-plex for Sale, XPlex for 120000.
+
+Sample Turn: 18 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           42280
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    4410.0
+Monthly Cash Flow: 490.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  3
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:        Small Shopping Mall for Sale
+Type:         Business
+Price:        50000
+Down Payment: 50000
+Cash Flow:    800
+Price Range:    35000 - 150000 
+No. Cards left: 36
+In doBigDealAction, Savings: 42280 Card: 
+Big Deal Card:
+Title:        Small Shopping Mall for Sale
+Type:         Business
+Price:        50000
+Down Payment: 50000
+Cash Flow:    800
+Price Range:    35000 - 150000
+In choosing to buy asset: 
+  Type:         Business
+   Name:        Small Shopping Mall for Sale
+   Cost:        50000
+   Down Payment:50000
+   Cash Flow:   800
+   Price Range: 35000 - 150000
+   ROI:         0.192
+Choosing not to buy asset: Small Shopping Mall for Sale
+
+Sample Turn: 19 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           42280
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    4410.0
+Monthly Cash Flow: 490.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  1
+Board Space:
+ 
+Type:        Downsized
+Description:  Pay amount of total expenses to the Bank. Loose 2 Turns.
+
+Sample Turn: 20 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           40140
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    4410.0
+Monthly Cash Flow: 490.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Using a layoff day, 2 turns remaining
+
+Sample Turn: 21 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           40140
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    4410.0
+Monthly Cash Flow: 490.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Using a layoff day, 1 turns remaining
+
+Sample Turn: 22 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           40140
+Total Income:      4900
+Passive Income:    0
+Total Expenses:    4410.0
+Monthly Cash Flow: 490.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        1
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Total Dice:  3
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:        Automated Business for Sale
+Type:         Business
+Price:        150000
+Down Payment: 30000
+Cash Flow:    2500
+Price Range:    150000 - 150000 
+No. Cards left: 35
+In doBigDealAction, Savings: 40630 Card: 
+Big Deal Card:
+Title:        Automated Business for Sale
+Type:         Business
+Price:        150000
+Down Payment: 30000
+Cash Flow:    2500
+Price Range:    150000 - 150000
+In choosing to buy asset: 
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Choosing to buy asset: Automated Business for Sale
+
+Sample Turn: 23 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           10630
+Total Income:      7400
+Passive Income:    2500
+Total Expenses:    4410.0
+Monthly Cash Flow: 2990.0
+
+No. Loans:         8
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+
+No. Assets:        2
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  6
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   20000
+Cash Flow:      500
+Price Range:    65000 - 135000 
+No. Cards left: 34
+In doBigDealAction, Savings: 10630 Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   20000
+Cash Flow:      500
+Price Range:    65000 - 135000
+In choosing to buy asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+Choosing to buy asset: House for Sale - 3Br/2Ba
+Loan to buy asset attempt amount: 10000.0 with payment of 1000
+Still enough cash flow for loan, let's buy!
+
+Sample Turn: 24 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           630.0
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5410.0
+Monthly Cash Flow: 2490.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  5
+Passed payday
+Board Space:
+ 
+Type:        Doodads
+Description: 
+Doodad Picked Card: 
+Title:           Park in Handicapped Zone
+Type:            OneTimeExpense
+One Time Payment:100 
+No. Cards left: 38
+In doDoodadAction, Savings: 3120 Card: 
+Title:           Park in Handicapped Zone
+Type:            OneTimeExpense
+One Time Payment:100
+Making payment of 100
+Savings before: 3120
+Savings  after: 3020
+
+Sample Turn: 25 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          0
+Cost per Child:    250
+Savings:           3020
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5410.0
+Monthly Cash Flow: 2490.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  2
+Board Space:
+ 
+Type:        Baby
+Description: Congratulations! Add in your child expenses
+Children-Before: 0
+Children-After : 1
+
+Sample Turn: 26 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           3020
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  5
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:        20 Acres for Sale
+Type:         Land
+Acres:        20
+Price:        20000
+Down Payment: 20000
+Cash Flow:    0 
+No. Cards left: 33
+In doBigDealAction, Savings: 5260 Card: 
+Big Deal Card:
+Title:        20 Acres for Sale
+Type:         Land
+Acres:        20
+Price:        20000
+Down Payment: 20000
+Cash Flow:    0
+In choosing to buy asset: 
+  Type:        Land
+   Name:        20 Acres for Sale
+   HouseOrCondo None
+   Cost:        20000
+   Down Payment:20000
+   Cash Flow:   0
+   Units:       0
+   Acres:       20
+   Price Range: 0 - 0
+   ROI:         0.0
+Choosing not to buy asset: 20 Acres for Sale
+
+Sample Turn: 27 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           5260
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  4
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:        Automated Business for Sale
+Type:         Business
+Price:        200000
+Down Payment: 40000
+Cash Flow:    2700
+Price Range:    200000 - 200000 
+No. Cards left: 32
+In doBigDealAction, Savings: 5260 Card: 
+Big Deal Card:
+Title:        Automated Business for Sale
+Type:         Business
+Price:        200000
+Down Payment: 40000
+Cash Flow:    2700
+Price Range:    200000 - 200000
+In choosing to buy asset: 
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        200000
+   Down Payment:40000
+   Cash Flow:   2700
+   Price Range: 200000 - 200000
+   ROI:         0.81
+Choosing to buy asset: Automated Business for Sale
+Loan to buy asset attempt amount: 35000.0 with payment of 3500
+Can't buy, not enough cash flow to get loan
+
+Sample Turn: 28 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           5260
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  1
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 29 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           7500
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  2
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     Apartment House Buyer
+Price:     25000
+Must Sell: False 
+No. Cards left: 29
+In doMarketAction: Card: 
+Title:     Apartment House Buyer
+Price:     25000
+Must Sell: False
+
+Sample Turn: 30 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           7500
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  1
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          Apartment House for Sale
+Type:           ApartmentHouseForSale
+Units:          24
+Price:          550000
+Down Payment:   50000
+Cash Flow:      2800
+Price Range:    600000 - 960000 
+No. Cards left: 31
+In doBigDealAction, Savings: 7500 Card: 
+Big Deal Card:
+Title:          Apartment House for Sale
+Type:           ApartmentHouseForSale
+Units:          24
+Price:          550000
+Down Payment:   50000
+Cash Flow:      2800
+Price Range:    600000 - 960000
+In choosing to buy asset: 
+  Type:        ApartmentHouseForSale
+   Name:        Apartment House for Sale
+   HouseOrCondo None
+   Cost:        550000
+   Down Payment:50000
+   Cash Flow:   2800
+   Units:       24
+   Acres:       0
+   Price Range: 600000 - 960000
+   ROI:         0.672
+Choosing to buy asset: Apartment House for Sale
+Loan to buy asset attempt amount: 43000.0 with payment of 4300
+Can't buy, not enough cash flow to get loan
+
+Sample Turn: 31 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           7500
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  4
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          8-plex for Sale
+Type:           XPlex
+Units:          8
+Price:          160000
+Down Payment:   32000
+Cash Flow:      1700
+Price Range:    200000 - 280000 
+No. Cards left: 30
+In doBigDealAction, Savings: 7500 Card: 
+Big Deal Card:
+Title:          8-plex for Sale
+Type:           XPlex
+Units:          8
+Price:          160000
+Down Payment:   32000
+Cash Flow:      1700
+Price Range:    200000 - 280000
+In choosing to buy asset: 
+  Type:        XPlex
+   Name:        8-plex for Sale
+   HouseOrCondo None
+   Cost:        160000
+   Down Payment:32000
+   Cash Flow:   1700
+   Units:       8
+   Acres:       0
+   Price Range: 200000 - 280000
+   ROI:         0.6375
+Choosing to buy asset: 8-plex for Sale
+Loan to buy asset attempt amount: 25000.0 with payment of 2500
+Can't buy, not enough cash flow to get loan
+
+Sample Turn: 32 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           7500
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  2
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          8-plex for Sale
+Type:           XPlex
+Units:          8
+Price:          200000
+Down Payment:   40000
+Cash Flow:      1600
+Price Range:    200000 - 280000 
+No. Cards left: 29
+In doBigDealAction, Savings: 9740 Card: 
+Big Deal Card:
+Title:          8-plex for Sale
+Type:           XPlex
+Units:          8
+Price:          200000
+Down Payment:   40000
+Cash Flow:      1600
+Price Range:    200000 - 280000
+In choosing to buy asset: 
+  Type:        XPlex
+   Name:        8-plex for Sale
+   HouseOrCondo None
+   Cost:        200000
+   Down Payment:40000
+   Cash Flow:   1600
+   Units:       8
+   Acres:       0
+   Price Range: 200000 - 280000
+   ROI:         0.48
+Choosing to buy asset: 8-plex for Sale
+Loan to buy asset attempt amount: 31000.0 with payment of 3100
+Can't buy, not enough cash flow to get loan
+
+Sample Turn: 33 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           9740
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  1
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     Car Wash Buyer
+Price:     250000
+Must Sell: False 
+No. Cards left: 28
+In doMarketAction: Card: 
+Title:     Car Wash Buyer
+Price:     250000
+Must Sell: False
+
+Sample Turn: 34 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           9740
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 35 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           11980
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  2
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     Apartment House Buyer
+Price:     45000
+Must Sell: False 
+No. Cards left: 27
+In doMarketAction: Card: 
+Title:     Apartment House Buyer
+Price:     45000
+Must Sell: False
+
+Sample Turn: 36 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           11980
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  4
+Board Space:
+ 
+Type:        Downsized
+Description:  Pay amount of total expenses to the Bank. Loose 2 Turns.
+
+Sample Turn: 37 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           9590
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Using a layoff day, 2 turns remaining
+
+Sample Turn: 38 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           9590
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Using a layoff day, 1 turns remaining
+
+Sample Turn: 39 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           9590
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Doodads
+Description: 
+Doodad Picked Card: 
+Title:           Must Have New Sunglasses
+Type:            OneTimeExpense
+One Time Payment:75 
+No. Cards left: 37
+In doDoodadAction, Savings: 11830 Card: 
+Title:           Must Have New Sunglasses
+Type:            OneTimeExpense
+One Time Payment:75
+Making payment of 75
+Savings before: 11830
+Savings  after: 11755
+
+Sample Turn: 40 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           11755
+Total Income:      7900
+Passive Income:    3000
+Total Expenses:    5660.0
+Monthly Cash Flow: 2240.0
+
+No. Loans:         9
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+
+No. Assets:        3
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+Total Dice:  5
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:        Automated Business for Sale
+Type:         Business
+Price:        125000
+Down Payment: 25000
+Cash Flow:    1800
+Price Range:    125000 - 125000 
+No. Cards left: 28
+In doBigDealAction, Savings: 13995 Card: 
+Big Deal Card:
+Title:        Automated Business for Sale
+Type:         Business
+Price:        125000
+Down Payment: 25000
+Cash Flow:    1800
+Price Range:    125000 - 125000
+In choosing to buy asset: 
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Choosing to buy asset: Automated Business for Sale
+Loan to buy asset attempt amount: 12000.0 with payment of 1200
+Still enough cash flow for loan, let's buy!
+
+Sample Turn: 41 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           995.0
+Total Income:      9700
+Passive Income:    4800
+Total Expenses:    6860.0
+Monthly Cash Flow: 2840.0
+
+No. Loans:         10
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+
+No. Assets:        4
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  6
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:          Condo For Sale - 2Br/1Ba
+Type:           HouseForSale
+House or Condo: Condo
+Price:          40000
+Down Payment:   4000
+Cash Flow:      140
+Price Range:    45000 - 65000 
+No. Cards left: 52
+In doSmallDealAction, Savings: 995.0 Card: 
+Small Deal Card:
+Title:          Condo For Sale - 2Br/1Ba
+Type:           HouseForSale
+House or Condo: Condo
+Price:          40000
+Down Payment:   4000
+Cash Flow:      140
+Price Range:    45000 - 65000
+In choosing to buy asset: 
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+Choosing to buy asset: Condo For Sale - 2Br/1Ba
+Loan to buy asset attempt amount: 4000.0 with payment of 400
+Still enough cash flow for loan, let's buy!
+
+Sample Turn: 42 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           995.0
+Total Income:      9840
+Passive Income:    4940
+Total Expenses:    7260.0
+Monthly Cash Flow: 2580.0
+
+No. Loans:         11
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+
+No. Assets:        5
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  4
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Stock - OK4U Drug Co.
+Type:        Stock
+Symbol:      OK4U
+Price:       10
+Dividends:   0
+Price Range: 5 - 40 
+No. Cards left: 51
+In doSmallDealAction, Savings: 3575 Card: 
+Small Deal Card:
+Title:       Stock - OK4U Drug Co.
+Type:        Stock
+Symbol:      OK4U
+Price:       10
+Dividends:   0
+Price Range: 5 - 40
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           0
+   Cost per Share:   10
+   Total Cost:       0
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+Choosing to buy 357 shares of OK4U
+
+Sample Turn: 43 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           5
+Total Income:      9840
+Passive Income:    4940
+Total Expenses:    7260.0
+Monthly Cash Flow: 2580.0
+
+No. Loans:         11
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+
+No. Assets:        6
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  5
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 44 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           2585
+Total Income:      9840
+Passive Income:    4940
+Total Expenses:    7260.0
+Monthly Cash Flow: 2580.0
+
+No. Loans:         11
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+
+No. Assets:        6
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  2
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     Price of Gold Soars
+Price:     600
+Must Sell: False 
+No. Cards left: 26
+In doMarketAction: Card: 
+Title:     Price of Gold Soars
+Price:     600
+Must Sell: False
+
+Sample Turn: 45 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           2585
+Total Income:      9840
+Passive Income:    4940
+Total Expenses:    7260.0
+Monthly Cash Flow: 2580.0
+
+No. Loans:         11
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+
+No. Assets:        6
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 46 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          1
+Cost per Child:    250
+Savings:           5165
+Total Income:      9840
+Passive Income:    4940
+Total Expenses:    7260.0
+Monthly Cash Flow: 2580.0
+
+No. Loans:         11
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+
+No. Assets:        6
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  6
+Board Space:
+ 
+Type:        Baby
+Description: Congratulations! Add in your child expenses
+Children-Before: 1
+Children-After : 2
+
+Sample Turn: 47 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           5165
+Total Income:      9840
+Passive Income:    4940
+Total Expenses:    7510.0
+Monthly Cash Flow: 2330.0
+
+No. Loans:         11
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+
+No. Assets:        6
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  5
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   20000
+Cash Flow:      -100
+Price Range:    65000 - 150000 
+No. Cards left: 27
+In doBigDealAction, Savings: 7495 Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   20000
+Cash Flow:      -100
+Price Range:    65000 - 150000
+In choosing to buy asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        125000
+   Down Payment:20000
+   Cash Flow:   -100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         -0.06
+Choosing not to buy asset: House for Sale - 3Br/2Ba
+
+Sample Turn: 48 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           7495
+Total Income:      9840
+Passive Income:    4940
+Total Expenses:    7510.0
+Monthly Cash Flow: 2330.0
+
+No. Loans:         11
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+
+No. Assets:        6
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  4
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   9000
+Cash Flow:      300
+Price Range:    65000 - 150000 
+No. Cards left: 26
+In doBigDealAction, Savings: 7495 Card: 
+Big Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: None
+Down Payment:   9000
+Cash Flow:      300
+Price Range:    65000 - 150000
+In choosing to buy asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+Choosing to buy asset: House for Sale - 3Br/2Ba
+Loan to buy asset attempt amount: 2000.0 with payment of 200
+Still enough cash flow for loan, let's buy!
+
+Sample Turn: 49 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           495.0
+Total Income:      10140
+Passive Income:    5240
+Total Expenses:    7710.0
+Monthly Cash Flow: 2430.0
+
+No. Loans:         12
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+
+No. Assets:        7
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  2
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Mutual Fund - GRO4US Fund
+Type:        Stock
+Symbol:      GRO4US
+Price:       30
+Dividends:   0
+Price Range: 10 - 30 
+No. Cards left: 50
+In doSmallDealAction, Savings: 2925 Card: 
+Small Deal Card:
+Title:       Mutual Fund - GRO4US Fund
+Type:        Stock
+Symbol:      GRO4US
+Price:       30
+Dividends:   0
+Price Range: 10 - 30
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           GRO4US
+   Shares:           0
+   Cost per Share:   30
+   Total Cost:       0
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+Choosing not to buy asset: GRO4US
+
+Sample Turn: 50 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           2925
+Total Income:      10140
+Passive Income:    5240
+Total Expenses:    7710.0
+Monthly Cash Flow: 2430.0
+
+No. Loans:         12
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+
+No. Assets:        7
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  5
+Board Space:
+ 
+Type:        Charity
+Description: Use 1 or 2 dice for next 3 turns if you donate 10% of Total Income
+Choosing to be charitible in non-manual mode
+Charity started
+
+Sample Turn: 51 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           2435
+Total Income:      10140
+Passive Income:    5240
+Total Expenses:    7710.0
+Monthly Cash Flow: 2430.0
+
+No. Loans:         12
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+
+No. Assets:        7
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Choosing 2 as max in options in non-manual mode
+Total Dice:  7
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Stock - OK4U Drug Co.
+Type:        Stock
+Symbol:      OK4U
+Price:       10
+Dividends:   0
+Price Range: 5 - 40 
+No. Cards left: 49
+In doSmallDealAction, Savings: 4865 Card: 
+Small Deal Card:
+Title:       Stock - OK4U Drug Co.
+Type:        Stock
+Symbol:      OK4U
+Price:       10
+Dividends:   0
+Price Range: 5 - 40
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           0
+   Cost per Share:   10
+   Total Cost:       0
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+Choosing to buy 486 shares of OK4U
+
+Sample Turn: 52 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           5
+Total Income:      10140
+Passive Income:    5240
+Total Expenses:    7710.0
+Monthly Cash Flow: 2430.0
+
+No. Loans:         12
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+
+No. Assets:        8
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Choosing 2 as max in options in non-manual mode
+Total Dice:  10
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Certificate of Deposit
+Type:        Stock
+Symbol:      CD
+Price:       4000
+Dividends:   20
+Price Range: 4000 - 5000 
+No. Cards left: 48
+In doSmallDealAction, Savings: 2435 Card: 
+Small Deal Card:
+Title:       Certificate of Deposit
+Type:        Stock
+Symbol:      CD
+Price:       4000
+Dividends:   20
+Price Range: 4000 - 5000
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           CD
+   Shares:           0
+   Cost per Share:   4000
+   Total Cost:       0
+   Dividends/share:  20
+   Price Range: 4000 - 5000
+   ROI:              0.06
+Choosing not to buy asset: CD
+
+Sample Turn: 53 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           2435
+Total Income:      10140
+Passive Income:    5240
+Total Expenses:    7710.0
+Monthly Cash Flow: 2430.0
+
+No. Loans:         12
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+
+No. Assets:        8
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Choosing 2 as max in options in non-manual mode
+Total Dice:  8
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Stock - MYT4U Electronics Co.
+Type:        Stock
+Symbol:      MYT4U
+Price:       40
+Dividends:   0
+Price Range: 5 - 30 
+No. Cards left: 47
+In doSmallDealAction, Savings: 4865 Card: 
+Small Deal Card:
+Title:       Stock - MYT4U Electronics Co.
+Type:        Stock
+Symbol:      MYT4U
+Price:       40
+Dividends:   0
+Price Range: 5 - 30
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           0
+   Cost per Share:   40
+   Total Cost:       0
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+Choosing not to buy asset: MYT4U
+
+Sample Turn: 54 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           4865
+Total Income:      10140
+Passive Income:    5240
+Total Expenses:    7710.0
+Monthly Cash Flow: 2430.0
+
+No. Loans:         12
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+
+No. Assets:        8
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:          4-plex for Sale
+Type:           XPlex
+Units:          4
+Price:          80000
+Down Payment:   20000
+Cash Flow:      400
+Price Range:    100000 - 140000 
+No. Cards left: 25
+In doBigDealAction, Savings: 7295 Card: 
+Big Deal Card:
+Title:          4-plex for Sale
+Type:           XPlex
+Units:          4
+Price:          80000
+Down Payment:   20000
+Cash Flow:      400
+Price Range:    100000 - 140000
+In choosing to buy asset: 
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+Choosing to buy asset: 4-plex for Sale
+Loan to buy asset attempt amount: 13000.0 with payment of 1300
+Still enough cash flow for loan, let's buy!
+
+Sample Turn: 55 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           295.0
+Total Income:      10540
+Passive Income:    5640
+Total Expenses:    9010.0
+Monthly Cash Flow: 1530.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        9
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  6
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Stock - MYT4U Electronics Co.
+Type:        Stock
+Symbol:      MYT4U
+Price:       5
+Dividends:   0
+Price Range: 5 - 30 
+No. Cards left: 46
+In doSmallDealAction, Savings: 1825 Card: 
+Small Deal Card:
+Title:       Stock - MYT4U Electronics Co.
+Type:        Stock
+Symbol:      MYT4U
+Price:       5
+Dividends:   0
+Price Range: 5 - 30
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           0
+   Cost per Share:   5
+   Total Cost:       0
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+Choosing to buy 365 shares of MYT4U
+
+Sample Turn: 56 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           0
+Total Income:      10540
+Passive Income:    5640
+Total Expenses:    9010.0
+Monthly Cash Flow: 1530.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        10
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  4
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: House
+Price:          50000
+Down Payment:   0
+Cash Flow:      100
+Price Range:    65000 - 135000 
+No. Cards left: 45
+In doSmallDealAction, Savings: 0 Card: 
+Small Deal Card:
+Title:          House for Sale - 3Br/2Ba
+Type:           HouseForSale
+House or Condo: House
+Price:          50000
+Down Payment:   0
+Cash Flow:      100
+Price Range:    65000 - 135000
+In choosing to buy asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        50000
+   Down Payment:0
+   Cash Flow:   100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         1.0
+Choosing to buy asset: House for Sale - 3Br/2Ba
+
+Sample Turn: 57 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           0
+Total Income:      10640
+Passive Income:    5740
+Total Expenses:    9010.0
+Monthly Cash Flow: 1630.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        11
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        50000
+   Down Payment:0
+   Cash Flow:   100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  1
+Passed payday
+Board Space:
+ 
+Type:        Pay Check
+Description: 
+
+Sample Turn: 58 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           1630
+Total Income:      10640
+Passive Income:    5740
+Total Expenses:    9010.0
+Monthly Cash Flow: 1630.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        11
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        50000
+   Down Payment:0
+   Cash Flow:   100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  6
+Board Space:
+ 
+Type:        Charity
+Description: Use 1 or 2 dice for next 3 turns if you donate 10% of Total Income
+Choosing to be charitible in non-manual mode
+Charity started
+
+Sample Turn: 59 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           1140
+Total Income:      10640
+Passive Income:    5740
+Total Expenses:    9010.0
+Monthly Cash Flow: 1630.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        11
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        50000
+   Down Payment:0
+   Cash Flow:   100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Choosing 2 as max in options in non-manual mode
+Total Dice:  5
+Passed payday
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Small Deal Picked Card: 
+Small Deal Card:
+Title:       Stock - MYT4U Electronics Co.
+Type:        Stock
+Symbol:      MYT4U
+Price:       10
+Dividends:   0
+Price Range: 5 - 30 
+No. Cards left: 44
+In doSmallDealAction, Savings: 2770 Card: 
+Small Deal Card:
+Title:       Stock - MYT4U Electronics Co.
+Type:        Stock
+Symbol:      MYT4U
+Price:       10
+Dividends:   0
+Price Range: 5 - 30
+In player choice to buy stock: 
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           0
+   Cost per Share:   10
+   Total Cost:       0
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+Choosing to buy 277 shares of MYT4U
+
+Sample Turn: 60 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           0
+Total Income:      10640
+Passive Income:    5740
+Total Expenses:    9010.0
+Monthly Cash Flow: 1630.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        12
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           277
+   Cost per Share:   10
+   Total Cost:       2770
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        50000
+   Down Payment:0
+   Cash Flow:   100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Choosing 2 as max in options in non-manual mode
+Total Dice:  3
+Board Space:
+ 
+Type:        Baby
+Description: Congratulations! Add in your child expenses
+Children-Before: 2
+Children-After : 3
+
+Sample Turn: 61 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          3
+Cost per Child:    250
+Savings:           0
+Total Income:      10640
+Passive Income:    5740
+Total Expenses:    9260.0
+Monthly Cash Flow: 1380.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        12
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           277
+   Cost per Share:   10
+   Total Cost:       2770
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        50000
+   Down Payment:0
+   Cash Flow:   100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Choosing 2 as max in options in non-manual mode
+Total Dice:  4
+Passed payday
+Board Space:
+ 
+Type:        The Market
+Description: 
+Market Picked Card: 
+Title:     House Buyer - 3Br/2Ba
+Price:     90000
+Must Sell: False 
+No. Cards left: 25
+In doMarketAction: Card: 
+Title:     House Buyer - 3Br/2Ba
+Price:     90000
+Must Sell: False
+Choosing to sell asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:20000
+   Cash Flow:   500
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         0.3
+Sold House for Sale - 3Br/2Ba, HouseForSale for 90000.
+Choosing to sell asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        70000
+   Down Payment:9000
+   Cash Flow:   300
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 150000
+   ROI:         0.4
+Sold House for Sale - 3Br/2Ba, HouseForSale for 90000.
+Choosing to sell asset: 
+  Type:        HouseForSale
+   Name:        House for Sale - 3Br/2Ba
+   HouseOrCondo House
+   Cost:        50000
+   Down Payment:0
+   Cash Flow:   100
+   Units:       0
+   Acres:       0
+   Price Range: 65000 - 135000
+   ROI:         1.0
+Sold House for Sale - 3Br/2Ba, HouseForSale for 90000.
+
+Sample Turn: 62 
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          3
+Cost per Child:    250
+Savings:           110380
+Total Income:      9740
+Passive Income:    4840
+Total Expenses:    9260.0
+Monthly Cash Flow: 480.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        9
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           277
+   Cost per Share:   10
+   Total Cost:       2770
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+Total Dice:  1
+Board Space:
+ 
+Type:        Opportunity
+Description: Big/Small Deal
+Big Deal Picked Card: 
+Big Deal Card:
+Title:        Pizza Franchise for Sale
+Type:         Business
+Price:        500000
+Down Payment: 100000
+Cash Flow:    5000
+Price Range:    520000 - 800000 
+No. Cards left: 24
+In doBigDealAction, Savings: 110380 Card: 
+Big Deal Card:
+Title:        Pizza Franchise for Sale
+Type:         Business
+Price:        500000
+Down Payment: 100000
+Cash Flow:    5000
+Price Range:    520000 - 800000
+In choosing to buy asset: 
+  Type:         Business
+   Name:        Pizza Franchise for Sale
+   Cost:        500000
+   Down Payment:100000
+   Cash Flow:   5000
+   Price Range: 520000 - 800000
+   ROI:         0.6
+Choosing to buy asset: Pizza Franchise for Sale
+After 62 turns, Player Paulcool is rich and wins
+
+Name:              Paulcool
+Profession:        Engineer
+Strategy:          Automatic
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          3
+Cost per Child:    250
+Savings:           10380
+Total Income:      14740
+Passive Income:    9840
+Total Expenses:    9260.0
+Monthly Cash Flow: 5480.0
+
+No. Loans:         13
+  Loan Name:          Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+  Loan Name:          School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+  Loan Name:          Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+  Loan Name:          Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+  Loan Name:          Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       10000.0
+   Loan Payment:       1000.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       12000.0
+   Loan Payment:       1200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       4000.0
+   Loan Payment:       400.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       2000.0
+   Loan Payment:       200.0
+   Part. Pay. Allowed: True
+  Loan Name:          Bank Loan
+   Loan Balance:       13000.0
+   Loan Payment:       1300.0
+   Part. Pay. Allowed: True
+
+No. Assets:        10
+  Type:              Stock
+   Symbol:           ON2U
+   Shares:           418
+   Cost per Share:   5
+   Total Cost:       2090
+   Dividends/share:  0
+   Price Range: 10 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           357
+   Cost per Share:   10
+   Total Cost:       3570
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           OK4U
+   Shares:           486
+   Cost per Share:   10
+   Total Cost:       4860
+   Dividends/share:  0
+   Price Range: 5 - 40
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           365
+   Cost per Share:   5
+   Total Cost:       1825
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:              Stock
+   Symbol:           MYT4U
+   Shares:           277
+   Cost per Share:   10
+   Total Cost:       2770
+   Dividends/share:  0
+   Price Range: 5 - 30
+   ROI:              0.0
+
+  Type:        HouseForSale
+   Name:        Condo For Sale - 2Br/1Ba
+   HouseOrCondo House
+   Cost:        40000
+   Down Payment:4000
+   Cash Flow:   140
+   Units:       0
+   Acres:       0
+   Price Range: 45000 - 65000
+   ROI:         0.42
+
+  Type:        XPlex
+   Name:        4-plex for Sale
+   HouseOrCondo None
+   Cost:        80000
+   Down Payment:20000
+   Cash Flow:   400
+   Units:       4
+   Acres:       0
+   Price Range: 100000 - 140000
+   ROI:         0.24
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        150000
+   Down Payment:30000
+   Cash Flow:   2500
+   Price Range: 150000 - 150000
+   ROI:         1.0
+
+  Type:         Business
+   Name:        Automated Business for Sale
+   Cost:        125000
+   Down Payment:25000
+   Cash Flow:   1800
+   Price Range: 125000 - 125000
+   ROI:         0.864
+
+  Type:         Business
+   Name:        Pizza Franchise for Sale
+   Cost:        500000
+   Down Payment:100000
+   Cash Flow:   5000
+   Price Range: 520000 - 800000
+   ROI:         0.6
+Sold Assets
+
+ [[<assets.RealEstate object at 0x033088B0>, 120000], [<assets.RealEstate object at 0x03308A50>, 90000], [<assets.RealEstate object at 0x03308A10>, 90000], [<assets.RealEstate object at 0x03308A90>, 90000]]

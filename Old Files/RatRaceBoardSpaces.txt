@@ -1,0 +1,26 @@
+#Card Title,Card Detail#
+#
+Opportunity,Big/Small Deal
+Doodads
+Opportunity,Big/Small Deal
+Charity,Use 1 or 2 dice for next 3 turns if you donate 10% of Total Income
+Opportunity,Big/Small Deal
+Pay Check
+Opportunity,Big/Small Deal
+The Market
+Opportunity,Big/Small Deal
+Doodads
+Opportunity,Big/Small Deal
+Baby,Congratulations! Add in your child expenses
+Opportunity,Big/Small Deal
+Pay Check
+Opportunity,Big/Small Deal
+The Market
+Opportunity,Big/Small Deal
+Doodads
+Opportunity,Big/Small Deal
+Downsized, Pay amount of total expenses to the Bank. Loose 2 Turns.
+Opportunity,Big/Small Deal
+Pay Check
+Opportunity,Big/Small Deal
+The Market

@@ -1,0 +1,15 @@
+#List of valid professions with starting information separated by commas
+#Profession,Salary,ExpenseTaxes,ExpensesOther,CostPerChild,Savings,NoLoans,Loan1Name,Loan1Balance,Loan1Payment,Loan2Name etc.
+#0          1      2            3             4            5       6       7         8             9            10...   
+Lawyer,7500,1830,1650,380,400,5,Mortgage,115000,1100,School Loans,78000,390,Car Loans,11000,220,Credit Cards,6000,180,Retail Debt,1000,50
+Engineer,4900,1050,1090,250,400,5,Mortgage,75000,700,School Loans,12000,60,Car Loans,7000,140,Credit Cards,4000,120,Retail Debt,1000,50
+Doctor,13200,3420,2880,640,400,5,Mortgage,202000,1900,School Loans,150000,750,Car Loans,19000,380,Credit Cards,9000,270,Retail Debt,1000,50
+#Secretary
+#Nurse
+#Business Manager
+#Airline Pilot
+#Mechanic
+#Teaker (K-12)
+#Truck Driver
+#Police Officer
+#Janitor

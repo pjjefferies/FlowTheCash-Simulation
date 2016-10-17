@@ -1,0 +1,5 @@
+Rare Gold Coin,Asset,500,0,0,4000
+10 Acres Raw Land,Land,5000,5000,10
+Sister-in-Law Borrows Money,LoanNotToBeRepaid,5000
+Friend Needs Cash...Quick,LoanNotToBeRepaid,3000
+Tenant Damages YourPropert,CostIfRentalProperty,500

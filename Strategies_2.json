@@ -1,0 +1,62 @@
+{
+	"ZeroBDT, 0.25PRT, 0.3ROIT": {
+		"manual": "False",
+		"roiThreshold": 0.3,
+		"priceRatioThreshold": 0.25,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 0,
+		"loanPayback": "Smallest"
+	},
+	"ZeroBDT, 0.20PRT, 0.3ROIT": {
+		"manual": "False",
+		"roiThreshold": 0.3,
+		"priceRatioThreshold": 0.2,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 0,
+		"loanPayback": "Smallest"
+	},
+	"ZeroBDT, 0.30PRT, 0.3ROIT": {
+		"manual": "False",
+		"roiThreshold": 0.3,
+		"priceRatioThreshold": 0.3,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 0,
+		"loanPayback": "Smallest"
+	},
+	"ZeroBDT, 0.25PRT, 0.4ROIT": {
+		"manual": "False",
+		"roiThreshold": 0.4,
+		"priceRatioThreshold": 0.25,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 0,
+		"loanPayback": "Smallest"
+	},
+	"ZeroBDT, 0.20PRT, 0.4ROIT": {
+		"manual": "False",
+		"roiThreshold": 0.4,
+		"priceRatioThreshold": 0.2,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 0,
+		"loanPayback": "Smallest"
+	},
+	"ZeroBDT, 0.30PRT, 0.4ROIT": {
+		"manual": "False",
+		"roiThreshold": 0.4,
+		"priceRatioThreshold": 0.3,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 0,
+		"loanPayback": "Smallest"
+	}
+}

@@ -1,0 +1,25 @@
+Cash Flow Simulation Results Summary
+
+Professions - Better to worse, Lowest Avg. Turns to Win with opt. strat.
+  1. Airline Pilot	35
+  2. Business Manager	36
+  3. Doctor		36
+  4. Engineer		37
+  5. Lawyer		38
+  6. Police Officer	42
+  7. Nurse		44
+  8. Teacher (K-12)	47
+  9. Truck Driver	48
+ 10. Secretary		48
+ 11. Janitor		53
+ 12. Mechanic		56
+
+
+Strategies - Better to worse, cost of sub-optimal
+  1. Always choose Big Deal
+     Buy asset when price is less than 20% in Min/Max range
+     Never by CDs
+     Buy asset when ROI is greater than 30%
+
+  Not sensitive to price ratio threshold of 20% up to at least 30%
+  
