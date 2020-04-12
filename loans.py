@@ -1,9 +1,15 @@
+"""Object and functions for working with Loans for Game Simulations."""
+
+
 class Loan(object):
+    """Object to manage Loans in Game Simulations."""
+
     def __init__(self,
                  name,
                  balance,
                  monthlyPayment,
-                 partialPaymentAllowed = False):
+                 partialPaymentAllowed=False):
+        """Create a Loan."""
         self.name = name
         self.balance = balance
         self.monthlyPayment = monthlyPayment
@@ -16,7 +22,9 @@ class Loan(object):
         return self.monthlyPayment
     def getPartialPaymentAllowed(self):
         return self.partialPaymentAllowed
+
     def makePayment(self, payment):
+        """Make a Payment on a Loan."""
         if payment == self.balance or (self.partialPaymentAllowed and
                                        (payment % 1000) == 0 and
                                        payment >= 1000 and
@@ -24,18 +32,22 @@ class Loan(object):
             self.balance -= payment
             if self.balance == 0:
                 return 0, 0
-            self.monthlyPayment = int(self.balance * 0.10)     #Rule for Bank Loan, the only partially payable loan
+
+            # Rule for Bank Loan, the only partially payable loan
+            self.monthlyPayment = int(self.balance * 0.10)
             return self.balance, self.monthlyPayment
         else:
             return None, None
+
     def __str__(self):
+        """Create string to be returned when str method is called."""
         return ("  Loan Name:          " + self.name +
                 "\n   Loan Balance:       " + str(self.balance) +
                 "\n   Loan Payment:       " + str(self.monthlyPayment) +
                 "\n   Part. Pay. Allowed: " + str(self.partialPaymentAllowed))
 
 
-if __name__ == '__main__':      #test loan object
+if __name__ == '__main__':  # test loan object
     myFirstLoan = Loan("Mortgage", 105000, 1500, False)
     print("My First Loan:" +
           "\nName:             " + myFirstLoan.getName() +
@@ -44,7 +56,7 @@ if __name__ == '__main__':      #test loan object
           "\nPart. Pay. All.?: " + str(myFirstLoan.getPartialPaymentAllowed()))
 
     print("\nMy Frist Loan String Conversion:\n", myFirstLoan)
-    
+
     print("\nTry partial payment, shouldn't work, return: None, None")
     newBalance, newPayment = myFirstLoan.makePayment(50000)
     print("New Balance:", newBalance, ", New Payment:", newPayment)
@@ -53,16 +65,16 @@ if __name__ == '__main__':      #test loan object
     newBalance, newPayment = myFirstLoan.makePayment(105000)
     print("New Balance:", newBalance, ", New Payment:", newPayment)
 
-
     mySecondLoan = Loan("Bank Loan", 100000, 10000, True)
     print("\n\n\nMy Second Loan:" +
           "\nName:             " + mySecondLoan.getName() +
           "\nBalance:          " + str(mySecondLoan.getBalance()) +
           "\nMonthly Payment:  " + str(mySecondLoan.getMonthlyPayment()) +
-          "\nPart. Pay. All.?: " + str(mySecondLoan.getPartialPaymentAllowed()))
+          "\nPart. Pay. All.?: " +
+          str(mySecondLoan.getPartialPaymentAllowed()))
 
     print("\nMy Seoond Loan String Conversion:\n", mySecondLoan)
-    
+
     print("\nTry partial payment of 6500, shouldn' work, return: None, None")
     newBalance, newPayment = mySecondLoan.makePayment(6500)
     print("New Balance:", newBalance, ", New Payment:", newPayment)

@@ -1,26 +1,25 @@
+"""Functions to read and write JSON files."""
 import json
 
-def load_json(fileName):    #Load Locally Saved Vehicles
+
+def load_json(fileName):
+    """Load file from JSON file."""
     try:
         f = open(fileName, "r")
     except OSError:
-        #print("In load_json, found OSError")
         raise OSError
         return
     try:
-        jsonCarData = json.load(f)
-        #print("In load_json, in try, type(jsonCarData): ", type(jsonCarData))
+        jsonData = json.load(f)
     except ValueError:
-        #print("In load_json, found ValueError")
         raise ValueError
         return
-    #print("Closing file")
     f.close()
-    #print("Returning jsonCarData")
-    return jsonCarData
+    return jsonData
 
 
-def write_json(databaseFile, listOfCarData): #Write locally saved vehicles
+def write_json(databaseFile, listOfCarData):
+    """Write data to JSON file."""
     try:
         f = open(databaseFile, "w")
         jsonCarData = json.dumps(listOfCarData, indent="\t", sort_keys=True)

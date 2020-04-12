@@ -1,20 +1,30 @@
+"""Manage Board for Game Simulation."""
 from jsonReadWriteFile import *
 
 
 class BoardSpace(object):
+    """Create a Space to be put on a Board."""
+
     def __init__(self, boardSpaceType, description=""):
+        """Create a Space to be put on a Board."""
         self.boardSpaceType = boardSpaceType
         self.description = description
     def getBoardSpaceType(self):
         return self.boardSpaceType
     def getBoardSpaceDescription(self):
         return self.boardSpaceDescription
+
     def __str__(self):
-        return("\nType:        " + self.boardSpaceType + "\nDescription: " + self.description)
+        """Create string to be returned when str method is called."""
+        return("\nType:        " + self.boardSpaceType + "\nDescription: " +
+               self.description)
 
 
 class Board(object):
+    """Object to represent Game Board."""
+
     def __init__(self, boardType):
+        """Create the Game Board Object."""
         self.boardType = boardType
         self.boardSpaces = []
         self.players = []
@@ -57,32 +67,17 @@ class Board(object):
         if self.currentPlayer > (len(self.players) - 1):
             self.currentPlayer = 0
         return self.players[self.currentPlayer]
+
     def __str__(self):
+        """Create string to be returned when str method is called."""
         boardString = ""
         for boardSpace in self.boardSpaces:
             boardString = boardString + str(boardSpace) + "\n"
         return boardString[:-1]
 
-"""   Old version using csv file for board spaces
-def getBoardSpaces(boardSpacesFileName):
-    import csv
-    with open(boardSpacesFileName, "r") as boardSpacesFile:
-        reader = csv.reader(boardSpacesFile)
-        board = Board("Rat Race")
-        for row in reader:
-            if row[0] != [] and row[0][0] != "#":
-                if len(row) > 1:
-                    description = row[1]
-                else:
-                    description = ""
-                board.addBoardSpace(BoardSpace(row[0],description))
-                if len(row) > 2:
-                    print("3rd members and beyond ignored in BoardSpaces")
-        boardSpacesFile.close()
-    return board
-"""
 
-def getBoardSpaces(boardSpacesFileName, verbose = False):
+def getBoardSpaces(boardSpacesFileName, verbose=False):
+    """Load Board Spaces from JSON file."""
     try:
         boardSpaceDict = load_json(boardSpacesFileName)
     except OSError:
@@ -96,38 +91,37 @@ def getBoardSpaces(boardSpacesFileName, verbose = False):
         if verbose:
             print(noBoardSpaces, "boad spaces loaded")
     board = Board("Rat Race")
-    for boardSpaceNo in range(1,noBoardSpaces+1):
+    for boardSpaceNo in range(1, noBoardSpaces + 1):
         spaceName = "boardSpaceNo" + "{:03d}".format(boardSpaceNo)
-        board.addBoardSpace(BoardSpace(boardSpaceDict[spaceName]["Board Space Title"],
-                                       boardSpaceDict[spaceName]["Board Space Detail"]))
+        board.addBoardSpace(BoardSpace(
+            boardSpaceDict[spaceName]["Board Space Title"],
+            boardSpaceDict[spaceName]["Board Space Detail"]))
     return board
 
 
-
-if __name__ == '__main__':      #test board objects
+if __name__ == '__main__':  # test board objects
     from dieRoll import *
     from player import *
-    #ratRaceBoard = getBoardSpaces("RatRaceBoardSpaces.txt")
     ratRaceBoard = getBoardSpaces("RatRaceBoardSpaces.json")
     print("ratRaceBoard Type: " + ratRaceBoard.getBoardType())
-    #print("ratRaceBoard Spaces: ", ratRaceBoard.getBoardSpaces())
-    
+
     print(ratRaceBoard)
     print("End of Board\n\n")
 
-    #professionDict = getProfessionDict("ProfessionsList.txt")      #Import list of professions
-    professionDict = getProfessionDict("ProfessionsList.json")      #Import list of professions
-    me  = Player("PaulCool", professionDict["Engineer"], "Manual")     #create me
-    she = Player("LynnHot", professionDict["Doctor"], "Manual")     #create she
-    ratRaceBoard.addPlayer(me, 0)   #add me to board at space 0
-    ratRaceBoard.addPlayer(she, 0)   #add she to board at space 0
-    for turn in range(1,101):     #simulate 100 turns
+    # Import list of professions
+    professionDict = getProfessionDict("ProfessionsList.json")
+    me = Player("PaulCool", professionDict["Engineer"], "Manual")  # Create me
+    she = Player("LynnHot", professionDict["Doctor"], "Manual")  # Create she
+    ratRaceBoard.addPlayer(me, 0)  # Add me to board at space 0
+    ratRaceBoard.addPlayer(she, 0)  # Add she to board at space 0
+    for turn in range(1, 101):  # Simulate 100 turns
         currentBoardPlayer = ratRaceBoard.getNextPlayer()
         print("\ncurrentBoardPlayer:", currentBoardPlayer[0].getName())
         moveSpaces = rollDie("Automatic", 1, False)
         print("Die roll", moveSpaces)
-        newPosition, passedPayCheck, newBoardSpace = ratRaceBoard.movePlayerBoardSpaces(currentBoardPlayer, moveSpaces)
-        if newPosition == None:
+        newPosition, passedPayCheck, newBoardSpace = (
+            ratRaceBoard.movePlayerBoardSpaces(currentBoardPlayer, moveSpaces))
+        if newPosition is None:
             print("Player is not on the board")
             break
         else:
@@ -137,4 +131,3 @@ if __name__ == '__main__':      #test board objects
                   ", Current Space: {:>2}".format(newPosition) +
                   ", Type: " + newBoardSpace.getBoardSpaceType() +
                   ", Pay Check Passed: " + str(passedPayCheck))
-
