@@ -2,42 +2,42 @@
 
 from importlib import reload
 import player
-reload(player)
+# reload(player)
 
 
-def chooseSmallOrBigDealCard(aPlayer, verbose=False):
+def choose_small_or_big_deal_card(a_player, verbose=False):
     """Choose between Small or Big Deal Card."""
-    if aPlayer.getStrategy().getManual():
+    if a_player.strategy.manual:
         while True:
-            smallOrBigCard = input("Pick '(s)mall' or '(b)ig' Deal Card? ")
-            if smallOrBigCard.lower() in ["small", "s"]:
+            small_or_big_card = input("Pick '(s)mall' or '(b)ig' Deal Card? ")
+            if small_or_big_card.lower() in ["small", "s"]:
                 return "small"
-            elif smallOrBigCard.lower() in ["big", "b"]:
+            elif small_or_big_card.lower() in ["big", "b"]:
                 return "big"
             print("Entry not understood, please try again\n")
     else:
-        if (aPlayer.getSavings() >
-                aPlayer.getStrategy().getBigDealSmallDealThreshold()):
+        if (a_player.savings >
+                a_player.strategy.get_big_deal_small_deal_threshold()):
             return "big"
         else:
             return "small"
 
 
-def chooseToDonateToCharity(strategy, verbose=False):
+def choose_to_donate_to_charity(strategy, verbose=False):
     """Decide whether to donate to charity manually or by strategy."""
-    if strategy.getManual():
+    if strategy.manual:
         while True:
-            charityChoice = input("Do you want to donate 10% of your income" +
-                                  " to have the option of rolling 1 or 2" +
-                                  " dice for the next 3 turns? ")
-            if charityChoice.lower()[0] == "n":
+            charity_choice = input("Do you want to donate 10% of your income" +
+                                   " to have the option of rolling 1 or 2" +
+                                   " dice for the next 3 turns? ")
+            if charity_choice.lower()[0] == "n":
                 print("OK, no charity chosen")
                 return "no"
-            elif charityChoice.lower()[0] == "y":
+            elif charity_choice.lower()[0] == "y":
                 return True
             print("Entry not understood, please try again\n")
     else:
-        if strategy.getCharitable():
+        if strategy.charitable():
             if verbose:
                 print("Choosing to be charitible in non-manual mode")
             return True
@@ -47,131 +47,131 @@ def chooseToDonateToCharity(strategy, verbose=False):
             return False
 
 
-def chooseNoDie(noDieChoiceList, strategy, verbose):
+def choose_no_die(no_die_choice_list, strategy, verbose):
     """Choose number of dice to roll."""
-    if strategy.getManual():
+    if strategy.manual:
         while True:
             print("Please choose number of die to use.")
-            noDieChoice = int(input("Choices: " + str(noDieChoiceList)))
-            if noDieChoice in noDieChoiceList:
-                if noDieChoice == 1:
+            no_die_choice = int(input("Choices: " + str(no_die_choice_list)))
+            if no_die_choice in no_die_choice_list:
+                if no_die_choice == 1:
                     print("1 die chosen")
                 else:
-                    print(str(noDieChoice) + " dice chosen")
+                    print(str(no_die_choice) + " dice chosen")
                 break
             print("Entry not in list, please try again\n")
     else:
-        noDieChoice = max(noDieChoiceList)
+        no_die_choice = max(no_die_choice_list)
         if verbose:
-            print("Choosing " + str(noDieChoice)
+            print("Choosing " + str(no_die_choice)
                   + " as max in options in non-manual mode")
-    return noDieChoice
+    return no_die_choice
 
 
-def chooseToBuyStockAsset(player, newStock, verbose):
+def choose_to_buy_stock_asset(player, new_stock, verbose):
     """Choose whether and how much stock to buy."""
-    if player.getStrategy().getManual():
+    if player.strategy.manual():
         while True:
             try:
-                print("Stock for sale:", newStock)
-                numberOfShares = int(input("How many shares would you like" +
-                                           " to buy (or 0 to decline)?"))
-                if numberOfShares >= 0:
-                    newStock.setNoShares(numberOfShares)
+                print("Stock for sale:", new_stock)
+                number_of_shares = int(input("How many shares would you like" +
+                                             " to buy (or 0 to decline)?"))
+                if number_of_shares >= 0:
+                    new_stock.set_no_shares(number_of_shares)
                     return True
             except ValueError:
                 print("Number not entered, please try again")
-        if numberOfShares < 1:
+        if number_of_shares < 1:
             if verbose:
                 print("Small Deal Action to buy Stock declined")
             return False
     else:
         if verbose:
-            print("In player choice to buy stock:", newStock)
-        if (newStock.getROI() > player.getStrategy().getROIThreshold() or
-            ((newStock.getCostPerShare() <
-              ((newStock.getPriceRangeHigh() + newStock.getPriceRangeLow()) *
-               player.getStrategy().getPriceRatioThreshold()))
-             and not newStock.getName() in ("CD"))):
-            if newStock.getCostPerShare() < player.getSavings():
+            print("In player choice to buy stock:", new_stock)
+        if (new_stock.roi > player.strategy.roi_threshold() or
+            ((new_stock.cost_per_share() <
+              ((new_stock.price_range_high + new_stock.price_range_low) *
+               player.strategy.price_ratio_threshold))
+             and not new_stock.getName() in ("CD"))):
+            if new_stock.cost_per_share < player.savings:
                 # Buy maximum your can with cash
-                numberOfShares = int(float(player.getSavings()) /
-                                     float(newStock.getCostPerShare()))
-                newStock.setNoShares(numberOfShares)
+                number_of_shares = int(float(player.savings) /
+                                       float(new_stock.cost_per_share))
+                new_stock.no_shares = number_of_shares
             else:
                 if verbose:
                     print("Not enough savings to buy even one share, " +
                           "please drive through")
                 return False
             if verbose:
-                print("Choosing to buy " + str(newStock.getNoShares()) +
-                      " shares of " + newStock.getName())
+                print("Choosing to buy " + str(new_stock.no_shares) +
+                      " shares of " + new_stock.name)
             return True
         else:
             if verbose:
-                print("Choosing not to buy asset:", newStock.getName())
+                print("Choosing not to buy asset:", new_stock.name)
             return False
 
 
-def chooseToBuyAsset(player, asset, verbose, price=0):
+def choose_to_buy_asset(player, asset, verbose, price=0):
     """Decide whether to buy an asset."""
     if price == 0:
-        price = asset.getCost()
-    if player.getStrategy().getManual():
+        price = asset.cost
+    if player.strategy.manual:
         while True:
             print("Asset for sale:", asset)
-            toBuy = input("Do you want to buy for " + str(asset.getCost()) +
-                          "?")
-            if toBuy.lower()[0] == "n":
+            to_buy = input("Do you want to buy for " + str(asset.cost) +
+                           "?").lower()[0]
+            if to_buy == "n":
                 print("OK, no sale")
                 return False
-            elif toBuy.lower()[0] == "y":
+            elif to_buy == "y":
                 return True
             print("Entry not understood, please try again\n")
     else:
         if verbose:
             print("In choosing to buy asset:", asset)
-        if ((asset.getROI() >= player.getStrategy().getROIThreshold() or
-            (asset.getCost() <= (
-                asset.getPriceRangeLow()
-                + (asset.getPriceRangeHigh() -
-                   asset.getPriceRangeLow()) *
-                player.getStrategy().getPriceRatioThreshold())))
-                and not (asset.getName() in ("Rare Gold Coin"))):
+        if ((asset.roi >= player.strategy.roi_threshold or
+            (asset.cost <= (
+                asset.price_range_low
+                + (asset.price_range_high -
+                   asset.price_range_low) *
+                player.strategy.price_ratio_threshold)))
+                and not (asset.name in ("Rare Gold Coin"))):
             if verbose:
-                print("Choosing to buy asset:", asset.getName())
+                print("Choosing to buy asset:", asset.name)
             # Buy if high ROI or price below midpoint of range if not gold
             return True
         else:
             if verbose:
-                print("Choosing not to buy asset:", asset.getName())
+                print("Choosing not to buy asset:", asset.name)
             return False
 
 
-def chooseToSellAsset(player, asset, price, deltaPrice, verbose):
+def choose_to_sell_asset(player, asset, price, delta_price, verbose):
     """Decide whether to sell assets."""
-    if asset.getType == "Stock":
-        origPrice = asset.getTotalCost()
+    if asset.type == "Stock":
+        orig_price = asset.total_cost
     else:
-        origPrice = asset.getCost()
-    if deltaPrice > 0:
-        price = origPrice + deltaPrice
-    if player.getStrategy().getManual():
+        orig_price = asset.cost
+    if delta_price > 0:
+        price = orig_price + delta_price
+    if player.strategy.manual:
         while True:
             print("Asset:", asset, "has an offer of", price)
-            toSell = input("Do you want to sell?")
-            if toSell.lower()[0] == "n":
+            to_sell = input("Do you want to sell?").lower()[0]
+            if to_sell == "n":
                 print("OK, no sale")
                 return False
-            elif toSell.lower()[0] == "y":
+            elif to_sell == "y":
                 return True
             print("Entry not understood, please try again\n")
     else:
-        ROIofSale = float(asset.getCashFlow()) / float(price)
+        roi_of_sale = float(asset.cash_flow) / float(price)
         # Default is to Sell if price is higher than basis & less than ROI
         # threshold on sale price
-        if (price > origPrice and
-                ROIofSale < player.getStrategy().getROIThreshold()):
+        if (price > orig_price and
+                roi_of_sale < player.strategy.roi_threshold):
             if verbose:
                 print("Choosing to sell asset:", asset)
             return True
@@ -181,28 +181,28 @@ def chooseToSellAsset(player, asset, price, deltaPrice, verbose):
             return False
 
 
-def chooseToGetLoanToBuyAsset(player, asset, loanAmount, verbose):
+def choose_to_get_loan_to_buy_asset(player, asset, loan_amount, verbose):
     """Decice whether to take loan to buy asset."""
-    expectedLoanPayment = int(loanAmount / 10)
+    expected_loan_payment = int(loan_amount / 10)
     if verbose:
-        print("Loan to buy asset attempt amount: " + str(loanAmount) +
-              " with payment of " + str(expectedLoanPayment))
-    if player.getStrategy().getManual():
+        print("Loan to buy asset attempt amount: " + str(loan_amount) +
+              " with payment of " + str(expected_loan_payment))
+    if player.strategy.manual:
         while True:
             print("Asset for sale:", asset, " for " + asset.cost +
-                  "\nYou only have " + player.getSavings())
-            toBuyEntry = input("Do you want to take a loan for " + loanAmount +
-                               "?")
-            if toBuyEntry.lower()[0] == "n":
+                  "\nYou only have " + player.savings)
+            to_buy_entry = (input("Do you want to take a loan for " +
+                                  loan_amount + "?").lower()[0])
+            if to_buy_entry == "n":
                 print("OK, no sale")
                 return False
-            elif toBuyEntry.lower()[0] == "y":
+            elif to_buy_entry == "y":
                 print("OK, let's get it")
                 return True
             print("Entry not understood, please try again\n")
     else:
-        if player.getStrategy().getTakeDownPaymentLoans():
-            if expectedLoanPayment <= player.getMonthlyCashFlow():
+        if player.strategy.take_down_payment_loans:
+            if expected_loan_payment <= player.monthly_cash_flow:
                 if verbose:
                     print("Still enough cash flow for loan, let's buy!")
                 return True
@@ -216,177 +216,177 @@ def chooseToGetLoanToBuyAsset(player, asset, loanAmount, verbose):
             return False
 
 
-def chooseToPayOffLoan(aPlayer, verbose=False):
+def choose_to_pay_off_loan(a_player, verbose=False):
     """Decide wheter to payoff loan."""
-    if (len(aPlayer.getLoans()) == 0 or
-            aPlayer.getStrategy().getLoanPayback() == "Never"):
+    if (len(a_player.loans) == 0 or
+            a_player.strategy.loan_payback == "Never"):
         return False
-    loanPayoffStrategyToUse = aPlayer.getStrategy().getLoanPayback()
+    loan_payoff_strategy_to_use = a_player.strategy.loan_payback
     if verbose:
-        print("loanPayoffStrategyToUse:", loanPayoffStrategyToUse)
-    if loanPayoffStrategyToUse == "Manual":
-        if len(aPlayer.getLoans()) == 0:
+        print("loan_payoff_strategy_to_use:", loan_payoff_strategy_to_use)
+    if loan_payoff_strategy_to_use == "Manual":
+        if len(a_player.loans) == 0:
             return False
-        loanNo = 0
-        for loan in aPlayer.getLoans():
-            loanNo += 1
-            print(loanNo, ": ", loan)
-        loanToPayoff = int(input("Whick Loan Do you want to payoff (enter" +
-                                 " number or 0 for none:"))
-        if loanToPayoff <= 0 or loanToPayoff > len(aPlayer.getLoans()):
+        loan_no = 0
+        for loan in a_player.loans:
+            loan_no += 1
+            print(loan_no, ": ", loan)
+        loan_to_payoff = int(input("Whick Loan Do you want to payoff (enter" +
+                                   " number or 0 for none):"))
+        if loan_to_payoff <= 0 or loan_to_payoff > len(a_player.loans):
             print("No Loan payment made")
             return False
-        if aPlayer.getLoans()[loanToPayoff-1].getPartialPaymentAllowed():
-            amountToPartiallyPay = int(input("How Much to payoff? (" +
-                                             "increments of 1,000):"))
-            if (amountToPartiallyPay % 1000 != 0 and
-                amountToPartiallyPay <= aPlayer.getSavings() and
-                (amountToPartiallyPay <
-                 aPlayer.getLoans()[loanToPayoff - 1].getBalance())):
-                if (aPlayer.getLoans()[loanToPayoff - 1].makePayment(
-                        amountToPartiallyPay)[0] is not None):
-                    aPlayer.makePayment(amountToPartiallyPay)
+        if a_player.loans[loan_to_payoff - 1].partial_payment_allowed:
+            amount_to_partially_pay = int(input("How Much to payoff? (" +
+                                                "increments of 1,000):"))
+            if (amount_to_partially_pay % 1000 != 0 and
+                amount_to_partially_pay <= a_player.savings and
+                (amount_to_partially_pay <
+                 a_player.loans[loan_to_payoff - 1].balance)):
+                if (a_player.loans[loan_to_payoff - 1].make_payment(
+                        amount_to_partially_pay)[0] is not None):
+                    a_player.make_payment(amount_to_partially_pay)
                     print("Loan paydown made")
                     return True
                 else:
                     print("Load paydown not made")
                     return False
         else:
-            amountToPay = aPlayer.getLoans()[loanToPayoff-1].getBalance()
-            if amountToPay <= aPlayer.getSavings():
-                if aPlayer.payoffLoan(loanToPayoff-1):
+            amount_to_pay = a_player.loans[loan_to_payoff - 1].balance
+            if amount_to_pay <= a_player.savings:
+                if a_player.payoff_loan(loan_to_payoff - 1):
                     print("Loan paid-off")
                     return True
                 else:
                     print("Loan not paid-off")
                     return False
     else:
-        if loanPayoffStrategyToUse == "Smallest":
+        if loan_payoff_strategy_to_use == "Smallest":
             if verbose:
                 print("Evaluating whether to pay-off loan using 'Smallest'" +
                       " method")
-            loanPaid = False
+            loan_paid = False
             while True:
-                smallestLoanValue = 1e6
-                loanNo = 0
-                loanToPay = False
-                for aLoan in aPlayer.getLoans():
-                    if (aLoan.getPartialPaymentAllowed() and
-                        aPlayer.getSavings() >= 1000 and
-                            1000 < smallestLoanValue):
-                        smallestLoanValue = 1000
-                        smallestLoan = aLoan
-                        smallestLoanNo = loanNo
-                        loanToPay = True
-                    if (aPlayer.getSavings() >= aLoan.getBalance() and
-                            aLoan.getBalance() < smallestLoanValue):
-                        smallestLoanValue = aLoan.getBalance()
-                        smallestLoan = aLoan
-                        smallestLoanNo = loanNo
-                        loanToPay = True
-                    loanNo += 1
-                if loanToPay:
-                    if smallestLoanValue == smallestLoan.getBalance():
-                        aPlayer.payoffLoan(smallestLoanNo)
-                        loanPaid = True
+                smallest_loan_value = 1e6
+                loan_no = 0
+                loan_to_pay = False
+                for a_loan in a_player.loans:
+                    if (a_loan.partial_payment_allowed and
+                        a_player.savings >= 1000 and
+                            1000 < smallest_loan_value):
+                        smallest_loan_value = 1000
+                        smallest_loan = a_loan
+                        smallest_loan_no = loan_no
+                        loan_to_pay = True
+                    if (a_player.savings >= a_loan.balance and
+                            a_loan.balance < smallest_loan_value):
+                        smallest_loan_value = a_loan.balance
+                        smallest_loan = a_loan
+                        smallest_loan_no = loan_no
+                        loan_to_pay = True
+                    loan_no += 1
+                if loan_to_pay:
+                    if smallest_loan_value == smallest_loan.balance:
+                        a_player.payoff_loan(smallest_loan_no)
+                        loan_paid = True
                     else:
-                        smallestLoan.makePayment(1000)
-                        loanPaid = True
+                        smallest_loan.make_payment(1000)
+                        loan_paid = True
                 else:
-                    if loanPaid:
+                    if loan_paid:
                         return True
                     else:
                         return False
-        elif loanPayoffStrategyToUse == "Largest":
+        elif loan_payoff_strategy_to_use == "Largest":
             if verbose:
                 print("Evaluating whether to pay-off loan using 'Largest'" +
                       " method")
-            loanPaid = False
+            loan_paid = False
             while True:
-                largestLoanValue = 1
-                loanNo = 0
-                loanToPay = False
-                for aLoan in aPlayer.getLoans():
-                    if (aLoan.getPartialPaymentAllowed() and
-                        aPlayer.getSavings() >= 1000 and
-                            1000 > largestLoanValue):
-                        largestLoanValue = 1000
+                largest_loan_value = 1
+                loan_no = 0
+                loan_to_pay = False
+                for a_loan in a_player.loans:
+                    if (a_loan.partial_payment_allowed and
+                        a_player.savings >= 1000 and
+                            1000 > largest_loan_value):
+                        largest_loan_value = 1000
                         # largestLoan = aLoan
-                        largestLoanNo = loanNo
-                        loanToPay = True
-                    if (aLoan.getBalance() > largestLoanValue and
-                            aPlayer.getSavings() >= aLoan.getBalance()):
-                        largestLoanValue = aLoan.getBalance()
+                        largest_loan_no = loan_no
+                        loan_to_pay = True
+                    if (a_loan.balance > largest_loan_value and
+                            a_player.savings >= a_loan.balance):
+                        largest_loan_value = a_loan.balance
                         # largestLoan = aLoan
-                        largestLoanNo = loanNo
-                        loanToPay = True
-                    loanNo += 1
-                if loanToPay:
-                    if (largestLoanValue ==
-                            aPlayer.getLoans()[largestLoanNo].getBalance()):
-                        aPlayer.payoffLoan(largestLoanNo)
-                        loanPaid = True
+                        largest_loan_no = loan_no
+                        loan_to_pay = True
+                    loan_no += 1
+                if loan_to_pay:
+                    if (largest_loan_value ==
+                            a_player.loans[largest_loan_no].balance):
+                        a_player.payoff_loan(largest_loan_no)
+                        loan_paid = True
                     else:
-                        aLoan.makePayment(1000)
-                        loanPaid = True
+                        a_loan.make_payment(1000)
+                        loan_paid = True
                 else:
-                    if loanPaid:
+                    if loan_paid:
                         return True
                     else:
                         return False
-        elif loanPayoffStrategyToUse == "Highest Interest":
+        elif loan_payoff_strategy_to_use == "Highest Interest":
             if verbose:
                 print("Evaluating whether to pay-off loan using 'Highest" +
                       " Interest' method")
-            loanPaid = False
+            loan_paid = False
             while True:
                 if verbose:
                     print("Searching through the list of loans")
-                largestInterestRate = 0.0
-                loanNo = 0
-                loanToPay = False
-                for aLoan in aPlayer.getLoans():
-                    thisLoanInterestRate = (float(aLoan.getMonthlyPayment()) /
-                                            float(aLoan.getBalance()))
-                    if (aLoan.getPartialPaymentAllowed() and
-                        aPlayer.getSavings() >= 1000 and
-                            thisLoanInterestRate > largestInterestRate):
-                        largestLoanValue = 1000
-                        largestLoanNo = loanNo
-                        loanToPay = True
+                largest_interest_rate = 0.0
+                loan_no = 0
+                loan_to_pay = False
+                for a_loan in a_player.loans:
+                    this_loan_interest_rate = (
+                        float(a_loan.monthly_payment) /
+                        float(a_loan.balance))
+                    if (a_loan.partial_payment_allowed and
+                        a_player.savings >= 1000 and
+                            this_loan_interest_rate > largest_interest_rate):
+                        largest_loan_value = 1000
+                        largest_loan_no = loan_no
+                        loan_to_pay = True
                         if verbose:
                             print("Found a loan to be paritally repaid",
-                                  largestLoanNo, loanToPay, aLoan)
-                    if (aPlayer.getSavings() >= aLoan.getBalance() and
-                            thisLoanInterestRate > largestInterestRate):
+                                  largest_loan_no, loan_to_pay, a_loan)
+                    if (a_player.savings >= a_loan.balance and
+                            this_loan_interest_rate > largest_interest_rate):
                         if verbose:
                             print("Found a loan to be fully repaid")
-                        largestLoanValue = aLoan.getBalance()
-                        largestLoanNo = loanNo
-                        loanToPay = True
-                    loanNo += 1
-                if loanToPay:
-                    if (largestLoanValue ==
-                            aPlayer.getLoans()[largestLoanNo].getBalance()):
+                        largest_loan_value = a_loan.balance
+                        largest_loan_no = loan_no
+                        loan_to_pay = True
+                    loan_no += 1
+                if loan_to_pay:
+                    if (largest_loan_value ==
+                            a_player.loans[largest_loan_no].balance):
                         if verbose:
                             print("Paying loan in full")
-                        aPlayer.payoffLoan(largestLoanNo)
-                        loanPaid = True
+                        a_player.payoff_loan(largest_loan_no)
+                        loan_paid = True
                     else:
                         if verbose:
                             print(
                                 "Partially paying loan. Balance before:",
-                                aPlayer.getLoans()[largestLoanNo].getBalance())
-                        newBalance, newPayment = (
-                            aPlayer.getLoans()[largestLoanNo].makePayment(1000)
-                            )
+                                a_player.loans[largest_loan_no].balance)
+                        new_balance, new_payment = (
+                            a_player.loans[largest_loan_no].make_payment(1000))
                         if verbose:
                             print("Balance after:",
-                                  aPlayer.getLoans()[largestLoanNo].getBalance(
-                                      ), newBalance, newPayment)
-                        loanPaid = True
+                                  a_player.loans[largest_loan_no].balance,
+                                  new_balance, new_payment)
+                        loan_paid = True
                 else:
-                    if loanPaid:
+                    if loan_paid:
                         return True
                     else:
                         return False
@@ -395,34 +395,34 @@ def chooseToPayOffLoan(aPlayer, verbose=False):
 
 
 if __name__ == '__main__':      # test
-    professionDict = player.getProfessionDict("ProfessionsList.json")
+    PROFESSION_DICT = player.get_profession_defs("ProfessionsList.json")
     # Make Available Strategies to Test
 
-    strategyDict = player.getStrategyDict("Strategies.json")
+    STRATEGY_DICT = player.get_strategy_defs("Strategies.json")
 
-    me = player.Player("PaulCool", professionDict["Engineer"],
-                       strategyDict["Standard Auto"])
-    she = player.Player("LynnHot", professionDict["Doctor"],
-                        strategyDict["Standard Auto"])
-    katie = player.Player("KatieCute", professionDict["Business Manager"],
-                          strategyDict["Dave Ramsey"])
-    print(me.getStrategy())
-    print(she.getStrategy())
-    print(chooseSmallOrBigDealCard(she, True))
-    she.earnSalary()
-    she.earnSalary()
-    print(she.getSavings())
-    print(chooseSmallOrBigDealCard(she, True))
+    ME = player.Player("PaulCool", PROFESSION_DICT["Engineer"],
+                       STRATEGY_DICT["Standard Auto"])
+    SHE = player.Player("LynnHot", PROFESSION_DICT["Doctor"],
+                        STRATEGY_DICT["Standard Auto"])
+    HER = player.Player("KatieCute", PROFESSION_DICT["Business Manager"],
+                        STRATEGY_DICT["Dave Ramsey"])
+    print(ME.strategy)
+    print(SHE.strategy)
+    print(choose_small_or_big_deal_card(SHE, True))
+    SHE.earn_salary()
+    SHE.earn_salary()
+    print(SHE.savings)
+    print(choose_small_or_big_deal_card(SHE, True))
 
-    me.makePayment(-50000)      # add some cash to test paying-off loans
-    she.makePayment(-100000)
-    katie.makePayment(-25000)
-    print(me.getSavings())
-    print(she.getSavings())
+    ME.make_payment(-50000)      # add some cash to test paying-off loans
+    SHE.make_payment(-100000)
+    HER.make_payment(-25000)
+    print(ME.savings)
+    print(SHE.savings)
 
-    print("me loan payoff result:", chooseToPayOffLoan(me, True))
-    print("me loans remaining:", me.getLoans())
-    print("she loan payoff result:", chooseToPayOffLoan(she, True))
-    print("she loans remaining:", she.getLoans())
-    print("Kaie loan payoff result:", chooseToPayOffLoan(katie, True))
-    print("Katie loans remaining:", katie.getLoans())
+    print("me loan payoff result:", choose_to_pay_off_loan(ME, True))
+    print("me loans remaining:", ME.loans)
+    print("she loan payoff result:", choose_to_pay_off_loan(SHE, True))
+    print("she loans remaining:", SHE.loans)
+    print("Kaie loan payoff result:", choose_to_pay_off_loan(HER, True))
+    print("Katie loans remaining:", HER.loans)

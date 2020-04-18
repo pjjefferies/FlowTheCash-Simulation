@@ -3,392 +3,340 @@
 import loans
 import assets
 import player_choice
-import jsonReadWriteFile
+import json_read_write_file
 
 
 class Profession(object):
     """Object to manage Professions in Game Simulations."""
 
-    def __init__(self, profession, salary, expenseTaxes, expenseOther,
-                 costPerChild, savings, loanList=None):
+    def __init__(self, name, salary, expense_taxes, expense_other,
+                 cost_per_child, savings, loan_list=None):
         """Create a profession."""
-        self.profession = profession
+        self.name = name
         self.salary = salary
-        self.expenseTaxes = expenseTaxes
-        self.expenseOther = expenseOther
-        self.costPerChild = costPerChild
+        self.expense_taxes = expense_taxes
+        self.expense_other = expense_other
+        self.cost_per_child = cost_per_child
         self.savings = savings
-        if loanList is None:
-            self.loanList = []
+        if loan_list is None:
+            self.loan_list = []
         else:
-            self.loanList = loanList
-    def getProfession(self):
-        return self.profession
-    def getSalary(self):
-        return self.salary
-    def getExpenseTaxes(self):
-        return self.expenseTaxes
-    def getExpenseOther(self):
-        return self.expenseOther
-    def getCostPerChild(self):
-        return self.costPerChild
-    def getSavings(self):
-        return self.savings
-    def getLoans(self):
-        return self.loanList
+            self.loan_list = loan_list
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        loanStrList = ""
-        for loan in self.loanList:
-            loanStrList = loanStrList + str(loan) + "\n"
-        loanStrList = loanStrList[:-1]
-        return ("\nProfession:     " + self.profession +
+        loan_str_list = ""
+        for loan in self.loan_list:
+            loan_str_list = loan_str_list + str(loan) + "\n"
+        loan_str_list = loan_str_list[:-1]
+        return ("\nProfession:     " + self.name +
                 "\nSalary:         " + str(self.salary) +
-                "\nTaxes:          " + str(self.expenseTaxes) +
-                "\nOther Expenses: " + str(self.expenseOther) +
-                "\nCost per Child: " + str(self.costPerChild) +
+                "\nTaxes:          " + str(self.expense_taxes) +
+                "\nOther Expenses: " + str(self.expense_other) +
+                "\nCost per Child: " + str(self.cost_per_child) +
                 "\nSavings:        " + str(self.savings) +
-                "\nNo. Loans:      " + str(len(self.loanList)) +
-                "\n" + loanStrList)
+                "\nNo. Loans:      " + str(len(self.loan_list)) +
+                "\n" + loan_str_list)
 
 
 class Strategy(object):
     """Manage Strategy for automatically played players."""
 
-    def __init__(self, strategyName, manual=True, roiThreshold=0.20,
-                 priceRatioThreshold=0.5, takeDownpaymentLoans=False,
-                 takeAnyLoans=True, charitable=True,
-                 bigDealSmallDealThreshold=5000,
-                 loanPayback="Highest Interest"):
+    def __init__(self, name, manual=True, roi_threshold=0.20,
+                 price_ratio_threshold=0.5, take_downpayment_loans=False,
+                 take_any_loans=True, charitable=True,
+                 big_deal_small_deal_threshold=5000,
+                 loan_payback="Highest Interest"):
         """Create a Strategy."""
-        self.strategyName = strategyName
-        if manual:
-            self.manual = True
-        else:
-            self.manual = False
-        self.roiThreshold = float(roiThreshold)
-        self.priceRatioThreshold = float(priceRatioThreshold)
-        self.takeDownpaymentLoans = bool(takeDownpaymentLoans and takeAnyLoans)
-        self.takeAnyLoans = bool(takeAnyLoans)
+        self.name = name
+        self.manual = bool(manual)
+        self.roi_threshold = float(roi_threshold)
+        self.price_ratio_threshold = float(price_ratio_threshold)
+        self.take_downpayment_loans = bool(take_downpayment_loans and
+                                           take_any_loans)
+        self.take_any_loans = bool(take_any_loans)
         self.charitable = bool(charitable)
-        self.bigDealSmallDealThreshold = int(bigDealSmallDealThreshold)
-        if loanPayback in ["Smallest", "Largest", "Never", "Higest Interest"]:
-            self.loanPayback = loanPayback
+        self.big_deal_small_deal_threshold = int(big_deal_small_deal_threshold)
+        if loan_payback in ["Smallest", "Largest", "Never", "Higest Interest"]:
+            self.loan_payback = loan_payback
         else:
-            self.loanPayback = "Highest Interest"
-    def getName(self):
-        return self.strategyName
-    def getManual(self):
-        return self.manual
-    def getROIThreshold(self):
-        return self.roiThreshold
-    def getPriceRatioThreshold(self):
-        return self.priceRatioThreshold
-    def getTakeDownPaymentLoans(self):
-        return self.takeDownpaymentLoans
-    def getTakeAnyLoans(self):
-        return self.takeAnyLoans
-    def getCharitable(self):
-        return self.charitable
-    def getBigDealSmallDealThreshold(self):
-        return self.bigDealSmallDealThreshold
-    def getLoanPayback(self):
-        return self.loanPayback
+            self.loan_payback = "Highest Interest"
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        return ("\n Strategy Name:              " + str(self.strategyName) +
+        return ("\n Strategy Name:              " + str(self.name) +
                 "\n Manual:                     " + str(self.manual) +
-                "\n ROI Threshold:              " + str(self.roiThreshold) +
+                "\n ROI Threshold:              " + str(self.roi_threshold) +
                 "\n Price Ratio Threshold:      " +
-                str(self.priceRatioThreshold) +
+                str(self.price_ratio_threshold) +
                 "\n Take Downpayment Loans:     " +
-                str(self.takeDownpaymentLoans) +
-                "\n Take Any Loans:             " + str(self.takeAnyLoans) +
+                str(self.take_downpayment_loans) +
+                "\n Take Any Loans:             " + str(self.take_any_loans) +
                 "\n Charitable:                 " + str(self.charitable) +
                 "\n Big Deal Savings Threshold: " +
-                str(self.bigDealSmallDealThreshold) +
-                "\n Loan Payback Strategy:      " + str(self.loanPayback))
+                str(self.big_deal_small_deal_threshold) +
+                "\n Loan Payback Strategy:      " + str(self.loan_payback))
 
 
 class Player(object):
     """Object to manage Player actions in Game Simulations."""
-    def __init__(self, name, profession, strategy):
-        """" Create a Player object."""
-        self.name = name
-        self.profession = profession.getProfession()
-        self.salary = profession.getSalary()
-        self.expenseTaxes = profession.getExpenseTaxes()
-        self.expenseOther = profession.getExpenseOther()
-        self.costPerChild = profession.getCostPerChild()
-        self.savings = profession.getSavings()
-        self.loanList = profession.getLoans().copy()
-        self.strategy = strategy
-        self.noChildren = 0
-        self.stockAssets = []
-        self.realEstateAssets = []
-        self.businessAssets = []
-        self.soldAssets = []    #list of sold assets: [asset, sale price)
-        self.charityTurnsRemaining = 0
-        self.skippedTurnsRemaining = 0
-        self.amIRich = False
-        self.amIBroke = False
 
-    def getName(self):
-        return self.name
-    def getProfession(self):
-        return self.profession
-    def getStrategy(self):
-        return self.strategy
-    def getSalary(self):
-        return self.salary
+    def __init__(self, name, profession, strategy):
+        """Create a Player object."""
+        self.name = name
+        self.profession = profession.name
+        self.salary = profession.salary
+        self.taxes = profession.expense_taxes
+        self.expense_other = profession.expense_other
+        self.cost_per_child = profession.cost_per_child
+        self.savings = profession.savings
+        self.loan_list = profession.loan_list.copy()
+        self.strategy = strategy
+        self.no_children = 0
+        self.stock_assets = []
+        self.real_estate_assets = []
+        self.business_assets = []
+        self.sold_assets = []   # list of sold assets: [asset, sale price)
+        self.charity_turns_remaining = 0
+        self.skipped_turns_remaining = 0
+        self.am_i_rich = False
+        self.am_i_broke = False
 
     def earnSalary(self):
         """Earn a salary."""
         self.refresh()
-        self.savings = int(self.savings + self.monthlyCashFlow)
+        self.savings = int(self.savings + self.monthly_cash_flow)
         return
 
-    def getTaxes(self):
-        return self.expenseTaxes
-    def getOtherExpenses(self):
-        return self.expenseOther
-    def getChildCost(self):
-        return self.costPerChild
-    def getSavings(self):
-        return self.savings
+    @property
+    def passive_income(self):
+        """Return the passive income calculated for the player."""
+        self.passive_income_temp = 0
+        for stock in self.stock_assets:
+            self.passive_income_temp += stock.dividend_interest
+        for real_estate in self.real_estate_assets:
+            self.passive_income_temp += real_estate.cash_flow
+        for business in self.business_assets:
+            self.passive_income_temp += business.cash_flow
+        return self.passive_income_temp
 
-    def getPassiveIncome(self):  # Make a property
-        self.passiveIncome = 0
-        for stock in self.stockAssets:
-            self.passiveIncome += stock.getDividendInterest()
-        for realEstate in self.realEstateAssets:
-            self.passiveIncome += realEstate.getCashFlow()
-        for business in self.businessAssets:
-            self.passiveIncome += business.getCashFlow()
-        return self.passiveIncome
-
-    def getLoans(self):
-        return self.loanList
-    def getSoldAssets(self):
-        return self.soldAssets
-    def getNoChildren(self):
-        return self.noChildren
-    def getMonthlyCashFlow(self):
+    @property
+    def monthly_cash_flow(self):
+        """Return monthly cash flow."""
         self.refresh()
-        return self.monthlyCashFlow
-    def makeLoan(self, loan):
-        self.loanList.append(loan)
-        self.savings += loan.getBalance()
-    def setStrategy(self, strategy):
-        self.strategy = strategy        #as a strategy object
+        return self.monthly_cash_flow
+
+    def make_loan(self, loan):
+        """Make a new loan if you can."""
+        self.loan_list.append(loan)
+        self.savings += loan.balance
+
+    def start_charity_turns(self):
+        """Start charity turns where you can roll multiple dies."""
+        self.charity_turns_remaining = 3
         return
-    def startCharityTurns(self):
-        self.charityTurnsRemaining = 3
+
+    def use_charity_turn(self):
+        """Use a charity turn."""
+        self.charity_turns_remaining -= 1
+
+    def start_layoff(self):
+        """Start a layoff for two turns."""
+        self.skipped_turns_remaining = 2
         return
-    def getCharityTurns(self):
-        return self.charityTurnsRemaining
-    def useCharityTurn(self):
-        self.charityTurnsRemaining -= 1
-    def startLayoff(self):
-        self.skippedTurnsRemaining = 2
-        return
-    def getSkippedTurnsRemaining(self):
-        return self.skippedTurnsRemaining
-    def useLayoff(self):
-        self.skippedTurnsRemaining -= 1
-    def makePayment(self, payment):
+
+    def use_layoff(self):
+        """Use a layoff day."""
+        self.skipped_turns_remaining -= 1
+
+    def make_payment(self, payment):
+        """Make a payment."""
         self.savings -= payment
 
-    def getTotalExpenses(self):
-        loanCost = 0
-        for loan in self.loanList:
-            loanCost += loan.getMonthlyPayment()
-        self.totalExpenses = (  self.expenseTaxes
-                              + self.expenseOther
-                                + self.costPerChild * self.noChildren
-                                + loanCost)
-        return self.totalExpenses
+    @property
+    def total_expenses(self):
+        """Get total expenses for player."""
+        loan_cost = 0
+        for loan in self.loan_list:
+            loan_cost += loan.monthly_payment
+        self.total_expenses = (self.expense_taxes +
+                               self.expense_other +
+                               self.cost_per_child * self.no_children +
+                               loan_cost)
+        return self.total_expenses
 
-    def payoffLoan(self, loanNumber):
+    def payoff_loan(self, loan_number):
         """Payoff a loan."""
-        if self.savings >= self.loanList[loanNumber].getBalance():
-            self.savings -= self.loanList[loanNumber].getBalance()
-            self.loanList.pop(loanNumber)
+        if self.savings >= self.loan_list[loan_number].balance:
+            self.savings -= self.loan_list[loan_number].balance
+            self.loan_list.pop(loan_number)
             return True
         else:
             return False
 
-    def buyStock(self, stockAsset, costPerShare=0, verbose=True):
+    def buy_stock(self, stock_asset, cost_per_share=0, verbose=True):
         """Buy stock."""
-        if costPerShare == 0:
-            costPerShare = stockAsset.getCostPerShare()
-        if ((stockAsset.getNoShares() * stockAsset.getCostPerShare()) >
+        if cost_per_share == 0:
+            cost_per_share = stock_asset.cost_per_share
+        if ((stock_asset.no_shares * stock_asset.cost_per_share) >
                 self.savings):
-            loanAmount = int(round((float(costPerShare *
-                                          stockAsset.getNoShares() -
-                                          self.savings)/1000) + 0.4999, 0) *
-                             1000)
-            if assets.chooseToGetLoanToBuyAsset(self, stockAsset, loanAmount,
-                                                verbose):
-                self.makeLoan(loans.Loan("Bank Loan", loanAmount,
-                                         int(loanAmount / 10), True))
+            loan_amount = int(round((float(cost_per_share *
+                                           stock_asset.no_shares -
+                                           self.savings)/1000) + 0.4999, 0) *
+                              1000)
+            if assets.choose_to_get_loan_to_buy_asset(
+                    self, stock_asset, loan_amount, verbose):
+                self.make_loan(loans.Loan("Bank Loan", loan_amount,
+                                          int(loan_amount / 10), True))
             else:
                 return False
-        self.stockAssets.append(stockAsset)
-        self.savings -= stockAsset.getNoShares() * costPerShare
+        self.stock_assets.append(stock_asset)
+        self.savings -= stock_asset.no_shares * cost_per_share
         return True
 
-    def sellStock(self, asset, price, noShares, verbose=True):
+    def sell_stock(self, asset, price, no_shares, verbose=True):
         """Sell some stock."""
-        if asset in self.stockAssets:
-            ownedShares = asset.getNoShares()
-            if noShares > ownedShares:
+        if asset in self.stock_assets:
+            owned_shares = asset.no_shares
+            if no_shares > owned_shares:
                 if verbose:
-                    print("Requested to sell " + noShares +
-                          " but you only have " + ownedShares +
+                    print("Requested to sell " + no_shares +
+                          " but you only have " + owned_shares +
                           ".\nSelling all")
-                noShares = ownedShares
-            if noShares < ownedShares:
+                no_shares = owned_shares
+            if no_shares < owned_shares:
                 if verbose:
-                    print("Partial sale of " + noShares + " of " +
-                          ownedShares + ".")
-                asset.reduceNoShares(noShares)
+                    print("Partial sale of " + no_shares + " of " +
+                          owned_shares + ".")
+                asset.reduce_no_shares(no_shares)
             else:
                 if verbose:
-                    print("Selling all " + noShares + " of " + asset.getName())
-                self.stockAssets.remove(asset)
-                self.soldAssets.append([asset, price*noShares])
-            self.savings += price * noShares
+                    print("Selling all " + no_shares + " of " + asset.name)
+                self.stock_assets.remove(asset)
+                self.sold_assets.append([asset, price*no_shares])
+            self.savings += price * no_shares
 
-    def buyRealEstate(self, realEstateAsset, verbose=True):
+    def buy_real_estate(self, real_estate_asset, verbose=True):
         """Buy real estate."""
-        if realEstateAsset.getDownPayment() > self.savings:
-            loanAmount = int(round((float(realEstateAsset.getDownPayment() -
-                                          self.savings) / 1000) + 0.4999, 0) *
-                             1000)
-            if player_choice.chooseToGetLoanToBuyAsset(self, realEstateAsset,
-                                                       loanAmount, verbose):
-                self.makeLoan(loans.Loan("Bank Loan", loanAmount,
-                                         int(loanAmount / 10), True))
+        if real_estate_asset.down_payment > self.savings:
+            loan_amount = int(round((float(real_estate_asset.down_payment() -
+                                           self.savings) / 1000) + 0.4999, 0) *
+                              1000)
+            if player_choice.choose_to_get_loan_to_buy_asset(
+                    self, real_estate_asset, loan_amount, verbose):
+                self.make_loan(loans.Loan("Bank Loan", loan_amount,
+                                          int(loan_amount / 10), True))
             else:
                 return False
-        self.realEstateAssets.append(realEstateAsset)
-        self.savings -= realEstateAsset.getDownPayment()
+        self.real_estate_assets.append(real_estate_asset)
+        self.savings -= real_estate_asset.down_payment()
         return True
 
-    def sellRealEstate(self, asset, price, verbose):
+    def sell_real_estate(self, asset, price, verbose):
         """Sell real estate."""
-        if asset in self.realEstateAssets:
-            self.savings += (price - asset.getLoanAmount())
-            self.realEstateAssets.remove(asset)
-            self.soldAssets.append([asset, price])
+        if asset in self.real_estate_assets:
+            self.savings += (price - asset.loan_amount)
+            self.real_estate_assets.remove(asset)
+            self.sold_assets.append([asset, price])
             if verbose:
-                print("Sold " + asset.getName() + ", " + asset.getType() +
+                print("Sold " + asset.name + ", " + asset.type +
                       " for " + str(price) + ".")
 
-    def buyBusiness(self, businessAsset, verbose=True):
+    def buy_business(self, business_asset, verbose=True):
         """Buy a business."""
-        if businessAsset.getDownPayment() > self.savings:
-            loanAmount = int(round((float(businessAsset.getDownPayment() -
-                                          self.savings) / 1000) + 0.4999,
-                                   0) * 1000)
-            if player_choice.chooseToGetLoanToBuyAsset(self, businessAsset,
-                                                       loanAmount, verbose):
-                self.makeLoan(loans.Loan("Bank Loan", loanAmount,
-                                         int(loanAmount / 10), True))
+        if business_asset.down_payment() > self.savings:
+            loan_amount = int(round((float(business_asset.down_payment -
+                                           self.savings) / 1000) + 0.4999,
+                                    0) * 1000)
+            if player_choice.choose_to_get_loan_to_buy_asset(
+                    self, business_asset, loan_amount, verbose):
+                self.make_loan(loans.Loan("Bank Loan", loan_amount,
+                                          int(loan_amount / 10), True))
             else:
                 return False
-        self.businessAssets.append(businessAsset)
-        self.savings -= businessAsset.getDownPayment()
+        self.business_assets.append(business_asset)
+        self.savings -= business_asset.down_payment()
         return True
 
-    def sellBusiness(self, asset, price, verbose=True):
+    def sell_business(self, asset, price, verbose=True):
         """Sell a business."""
-        if asset in self.businessAssets:
-            self.businessAssets.remove(asset)
-            self.savings += (price - asset.getLoanAmount())
-            self.soldAssets.append([asset, price])
+        if asset in self.business_assets:
+            self.business_assets.remove(asset)
+            self.savings += (price - asset.loan_amount)
+            self.sold_assets.append([asset, price])
             if verbose:
-                print("Sold " + asset.getName() + ", " + asset.getType() +
-                      " for " + price + ".")
-    def getStockAssets(self):
-        return self.stockAssets
-    def getRealEstateAssets(self):
-        return self.realEstateAssets
-    def getBusinessAssets(self):
-        return self.businessAssets
+                print("Sold " + asset.name + ", " + asset.type + " for " +
+                      price + ".")
 
-    def haveChild(self, verbose=False):
+    def have_child(self, verbose=False):
         """Have a child."""
-        if self.noChildren >= 3:
+        if self.no_children >= 3:
             if verbose:
                 print("Three kids is enough for anyone")
-            return self.noChildren
-        self.noChildren += 1
-        return self.noChildren
+            return self.no_children
+        self.no_children += 1
+        return self.no_children
 
     def refresh(self):
-        """Recalc. tot. inc.,passive income,total expenses,amIRich,amIPoor."""
-        self.passiveIncome = self.getPassiveIncome()
-        self.totalExpenses = self.getTotalExpenses()
-        self.totalIncome = self.salary + self.passiveIncome
-        self.monthlyCashFlow = self.totalIncome - self.totalExpenses
-        if self.monthlyCashFlow < 0 and (-1 * self.monthlyCashFlow >
-                                         self.savings):  # Sorry, you're broke!
-            self.amIBroke = True
-            self.amIRich = False
-        elif self.passiveIncome > self.totalExpenses:  # Congrats, you're rich!
-            self.amIBroke = False
-            self.amIRich = True
+        """Recalc. tot. inc.,passive income,total expenses,am Irich,amIPoor."""
+        self.passive_income
+        self.total_expenses = self.total_expenses
+        self.total_income = self.salary + self.passive_income
+        self.monthly_cash_flow = self.total_income - self.total_expenses
+        if self.monthly_cash_flow < 0 and (-1 * self.monthly_cash_flow >
+                                           self.savings):  # You're broke!
+            self.am_i_broke = True
+            self.am_i_rich = False
+        elif self.passive_income > self.total_expenses:  # You're rich!
+            self.am_i_broke = False
+            self.am_i_rich = True
         else:
-            self.amIBroke = False
-            self.amIRich = False
-        return self.amIRich, self.amIBroke
+            self.am_i_broke = False
+            self.am_i_rich = False
+        return self.am_i_rich, self.am_i_broke
 
     def __str__(self):
         """Create string to be returned when str method is called."""
         self.refresh()
-        loanStrList = ""
-        for loan in self.loanList:
-            loanStrList = loanStrList + str(loan) + "\n"
-        loanStrList = loanStrList[:-1]
-        assetStrList = ""
-        for asset in self.stockAssets:
-            assetStrList = assetStrList + str(asset) + "\n"
-        for asset in self.realEstateAssets:
-            assetStrList = assetStrList + str(asset) + "\n"
-        for asset in self.businessAssets:
-            assetStrList = assetStrList + str(asset) + "\n"
-        assetStrList = assetStrList[:-1]
+        loan_str_list = ""
+        for loan in self.loan_list:
+            loan_str_list = loan_str_list + str(loan) + "\n"
+        loan_str_list = loan_str_list[:-1]
+        asset_str_list = ""
+        for asset in self.stock_assets:
+            asset_str_list = asset_str_list + str(asset) + "\n"
+        for asset in self.real_estate_assets:
+            asset_str_list = asset_str_list + str(asset) + "\n"
+        for asset in self.business_assets:
+            asset_str_list = asset_str_list + str(asset) + "\n"
+        asset_str_list = asset_str_list[:-1]
         # TO DO, right justify and format numbers
         return ("\nName:              " + self.name +
                 "\nProfession:        " + self.profession +
                 "\nSalary:            " + str(self.salary) +
-                "\nTaxes:             " + str(self.expenseTaxes) +
-                "\nOther Expenses:    " + str(self.expenseOther) +
-                "\nChildren:          " + str(self.noChildren) +
-                "\nCost per Child:    " + str(self.costPerChild) +
+                "\nTaxes:             " + str(self.expense_taxes) +
+                "\nOther Expenses:    " + str(self.expense_other) +
+                "\nChildren:          " + str(self.no_children) +
+                "\nCost per Child:    " + str(self.cost_per_child) +
                 "\nSavings:           " + str(self.savings) +
-                "\nTotal Income:      " + str(self.totalIncome) +
-                "\nPassive Income:    " + str(self.passiveIncome) +
-                "\nTotal Expenses:    " + str(self.totalExpenses) +
-                "\nMonthly Cash Flow: " + str(self.monthlyCashFlow) +
-                "\n\nNo. Loans:         " + str(len(self.loanList)) +
-                "                   \n" + loanStrList +
-                "\n\nNo. Assets:        " + str(len(self.stockAssets) +
-                                                len(self.realEstateAssets) +
-                                                len(self.businessAssets)) +
-                assetStrList +
+                "\nTotal Income:      " + str(self.total_income) +
+                "\nPassive Income:    " + str(self.passive_income) +
+                "\nTotal Expenses:    " + str(self.total_expenses) +
+                "\nMonthly Cash Flow: " + str(self.monthly_cash_flow) +
+                "\n\nNo. Loans:         " + str(len(self.loan_list)) +
+                "                   \n" + loan_str_list +
+                "\n\nNo. Assets:        " + str(len(self.stock_assets) +
+                                                len(self.real_estate_assets) +
+                                                len(self.business_assets)) +
+                asset_str_list +
                 "\nStrategy:          " + str(self.strategy))
 
 
-def getProfessionDict(professionDictFileName):
+def get_profession_defs(profession_defs_fn):
     """Load Professions."""
     try:
-        professionDictTemp = jsonReadWriteFile.load_json(
-            professionDictFileName)
+        profession_defs_temp = jsonReadWriteFile.load_json(
+            profession_defs_fn)
     except OSError:
         print("No good Profession dict json file found, file not found, " +
               "please fix")
@@ -398,34 +346,36 @@ def getProfessionDict(professionDictFileName):
               "please fix")
         raise ValueError
     else:
-        professionDict = {}
-        for profession in iter(professionDictTemp):
-            listOfLoans = []
-            for loan in iter(professionDictTemp[profession]["Loans"]):
-                if loan == "Bank Loan":
-                    partialPaymentAllowed = True
+        profession_defs = {}
+        for profession in iter(profession_defs_temp):
+            loan_list = []
+            for a_loan in iter(profession_defs_temp[profession]["Loans"]):
+                if a_loan == "Bank Loan":
+                    partial_payment_allowed = True
                 else:
-                    partialPaymentAllowed = False
-                listOfLoans.append(loans.Loan(
-                    loan,
-                    professionDictTemp[profession]["Loans"][loan]["Balance"],
-                    professionDictTemp[profession]["Loans"][loan]["Payment"],
-                    partialPaymentAllowed))
-            professionDict[profession] = Profession(
+                    partial_payment_allowed = False
+                loan_list.append(loans.Loan(
+                    a_loan,
+                    profession_defs_temp[profession]["Loans"][a_loan][
+                        "Balance"],
+                    profession_defs_temp[profession]["Loans"][a_loan][
+                        "Payment"],
+                    partial_payment_allowed))
+            profession_defs[profession] = Profession(
                 profession,
-                professionDictTemp[profession]["Salary"],
-                professionDictTemp[profession]["ExpenseTaxes"],
-                professionDictTemp[profession]["ExpenseOther"],
-                professionDictTemp[profession]["CostPerChild"],
-                professionDictTemp[profession]["Savings"],
-                listOfLoans)
-    return professionDict
+                profession_defs_temp[profession]["Salary"],
+                profession_defs_temp[profession]["ExpenseTaxes"],
+                profession_defs_temp[profession]["ExpenseOther"],
+                profession_defs_temp[profession]["CostPerChild"],
+                profession_defs_temp[profession]["Savings"],
+                loan_list)
+    return profession_defs
 
 
-def getStrategyDict(strategyDictFileName, verbose=False):
+def get_strategy_defs(strategy_defs_fn, verbose=False):
     """Load Strategies."""
     try:
-        strategyDictTemp = jsonReadWriteFile.load_json(strategyDictFileName)
+        strategy_defs_temp = jsonReadWriteFile.load_json(strategy_defs_fn)
     except OSError:
         print("No good Strategies dict json file found, file not found, " +
               "please fix")
@@ -435,60 +385,59 @@ def getStrategyDict(strategyDictFileName, verbose=False):
               "please fix")
         raise ValueError
     else:
-        noStrategies = len(strategyDictTemp)
         if verbose:
-            print(noStrategies, "strategies loaded")
-        strategyDict = {}
-        for strategy in iter(strategyDictTemp):
-            if strategyDictTemp[strategy].get("manual", "True") == "True":
-                manualTemp = True
+            print(len(strategy_defs_temp), "strategies loaded")
+        strategy_defs = {}
+        for strategy in iter(strategy_defs_temp):
+            if strategy_defs_temp[strategy].get("manual", "True") == "True":
+                is_manual = True
             else:
-                manualTemp = False
-            if strategyDictTemp[strategy].get("takeDownpaymentLoans", "True"):
-                takeDownpaymentLoansTemp = True
+                is_manual = False
+            if strategy_defs_temp[strategy].get("takeDownpaymentLoans", "True"):
+                take_downpayment_loans = True
             else:
-                takeDownpaymentLoansTemp = False
-            if strategyDictTemp[strategy].get("takeAnyLoans", "True"):
-                takeAnyLoansTemp = True
+                take_downpayment_loans = False
+            if strategy_defs_temp[strategy].get("takeAnyLoans", "True"):
+                take_any_loans = True
             else:
-                takeAnyLoansTemp = False
-            if strategyDictTemp[strategy].get("charitable", "True"):
-                charitableTemp = True
+                take_any_loans = False
+            if strategy_defs_temp[strategy].get("charitable", "True"):
+                charitable = True
             else:
-                charitableTemp = False
-            strategyDict[strategy] = Strategy(
+                charitable = False
+            strategy_defs[strategy] = Strategy(
                 strategy,
-                manualTemp,
-                float(strategyDictTemp[strategy].get("roiThreshold", 0.2)),
-                float(strategyDictTemp[strategy].get("priceRatioThreshold",
-                                                     0.5)),
-                takeDownpaymentLoansTemp,
-                takeAnyLoansTemp,
-                charitableTemp,
-                int(strategyDictTemp[strategy].get("bigDealSmallDealThreshold",
-                                                   5000)),
-                str(strategyDictTemp[strategy].get("loanPayback",
-                                                   "Highest Interest")))
-    return strategyDict
+                is_manual,
+                float(strategy_defs_temp[strategy].get("roiThreshold", 0.2)),
+                float(strategy_defs_temp[strategy].get("priceRatioThreshold",
+                                                       0.5)),
+                take_downpayment_loans,
+                take_any_loans,
+                charitable,
+                int(strategy_defs_temp[strategy].get("bigDealSmallDealThreshold",
+                                                     5000)),
+                str(strategy_defs_temp[strategy].get("loanPayback",
+                                                     "Highest Interest")))
+    return strategy_defs
 
 
 if __name__ == '__main__':  # test Player Object
-    professionDict = getProfessionDict("ProfessionsList.json")
-    list_of_players = []
+    PROFESSION_DEFS = get_profession_defs("ProfessionsList.json")
+    LIST_OF_PLAYERS = []
     # Make Available Strategies to Test
-    strategyDict = getStrategyDict("Strategies.json")
+    STRATEGY_DEFS = get_strategy_defs("Strategies.json")
 
     """
-    manualStrategy = Strategy(strategyName="Manual", manual = True)
-    standardAutoStrategy = Strategy(strategyName="Standard Auto", manual=False)
-    daveRamseyAutoStrategy = Strategy(strategyName="Dave Ramsey",
+    manualStrategy = Strategy(name="Manual", manual = True)
+    standardAutoStrategy = Strategy(name="Standard Auto", manual=False)
+    daveRamseyAutoStrategy = Strategy(name="Dave Ramsey",
                                       manual = True,
                                       roiThreshold = 0.20,
                                       priceRatioThreshold = 0.5,
                                       takeDownpaymentLoans = False,
                                       takeAnyLoans = False)
     noDownPaymentLoanAutoStrategy = Strategy(
-        strategyName="No Down Payment Loans",
+        name="No Down Payment Loans",
         manual = True,
         roiThreshold = 0.20,
         priceRatioThreshold = 0.5,
@@ -496,11 +445,11 @@ if __name__ == '__main__':  # test Player Object
         takeAnyLoans = True)
     """
 
-    for profession in professionDict:  # create player example for each prof.
-        name = profession + " Player"
-        list_of_players.append(Player(name, professionDict[profession],
-                                      strategyDict["Standard Auto"]))
-    print(len(list_of_players), "players created")
-    for aPlayer in list_of_players:
-        print(aPlayer)
+    for PROFESSION in PROFESSION_DEFS:  # create player example for each prof.
+        name = PROFESSION + " Player"
+        LIST_OF_PLAYERS.append(Player(name, PROFESSION_DEFS[PROFESSION],
+                                      STRATEGY_DEFS["Standard Auto"]))
+    print(len(LIST_OF_PLAYERS), "players created")
+    for A_PLAYER in LIST_OF_PLAYERS:
+        print(A_PLAYER)
     print("End")
