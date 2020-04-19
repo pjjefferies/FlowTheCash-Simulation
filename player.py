@@ -123,8 +123,12 @@ class Player(object):
     @property
     def monthly_cash_flow(self):
         """Return monthly cash flow."""
-        self.refresh()
-        return self.monthly_cash_flow
+        return self.total_income - self.total_expenses
+
+    @property
+    def total_income(self):
+        """Return total monthly income."""
+        return self.salary + self.passive_income
 
     def make_loan(self, loan):
         """Make a new loan if you can."""
@@ -159,11 +163,10 @@ class Player(object):
         loan_cost = 0
         for loan in self.loan_list:
             loan_cost += loan.monthly_payment
-        self.total_expenses = (self.expense_taxes +
-                               self.expense_other +
-                               self.cost_per_child * self.no_children +
-                               loan_cost)
-        return self.total_expenses
+        return (self.taxes +
+                self.expense_other +
+                self.cost_per_child * self.no_children +
+                loan_cost)
 
     def payoff_loan(self, loan_number):
         """Payoff a loan."""
@@ -279,10 +282,6 @@ class Player(object):
 
     def refresh(self):
         """Recalc. tot. inc.,passive income,total expenses,am Irich,amIPoor."""
-        self.passive_income
-        self.total_expenses = self.total_expenses
-        self.total_income = self.salary + self.passive_income
-        self.monthly_cash_flow = self.total_income - self.total_expenses
         if self.monthly_cash_flow < 0 and (-1 * self.monthly_cash_flow >
                                            self.savings):  # You're broke!
             self.am_i_broke = True
@@ -314,7 +313,7 @@ class Player(object):
         return ("\nName:              " + self.name +
                 "\nProfession:        " + self.profession +
                 "\nSalary:            " + str(self.salary) +
-                "\nTaxes:             " + str(self.expense_taxes) +
+                "\nTaxes:             " + str(self.taxes) +
                 "\nOther Expenses:    " + str(self.expense_other) +
                 "\nChildren:          " + str(self.no_children) +
                 "\nCost per Child:    " + str(self.cost_per_child) +
@@ -335,7 +334,7 @@ class Player(object):
 def get_profession_defs(profession_defs_fn):
     """Load Professions."""
     try:
-        profession_defs_temp = jsonReadWriteFile.load_json(
+        profession_defs_temp = json_read_write_file.load_json(
             profession_defs_fn)
     except OSError:
         print("No good Profession dict json file found, file not found, " +
@@ -375,7 +374,7 @@ def get_profession_defs(profession_defs_fn):
 def get_strategy_defs(strategy_defs_fn, verbose=False):
     """Load Strategies."""
     try:
-        strategy_defs_temp = jsonReadWriteFile.load_json(strategy_defs_fn)
+        strategy_defs_temp = json_read_write_file.load_json(strategy_defs_fn)
     except OSError:
         print("No good Strategies dict json file found, file not found, " +
               "please fix")
@@ -393,7 +392,8 @@ def get_strategy_defs(strategy_defs_fn, verbose=False):
                 is_manual = True
             else:
                 is_manual = False
-            if strategy_defs_temp[strategy].get("takeDownpaymentLoans", "True"):
+            if strategy_defs_temp[strategy].get("takeDownpaymentLoans",
+                                                "True"):
                 take_downpayment_loans = True
             else:
                 take_downpayment_loans = False
@@ -414,42 +414,14 @@ def get_strategy_defs(strategy_defs_fn, verbose=False):
                 take_downpayment_loans,
                 take_any_loans,
                 charitable,
-                int(strategy_defs_temp[strategy].get("bigDealSmallDealThreshold",
-                                                     5000)),
+                int(strategy_defs_temp[strategy].get(
+                    "bigDealSmallDealThreshold",
+                    5000)),
                 str(strategy_defs_temp[strategy].get("loanPayback",
                                                      "Highest Interest")))
     return strategy_defs
 
 
-if __name__ == '__main__':  # test Player Object
-    PROFESSION_DEFS = get_profession_defs("ProfessionsList.json")
-    LIST_OF_PLAYERS = []
-    # Make Available Strategies to Test
-    STRATEGY_DEFS = get_strategy_defs("Strategies.json")
-
-    """
-    manualStrategy = Strategy(name="Manual", manual = True)
-    standardAutoStrategy = Strategy(name="Standard Auto", manual=False)
-    daveRamseyAutoStrategy = Strategy(name="Dave Ramsey",
-                                      manual = True,
-                                      roiThreshold = 0.20,
-                                      priceRatioThreshold = 0.5,
-                                      takeDownpaymentLoans = False,
-                                      takeAnyLoans = False)
-    noDownPaymentLoanAutoStrategy = Strategy(
-        name="No Down Payment Loans",
-        manual = True,
-        roiThreshold = 0.20,
-        priceRatioThreshold = 0.5,
-        takeDownpaymentLoans = False,
-        takeAnyLoans = True)
-    """
-
-    for PROFESSION in PROFESSION_DEFS:  # create player example for each prof.
-        name = PROFESSION + " Player"
-        LIST_OF_PLAYERS.append(Player(name, PROFESSION_DEFS[PROFESSION],
-                                      STRATEGY_DEFS["Standard Auto"]))
-    print(len(LIST_OF_PLAYERS), "players created")
-    for A_PLAYER in LIST_OF_PLAYERS:
-        print(A_PLAYER)
-    print("End")
+if __name__ == '__main__':
+    import unittest
+    unittest.main(module='player_test', verbosity=2)

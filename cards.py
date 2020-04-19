@@ -1,116 +1,93 @@
 """Manage cards for Game simulation."""
-from jsonReadWriteFile import *
+import json_read_write_file
 
 
 class Card(object):
     """Create card object."""
 
-    def __init__(self, title, cardType):
+    def __init__(self, title, card_type):
         """Create card object."""
         self.title = title
-        self.cardType = cardType
-    def getTitle(self):
-        return self.title
-    def getCardType(self):
-        return self.cardType
+        self.card_type = card_type
 
 
 class DoodadCard(Card):
     """Object to manage Doodad Cards."""
 
-    def __init__(self, title, cardType, oneTimePayment=0, anyChildPayment=0,
-                 eachChildPayment=0,
-                 loanTitle='', loanAmount=0, loanPayment=0):
+    def __init__(self, title, card_type, one_time_payment=0,
+                 any_child_payment=0, each_child_payment=0,
+                 loan_title='', loan_amount=0, loan_payment=0):
         """Create Doodad Card Object."""
-        assert ((cardType == "OneTimeExpense" and oneTimePayment > 0) or
-                (cardType == "ChildCost" and ((anyChildPayment > 0) or
-                                              (eachChildPayment > 0))) or
-                (cardType == "NewLoan" and loanTitle != "" and
-                 loanAmount > 0 and loanPayment > 0))
-        Card.__init__(self, title, cardType)
-        if self.cardType == "OneTimeExpense":
-            self.oneTimePayment = oneTimePayment
-        elif self.cardType == "ChildCost":
-            self.anyChildPayment = anyChildPayment
-            self.eachChildPayment = eachChildPayment
-        elif self.cardType == "NewLoan":
-            self.loanTitle = loanTitle
-            self.loanAmount = loanAmount
-            self.loanPayment = loanPayment
-            self.oneTimePayment = oneTimePayment
+        assert ((card_type == "OneTimeExpense" and one_time_payment > 0) or
+                (card_type == "ChildCost" and ((any_child_payment > 0) or
+                                               (each_child_payment > 0))) or
+                (card_type == "NewLoan" and loan_title != "" and
+                 loan_amount > 0 and loan_payment > 0))
+        Card.__init__(self, title, card_type)
+        if self.card_type == "OneTimeExpense":
+            self.one_time_payment = one_time_payment
+        elif self.card_type == "ChildCost":
+            self.any_child_payment = any_child_payment
+            self.each_child_payment = each_child_payment
+        elif self.card_type == "NewLoan":
+            self.loan_title = loan_title
+            self.loan_amount = loan_amount
+            self.loan_payment = loan_payment
+            self.one_time_payment = one_time_payment
         else:
-            print("Card Type: ", self.cardType, "no found in Card creation")
-    def getOneTimePayment(self):
-        return self.oneTimePayment
-    def getAnyChildPayment(self):
-        return self.anyChildPayment
-    def getEachChildPayment(self):
-        return self.eachChildPayment
-    def getLoanTitle(self):
-        return self.loanTitle
-    def getLoanAmount(self):
-        return self.loanAmount
-    def getLoanPayment(self):
-        return self.loanPayment
+            print("Card Type: ", self.card_type, "no found in Card creation")
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        if self.cardType == "OneTimeExpense":
+        if self.card_type == "OneTimeExpense":
             return ("\nTitle:           " + self.title +
-                    "\nType:            " + self.cardType +
-                    "\nOne Time Payment:" + str(self.oneTimePayment))
-        elif self.cardType == "ChildCost":
+                    "\nType:            " + self.card_type +
+                    "\nOne Time Payment:" + str(self.one_time_payment))
+        elif self.card_type == "ChildCost":
             return ("\nTitle:           " + self.title +
-                    "\nType:            " + self.cardType +
-                    "\nAny Child Cost:  " + str(self.anyChildPayment) +
-                    "\nEach Child Cost: " + str(self.eachChildPayment))
-        elif self.cardType == "NewLoan":
+                    "\nType:            " + self.card_type +
+                    "\nAny Child Cost:  " + str(self.any_child_payment) +
+                    "\nEach Child Cost: " + str(self.each_child_payment))
+        elif self.card_type == "NewLoan":
             return ("\nTitle:           " + self.title +
-                    "\nType:            " + self.cardType +
-                    "\nLoan Title  :    " + self.loanTitle +
-                    "\nLoan Amount :    " + str(self.loanAmount) +
-                    "\nLoan Payment:    " + str(self.loanPayment))
+                    "\nType:            " + self.card_type +
+                    "\nLoan Title  :    " + self.loan_title +
+                    "\nLoan Amount :    " + str(self.loan_amount) +
+                    "\nLoan Payment:    " + str(self.loan_payment))
         else:
-            print("Card Type: ", self.cardType,
+            print("Card Type: ", self.card_type,
                   " not found in string conversion")
 
 
 class MarketCard(Card):
     """Object to represent Market Card in Game Simulation."""
 
-    def __init__(self, titleCardType, price=0, increasedCashFlow=0,
-                 mustSell=False, selfOnly=False):
+    def __init__(self, title_card_type, price=0, increased_cash_flow=0,
+                 must_sell=False, self_only=False):
         """Create Market Card object."""
-        assert ((titleCardType == "Small Business Improves" and
-                 increasedCashFlow > 0) or
-                (titleCardType == "Condo Buyer - 2Br/1Ba" and price > 0) or
-                (titleCardType == "Shopping Mall Wanted" and price > 0) or
-                (titleCardType == "Buyer for 20 Acres" and price > 0) or
-                (titleCardType == "Price of Gold Soars" and price > 0) or
-                (titleCardType == "Car Wash Buyer" and price > 0) or
-                (titleCardType == "Software Company Buyer" and price > 0) or
-                (titleCardType == "Apartment House Buyer" and price > 0) or
-                (titleCardType == "House Buyer - 3Br/2Ba" and price > 0) or
-                (titleCardType == "Plex Buyer" and price > 0) or
-                (titleCardType == "Limited Partnership Sold" and price > 0) or
-                (titleCardType == "Interest Rates Drop!" and price > 0) or
-                (titleCardType == "Inflation Hits!"))
-        Card.__init__(self, titleCardType, titleCardType)
-        if mustSell == "True":
-            mustSell = True
-        elif mustSell == "False":
-            mustSell = False
-        self.mustSell = mustSell
-        self.price = price
+        assert ((title_card_type == "Small Business Improves" and
+                 increased_cash_flow > 0) or
+                (title_card_type == "Condo Buyer - 2Br/1Ba" and price > 0) or
+                (title_card_type == "Shopping Mall Wanted" and price > 0) or
+                (title_card_type == "Buyer for 20 Acres" and price > 0) or
+                (title_card_type == "Price of Gold Soars" and price > 0) or
+                (title_card_type == "Car Wash Buyer" and price > 0) or
+                (title_card_type == "Software Company Buyer" and price > 0) or
+                (title_card_type == "Apartment House Buyer" and price > 0) or
+                (title_card_type == "House Buyer - 3Br/2Ba" and price > 0) or
+                (title_card_type == "Plex Buyer" and price > 0) or
+                (title_card_type == "Limited Partnership Sold" and
+                 price > 0) or
+                (title_card_type == "Interest Rates Drop!" and price > 0) or
+                (title_card_type == "Inflation Hits!"))
+        Card.__init__(self, title_card_type, title_card_type)
 
-        if selfOnly == "True":
-            selfOnly = True
-        elif selfOnly == "False":
-            selfOnly = False
-        self.selfOnly = selfOnly
+        self.must_sell = True if must_sell == "True" else False
+
+        self.self_only = True if self_only == "True" else False
 
         if self.title == "Small Business Improves":
-            self.increasedCashFlow = increasedCashFlow
+            self.increased_cash_flow = increased_cash_flow
         elif self.title in ["Condo Buyer - 2Br/1Ba", "Shopping Mall Wanted",
                             "Buyer for 20 Acres", "Price of Gold Soars",
                             "Car Wash Buyer", "Software Company Buyer",
@@ -118,313 +95,256 @@ class MarketCard(Card):
                             "Plex Buyer"]:
             self.price = price
         elif self.title == "Limited Partnership Sold":
-            self.priceMultiple = price
+            self.price_multiple = price
         elif self.title == "Interest Rates Drop!":
-            self.addedPrice = price
+            self.added_price = price
         elif self.title == "Inflation Hits!":
             pass
         else:
             print("Unknown Market Card Type:", self.title, "in card creation")
-    def getPrice(self):
-        return self.price
-    def getIncreasedCashFlow(self):
-        return self.increasedCashFlow
-    def getPriceMultiple(self):
-        return self.priceMultiple
-    def getAddedPrice(self):
-        return self.addedPrice
-    def getMustSell(self):
-        return self.mustSell
-    def getSelfOnly(self):
-        return self.selfOnly
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        if self.cardType == "Small Business Improves":
+        if self.card_type == "Small Business Improves":
             return ("\nTitle:                   " + self.title +
                     "\nIncreased Cash Flow:     " +
-                    str(self.increasedCashFlow) +
-                    "\nMust Sell:               " + str(self.mustSell))
-        elif self.cardType in ["Condo Buyer - 2Br/1Ba", "Shopping Mall Wanted",
-                               "Buyer for 20 Acres", "Price of Gold Soars",
-                               "Car Wash Buyer", "Software Company Buyer",
-                               "Apartment House Buyer",
-                               "House Buyer - 3Br/2Ba", "Plex Buyer"]:
+                    str(self.increased_cash_flow) +
+                    "\nMust Sell:               " + str(self.must_sell))
+        elif self.card_type in ["Condo Buyer - 2Br/1Ba",
+                                "Shopping Mall Wanted",
+                                "Buyer for 20 Acres", "Price of Gold Soars",
+                                "Car Wash Buyer", "Software Company Buyer",
+                                "Apartment House Buyer",
+                                "House Buyer - 3Br/2Ba", "Plex Buyer"]:
             return ("\nTitle:     " + self.title +
                     "\nPrice:     " + str(self.price) +
-                    "\nMust Sell: " + str(self.mustSell))
-        elif self.cardType == "Limited Partnership Sold":
+                    "\nMust Sell: " + str(self.must_sell))
+        elif self.card_type == "Limited Partnership Sold":
             return ("\nTitle:          " + self.title +
-                    "\nPrice Multiple: " + str(self.priceMultiple) +
-                    "\nMust Sell:      " + str(self.mustSell))
-        elif self.cardType == "Interest Rates Drop!":
+                    "\nPrice Multiple: " + str(self.price_multiple) +
+                    "\nMust Sell:      " + str(self.must_sell))
+        elif self.card_type == "Interest Rates Drop!":
             return ("\nTitle:       " + self.title +
-                    "\nAdded Price: " + str(self.addedPrice) +
-                    "\nMust Sell:   " + str(self.mustSell) +
-                    "\nSelf Only:   " + str(self.selfOnly))
-        elif self.cardType == "Inflation Hits!":
+                    "\nAdded Price: " + str(self.added_price) +
+                    "\nMust Sell:   " + str(self.must_sell) +
+                    "\nSelf Only:   " + str(self.self_only))
+        elif self.card_type == "Inflation Hits!":
             return ("\nTitle:          " + self.title +
-                    "\nMust Sell:      " + str(self.mustSell))
+                    "\nMust Sell:      " + str(self.must_sell))
         else:
-            print("Card Type: ", self.cardType,
+            print("Card Type: ", self.card_type,
                   " not found in card string conversion")
 
 
 class DealCard(Card):
     """Object to represent Deal Cards in Game Simulations."""
 
-    def __init__(self, title, cardType, houseOrCondo, price, downPayment,
-                 cashFlow, priceRangeLow, priceRangeHigh, allMayBuy=False):
+    def __init__(self, title, card_type, house_or_condo, price, down_payment,
+                 cash_flow, price_range_low, price_range_high,
+                 all_may_buy=False):
         """Create Deal Card Object."""
-        assert (cardType != "HouseForSale" or price > 0)
-        Card.__init__(self, title, cardType)
-        if self.cardType == "HouseForSale":
-            self.houseOrCondo = houseOrCondo
-            self.price = price
-            self.downPayment = downPayment
-            self.cashFlow = cashFlow
-        self.allMayBuy = allMayBuy
-        self.priceRangeLow = priceRangeLow
-        self.priceRangeHigh = priceRangeHigh
-
-    def getPrice(self):
-        return self.price
-    def getDownPayment(self):
-        return self.downPayment
-    def getCashFlow(self):
-        return self.cashFlow
-    def getPriceRangeLow(self):
-        return self.priceRangeLow
-    def getPriceRangeHigh(self):
-        return self.priceRangeHigh
-    def getHouseOrCondo(self):
-        return self.houseOrCondo
-    def getAllMayBuy(self):
-        return self.allMayBuy
+        assert (card_type != "HouseForSale" or price > 0)
+        Card.__init__(self, title, card_type)
+        self.house_or_condo = house_or_condo
+        self.all_may_buy = all_may_buy
+        self.price_range_low = price_range_low
+        self.price_range_high = price_range_high
+        self.price = price
+        self.down_payment = down_payment
+        self.cash_flow = cash_flow
 
 
 class SmallDealCard(DealCard):
     """Object to manage Small Deal Cards in Game Simulation."""
 
-    def __init__(self, title, cardType, houseOrCondo, symbol, price,
-                 downPayment, cashFlow, splitRatio, priceRangeLow,
-                 priceRangeHigh, allMayBuy=False):
+    def __init__(self, title, card_type, house_or_condo, symbol, price,
+                 down_payment, cash_flow, split_ratio, price_range_low,
+                 price_range_high, all_may_buy=False):
         """Create Small Deal Card to be added to Small Deal Deck."""
-        AvailableStocks = ['OK4U', 'ON2U', 'GRO4US', '2BIG', 'MYT4U', 'CD']
-        assert ((cardType == "Stock" and symbol in AvailableStocks and
+        available_stocks = ['OK4U', 'ON2U', 'GRO4US', '2BIG', 'MYT4U', 'CD']
+        assert ((card_type == "Stock" and symbol in available_stocks and
                  price > 0) or
-                (cardType == "StockSplit" and symbol in AvailableStocks and
-                 splitRatio > 0) or
-                (cardType == "HouseForSale" and price > 0) or
-                (cardType == "Asset" and price > 0) or
-                (cardType == "Land" and price > 0) or
-                (cardType == "LoanNotToBeRepaid" and price > 0) or
-                (cardType == "CostIfRentalProperty" and price > 0) or
-                (cardType == "StartCompany" and price > 0))
-        DealCard.__init__(self, title, cardType, houseOrCondo, price,
-                          downPayment, cashFlow, priceRangeLow, priceRangeHigh,
-                          allMayBuy)
-        if self.cardType == "Stock":
+                (card_type == "StockSplit" and symbol in available_stocks and
+                 split_ratio > 0) or
+                (card_type == "HouseForSale" and price > 0) or
+                (card_type == "Asset" and price > 0) or
+                (card_type == "Land" and price > 0) or
+                (card_type == "LoanNotToBeRepaid" and price > 0) or
+                (card_type == "CostIfRentalProperty" and price > 0) or
+                (card_type == "StartCompany" and price > 0))
+        DealCard.__init__(self, title, card_type, house_or_condo, price,
+                          down_payment, cash_flow, price_range_low,
+                          price_range_high, all_may_buy)
+        if self.card_type == "Stock":
             self.symbol = symbol
             self.price = price
-            self.dividend = cashFlow
-        elif self.cardType == "StockSplit":
+            self.dividend = cash_flow
+        elif self.card_type == "StockSplit":
             self.symbol = symbol
-            self.splitRatio = splitRatio
-        elif self.cardType == "StockSplit":
+            self.split_ratio = split_ratio
+        elif self.card_type == "StockSplit":
             self.symbol = symbol
-            self.splitRatio = splitRatio
-        elif self.cardType == "Asset":
+            self.split_ratio = split_ratio
+        elif self.card_type == "Asset":
             self.price = price
-            self.downPayment = price
-            self.cashFlow = cashFlow
-            self.priceRangeLow = priceRangeLow
-            self.priceRangeHigh = priceRangeHigh
-        elif self.cardType == "Land":
+            self.down_payment = price
+            self.cash_flow = cash_flow
+            self.price_range_low = price_range_low
+            self.price_range_high = price_range_high
+        elif self.card_type == "Land":
             self.price = price
-            self.downPayment = downPayment
-            self.acres = cashFlow
-            self.houseOrCondo = "None"
-        elif self.cardType in ["LoanNotToBeRepaid", "CostIfRentalProperty"]:
+            self.down_payment = down_payment
+            self.acres = cash_flow
+            self.house_or_condo = "None"
+        elif self.card_type in ["LoanNotToBeRepaid", "CostIfRentalProperty"]:
             self.price = price
-        elif self.cardType == "StartCompany":
+        elif self.card_type == "StartCompany":
             self.price = price
-            self.downPayment = downPayment
-            self.cashFlow = cashFlow
-    def getSymbol(self):
-        return self.symbol
-    def getDividend(self):
-        return self.dividend
-    def getSplitRatio(self):
-        return self.splitRatio
-    def getAcres(self):
-        return self.acres
+            self.down_payment = down_payment
+            self.cash_flow = cash_flow
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        if self.cardType == "Stock":
+        if self.card_type == "Stock":
             return ("\nSmall Deal Card:" +
                     "\nTitle:       " + self.title +
-                    "\nType:        " + self.cardType +
+                    "\nType:        " + self.card_type +
                     "\nSymbol:      " + self.symbol +
                     "\nPrice:       " + str(self.price) +
                     "\nDividends:   " + str(self.dividend) +
-                    "\nPrice Range: " + str(self.priceRangeLow) + " - " +
-                    str(self.priceRangeHigh))
-        elif self.cardType == "StockSplit":
+                    "\nPrice Range: " + str(self.price_range_low) + " - " +
+                    str(self.price_range_high))
+        elif self.card_type == "StockSplit":
             return ("\nSmall Deal Card:" +
                     "\nTitle: " + self.title +
-                    "\nType: " + self.cardType +
+                    "\nType: " + self.card_type +
                     "\nSymbol: " + self.symbol +
-                    "\nSplit Ratio: " + str(self.splitRatio))
-        elif self.cardType == "HouseForSale":
+                    "\nSplit Ratio: " + str(self.split_ratio))
+        elif self.card_type == "HouseForSale":
             return ("\nSmall Deal Card:" +
                     "\nTitle:          " + self.title +
-                    "\nType:           " + self.cardType +
-                    "\nHouse or Condo: " + self.houseOrCondo +
+                    "\nType:           " + self.card_type +
+                    "\nHouse or Condo: " + self.house_or_condo +
                     "\nPrice:          " + str(self.price) +
-                    "\nDown Payment:   " + str(self.downPayment) +
-                    "\nCash Flow:      " + str(self.cashFlow) +
-                    "\nPrice Range:    " + str(self.priceRangeLow) + " - " +
-                    str(self.priceRangeHigh))
-        elif self.cardType == "Asset":
+                    "\nDown Payment:   " + str(self.down_payment) +
+                    "\nCash Flow:      " + str(self.cash_flow) +
+                    "\nPrice Range:    " + str(self.price_range_low) + " - " +
+                    str(self.price_range_high))
+        elif self.card_type == "Asset":
             return ("\nSmall Deal Card:" +
                     "\nTitle:          " + self.title +
-                    "\nType:           " + self.cardType +
+                    "\nType:           " + self.card_type +
                     "\nPrice:          " + str(self.price) +
-                    "\nCash Flow:      " + str(self.cashFlow) +
-                    "\nPrice Range:    " + str(self.priceRangeLow) + " - " +
-                    str(self.priceRangeHigh))
-        elif self.cardType == "Land":
+                    "\nCash Flow:      " + str(self.cash_flow) +
+                    "\nPrice Range:    " + str(self.price_range_low) + " - " +
+                    str(self.price_range_high))
+        elif self.card_type == "Land":
             return ("\nSmall Deal Card:" +
                     "\nTitle:          " + self.title +
-                    "\nType:           " + self.cardType +
+                    "\nType:           " + self.card_type +
                     "\nAcres:          " + str(self.acres))
-        elif self.cardType in ["LoanNotToBeRepaid", "CostIfRentalProperty"]:
+        elif self.card_type in ["LoanNotToBeRepaid", "CostIfRentalProperty"]:
             return ("\nSmall Deal Card:" +
                     "\nTitle:          " + self.title +
-                    "\nType:           " + self.cardType +
+                    "\nType:           " + self.card_type +
                     "\nCost:           " + str(self.price))
-        elif self.cardType == "StartCompany":
+        elif self.card_type == "StartCompany":
             return ("\nSmall Deal Card:" +
                     "\nTitle:        " + self.title +
-                    "\nType:         " + self.cardType +
+                    "\nType:         " + self.card_type +
                     "\nPrice:        " + str(self.price) +
-                    "\nDown Payment: " + str(self.downPayment) +
-                    "\nCash Flow:    " + str(self.cashFlow))
+                    "\nDown Payment: " + str(self.down_payment) +
+                    "\nCash Flow:    " + str(self.cash_flow))
         else:
-            print("Small Deal Card Type: ", self.cardType, " not found")
+            print("Small Deal Card Type: ", self.card_type, " not found")
 
 
 class BigDealCard(DealCard):
     """Object to manage Big Deal Cards in Game Simulation."""
 
-    def __init__(self, title, cardType, price, downPayment, cashFlow, units,
-                 acres, priceRangeLow, priceRangeHigh, costIfHaveRealEstate,
-                 costIfHave8Plex):
-        assert ((cardType in ["ApartmentHouseForSale", "XPlex"] and
+    def __init__(self, title, card_type, price, down_payment, cash_flow, units,
+                 acres, price_range_low, price_range_high,
+                 cost_if_have_real_estate, cost_if_have8_plex):
+        assert ((card_type in ["ApartmentHouseForSale", "XPlex"] and
                  units > 0 and price > 0) or
-                (cardType in ["HouseForSale", "Business"] and price > 0) or
-                (cardType == "Land" and acres > 0 and price > 0) or
-                (cardType == "Expense" and (costIfHaveRealEstate > 0 or
-                                            costIfHave8Plex > 0)))
-        DealCard.__init__(self, title, cardType, "None", price, downPayment,
-                          cashFlow, priceRangeLow, priceRangeHigh, False)
-        if self.cardType in ["ApartmentHouseForSale", "XPlex"]:
-            self.units = units
-            self.price = price
-            self.houseOrCondo = "None"
-            self.downPayment = downPayment
-            self.cashFlow = cashFlow
-            self.priceRangeLow = priceRangeLow
-            self.priceRangeHigh = priceRangeHigh
-        elif self.cardType in ["Partnership", "Business"]:
-            self.price = price
-            self.downPayment = downPayment
-            self.cashFlow = cashFlow
-            self.priceRangeLow = priceRangeLow
-            self.priceRangeHigh = priceRangeHigh
-        elif self.cardType == "Land":
-            self.acres = acres
-            self.price = price
-            self.downPayment = downPayment
-            self.cashFlow = cashFlow
-            self.priceRangeLow = priceRangeLow
-            self.priceRangeHigh = priceRangeHigh
-        elif self.cardType == "Expense":
-            self.costIfHaveRealEstate = costIfHaveRealEstate
-            self.costIfHave8Plex = costIfHave8Plex
-    def getUnits(self):
-        return self.units
-    def getAcres(self):
-        return self.acres
-    def getCostIfHaveRealEstate(self):
-        return self.costIfHaveRealEstate
-    def getCostIfHave8Plex(self):
-        return self.costIfHave8Plex
+                (card_type in ["HouseForSale", "Business"] and price > 0) or
+                (card_type == "Land" and acres > 0 and price > 0) or
+                (card_type == "Expense" and (cost_if_have_real_estate > 0 or
+                                             cost_if_have8_plex > 0)))
+        DealCard.__init__(self, title, card_type, "None", price, down_payment,
+                          cash_flow, price_range_low, price_range_high, False)
+        self.acres = acres
+        self.units = units
+        if self.card_type in ["ApartmentHouseForSale", "XPlex"]:
+            self.house_or_condo = "None"
+        elif self.card_type == "Expense":
+            self.cost_if_have_real_estate = cost_if_have_real_estate
+            self.cost_if_have8_plex = cost_if_have8_plex
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        if self.cardType in ["ApartmentHouseForSale", "XPlex"]:
+        if self.card_type in ["ApartmentHouseForSale", "XPlex"]:
             return ("\nBig Deal Card:" +
                     "\nTitle:          " + self.title +
-                    "\nType:           " + self.cardType +
+                    "\nType:           " + self.card_type +
                     "\nUnits:          " + str(self.units) +
                     "\nPrice:          " + str(self.price) +
-                    "\nDown Payment:   " + str(self.downPayment) +
-                    "\nCash Flow:      " + str(self.cashFlow) +
-                    "\nPrice Range:    " + str(self.priceRangeLow) + " - " +
-                    str(self.priceRangeHigh))
-        elif self.cardType == "HouseForSale":
+                    "\nDown Payment:   " + str(self.down_payment) +
+                    "\nCash Flow:      " + str(self.cash_flow) +
+                    "\nPrice Range:    " + str(self.price_range_low) + " - " +
+                    str(self.price_range_high))
+        elif self.card_type == "HouseForSale":
             return ("\nBig Deal Card:" +
                     "\nTitle:          " + self.title +
-                    "\nType:           " + self.cardType +
-                    "\nHouse or Condo: " + self.houseOrCondo +
-                    "\nDown Payment:   " + str(self.downPayment) +
-                    "\nCash Flow:      " + str(self.cashFlow) +
-                    "\nPrice Range:    " + str(self.priceRangeLow) + " - " +
-                    str(self.priceRangeHigh))
-        elif self.cardType == "Partnership":
+                    "\nType:           " + self.card_type +
+                    "\nHouse or Condo: " + self.house_or_condo +
+                    "\nDown Payment:   " + str(self.down_payment) +
+                    "\nCash Flow:      " + str(self.cash_flow) +
+                    "\nPrice Range:    " + str(self.price_range_low) + " - " +
+                    str(self.price_range_high))
+        elif self.card_type == "Partnership":
             return ("\nBig Deal Card:" +
                     "\nTitle:        " + self.title +
-                    "\nType:         " + self.cardType +
+                    "\nType:         " + self.card_type +
                     "\nPrice:        " + str(self.price) +
-                    "\nDown Payment: " + str(self.downPayment) +
-                    "\nCash Flow:    " + str(self.cashFlow) +
-                    "\nPrice Range:    " + str(self.priceRangeLow) + " - " +
-                    str(self.priceRangeHigh))
-        elif self.cardType == "Land":
+                    "\nDown Payment: " + str(self.down_payment) +
+                    "\nCash Flow:    " + str(self.cash_flow) +
+                    "\nPrice Range:    " + str(self.price_range_low) + " - " +
+                    str(self.price_range_high))
+        elif self.card_type == "Land":
             return ("\nBig Deal Card:" +
                     "\nTitle:        " + self.title +
-                    "\nType:         " + self.cardType +
+                    "\nType:         " + self.card_type +
                     "\nAcres:        " + str(self.acres) +
                     "\nPrice:        " + str(self.price) +
-                    "\nDown Payment: " + str(self.downPayment) +
-                    "\nCash Flow:    " + str(self.cashFlow))
-        elif self.cardType == "Business":
+                    "\nDown Payment: " + str(self.down_payment) +
+                    "\nCash Flow:    " + str(self.cash_flow))
+        elif self.card_type == "Business":
             return ("\nBig Deal Card:" +
                     "\nTitle:        " + self.title +
-                    "\nType:         " + self.cardType +
+                    "\nType:         " + self.card_type +
                     "\nPrice:        " + str(self.price) +
-                    "\nDown Payment: " + str(self.downPayment) +
-                    "\nCash Flow:    " + str(self.cashFlow) +
-                    "\nPrice Range:    " + str(self.priceRangeLow) + " - " +
-                    str(self.priceRangeHigh))
-        elif self.cardType == "Expense":
+                    "\nDown Payment: " + str(self.down_payment) +
+                    "\nCash Flow:    " + str(self.cash_flow) +
+                    "\nPrice Range:    " + str(self.price_range_low) + " - " +
+                    str(self.price_range_high))
+        elif self.card_type == "Expense":
             return ("\nBig Deal Card:" +
                     "\nTitle:                    " + self.title +
-                    "\nType:                     " + self.cardType +
+                    "\nType:                     " + self.card_type +
                     "\nCost if Have Real Estate: " +
-                    str(self.costIfHaveRealEstate) +
-                    "\nCost if Have 8-Plex     : " + str(self.costIfHave8Plex))
+                    str(self.cost_if_have_real_estate) +
+                    "\nCost if Have 8-Plex     : " +
+                    str(self.cost_if_have8_plex))
         else:
-            print("big Deal Card Type: ", self.cardType, " not found")
+            print("big Deal Card Type: ", self.card_type, " not found")
 
 
-def loadAllDoodadCards(doodadCardsFilename):
+def load_all_doodad_cards(doodad_cards_filename):
     """Load all Doodad Cards."""
     try:
-        doodadCardsDict = load_json(doodadCardsFilename)
+        doodad_cards_dict = json_read_write_file.load_json(
+            doodad_cards_filename)
     except OSError:
         print("No good Doodad Cards json file found, file not found, " +
               "please fix")
@@ -433,40 +353,41 @@ def loadAllDoodadCards(doodadCardsFilename):
         print("No good Doodad Cards json file found, ValueError, please fix")
         raise ValueError
 
-    doodadCardDeck = Deck("Doodad Cards")
-    for card in doodadCardsDict:
-        if doodadCardsDict[card]["Type"] == "OneTimeExpense":
-            doodadCardDeck.addCard(DoodadCard(
-                doodadCardsDict[card]["Title"],
-                doodadCardsDict[card]["Type"],
-                int(doodadCardsDict[card]["Cost"])))
-        elif doodadCardsDict[card]["Type"] == "ChildCost":
-            doodadCardDeck.addCard(DoodadCard(
-                doodadCardsDict[card]["Title"],
-                doodadCardsDict[card]["Type"],
+    doodad_card_deck = Deck("Doodad Cards")
+    for card in doodad_cards_dict:
+        if doodad_cards_dict[card]["Type"] == "OneTimeExpense":
+            doodad_card_deck.add_card(DoodadCard(
+                doodad_cards_dict[card]["Title"],
+                doodad_cards_dict[card]["Type"],
+                int(doodad_cards_dict[card]["Cost"])))
+        elif doodad_cards_dict[card]["Type"] == "ChildCost":
+            doodad_card_deck.add_card(DoodadCard(
+                doodad_cards_dict[card]["Title"],
+                doodad_cards_dict[card]["Type"],
                 0,  # 3 - One Time Payment
-                int(doodadCardsDict[card]["Cost if any Child"]),
-                int(doodadCardsDict[card]["Cost per Child"])))
-        elif doodadCardsDict[card]["Type"] == "NewLoan":
-            doodadCardDeck.addCard(DoodadCard(
-                doodadCardsDict[card]["Title"],
-                doodadCardsDict[card]["Type"],
-                int(doodadCardsDict[card]["Down Payment"]),
+                int(doodad_cards_dict[card]["Cost if any Child"]),
+                int(doodad_cards_dict[card]["Cost per Child"])))
+        elif doodad_cards_dict[card]["Type"] == "NewLoan":
+            doodad_card_deck.add_card(DoodadCard(
+                doodad_cards_dict[card]["Title"],
+                doodad_cards_dict[card]["Type"],
+                int(doodad_cards_dict[card]["Down Payment"]),
                 0,  # 4 - Any Child Payment
                 0,  # 5 - Each Child Payment
-                doodadCardsDict[card]["Loan Name"],
-                int(doodadCardsDict[card]["Loan Amount"]),
-                int(doodadCardsDict[card]["Payment"])))
+                doodad_cards_dict[card]["Loan Name"],
+                int(doodad_cards_dict[card]["Loan Amount"]),
+                int(doodad_cards_dict[card]["Payment"])))
         else:
             print("Known Doodad card not found in row: ",
-                  doodadCardsDict[card])
-    return doodadCardDeck
+                  doodad_cards_dict[card])
+    return doodad_card_deck
 
 
-def loadAllMarketCards(marketCardsFilename):
+def load_all_market_cards(market_cards_filename):
     """Load all Market Cards from JSON File."""
     try:
-        marketCardsDict = load_json(marketCardsFilename)
+        market_cards_dict = json_read_write_file.load_json(
+            market_cards_filename)
     except OSError:
         print("No good Market Cards json file found, file not found, " +
               "please fix")
@@ -475,53 +396,55 @@ def loadAllMarketCards(marketCardsFilename):
         print("No good Market Cards json file found, ValueError, please fix")
         raise ValueError
 
-    marketCardDeck = Deck("Market Cards")
-    for card in marketCardsDict:
-        if marketCardsDict[card]["Title"] == "Small Business Improves":
-            marketCardDeck.addCard(MarketCard(
-                marketCardsDict[card]["Title"],
+    market_card_deck = Deck("Market Cards")
+    for card in market_cards_dict:
+        if market_cards_dict[card]["Title"] == "Small Business Improves":
+            market_card_deck.add_card(MarketCard(
+                market_cards_dict[card]["Title"],
                 0,  # 2 - Cost/Price not used
-                marketCardsDict[card]["Increased Cash Flow"],
-                False,  # 4 - mustSell not used
-                False))  # 5 - selfOnly not used.
-        elif marketCardsDict[card]["Title"] in ["Condo Buyer - 2Br/1Ba",
-                                                "Shopping Mall Wanted",
-                                                "Buyer for 20 Acres",
-                                                "Price of Gold Soars",
-                                                "Car Wash Buyer",
-                                                "Software Company Buyer",
-                                                "Apartment House Buyer",
-                                                "House Buyer - 3Br/2Ba",
-                                                "Limited Partnership Sold",
-                                                "Plex Buyer"]:
-            marketCardDeck.addCard(MarketCard(
-                marketCardsDict[card]["Title"],
-                int(marketCardsDict[card]["Cost"]),
+                market_cards_dict[card]["Increased Cash Flow"],
+                False,  # 4 - must_sell not used
+                False))  # 5 - self_only not used.
+        elif market_cards_dict[card]["Title"] in ["Condo Buyer - 2Br/1Ba",
+                                                  "Shopping Mall Wanted",
+                                                  "Buyer for 20 Acres",
+                                                  "Price of Gold Soars",
+                                                  "Car Wash Buyer",
+                                                  "Software Company Buyer",
+                                                  "Apartment House Buyer",
+                                                  "House Buyer - 3Br/2Ba",
+                                                  "Limited Partnership Sold",
+                                                  "Plex Buyer"]:
+            market_card_deck.add_card(MarketCard(
+                market_cards_dict[card]["Title"],
+                int(market_cards_dict[card]["Cost"]),
                 0,  # 3 Increased Cash Flow not used
-                marketCardsDict[card]["Must Sell"]))
-        elif marketCardsDict[card]["Title"] == "Interest Rates Drop!":
-            marketCardDeck.addCard(MarketCard(
-                marketCardsDict[card]["Title"],
-                int(marketCardsDict[card]["Cost"]),
+                market_cards_dict[card]["Must Sell"]))
+        elif market_cards_dict[card]["Title"] == "Interest Rates Drop!":
+            market_card_deck.add_card(MarketCard(
+                market_cards_dict[card]["Title"],
+                int(market_cards_dict[card]["Cost"]),
                 0,  # 3  Increased Cash Flow not used
-                marketCardsDict[card]["Must Sell"],
-                marketCardsDict[card]["Self Only"]))
-        elif marketCardsDict[card]["Title"] == "Inflation Hits!":
-            marketCardDeck.addCard(MarketCard(marketCardsDict[card]["Title"],
-                                              0,  # 4 Cost not used),
-                                              0,  # 3 Incr. Cash Flow not used
-                                              True,
-                                              True))
+                market_cards_dict[card]["Must Sell"],
+                market_cards_dict[card]["Self Only"]))
+        elif market_cards_dict[card]["Title"] == "Inflation Hits!":
+            market_card_deck.add_card(MarketCard(
+                market_cards_dict[card]["Title"],
+                0,  # 4 Cost not used),
+                0,  # 3 Incr. Cash Flow not used
+                True,
+                True))
         else:
             print("Known Market card not found in row: ",
-                  marketCardsDict[card])
-    return marketCardDeck
+                  market_cards_dict[card])
+    return market_card_deck
 
 
-def loadAllSmallDealCards(smallDealCardsFilename):
+def load_all_small_deal_cards(small_deal_cards_filename):
     """Load all small deal cards for game simulation."""
     try:
-        smallDealCardsDict = load_json(smallDealCardsFilename)
+        small_deal_cards_dict = json_read_write_file.load_json(
+            small_deal_cards_filename)
     except OSError:
         print("No good Small Deal Cards json file found, file not found, " +
               "please fix")
@@ -531,107 +454,107 @@ def loadAllSmallDealCards(smallDealCardsFilename):
               "fix")
         raise ValueError
 #    else:
-#        noSmallDealCards = len(smallDealCardsDict)
+#        noSmallDealCards = len(small_deal_cards_dict)
 #        print(noSmallDealCards, "Small Deal Cards loaded")
 
-    smallDealCardDeck = Deck("Small Deal Cards")
-    for card in smallDealCardsDict:
-        if smallDealCardsDict[card]["Type"] == "Stock":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
+    small_deal_card_deck = Deck("Small Deal Cards")
+    for card in small_deal_cards_dict:
+        if small_deal_cards_dict[card]["Type"] == "Stock":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
                 "",  # Unused for stock
-                smallDealCardsDict[card]["Symbol"],
-                int(smallDealCardsDict[card]["Cost"]),
+                small_deal_cards_dict[card]["Symbol"],
+                int(small_deal_cards_dict[card]["Cost"]),
                 0,  # 6-Unused
-                int(smallDealCardsDict[card]["Dividend"]),
+                int(small_deal_cards_dict[card]["Dividend"]),
                 0,  # 8-Unused
-                int(smallDealCardsDict[card]["Price Range Low"]),
-                int(smallDealCardsDict[card]["Price Range High"]),
+                int(small_deal_cards_dict[card]["Price Range Low"]),
+                int(small_deal_cards_dict[card]["Price Range High"]),
                 True))
-        elif smallDealCardsDict[card]["Type"] == "StockSplit":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
+        elif small_deal_cards_dict[card]["Type"] == "StockSplit":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
                 "",  # Unsed for stock split
-                smallDealCardsDict[card]["Symbol"],
+                small_deal_cards_dict[card]["Symbol"],
                 0,  # 5-Unused
                 0,  # 6-Unused
                 0,  # 7-Unused
-                float(smallDealCardsDict[card]["Split Ratio"]),
+                float(small_deal_cards_dict[card]["Split Ratio"]),
                 0,  # 9-Unused
                 0,  # 10-Unused
                 True))
-        elif smallDealCardsDict[card]["Type"] == "HouseForSale":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
-                smallDealCardsDict[card]["HouseOrCondo"],
+        elif small_deal_cards_dict[card]["Type"] == "HouseForSale":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
+                small_deal_cards_dict[card]["HouseOrCondo"],
                 "",  # 4-Unused
-                int(smallDealCardsDict[card]["Cost"]),
-                int(smallDealCardsDict[card]["Down Payment"]),
-                int(smallDealCardsDict[card]["Cash Flow"]),
+                int(small_deal_cards_dict[card]["Cost"]),
+                int(small_deal_cards_dict[card]["Down Payment"]),
+                int(small_deal_cards_dict[card]["Cash Flow"]),
                 0,  # 8-Unused
-                int(smallDealCardsDict[card]["Price Range Low"]),
-                int(smallDealCardsDict[card]["Price Range High"])))
-        elif smallDealCardsDict[card]["Type"] == "StartCompany":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
+                int(small_deal_cards_dict[card]["Price Range Low"]),
+                int(small_deal_cards_dict[card]["Price Range High"])))
+        elif small_deal_cards_dict[card]["Type"] == "StartCompany":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
                 "",  # Unused
                 "",  # Unsed
-                int(smallDealCardsDict[card]["Cost"]),
-                int(smallDealCardsDict[card]["Down Payment"]),
-                int(smallDealCardsDict[card]["Cash Flow"]),
-                0,  # 8-Unused
-                0,  # 9-Unused
-                0,  # 10-Unused
-                0))  # 11-Unused
-        elif smallDealCardsDict[card]["Type"] == "Asset":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
-                "",  # Unused
-                "",  # Unsed
-                int(smallDealCardsDict[card]["Cost"]),
-                int(smallDealCardsDict[card]["Cost"]),  # Down Payment
-                int(smallDealCardsDict[card]["Cash Flow"]),
-                0,  # 8-Unused
-                int(smallDealCardsDict[card]["Price Range Low"]),
-                int(smallDealCardsDict[card]["Price Range High"])))
-        elif smallDealCardsDict[card]["Type"] == "Land":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
-                "",  # Unused
-                "",  # Unsed
-                int(smallDealCardsDict[card]["Cost"]),
-                int(smallDealCardsDict[card]["Down Payment"]),
-                int(smallDealCardsDict[card]["Acres"]),
+                int(small_deal_cards_dict[card]["Cost"]),
+                int(small_deal_cards_dict[card]["Down Payment"]),
+                int(small_deal_cards_dict[card]["Cash Flow"]),
                 0,  # 8-Unused
                 0,  # 9-Unused
                 0,  # 10-Unused
                 0))  # 11-Unused
-        elif smallDealCardsDict[card]["Type"] == "LoanNotToBeRepaid":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
+        elif small_deal_cards_dict[card]["Type"] == "Asset":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
                 "",  # Unused
                 "",  # Unsed
-                int(smallDealCardsDict[card]["Cost"]),
+                int(small_deal_cards_dict[card]["Cost"]),
+                int(small_deal_cards_dict[card]["Cost"]),  # Down Payment
+                int(small_deal_cards_dict[card]["Cash Flow"]),
+                0,  # 8-Unused
+                int(small_deal_cards_dict[card]["Price Range Low"]),
+                int(small_deal_cards_dict[card]["Price Range High"])))
+        elif small_deal_cards_dict[card]["Type"] == "Land":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
+                "",  # Unused
+                "",  # Unsed
+                int(small_deal_cards_dict[card]["Cost"]),
+                int(small_deal_cards_dict[card]["Down Payment"]),
+                int(small_deal_cards_dict[card]["Acres"]),
+                0,  # 8-Unused
+                0,  # 9-Unused
+                0,  # 10-Unused
+                0))  # 11-Unused
+        elif small_deal_cards_dict[card]["Type"] == "LoanNotToBeRepaid":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
+                "",  # Unused
+                "",  # Unsed
+                int(small_deal_cards_dict[card]["Cost"]),
                 0,  # 6-Unused
                 0,  # 7-Unused
                 0,  # 8-Unused
                 0,  # 9-Unused
                 0,  # 10-Unused
                 0))  # 11-Unused
-        elif smallDealCardsDict[card]["Type"] == "CostIfRentalProperty":
-            smallDealCardDeck.addCard(SmallDealCard(
-                smallDealCardsDict[card]["Title"],
-                smallDealCardsDict[card]["Type"],
+        elif small_deal_cards_dict[card]["Type"] == "CostIfRentalProperty":
+            small_deal_card_deck.add_card(SmallDealCard(
+                small_deal_cards_dict[card]["Title"],
+                small_deal_cards_dict[card]["Type"],
                 "",  # Unused
                 "",  # Unsed
-                int(smallDealCardsDict[card]["Cost"]),
+                int(small_deal_cards_dict[card]["Cost"]),
                 0,  # 6-Unused
                 0,  # 7-Unused
                 0,  # 8-Unused
@@ -640,13 +563,15 @@ def loadAllSmallDealCards(smallDealCardsFilename):
                 0))  # 11-Unused
         else:
             print("Small Deal Card known card not found in record: ",
-                  smallDealCardsDict[card])
-    return smallDealCardDeck
+                  small_deal_cards_dict[card])
+    return small_deal_card_deck
 
-def loadAllBigDealCards(bigDealCardsFilename):
+
+def load_all_big_deal_cards(big_deal_cards_filename):
     """Load all Big Deal Cards for Game Simulations."""
     try:
-        bigDealCardsDict = load_json(bigDealCardsFilename)
+        big_deal_cards_dict = json_read_write_file.load_json(
+            big_deal_cards_filename)
     except OSError:
         print("No good Big Deal Cards json file found, file not found, " +
               "please fix")
@@ -655,55 +580,55 @@ def loadAllBigDealCards(bigDealCardsFilename):
         print("No good Big Deal Cards json file found, ValueError, please fix")
         raise ValueError
 #    else:
-#        noBigDealCards = len(bigDealCardsDict)
+#        noBigDealCards = len(big_deal_cards_dict)
 #        print(noBigDealCards, "Big Deal Cards loaded")
 
-    bigDealCardDeck = Deck("Big Deal Cards")
-    for card in bigDealCardsDict:
-        if bigDealCardsDict[card]["Type"] in ["ApartmentHouseForSale",
-                                              "XPlex"]:
-            bigDealCardDeck.addCard(BigDealCard(
-                bigDealCardsDict[card]["Title"],
-                bigDealCardsDict[card]["Type"],
-                int(bigDealCardsDict[card]["Cost"]),
-                int(bigDealCardsDict[card]["Down Payment"]),
-                int(bigDealCardsDict[card]["Cash Flow"]),
-                int(bigDealCardsDict[card]["Units"]),
+    big_deal_card_deck = Deck("Big Deal Cards")
+    for card in big_deal_cards_dict:
+        if big_deal_cards_dict[card]["Type"] in ["ApartmentHouseForSale",
+                                                 "XPlex"]:
+            big_deal_card_deck.add_card(BigDealCard(
+                big_deal_cards_dict[card]["Title"],
+                big_deal_cards_dict[card]["Type"],
+                int(big_deal_cards_dict[card]["Cost"]),
+                int(big_deal_cards_dict[card]["Down Payment"]),
+                int(big_deal_cards_dict[card]["Cash Flow"]),
+                int(big_deal_cards_dict[card]["Units"]),
                 0,  # 7-Acres-unused
-                int(bigDealCardsDict[card]["Price Range Low"]),
-                int(bigDealCardsDict[card]["Price Range High"]),
+                int(big_deal_cards_dict[card]["Price Range Low"]),
+                int(big_deal_cards_dict[card]["Price Range High"]),
                 0,  # 10-unused-Cost if Have Real Estate
                 0))  # 11-unused-Cost if Have 8-Plex
-        elif bigDealCardsDict[card]["Type"] in ["HouseForSale", "Business"]:
-            bigDealCardDeck.addCard(BigDealCard(
-                bigDealCardsDict[card]["Title"],
-                bigDealCardsDict[card]["Type"],
-                int(bigDealCardsDict[card]["Cost"]),
-                int(bigDealCardsDict[card]["Down Payment"]),
-                int(bigDealCardsDict[card]["Cash Flow"]),
+        elif big_deal_cards_dict[card]["Type"] in ["HouseForSale", "Business"]:
+            big_deal_card_deck.add_card(BigDealCard(
+                big_deal_cards_dict[card]["Title"],
+                big_deal_cards_dict[card]["Type"],
+                int(big_deal_cards_dict[card]["Cost"]),
+                int(big_deal_cards_dict[card]["Down Payment"]),
+                int(big_deal_cards_dict[card]["Cash Flow"]),
                 0,  # 6-Units-unused
                 0,  # 7-Acres-unused
-                int(bigDealCardsDict[card]["Price Range Low"]),
-                int(bigDealCardsDict[card]["Price Range High"]),
+                int(big_deal_cards_dict[card]["Price Range Low"]),
+                int(big_deal_cards_dict[card]["Price Range High"]),
                 0,  # 10-unused-Cost if Have Real Estate
                 0))  # 11-unused-Cost if Have 8-Plex
-        elif bigDealCardsDict[card]["Type"] == "Land":
-            bigDealCardDeck.addCard(BigDealCard(
-                bigDealCardsDict[card]["Title"],
-                bigDealCardsDict[card]["Type"],
-                int(bigDealCardsDict[card]["Cost"]),
-                int(bigDealCardsDict[card]["Down Payment"]),
-                int(bigDealCardsDict[card]["Cash Flow"]),
+        elif big_deal_cards_dict[card]["Type"] == "Land":
+            big_deal_card_deck.add_card(BigDealCard(
+                big_deal_cards_dict[card]["Title"],
+                big_deal_cards_dict[card]["Type"],
+                int(big_deal_cards_dict[card]["Cost"]),
+                int(big_deal_cards_dict[card]["Down Payment"]),
+                int(big_deal_cards_dict[card]["Cash Flow"]),
                 0,  # 6-Units-unused
-                int(bigDealCardsDict[card]["Acres"]),
+                int(big_deal_cards_dict[card]["Acres"]),
                 0,  # 8-Price Range Low
                 0,  # 9-Price Range High
                 0,  # 10-unused-Cost if Have Real Estate
                 0))  # 11-unused-Cost if Have 8-Plex
-        elif bigDealCardsDict[card]["Type"] == "Expense":
-            bigDealCardDeck.addCard(BigDealCard(
-                bigDealCardsDict[card]["Title"],
-                bigDealCardsDict[card]["Type"],
+        elif big_deal_cards_dict[card]["Type"] == "Expense":
+            big_deal_card_deck.add_card(BigDealCard(
+                big_deal_cards_dict[card]["Title"],
+                big_deal_cards_dict[card]["Type"],
                 0,  # 3-Cost
                 0,  # 4-Down Payment
                 0,  # 5-Cash Flow
@@ -711,12 +636,12 @@ def loadAllBigDealCards(bigDealCardsFilename):
                 0,  # 7-Acres-unused
                 0,  # 8-Price Range Low
                 0,  # 9-Price Range High
-                int(bigDealCardsDict[card]["Cost If Have Real Estate"]),
-                int(bigDealCardsDict[card]["Cost If Have 8-Plex"])))
+                int(big_deal_cards_dict[card]["Cost If Have Real Estate"]),
+                int(big_deal_cards_dict[card]["Cost If Have 8-Plex"])))
         else:
             print("Big Deal Card known card not found in record: ",
-                  bigDealCardsDict[card])
-    return bigDealCardDeck
+                  big_deal_cards_dict[card])
+    return big_deal_card_deck
 
 
 class Deck(object):
@@ -726,27 +651,25 @@ class Deck(object):
         """Create a deck of cards for the Game Simulation."""
         self.deckType = deckType
         self.cards = []
-    def getDeckType(self):
-        return self.deckType
-    def getCards(self):
-        return self.Cards
-    def getNoCards(self):
+
+    def no_cards(self):
+        """Find the number of cards."""
         return len(self.cards)
 
-    def addCard(self, card):
+    def add_card(self, card):
         """Add a card to the deck. This is how you create a deck."""
         self.cards.append(card)
-        return self.getNoCards()
+        return self.no_cards()
 
-    def takeRandomCard(self):
+    def take_random_card(self):
         """Take a random card from the deck. Wh? We don't know either."""
         import random
         try:
-            return self.cards.pop(int(random.random()*self.getNoCards()))
+            return self.cards.pop(int(random.random()*self.no_cards()))
         except IndexError:
             return None
 
-    def takeTopCard(self):
+    def take_top_card(self):
         """Take the top card of a deck. This is what to use."""
         try:
             return self.cards.pop()
@@ -762,49 +685,49 @@ class Deck(object):
         """Copy a deck. Why?."""
         newDeck = Deck(self.deckType)
         for card in self.cards:
-            newDeck.addCard(card)
+            newDeck.add_card(card)
         return newDeck
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        cardString = ""
+        card_string = ""
         for card in self.cards:
-            cardString = cardString + str(card) + "\n"
-        return cardString[:-1]
+            card_string = card_string + str(card) + "\n"
+        return card_string[:-1]
 
 
 if __name__ == '__main__':  # test Card Objects
-    smallDealCardDeck = loadAllSmallDealCards("SmallDealCards.json")
-    bigDealCardDeck = loadAllBigDealCards("BigDealCards.json")
-    doodadCardDeck = loadAllDoodadCards("DoodadCards.json")
-    marketCardDeck = loadAllMarketCards("MarketCards.json")
+    small_deal_card_deck = load_all_small_deal_cards("SmallDealCards.json")
+    big_deal_card_deck = load_all_big_deal_cards("BigDealCards.json")
+    doodad_card_deck = load_all_doodad_cards("DoodadCards.json")
+    market_card_deck = load_all_market_cards("MarketCards.json")
 
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards())
-#    print(smallDealCardDeck)
-    print("No. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
-#    print(bigDealCardDeck)
-    print("No. of Doodad     Cards: ", doodadCardDeck.getNoCards())
-#    print(doodadCardDeck)
-    print("No. of Market     Cards: ", marketCardDeck.getNoCards())
-#    print(marketCardDeck)
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards())
+#    print(small_deal_card_deck)
+    print("No. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+#    print(big_deal_card_deck)
+    print("No. of Doodad     Cards: ", doodad_card_deck.no_cards())
+#    print(doodad_card_deck)
+    print("No. of Market     Cards: ", market_card_deck.no_cards())
+#    print(market_card_deck)
 
     bDCPR = []
     bDCPRError = []
     while True:
-        bigDealCard = bigDealCardDeck.takeTopCard()
+        big_deal_card = big_deal_card_deck.take_top_card()
         try:
-            bDCPR.append((bigDealCard.getPrice() -
-                          bigDealCard.getPriceRangeLow()) /
-                         (bigDealCard.getPriceRangeHigh() -
-                          bigDealCard.getPriceRangeLow()))
+            bDCPR.append((big_deal_card.price -
+                          big_deal_card.price_range_low) /
+                         (big_deal_card.price_range_high -
+                          big_deal_card.price_range_low))
         except AttributeError:
             print("No Market Value, MAX or MIN on card:",
-                  bigDealCard.getTitle())
+                  big_deal_card)
         except ZeroDivisionError:
-            bDCPRError.append((bigDealCard.getDownPayment(),
+            bDCPRError.append((big_deal_card.down_payment,
                                'No Price Range', "Card:" +
-                               bigDealCard.getTitle()))
-        if bigDealCardDeck.getNoCards() == 0:
+                               big_deal_card.title))
+        if big_deal_card_deck.no_cards() == 0:
             break
 
     bDCPR.sort()
@@ -818,15 +741,17 @@ if __name__ == '__main__':  # test Card Objects
     print("\n\n\n")
 
     bDCROI = []
-    bigDealCardDeck = loadAllBigDealCards("BigDealCards.json")
+    big_deal_card_deck = load_all_big_deal_cards("BigDealCards.json")
     while True:
-        bigDealCard = bigDealCardDeck.takeTopCard()
+        big_deal_card = big_deal_card_deck.take_top_card()
         try:
-            bDCROI.append(bigDealCard.getCashFlow() * 12 /
-                          bigDealCard.getDownPayment())
+            bDCROI.append(big_deal_card.cash_flow * 12 /
+                          big_deal_card.down_payment)
         except AttributeError:
-            print("No ROI on card:", bigDealCard.getTitle())
-        if bigDealCardDeck.getNoCards() == 0:
+            print("No ROI on card:", big_deal_card.title)
+        except ZeroDivisionError:
+            print("Zero Down Payement:", big_deal_card.title)
+        if big_deal_card_deck.no_cards() == 0:
             break
 
     bDCROI.sort()
@@ -838,75 +763,78 @@ if __name__ == '__main__':  # test Card Objects
 # TO DO - NEXT TO TRY - DECK METHODS - SHUFFLE, DEAL CARD, ETC. - COMPLETE
 """
     while True:
-        card = smallDealCardDeck.takeTopCard()
+        card = small_deal_card_deck.take_top_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", smallDealCardDeck.getNoCards())
+            print("Number of cards remaining:",
+            small_deal_card_deck.no_cards())
         else:
             break
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
-    smallDealCardDeck = loadAllSmallDealCards("SmallDealCards.txt")
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    small_deal_card_deck = load_all_small_deal_cards("SmallDealCards.txt")
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
     while True:
-        card = smallDealCardDeck.takeRandomCard()
+        card = small_deal_card_deck.take_random_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", smallDealCardDeck.getNoCards())
+            print("Number of cards remaining:",
+            small_deal_card_deck.no_cards())
         else:
             break
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
 
     while True:
-        card = bigDealCardDeck.takeTopCard()
+        card = big_deal_card_deck.take_top_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", bigDealCardDeck.getNoCards())
+            print("Number of cards remaining:", big_deal_card_deck.no_cards())
         else:
             break
 
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
-    bigDealCardDeck = loadAllBigDealCards("BigDealCards.txt")
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    big_deal_card_deck = load_all_big_deal_cards("big_deal_cards.txt")
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
     while True:
-        card = bigDealCardDeck.takeRandomCard()
+        card = big_deal_card_deck.take_random_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", bigDealCardDeck.getNoCards())
+            print("Number of cards remaining:", big_deal_card_deck.no_cards())
         else:
             break
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
 
-    smallDealCardDeck = loadAllSmallDealCards("SmallDealCards.txt")
-    bigDealCardDeck = loadAllBigDealCards("BigDealCards.txt")
-    smallDealCardDeck.shuffle()
-    bigDealCardDeck.shuffle()
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
+    small_deal_card_deck = load_all_small_deal_cards("SmallDealCards.txt")
+    big_deal_card_deck = load_all_big_deal_cards("big_deal_cards.txt")
+    small_deal_card_deck.shuffle()
+    big_deal_card_deck.shuffle()
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
     while True:
-        card = smallDealCardDeck.takeTopCard()
+        card = small_deal_card_deck.take_top_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", smallDealCardDeck.getNoCards())
+            print("Number of cards remaining:",
+            small_deal_card_deck.no_cards())
         else:
             break
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
     while True:
-        card = bigDealCardDeck.takeTopCard()
+        card = big_deal_card_deck.take_top_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", bigDealCardDeck.getNoCards())
+            print("Number of cards remaining:", big_deal_card_deck.no_cards())
         else:
             break
-    print("No. of Small Deal Cards: ", smallDealCardDeck.getNoCards(),
-          "\nNo. of Big   Deal Cards: ", bigDealCardDeck.getNoCards())
-    print("Small Deck Type:", smallDealCardDeck.getDeckType(),
-          "\nBig   Deck Type:", bigDealCardDeck.getDeckType())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("Small Deck Type:", small_deal_card_deck.getDeckType(),
+          "\nBig   Deck Type:", big_deal_card_deck.getDeckType())
 
 """
