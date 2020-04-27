@@ -95,7 +95,7 @@ class MarketCard(Card):
                             "Plex Buyer"]:
             self.price = price
         elif self.title == "Limited Partnership Sold":
-            self.price_multiple = price
+            self.price = price
         elif self.title == "Interest Rates Drop!":
             self.added_price = price
         elif self.title == "Inflation Hits!":
@@ -121,7 +121,7 @@ class MarketCard(Card):
                     "\nMust Sell: " + str(self.must_sell))
         elif self.card_type == "Limited Partnership Sold":
             return ("\nTitle:          " + self.title +
-                    "\nPrice Multiple: " + str(self.price_multiple) +
+                    "\nPrice Multiple: " + str(self.price) +
                     "\nMust Sell:      " + str(self.must_sell))
         elif self.card_type == "Interest Rates Drop!":
             return ("\nTitle:       " + self.title +
@@ -652,6 +652,7 @@ class Deck(object):
         self.deckType = deckType
         self.cards = []
 
+    @property
     def no_cards(self):
         """Find the number of cards."""
         return len(self.cards)
@@ -659,13 +660,13 @@ class Deck(object):
     def add_card(self, card):
         """Add a card to the deck. This is how you create a deck."""
         self.cards.append(card)
-        return self.no_cards()
+        return self.no_cards
 
     def take_random_card(self):
         """Take a random card from the deck. Wh? We don't know either."""
         import random
         try:
-            return self.cards.pop(int(random.random()*self.no_cards()))
+            return self.cards.pop(int(random.random()*self.no_cards))
         except IndexError:
             return None
 
@@ -702,13 +703,13 @@ if __name__ == '__main__':  # test Card Objects
     doodad_card_deck = load_all_doodad_cards("DoodadCards.json")
     market_card_deck = load_all_market_cards("MarketCards.json")
 
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards)
 #    print(small_deal_card_deck)
-    print("No. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
 #    print(big_deal_card_deck)
-    print("No. of Doodad     Cards: ", doodad_card_deck.no_cards())
+    print("No. of Doodad     Cards: ", doodad_card_deck.no_cards)
 #    print(doodad_card_deck)
-    print("No. of Market     Cards: ", market_card_deck.no_cards())
+    print("No. of Market     Cards: ", market_card_deck.no_cards)
 #    print(market_card_deck)
 
     bDCPR = []
@@ -727,7 +728,7 @@ if __name__ == '__main__':  # test Card Objects
             bDCPRError.append((big_deal_card.down_payment,
                                'No Price Range', "Card:" +
                                big_deal_card.title))
-        if big_deal_card_deck.no_cards() == 0:
+        if big_deal_card_deck.no_cards == 0:
             break
 
     bDCPR.sort()
@@ -751,7 +752,7 @@ if __name__ == '__main__':  # test Card Objects
             print("No ROI on card:", big_deal_card.title)
         except ZeroDivisionError:
             print("Zero Down Payement:", big_deal_card.title)
-        if big_deal_card_deck.no_cards() == 0:
+        if big_deal_card_deck.no_cards == 0:
             break
 
     bDCROI.sort()
@@ -767,73 +768,73 @@ if __name__ == '__main__':  # test Card Objects
         if card != None:
             print(card)
             print("Number of cards remaining:",
-            small_deal_card_deck.no_cards())
+            small_deal_card_deck.no_cards)
         else:
             break
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
     small_deal_card_deck = load_all_small_deal_cards("SmallDealCards.txt")
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
     while True:
         card = small_deal_card_deck.take_random_card()
         if card != None:
             print(card)
             print("Number of cards remaining:",
-            small_deal_card_deck.no_cards())
+            small_deal_card_deck.no_cards)
         else:
             break
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
 
     while True:
         card = big_deal_card_deck.take_top_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", big_deal_card_deck.no_cards())
+            print("Number of cards remaining:", big_deal_card_deck.no_cards)
         else:
             break
 
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
     big_deal_card_deck = load_all_big_deal_cards("big_deal_cards.txt")
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
     while True:
         card = big_deal_card_deck.take_random_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", big_deal_card_deck.no_cards())
+            print("Number of cards remaining:", big_deal_card_deck.no_cards)
         else:
             break
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
 
     small_deal_card_deck = load_all_small_deal_cards("SmallDealCards.txt")
     big_deal_card_deck = load_all_big_deal_cards("big_deal_cards.txt")
     small_deal_card_deck.shuffle()
     big_deal_card_deck.shuffle()
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
     while True:
         card = small_deal_card_deck.take_top_card()
         if card != None:
             print(card)
             print("Number of cards remaining:",
-            small_deal_card_deck.no_cards())
+            small_deal_card_deck.no_cards)
         else:
             break
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
     while True:
         card = big_deal_card_deck.take_top_card()
         if card != None:
             print(card)
-            print("Number of cards remaining:", big_deal_card_deck.no_cards())
+            print("Number of cards remaining:", big_deal_card_deck.no_cards)
         else:
             break
-    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards(),
-          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards())
+    print("No. of Small Deal Cards: ", small_deal_card_deck.no_cards,
+          "\nNo. of Big   Deal Cards: ", big_deal_card_deck.no_cards)
     print("Small Deck Type:", small_deal_card_deck.getDeckType(),
           "\nBig   Deck Type:", big_deal_card_deck.getDeckType())
 

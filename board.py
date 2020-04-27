@@ -26,14 +26,16 @@ class Board(object):
         self.players = []  # List of lists containing [player obj., space #]
 
     def add_board_space(self, board_space):
+        """Add a board space to a board. This is how you build a board."""
         self.board_spaces.append(board_space)
 
     def move_player_board_spaces(self, board_player, move_spaces):
+        """Move a player on a board by specified number of spaces."""
         moves_remaining = move_spaces
         passed_pay_check = False
         player_list_index = self.players.index(board_player)
-        if player_list_index == None:
-            print("Player: " + player.name + " is not on the board")
+        if player_list_index is None:
+            print("Player: " + board_player.name + " is not on the board")
             return None, None, None
         new_board_index = self.players[player_list_index][1]
         while moves_remaining > 0:
@@ -41,10 +43,13 @@ class Board(object):
             moves_remaining -= 1
             if new_board_index > (len(self.board_spaces) - 1):
                 new_board_index = 0
-            if self.board_spaces[new_board_index].board_space_type == "Pay Check":
+            if self.board_spaces[
+                    new_board_index].board_space_type == "Pay Check":
                 passed_pay_check = True
         self.players[player_list_index][1] = new_board_index
-        return new_board_index, passed_pay_check, self.board_spaces[new_board_index]
+        return (new_board_index,
+                passed_pay_check,
+                self.board_spaces[new_board_index])
 
     def add_player(self, player, starting_space=0):
         """Add a player to the board as a list of [player, space number]."""
@@ -60,7 +65,8 @@ class Board(object):
         """Return true list of players objects without their locations."""
         return [player for player, _ in self.players]
 
-    def get_next_player(self):
+    @property
+    def next_player(self):
         """Return the next player to play."""
         self.current_player += 1
         if self.current_player > (len(self.players) - 1):
@@ -75,7 +81,7 @@ class Board(object):
         return board_string[:-1]
 
 
-def getboard_spaces(board_spaces_file_name, verbose=False):
+def load_board_spaces(board_spaces_file_name, verbose=False):
     """Load Board Spaces from JSON file."""
     try:
         board_space_defs = load_json(board_spaces_file_name)
@@ -101,7 +107,7 @@ def getboard_spaces(board_spaces_file_name, verbose=False):
 if __name__ == '__main__':  # test board objects
     from die_roll import roll_die
     from player import Player, get_profession_defs
-    ratRaceBoard = getboard_spaces("RatRaceBoardSpaces.json")
+    ratRaceBoard = load_board_spaces("RatRaceBoardSpaces.json")
     print("ratRaceBoard Type: " + ratRaceBoard.board_type)
 
     print(ratRaceBoard)
@@ -114,12 +120,13 @@ if __name__ == '__main__':  # test board objects
     ratRaceBoard.add_player(me, 0)  # Add me to board at space 0
     ratRaceBoard.add_player(she, 0)  # Add she to board at space 0
     for turn in range(1, 101):  # Simulate 100 turns
-        currentboard_player = ratRaceBoard.get_next_player()
+        currentboard_player = ratRaceBoard.next_player
         print("\ncurrentboard_player:", currentboard_player[0].name)
         move_spaces = roll_die("Automatic", 1, False)
         print("Die roll", move_spaces)
         newPosition, passed_pay_check, newBoardSpace = (
-            ratRaceBoard.move_player_board_spaces(currentboard_player, move_spaces))
+            ratRaceBoard.move_player_board_spaces(currentboard_player,
+                                                  move_spaces))
         if newPosition is None:
             print("Player is not on the board")
             break

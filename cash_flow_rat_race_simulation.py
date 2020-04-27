@@ -1,217 +1,224 @@
 """Main module for running Cash Flow Rat Race Simulation."""
 
-# from importlib import reload
 import board
-# reload(board)
 import cards
-# reload(cards)
 import player
-# reload(player)
 import player_choice
-# reload(player_choice)
-import dieRoll
-# reload(dieRoll)
-import boardSpaceAction
-# reload(boardSpaceAction)
+import die_roll
+import board_space_action
 import random
 import copy
 import time
 
 
-def CashFlowRatRaceGameSimulation(aProfession,
-                                  aStrategy,
-                                  verbose=False):
+def cash_flow_rat_race_game_simulation(a_profession,
+                                       a_strategy,
+                                       verbose=False):
     """Initiate Cash Flow Rat Race Simulation."""
     # Create Rat Race Board
-    ratRaceBoard = board.getBoardSpaces("RatRaceBoardSpaces.json")
+    rat_race_board = board.load_board_spaces('RatRaceBoardSpaces.json')
 
     # Create 4 Card Decks - not used except as starting points
-    smallDealCardDeckMaster = cards.loadAllSmallDealCards(
-        "SmallDealCards.json")
-    bigDealCardDeckMaster = cards.loadAllBigDealCards("BigDealCards.json")
-    doodadCardDeckMaster = cards.loadAllDoodadCards("DoodadCards.json")
-    marketCardDeckMaster = cards.loadAllMarketCards("MarketCards.json")
+    small_deal_card_deck_master = cards.load_all_small_deal_cards(
+        'SmallDealCards.json')
+    big_deal_card_deck_master = cards.load_all_big_deal_cards(
+        'BigDealCards.json')
+    doodad_card_deckMaster = cards.load_all_doodad_cards('DoodadCards.json')
+    market_card_deck_master = cards.load_all_market_cards('MarketCards.json')
 
     # Start Main Loop, initiate decks to be used, shuffle and
     # create turn counter
 
-    smallDealCardDeck = copy.copy(smallDealCardDeckMaster)
-    bigDealCardDeck = copy.copy(bigDealCardDeckMaster)
-    doodadCardDeck = copy.copy(doodadCardDeckMaster)
-    marketCardDeck = copy.copy(marketCardDeckMaster)
+    small_deal_card_deck = copy.copy(small_deal_card_deck_master)
+    big_deal_card_deck = copy.copy(big_deal_card_deck_master)
+    doodad_card_deck = copy.copy(doodad_card_deckMaster)
+    market_card_deck = copy.copy(market_card_deck_master)
 
-    smallDealCardDeck.shuffle()
-    bigDealCardDeck.shuffle()
-    doodadCardDeck.shuffle()
-    marketCardDeck.shuffle()
+    small_deal_card_deck.shuffle()
+    big_deal_card_deck.shuffle()
+    doodad_card_deck.shuffle()
+    market_card_deck.shuffle()
 
     # Create player and add to Board, starting at space 0
-    player_name = aProfession.getProfession() + "_Player"
-    aPlayer = player.Player(player_name, aProfession, aStrategy)
-    ratRaceBoard.addPlayer(aPlayer, 0)
+    player_name = a_profession.name + '_Player'
+    a_player = player.Player(player_name, a_profession, a_strategy)
+    rat_race_board.add_player(a_player, 0)
 
-    turnCounter = 0
+    turn_counter = 0
     while True:
-        turnCounter += 1
-        playerOnBoard = ratRaceBoard.getNextPlayer()
-        amIRich, amIBroke = playerOnBoard[0].refresh()
+        turn_counter += 1
+        player_on_board = rat_race_board.next_player
+        am_i_rich, am_i_broke = player_on_board[0].refresh()
         if verbose:
-            print("After first refresh")
-            print(aPlayer)
+            print('After first refresh')
+            print(a_player)
         if verbose:
-            print(playerOnBoard[0].getName(), ", Turn:", turnCounter)
+            print(player_on_board[0].name, ', Turn:', turn_counter)
 
         # Offer to allow pay-off any loans pre-roll
-        if player_choice.chooseToPayOffLoan(playerOnBoard[0]):
-            amIRich, amIBroke = playerOnBoard[0].refresh()
-            if amIRich:
-                print("After", turnCounter, "turns, Player",
-                      playerOnBoard[0].getName(), "is rich and wins")
-                print("Passive income:", playerOnBoard[0].getPassiveIncome(),
-                      "\nExpenses      :", playerOnBoard[0].getTotalExpenses())
-                print(playerOnBoard[0])
-                print("Sold Assets\n\n", playerOnBoard[0].getSoldAssets())
+        if player_choice.choose_to_pay_off_loan(player_on_board[0]):
+            am_i_rich, am_i_broke = player_on_board[0].refresh()
+            if am_i_rich:
+                print('After', turn_counter, 'turns, Player',
+                      player_on_board[0].name, 'is rich and wins')
+                print('Passive income:',
+                      player_on_board[0].passive_income,
+                      '\nExpenses      :',
+                      player_on_board[0].total_expenses)
+                print(player_on_board[0])
+                print('Sold Assets\n\n', player_on_board[0].sold_assets)
                 break
-            elif amIBroke:
-                print("Player", playerOnBoard[0].getName(),
-                      "is broke and looses")
+            elif am_i_broke:
+                print('Player', player_on_board[0].name,
+                      'is broke and looses')
                 break  # Replace with remove player later for multiple player
 
         # If have charity, roll 1 or 2 dice, otherwise, roll 1
-        if playerOnBoard[0].getCharityTurns() > 0:
-            playerOnBoard[0].useCharityTurn()
-            noOfDice = player_choice.chooseNoDie(
-                [1, 2], playerOnBoard[0].getStrategy(), verbose)
+        if player_on_board[0].charity_turns_remaining > 0:
+            player_on_board[0].use_charity_turn()
+            no_of_dice = player_choice.choose_no_die(
+                [1, 2], player_on_board[0].strategy, verbose)
         else:
-            noOfDice = 1
+            no_of_dice = 1
 
         # If layed-off, skip turn
-        if playerOnBoard[0].getSkippedTurnsRemaining() > 0:
+        if player_on_board[0].skipped_turns_remaining > 0:
             if verbose:
-                print("Using a layoff day, " + str(
-                    playerOnBoard[0].getSkippedTurnsRemaining()) +
-                    " turns remaining")
-            playerOnBoard[0].useLayoff()
+                print('Using a layoff day, ' + str(
+                    player_on_board[0].skipped_turns_remaining) +
+                    ' turns remaining')
+            player_on_board[0].use_layoff()
             continue
 
         # Roll the die
-        aDieRoll = dieRoll.rollDie(playerOnBoard[0].getStrategy(),
-                                   noOfDice,
-                                   verbose)
+        a_die_roll = die_roll.roll_die(player_on_board[0].strategy,
+                                       no_of_dice,
+                                       verbose)
 
         # Move based on dice roll
-        playerOnBoard[1], passedPaycheck, newBoardSpace = (
-            ratRaceBoard.movePlayerBoardSpaces(playerOnBoard, aDieRoll))
+        player_on_board[1], passed_paycheck, new_board_space = (
+            rat_race_board.move_player_board_spaces(player_on_board,
+                                                    a_die_roll))
 
         # If passed paycheck, show me the money
-        if passedPaycheck:
-            playerOnBoard[0].earnSalary()
+        if passed_paycheck:
+            player_on_board[0].earn_salary()
 
         # Take action based on board space
-        boardSpaceAction.boardSpaceAction(
-            playerOnBoard, newBoardSpace, verbose,
-            smallDealCardDeck, bigDealCardDeck, doodadCardDeck, marketCardDeck,
-            ratRaceBoard)
+        board_space_action.board_space_action(
+            player_on_board, new_board_space, verbose,
+            small_deal_card_deck, big_deal_card_deck, doodad_card_deck,
+            market_card_deck, rat_race_board)
 
-        amIRich, amIBroke = playerOnBoard[0].refresh()
-        if amIRich:
+        am_i_rich, am_i_broke = player_on_board[0].refresh()
+        if am_i_rich:
             if verbose:
-                print("After", turnCounter, "turns, Player",
-                      playerOnBoard[0].getName(), "is rich and wins")
-                print("Passive income:", playerOnBoard[0].getPassiveIncome(),
-                      "\nExpenses      :", playerOnBoard[0].getTotalExpenses())
-                print(playerOnBoard[0])
-                print("Sold Assets\n\n", playerOnBoard[0].getSoldAssets())
+                print('After', turn_counter, 'turns, Player',
+                      player_on_board[0].name, 'is rich and wins')
+                print('Passive income:',
+                      player_on_board[0].passive_income,
+                      '\nExpenses      :',
+                      player_on_board[0].total_expenses)
+                print(player_on_board[0])
+                print('Sold Assets\n\n', player_on_board[0].sold_assets)
             break
-        elif amIBroke:
+        elif am_i_broke:
             if verbose:
-                print("After", turnCounter, "turns, Player",
-                      playerOnBoard[0].getName(), "is broke and looses")
-                print(playerOnBoard[0])
-                print("Sold Assets\n\n", playerOnBoard[0].getSoldAssets())
+                print('After', turn_counter, 'turns, Player',
+                      player_on_board[0].name, 'is broke and looses')
+                print(player_on_board[0])
+                print('Sold Assets\n\n', player_on_board[0].sold_assets)
             break
 
         # Offer to allow pay-off any loans post-roll
-        if player_choice.chooseToPayOffLoan(playerOnBoard[0], verbose):
-            amIRich, amIBroke = playerOnBoard[0].refresh()
-            if amIRich:
+        if player_choice.choose_to_pay_off_loan(player_on_board[0], verbose):
+            am_i_rich, am_i_broke = player_on_board[0].refresh()
+            if am_i_rich:
                 if verbose:
-                    print("After", turnCounter, "turns, Player",
-                          playerOnBoard[0].getName(), "is rich and wins")
-                    print("Passive income:",
-                          playerOnBoard[0].getPassiveIncome(),
-                          "\nExpenses      :",
-                          playerOnBoard[0].getTotalExpenses())
-                    print(playerOnBoard[0])
-                    print("Sold Assets\n\n", playerOnBoard[0].getSoldAssets())
+                    print('After', turn_counter, 'turns, Player',
+                          player_on_board[0].name, 'is rich and wins')
+                    print('Passive income:',
+                          player_on_board[0].passive_income,
+                          '\nExpenses      :',
+                          player_on_board[0].total_expenses)
+                    print(player_on_board[0])
+                    print('Sold Assets\n\n',
+                          player_on_board[0].sold_assets)
                 break
-            elif amIBroke:
+            elif am_i_broke:
                 if verbose:
-                    print("Player", playerOnBoard[0].getName,
-                          "is broke and looses")
+                    print('Player', player_on_board[0].get_name,
+                          'is broke and looses')
                 break  # Replace with remove player later for multiple player
 
         # Check if any card decks need to be shuffled
         if verbose:
-            print("Entering check if any card decks need to be shuffled")
-        if doodadCardDeck.getNoCards() == 0:
+            print('Entering check if any card decks need to be shuffled')
+        if doodad_card_deck.no_cards == 0:
             if verbose:
-                print("At the bottom of Doodad Deck, shuffling...")
-            doodadCardDeck = copy.copy(doodadCardDeckMaster)
-            doodadCardDeck.shuffle()
+                print('At the bottom of Doodad Deck, shuffling...')
+            doodad_card_deck = copy.copy(doodad_card_deckMaster)
+            doodad_card_deck.shuffle()
             if verbose:
-                print("After shuffling, cards now in Doodad Deck:",
-                      doodadCardDeck.getNoCards())
-        elif smallDealCardDeck.getNoCards() == 0:
+                print('After shuffling, cards now in Doodad Deck:',
+                      doodad_card_deck.no_cards)
+        elif small_deal_card_deck.no_cards == 0:
             if verbose:
-                print("At the bottom of Small Deal Deck, shuffling...")
-            smallDealCardDeck = copy.copy(smallDealCardDeckMaster)
-            smallDealCardDeck.shuffle()
+                print('At the bottom of Small Deal Deck, shuffling...')
+            small_deal_card_deck = copy.copy(small_deal_card_deck_master)
+            small_deal_card_deck.shuffle()
             if verbose:
-                print("After shuffling, cards now in Small Deal Deck:",
-                      smallDealCardDeck.getNoCards())
-        elif bigDealCardDeck.getNoCards() == 0:
+                print('After shuffling, cards now in Small Deal Deck:',
+                      small_deal_card_deck.no_cards)
+        elif big_deal_card_deck.no_cards == 0:
             if verbose:
-                print("At the bottom of Big Deal Deck, shuffling...")
-            bigDealCardDeck = copy.copy(bigDealCardDeckMaster)
-            bigDealCardDeck.shuffle()
+                print('At the bottom of Big Deal Deck, shuffling...')
+            big_deal_card_deck = copy.copy(big_deal_card_deck_master)
+            big_deal_card_deck.shuffle()
             if verbose:
-                print("After shuffling, cards now in Big Deal Deck:",
-                      bigDealCardDeck.getNoCards())
-        elif marketCardDeck.getNoCards() == 0:
+                print('After shuffling, cards now in Big Deal Deck:',
+                      big_deal_card_deck.no_cards)
+        elif market_card_deck.no_cards == 0:
             if verbose:
-                print("At the bottom of Market Deck, shuffling...")
-            marketCardDeck = copy.copy(marketCardDeckMaster)
-            marketCardDeck.shuffle()
+                print('At the bottom of Market Deck, shuffling...')
+            market_card_deck = copy.copy(market_card_deck_master)
+            market_card_deck.shuffle()
             if verbose:
-                print("After shuffling, cards now in Market Deck:",
-                      marketCardDeck.getNoCards())
+                print('After shuffling, cards now in Market Deck:',
+                      market_card_deck.no_cards)
 
         # End of Game Play Loop
-    return amIRich, amIBroke, turnCounter
+    return am_i_rich, am_i_broke, turn_counter
 
 
 if __name__ == '__main__':
     for test in range(0, 500):
-        startTime = time.time()
+        start_time = time.time()
         random.seed(test)
-    # Load list of professions and create empty list of players
+        import profession
+        import strategy
 
-        professionDict = player.getProfessionDict("ProfessionsList.json")
+        # Load list of professions and create empty list of players
 
-    # Create a player to test in manual mode/strategy, set verbose mode to true
-        strategyDict = player.getStrategyDict("Strategies.json")
+        profession_dict = profession.get_profession_defs(
+            'ProfessionsList.json')
 
-    # Example settings to test
-        professionName = "Engineer"
-        strategyName = "Standard Auto"
+        # Create a player to test in manual mode/strategy
+        strategy_dict = strategy.get_strategy_defs('Strategies.json')
+
+        # Example settings to test
+        profession_name = 'Engineer'
+        strategy_name = 'Standard Auto'
         verbose = False
 
-        amIRich, amIBroke, turnCounter = CashFlowRatRaceGameSimulation(
-            professionDict[professionName],
-            strategyDict[strategyName],
-            verbose)
+        am_i_rich, am_i_broke, turn_counter = (
+            cash_flow_rat_race_game_simulation(
+                profession_dict[profession_name],
+                strategy_dict[strategy_name],
+                verbose))
 
-        print("Test #:", test, "\n   Am I Rich:", amIRich, "\n   Am I Poor:",
-              amIBroke, "\n   No of Turns:", turnCounter, "\n        Time:",
-              (time.time()-startTime), "seconds\n\n\n")
+        if verbose:
+            print('Test #:', test, '\n    Am I Rich:', am_i_rich,
+                  '\n    Am I Poor:', am_i_broke, '\n    No of Turns:',
+                  turn_counter, '\n        Time:', (time.time()-start_time),
+                  'seconds\n')

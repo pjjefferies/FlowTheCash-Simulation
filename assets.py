@@ -4,83 +4,77 @@
 class Asset(object):
     """Create Object to represent Assets."""
 
-    def __init__(self, name, assetType, cost, downPayment,
-                 cashFlow, priceRangeLow, priceRangeHigh):
+    def __init__(self, name, asset_type, cost, down_payment,
+                 cash_flow, price_range_low, price_range_high):
         """Create Asset Object."""
         self.name = name
-        self.type = assetType
+        self.asset_type = asset_type
         self.cost = cost
-        self.downPayment = downPayment
-        self.cashFlow = cashFlow
-        self.priceRangeLow = priceRangeLow
-        self.priceRangeHigh = priceRangeHigh
+        self.down_payment = down_payment
+        self.cash_flow = cash_flow
+        self.price_range_low = price_range_low
+        self.price_range_high = price_range_high
 
-    def getName(self):
-        return self.name
-    def getType(self):
-        return self.type
-    def getCost(self):
-        return self.cost
-    def getLoanAmount(self):
-        return self.cost - self.downPayment
-    def getDownPayment(self):
-        return self.downPayment
-    def getCashFlow(self):
-        return self.cashFlow
-    def getPriceRangeLow(self):
-        return self.priceRangeLow
-    def getPriceRangeHigh(self):
-        return self.priceRangeHigh
-    def getROI(self):
-        if self.downPayment > 0:
-            return float(self.cashFlow)*12.0/float(self.downPayment)
+    @property
+    def roi(self):
+        """Return return on investment (aka ROI)."""
+        if self.down_payment > 0:
+            return float(self.cash_flow)*12.0/float(self.down_payment)
         else:
             return 1.0
 
+    @property
+    def loan_amount(self):
+        """Return loan amount for asset."""
+        return self.cost - self.down_payment
+
     def __str__(self):
         """Create string to be returned when str method is called."""
-        return ("\n  Type:         " + self.type +
+        return ("\n  Type:         " + self.asset_type +
                 "\n   Name:        " + self.name +
                 "\n   Cost:        " + str(self.cost) +
-                "\n   Down Payment:" + str(self.downPayment) +
-                "\n   Cash Flow:   " + str(self.cashFlow) +
-                "\n   Price Range: " + str(self.priceRangeLow) + " - " +
-                str(self.priceRangeHigh) +
-                "\n   ROI:         " + str(self.getROI()))
+                "\n   Down Payment:" + str(self.down_payment) +
+                "\n   Cash Flow:   " + str(self.cash_flow) +
+                "\n   Price Range: " + str(self.price_range_low) + " - " +
+                str(self.price_range_high) +
+                "\n   ROI:         " + str(self.roi))
 
 
 class Stock(Asset):
     """Create Stock Asset Object."""
 
-    def __init__(self, stockName, shares, costPerShare, dividendInterest,
-                 priceRangeLow, priceRangeHigh):
+    def __init__(self, name, shares, cost_per_share, dividend_interest,
+                 price_range_low, price_range_high):
         """Create Stock Asset Object."""
-        Asset.__init__(self, stockName, "Stock", 0, 0, 0,
-                       priceRangeLow, priceRangeHigh)
+        Asset.__init__(self, name, "Stock", 0, 0, 0,
+                       price_range_low, price_range_high)
         self.shares = shares
-        self.costPerShare = costPerShare
-        self.dividendInterest = dividendInterest
-    def getNoShares(self):
-        return self.shares
-    def getCostPerShare(self):
-        return self.costPerShare
-    def getTotalCost(self):
-        return self.shares * self.costPerShare
-    def setNoShares(self, shares):
-        self.shares = shares
-    def stockSplit(self, ratio):
+        self.cost_per_share = cost_per_share
+        self.dividend_interest = dividend_interest
+
+    @property
+    def total_cost(self):
+        """Calculate the total cost of a stock."""
+        return self.shares * self.cost_per_share
+
+    def stock_split(self, ratio):
+        """Increase number of shares in a stock split."""
         self.shares *= ratio
-    def getDividendInterest(self):
-        return self.dividendInterest
-    def reduceNoShares(self, sharesToReduce):
-        if sharesToReduce < self.shares:
-            self.shares -= sharesToReduce
+
+    def reduce_no_shares(self, shares_to_reduce):
+        """Reduce the number of shares as specified."""
+        if shares_to_reduce < self.shares:
+            self.shares -= shares_to_reduce
         return self.shares
-    def getROI(self):
-        if self.dividendInterest == 0:
+
+    @property
+    def roi(self):
+        """Return the return on investment."""
+        if self.dividend_interest == 0:
             return 0.0
-        elif self.costPerShare > 0:
-            return float(self.dividendInterest)*12.0/float(self.costPerShare)
+        elif self.cost_per_share > 0:
+            return (float(self.dividend_interest) * 12.0 /
+                    float(self.cost_per_share))
         else:
             return 1.0
 
@@ -89,183 +83,173 @@ class Stock(Asset):
         return ("\n  Type:              " + "Stock" +
                 "\n   Symbol:           " + self.name +
                 "\n   Shares:           " + str(self.shares) +
-                "\n   Cost per Share:   " + str(self.costPerShare) +
+                "\n   Cost per Share:   " + str(self.cost_per_share) +
                 "\n   Total Cost:       " + str(
-                    self.shares * self.costPerShare) +
-                "\n   Dividends/share:  " + str(self.dividendInterest) +
-                "\n   Price Range: " + str(self.priceRangeLow) + " - " +
-                str(self.priceRangeHigh) +
-                "\n   ROI:              " + str(self.getROI()))
+                    self.shares * self.cost_per_share) +
+                "\n   Dividends/share:  " + str(self.dividend_interest) +
+                "\n   Price Range: " + str(self.price_range_low) + " - " +
+                str(self.price_range_high) +
+                "\n   ROI:              " + str(self.roi))
 
 
 class RealEstate(Asset):
     """Create Real Estate Asset."""
 
-    def __init__(self, name, realEstateType, houseOrCondo, cost, downPayment,
-                 cashFlow=0, priceRangeLow=0, priceRangeHigh=0,
-                 units=0,
-                 acres=0):
+    def __init__(self, name, real_estate_type, house_or_condo, cost,
+                 down_payment, cash_flow=0, price_range_low=0,
+                 price_range_high=0, units=0, acres=0):
         """Create Real Estate Asset."""
-        Asset.__init__(self, name, realEstateType, cost, downPayment,
-                       cashFlow, priceRangeLow, priceRangeHigh)
-        self.houseOrCondo = houseOrCondo
+        Asset.__init__(self, name, real_estate_type, cost, down_payment,
+                       cash_flow, price_range_low, price_range_high)
+        self.house_or_condo = house_or_condo
         self.units = units
         self.acres = acres
-    def getHouseOrCondo(self):
-        return self.houseOrCondo
-    def getUnits(self):
-        return self.units
-    def getAcres(self):
-        return self.acres
-    def getLoanAmount(self):
-        return self.cost - self.downPayment
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        return ("\n  Type:        " + self.type +
+        return ("\n  Type:        " + self.asset_type +
                 "\n   Name:        " + self.name +
-                "\n   HouseOrCondo " + str(self.houseOrCondo) +
+                "\n   house_or_condo " + str(self.house_or_condo) +
                 "\n   Cost:        " + str(self.cost) +
-                "\n   Down Payment:" + str(self.downPayment) +
-                "\n   Cash Flow:   " + str(self.cashFlow) +
+                "\n   Down Payment:" + str(self.down_payment) +
+                "\n   Cash Flow:   " + str(self.cash_flow) +
                 "\n   Units:       " + str(self.units) +
                 "\n   Acres:       " + str(self.acres) +
-                "\n   Price Range: " + str(self.priceRangeLow) + " - " +
-                str(self.priceRangeHigh) +
-                "\n   ROI:         " + str(self.getROI()))
+                "\n   Price Range: " + str(self.price_range_low) + " - " +
+                str(self.price_range_high) +
+                "\n   ROI:         " + str(self.roi))
 
 
 class Business(Asset):
     """Create Business Asset."""
 
-    def __init__(self, name, cardType, cost, downPayment, cashFlow=0,
-                 priceRangeLow=0, priceRangeHigh=0):
+    def __init__(self, name, card_type, cost, down_payment, cash_flow=0,
+                 price_range_low=0, price_range_high=0):
         """Create Business Asset."""
-        Asset.__init__(self, name, cardType, cost, downPayment,
-                       cashFlow, priceRangeLow, priceRangeHigh)
+        Asset.__init__(self, name, card_type, cost, down_payment,
+                       cash_flow, price_range_low, price_range_high)
 
-    def increaseCashFlow(self, increaseAmount):
+    def increase_cash_flow(self, increase_amount):
         """Increase Cash Flow by increaseAmount."""
-        self.cashFlow += increaseAmount
-        return self.cashFlow
-
-    def getLoanAmount(self):
-        return self.cost - self.downPayment
+        self.cash_flow += increase_amount
+        return self.cash_flow
 
 
 if __name__ == '__main__':  # asset sub-classes
-    from cards import *
+    import cards
     import copy
-    smallDealCardDeckMaster = loadAllSmallDealCards("SmallDealCards.json")
-    bigDealCardDeckMaster = loadAllBigDealCards("BigDealCards.json")
+    small_deal_card_deck_master = (
+        cards.load_all_small_deal_cards("SmallDealCards.json"))
+    big_deal_card_deck_master = (
+        cards.load_all_big_deal_cards("BigDealCards.json"))
 
-    smallDealCardDeck = copy.copy(smallDealCardDeckMaster)
-    bigDealCardDeck = copy.copy(bigDealCardDeckMaster)
+    small_deal_card_deck = copy.copy(small_deal_card_deck_master)
+    big_deal_card_deck = copy.copy(big_deal_card_deck_master)
 
-#    smallDealCardDeck.shuffle()
-#    bigDealCardDeck.shuffle()
+#    small_deal_card_deck.shuffle()
+#    big_deal_card-deck.shuffle()
 
-    assetList = []
-
-    while True:
-        smallDealCard = smallDealCardDeck.takeTopCard()
-        if smallDealCard is None:
-            break
-#        print("Small Deal Card Type: ", smallDealCard.getCardType())
-        if smallDealCard.getCardType() in ["Stock", "CD"]:
-            assetList.append(Stock(smallDealCard.getSymbol(),
-                                   100,     # shares
-                                   smallDealCard.getPrice(),
-                                   smallDealCard.getDividend(),
-                                   smallDealCard.getPriceRangeLow(),
-                                   smallDealCard.getPriceRangeHigh()))
-        elif smallDealCard.getCardType() == "HouseForSale":
-            assetList.append(RealEstate(smallDealCard.getTitle(),
-                                        smallDealCard.getCardType(),
-                                        smallDealCard.getHouseOrCondo(),
-                                        smallDealCard.getPrice(),
-                                        smallDealCard.getDownPayment(),
-                                        smallDealCard.getCashFlow(),
-                                        smallDealCard.getPriceRangeLow(),
-                                        smallDealCard.getPriceRangeHigh(),
-                                        0, 0))
-        elif smallDealCard.getCardType() == "StartCompany":
-            assetList.append(Business(smallDealCard.getTitle(),
-                                      smallDealCard.getCardType(),
-                                      smallDealCard.getPrice(),
-                                      smallDealCard.getDownPayment(),
-                                      smallDealCard.getCashFlow(),
-                                      0,  # no Price Range for Small Deal Co.
-                                      0))  # no Price Range for Small Deal Co.
-        elif smallDealCard.getCardType() == "Land":
-            assetList.append(RealEstate(smallDealCard.getTitle(),
-                                        smallDealCard.getCardType(),
-                                        smallDealCard.getHouseOrCondo(),
-                                        smallDealCard.getPrice(),
-                                        smallDealCard.getDownPayment(),
-                                        0,  # no cash flow
-                                        0,  # no Price Range Low
-                                        0,  # no Price Range High,
-                                        0,  # no units
-                                        smallDealCard.getAcres()))
-        elif smallDealCard.getCardType() == "Asset":
-            assetList.append(Asset(smallDealCard.getTitle(),
-                                   smallDealCard.getCardType(),
-                                   smallDealCard.getPrice(),
-                                   0,  # no Down Payment on Small Deal Assets
-                                   smallDealCard.getCashFlow(),
-                                   smallDealCard.getPriceRangeLow(),
-                                   smallDealCard.getPriceRangeHigh()))
-        else:
-            print("Small Card type:", smallDealCard.getCardType(), "not found")
+    asset_list = []
 
     while True:
-        bigDealCard = bigDealCardDeck.takeTopCard()
-        if bigDealCard is None:
+        small_deal_card = small_deal_card_deck.take_top_card()
+        if small_deal_card is None:
             break
-#        print("Big Deal Card Type: ", bigDealCard.getCardType())
-        if bigDealCard.getCardType() in ["ApartmentHouseForSale", "XPlex"]:
-            assetList.append(RealEstate(bigDealCard.getTitle(),
-                                        bigDealCard.getCardType(),
-                                        bigDealCard.getHouseOrCondo(),
-                                        bigDealCard.getPrice(),
-                                        bigDealCard.getDownPayment(),
-                                        bigDealCard.getCashFlow(),
-                                        bigDealCard.getPriceRangeLow(),
-                                        bigDealCard.getPriceRangeHigh(),
-                                        bigDealCard.getUnits(),
-                                        0))  # no acres
-        elif bigDealCard.getCardType() == "HouseForSale":
-            assetList.append(RealEstate(bigDealCard.getTitle(),
-                                        bigDealCard.getCardType(),
-                                        bigDealCard.getHouseOrCondo(),
-                                        bigDealCard.getPrice(),
-                                        bigDealCard.getDownPayment(),
-                                        bigDealCard.getCashFlow(),
-                                        bigDealCard.getPriceRangeLow(),
-                                        bigDealCard.getPriceRangeHigh(),
-                                        0,  # no units
-                                        0))  # no acres
-        elif bigDealCard.getCardType() in ["Partnership", "Business"]:
-            assetList.append(Business(bigDealCard.getTitle(),
-                                      bigDealCard.getCardType(),
-                                      bigDealCard.getPrice(),
-                                      bigDealCard.getDownPayment(),
-                                      bigDealCard.getCashFlow(),
-                                      bigDealCard.getPriceRangeLow(),
-                                      bigDealCard.getPriceRangeHigh()))
-        elif bigDealCard.getCardType() == "Land":
-            assetList.append(RealEstate(bigDealCard.getTitle(),
-                                        bigDealCard.getCardType(),
-                                        bigDealCard.getPrice(),
-                                        bigDealCard.getDownPayment(),
-                                        bigDealCard.getCashFlow(),
-                                        bigDealCard.getPriceRangeLow(),
-                                        bigDealCard.getPriceRangeHigh(),
-                                        0,  # no units
-                                        bigDealCard.getAcres()))
+#        print("Small Deal Card Type: ", small_deal_card.card_type)
+        if small_deal_card.card_type in ["Stock", "CD"]:
+            asset_list.append(Stock(small_deal_card.symbol,
+                                    100,     # shares
+                                    small_deal_card.price,
+                                    small_deal_card.dividend,
+                                    small_deal_card.price_range_low,
+                                    small_deal_card.price_range_high))
+        elif small_deal_card.card_type == "HouseForSale":
+            asset_list.append(RealEstate(small_deal_card.title,
+                                         small_deal_card.card_type,
+                                         small_deal_card.house_or_condo,
+                                         small_deal_card.price,
+                                         small_deal_card.down_payment,
+                                         small_deal_card.cash_flow,
+                                         small_deal_card.price_range_low,
+                                         small_deal_card.price_range_high,
+                                         0, 0))
+        elif small_deal_card.card_type == "StartCompany":
+            asset_list.append(Business(small_deal_card.title,
+                                       small_deal_card.card_type,
+                                       small_deal_card.price,
+                                       small_deal_card.down_payment,
+                                       small_deal_card.cash_flow,
+                                       0,  # no Price Range for Small Deal Co.
+                                       0))  # no Price Range for Small Deal Co.
+        elif small_deal_card.card_type == "Land":
+            asset_list.append(RealEstate(small_deal_card.title,
+                                         small_deal_card.card_type,
+                                         small_deal_card.house_or_condo,
+                                         small_deal_card.price,
+                                         small_deal_card.down_payment,
+                                         0,  # no cash flow
+                                         0,  # no Price Range Low
+                                         0,  # no Price Range High,
+                                         0,  # no units
+                                         small_deal_card.acres))
+        elif small_deal_card.card_type == "Asset":
+            asset_list.append(Asset(small_deal_card.title,
+                                    small_deal_card.card_type,
+                                    small_deal_card.price,
+                                    0,  # no Down Payment on Small Deal Assets
+                                    small_deal_card.cash_flow,
+                                    small_deal_card.price_range_low,
+                                    small_deal_card.price_range_high))
         else:
-            print("Big Card type:", bigDealCard.getCardType(), "not found")
+            print("Small Card type:", small_deal_card.card_type, "not found")
 
-    for asset in assetList:
+    while True:
+        big_deal_card = big_deal_card_deck.take_top_card()
+        if big_deal_card is None:
+            break
+#        print("Big Deal Card Type: ", big_deal_card.card_type)
+        if big_deal_card.card_type in ["ApartmentHouseForSale", "XPlex"]:
+            asset_list.append(RealEstate(big_deal_card.title,
+                                         big_deal_card.card_type,
+                                         big_deal_card.house_or_condo,
+                                         big_deal_card.price,
+                                         big_deal_card.down_payment,
+                                         big_deal_card.cash_flow,
+                                         big_deal_card.price_range_low,
+                                         big_deal_card.price_range_high,
+                                         big_deal_card.units,
+                                         0))  # no acres
+        elif big_deal_card.card_type == "HouseForSale":
+            asset_list.append(RealEstate(big_deal_card.title,
+                                         big_deal_card.card_type,
+                                         big_deal_card.house_or_condo,
+                                         big_deal_card.price,
+                                         big_deal_card.down_payment,
+                                         big_deal_card.cash_flow,
+                                         big_deal_card.price_range_low,
+                                         big_deal_card.price_range_high,
+                                         0,  # no units
+                                         0))  # no acres
+        elif big_deal_card.card_type in ["Partnership", "Business"]:
+            asset_list.append(Business(big_deal_card.title,
+                                       big_deal_card.card_type,
+                                       big_deal_card.price,
+                                       big_deal_card.down_payment,
+                                       big_deal_card.cash_flow,
+                                       big_deal_card.price_range_low,
+                                       big_deal_card.price_range_high))
+        elif big_deal_card.card_type == "Land":
+            asset_list.append(RealEstate(big_deal_card.title,
+                                         big_deal_card.card_type,
+                                         big_deal_card.price,
+                                         big_deal_card.down_payment,
+                                         big_deal_card.cash_flow,
+                                         big_deal_card.price_range_low,
+                                         big_deal_card.price_range_high,
+                                         0,  # no units
+                                         big_deal_card.acres))
+        else:
+            print("Big Card type:", big_deal_card.card_type, "not found")
+
+    for asset in asset_list:
         print(asset)

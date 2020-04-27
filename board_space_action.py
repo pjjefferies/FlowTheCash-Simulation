@@ -15,40 +15,40 @@ def board_space_action(player_on_board,
                        board):
     """Determine what action is needed for board space and make it so."""
     a_player = player_on_board[0]
-    if a_player.getStrategy().getManual():
+    if a_player.strategy.manual:
         verbose = True
     #
     if verbose:
         print("Board Space:", new_board_space)
-    space_type = new_board_space.getBoardSpaceType()
+    space_type = new_board_space.board_space_type
     if space_type == "Opportunity":
-        small_or_big_card = player_choice.chooseSmallOrBigDealCard(
+        small_or_big_card = player_choice.choose_small_or_big_deal_card(
             a_player, verbose)
         if small_or_big_card == "small":
-            picked_card = small_deal_card_deck.takeTopCard()
+            picked_card = small_deal_card_deck.take_top_card()
             if verbose:
                 print("Small Deal Picked Card:", picked_card,
-                      "\nNo. Cards left:", small_deal_card_deck.getNoCards())
+                      "\nNo. Cards left:", small_deal_card_deck.no_cards)
             do_small_deal_action(a_player, picked_card, board, verbose)
         elif small_or_big_card == "big":
-            picked_card = big_deal_card_deck.takeTopCard()
+            picked_card = big_deal_card_deck.take_top_card()
             if verbose:
                 print("Big Deal Picked Card:", picked_card,
-                      "\nNo. Cards left:", big_deal_card_deck.getNoCards())
+                      "\nNo. Cards left:", big_deal_card_deck.no_cards)
             do_big_deal_action(a_player, picked_card, board, verbose)
     elif space_type == "Doodads":
-        picked_card = doodadCardDeck.takeTopCard()
+        picked_card = doodad_card_deck.take_top_card()
         if verbose:
             print("Doodad Picked Card:", picked_card, "\nNo. Cards left:",
-                  doodadCardDeck.getNoCards())
-        doDoodadAction(a_player, picked_card, verbose)
+                  doodad_card_deck.no_cards)
+        do_doodad_action(a_player, picked_card, verbose)
     elif space_type == "Charity":
-        donateToCharityChoice = player_choice.chooseToDonateToCharity(
-            a_player.getStrategy(), verbose)
-        if donateToCharityChoice:
-            if a_player.getSavings() > 0.1 * a_player.getSalary():
-                a_player.makePayment(int(0.1 * a_player.getSalary()))
-                a_player.startCharityTurns()
+        donate_to_charity_choice = player_choice.choose_to_donate_to_charity(
+            a_player.strategy, verbose)
+        if donate_to_charity_choice:
+            if a_player.savings > 0.1 * a_player.salary:
+                a_player.make_payment(int(0.1 * a_player.salary))
+                a_player.start_charity_turns()
                 if verbose:
                     print("Charity started")
             else:
@@ -57,43 +57,43 @@ def board_space_action(player_on_board,
     elif space_type == "Pay Check":
         return  # Paycheck handled if passed or landed-on in main routine
     elif space_type == "The Market":
-        picked_card = marketCardDeck.takeTopCard()
+        picked_card = market_card_deck.take_top_card()
         if verbose:
             print("Market Picked Card:", picked_card, "\nNo. Cards left:",
-                  marketCardDeck.getNoCards())
-        doMarketAction(a_player, board, picked_card, verbose)
+                  market_card_deck.no_cards)
+        do_market_action(a_player, board, picked_card, verbose)
     elif space_type == "Baby":
-        children = a_player.getNoChildren()
-        a_player.haveChild()
+        children = a_player.no_children
+        a_player.have_child()
         if verbose:
             print("Children-Before: " + str(children) +
-                  "\nChildren-After : " + str(a_player.getNoChildren()))
+                  "\nChildren-After : " + str(a_player.no_children))
         return
     elif space_type == "Downsized":
         a_player.refresh()
-        totalExpenses = a_player.getTotalExpenses()
-        if totalExpenses > a_player.getSavings():
-            newLoanAmount = int(((float(totalExpenses) -
-                                  float(a_player.getSavings()))
+        total_expenses = a_player.total_expenses
+        if total_expenses > a_player.savings:
+            new_loan_amount = int(((float(total_expenses) -
+                                  float(a_player.savings))
                                  / 1000.0) + 1.0) * 1000
             if verbose:
                 print("Not enough money, getting loan for",
-                      str(newLoanAmount) + ".")
-                newLoan = loans.Loan("Bank Loan", newLoanAmount,
-                                     int(newLoanAmount/10), True)
-                a_player.makeLoan(newLoan)
-        a_player.makePayment(totalExpenses)
-        a_player.startLayoff()
+                      str(new_loan_amount) + ".")
+                new_loan = loans.Loan("Bank Loan", new_loan_amount,
+                                     int(new_loan_amount/10), True)
+                a_player.make_loan(new_loan)
+        a_player.make_payment(total_expenses)
+        a_player.start_layoff()
     else:
         print("Board Space Type unknown: " + space_type)
         assert ValueError
 
 
-def doMarketAction(this_player, board, picked_card, verbose):
+def do_market_action(this_player, board, picked_card, verbose):
     """Do action indicated on Market Card."""
-    picked_card_type = picked_card.getCardType()
+    picked_card_type = picked_card.card_type
     if verbose:
-        print("In doMarketAction: Card:", picked_card)
+        print("In do_market_action: Card:", picked_card)
     assert picked_card_type in [
         "Small Business Improves", "Condo Buyer - 2Br/1Ba",
         "Shopping Mall Wanted", "Buyer for 20 Acres", "Price of Gold Soars",
@@ -101,372 +101,385 @@ def doMarketAction(this_player, board, picked_card, verbose):
         "House Buyer - 3Br/2Ba", "Plex Buyer", "Limited Partnership Sold",
         "Interest Rates Drop!", "Inflation Hits!"]
     if picked_card_type == "Small Business Improves":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getBusinessAssets():
-                if asset.getType() == "StartCompany":
-                    asset.increaseCashFlow(picked_card.getIncreasedCashFlow())
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.business_assets:
+                if asset.asset_type == "StartCompany":
+                    asset.increase_cash_flow(picked_card.increased_cash_flow)
                     if verbose:
-                        print("\nPlayer " + a_player.getName() +
+                        print("\nPlayer " + a_player.name +
                               " increased cash flow on asset " +
-                              asset.getName() + " by " +
-                              picked_card.getIncreasedCashFlow() + " to " +
-                              asset.getCashFlow() + ".")
+                              asset.name + " by " +
+                              picked_card.increased_cash_flow + " to " +
+                              asset.cash_flow + ".")
     elif picked_card_type == "Condo Buyer - 2Br/1Ba":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getRealEstateAssets():
-                if asset.getHouseOrCondo() == "Condo":
-                    if player_choice.chooseToSellAsset(a_player, asset,
-                                                       picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.real_estate_assets:
+                if asset.house_or_condo == "Condo":
+                    if player_choice.choose_to_sell_asset(a_player, asset,
+                                                       picked_card.price,
                                                        0, verbose):
-                        a_player.sellRealEstate(asset, picked_card.getPrice(),
+                        a_player.sell_real_estate(asset, picked_card.price,
                                                 verbose)
     elif picked_card_type == "Shopping Mall Wanted":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getBusinessAssets():
-                if asset.getName() == "Small Shopping Mall for Sale":
-                    if player_choice.chooseToSellAsset(a_player, asset,
-                                                       picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.business_assets:
+                if asset.name == "Small Shopping Mall for Sale":
+                    if player_choice.choose_to_sell_asset(a_player, asset,
+                                                       picked_card.price,
                                                        0, verbose):
-                        a_player.sellBusiness(asset, picked_card.getPrice(),
+                        a_player.sell_business(asset, picked_card.price,
                                               verbose)
     elif picked_card_type == "Buyer for 20 Acres":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getRealEstateAssets():
-                if asset.getName() == "Land":
-                    if player_choice.chooseToSellAsset(a_player, asset,
-                                                       picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.real_estate_assets:
+                if asset.name == "Land":
+                    if player_choice.choose_to_sell_asset(a_player, asset,
+                                                       picked_card.price,
                                                        0, verbose):
-                        a_player.sellRealEstate(asset, picked_card.getPrice(),
+                        a_player.sell_real_estate(asset, picked_card.price,
                                                 verbose)
     elif picked_card_type == "Price of Gold Soars":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getBusinessAssets():
-                if asset.getName() == "Rare Gold Coin":
-                    if player_choice.chooseToSellAsset(a_player, asset,
-                                                       picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.business_assets:
+                if asset.name == "Rare Gold Coin":
+                    if player_choice.choose_to_sell_asset(a_player, asset,
+                                                       picked_card.price,
                                                        0, verbose):
-                        a_player.sellBusiness(asset, picked_card.getPrice(),
+                        a_player.sell_business(asset, picked_card.price,
                                               verbose)
     elif picked_card_type == "Car Wash Buyer":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getBusinessAssets():
-                if asset.getName() == "Car Wash for Sale":
-                    if player_choice.chooseToSellAsset(a_player, asset,
-                                                       picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.business_assets:
+                if asset.name == "Car Wash for Sale":
+                    if player_choice.choose_to_sell_asset(a_player, asset,
+                                                       picked_card.price,
                                                        0, verbose):
-                        a_player.sellBusiness(asset, picked_card.getPrice(),
+                        a_player.sell_business(asset, picked_card.price,
                                               verbose)
     elif picked_card_type == "Software Company Buyer":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getBusinessAssets():
-                if asset.getName() == "Start a Company Part Time-Software":
-                    if player_choice.chooseToSellAsset(a_player, asset,
-                                                       picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.business_assets:
+                if asset.name == "Start a Company Part Time-Software":
+                    if player_choice.choose_to_sell_asset(a_player, asset,
+                                                       picked_card.price,
                                                        0, verbose):
-                        a_player.sellBusiness(asset, picked_card.getPrice(),
+                        a_player.sell_business(asset, picked_card.price,
                                               verbose)
     elif picked_card_type == "Apartment House Buyer":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getRealEstateAssets():
-                if asset.getType() == "ApartmentHouseForSale":
-                    if player_choice.chooseToSellAsset(
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.real_estate_assets:
+                if asset.asset_type == "ApartmentHouseForSale":
+                    if player_choice.choose_to_sell_asset(
                             a_player, asset,
-                            picked_card.getPrice()*asset.getUnits(), 0,
+                            picked_card.price*asset.units, 0,
                             verbose):
-                        a_player.sellRealEstate(
-                            asset, picked_card.getPrice()*asset.getUnits(),
+                        a_player.sell_real_estate(
+                            asset, picked_card.price*asset.units,
                             verbose)
     elif picked_card_type == "House Buyer - 3Br/2Ba":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getRealEstateAssets():
-                if asset.getName() == "House for Sale - 3Br/2Ba":
-                    if player_choice.chooseToSellAsset(a_player, asset,
-                                                       picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.real_estate_assets:
+                if asset.name == "House for Sale - 3Br/2Ba":
+                    if player_choice.choose_to_sell_asset(a_player, asset,
+                                                       picked_card.price,
                                                        0, verbose):
-                        a_player.sellRealEstate(asset, picked_card.getPrice(),
+                        a_player.sell_real_estate(asset, picked_card.price,
                                                 verbose)
     elif picked_card_type == "Plex Buyer":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getRealEstateAssets():
-                if asset.getType() == "XPlex":
-                    if player_choice.chooseToSellAsset(
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.real_estate_assets:
+                if asset.asset_type == "XPlex":
+                    if player_choice.choose_to_sell_asset(
                             a_player, asset,
-                            picked_card.getPrice()*asset.getUnits(), 0,
+                            picked_card.price*asset.units, 0,
                             verbose):
-                        a_player.sellRealEstate(
+                        a_player.sell_real_estate(
                             asset,
-                            picked_card.getPrice()*asset.getUnits(), verbose)
+                            picked_card.price*asset.units, verbose)
     elif picked_card_type == "Limited Partnership Sold":
-        for a_player in board.getPlayerList():
-            for asset in a_player.getBusinessAssets():
-                if asset.getName() == "Limited Partner Wanted":
-                    if player_choice.chooseToSellAsset(
-                            a_player, asset, picked_card.getPrice(),
+        for a_player_on_board in board.players:
+            a_player = a_player_on_board[0]
+            for asset in a_player.business_assets:
+                if asset.name == "Limited Partner Wanted":
+                    if player_choice.choose_to_sell_asset(
+                            a_player, asset, picked_card.price,
                             0, verbose):
-                        a_player.sellBusiness(asset, picked_card.getPrice(),
+                        a_player.sell_business(asset, picked_card.price,
                                               verbose)
     elif picked_card_type == "Interest Rates Drop!":
-        for real_estate_asset in this_player.getRealEstateAssets():
-            if real_estate_asset.getHouseOrCondo() == "House":
-                if player_choice.chooseToSellAsset(
+        for real_estate_asset in this_player.real_estate_assets:
+            if real_estate_asset.house_or_condo == "House":
+                if player_choice.choose_to_sell_asset(
                         this_player, real_estate_asset, 0, 50000, verbose):
-                    this_player.sellRealEstate(real_estate_asset,
-                                               real_estate_asset.getCost() +
+                    this_player.sell_real_estate(real_estate_asset,
+                                               real_estate_asset.cost +
                                                50000,
                                                verbose)
     elif picked_card_type == "Inflation Hits!":
-        for real_estate_asset in this_player.getRealEstateAssets():
-            if real_estate_asset.getHouseOrCondo() == "House":
-                this_player.sellRealEstate(real_estate_asset, 0, verbose)
+        for real_estate_asset in this_player.real_estate_assets:
+            if real_estate_asset.house_or_condo == "House":
+                this_player.sell_real_estate(real_estate_asset, 0, verbose)
     else:
         assert ValueError
 
 
 def do_big_deal_action(this_player, picked_card, board, verbose):
     """Do a Big Deal Action indicated on Big Deal Cards."""
-    picked_card_type = picked_card.getCardType()
+    picked_card_type = picked_card.card_type
     if verbose:
-        print("In do_big_deal_action, Savings:", this_player.getSavings(),
+        print("In do_big_deal_action, Savings:", this_player.savings,
               "\nCard:", picked_card)
     assert picked_card_type in ["ApartmentHouseForSale", "XPlex", "Business",
                                 "HouseForSale", "Land", "Expense"]
     #
     if picked_card_type in ["ApartmentHouseForSale", "XPlex"]:
         new_real_estate_asset = assets.RealEstate(
-            picked_card.getTitle(),
+            picked_card.title,
             picked_card_type,
             None,
-            picked_card.getPrice(),
-            picked_card.getDownPayment(),
-            picked_card.getCashFlow(),
-            picked_card.getPriceRangeLow(),
-            picked_card.getPriceRangeHigh(),
-            picked_card.getUnits(),
+            picked_card.price,
+            picked_card.down_payment,
+            picked_card.cash_flow,
+            picked_card.price_range_low,
+            picked_card.price_range_high,
+            picked_card.units,
             acres=0)
-        if player_choice.chooseToBuyAsset(this_player, new_real_estate_asset,
+        if player_choice.choose_to_buy_asset(this_player, new_real_estate_asset,
                                           verbose):
-            this_player.buyRealEstate(new_real_estate_asset, verbose)
+            this_player.buy_real_estate(new_real_estate_asset, verbose)
         else:
             del new_real_estate_asset
     elif picked_card_type == "Business":
-        new_business_asset = assets.Business(picked_card.getTitle(),
+        new_business_asset = assets.Business(picked_card.title,
                                              picked_card_type,
-                                             picked_card.getPrice(),
-                                             picked_card.getDownPayment(),
-                                             picked_card.getCashFlow(),
-                                             picked_card.getPriceRangeLow(),
-                                             picked_card.getPriceRangeHigh())
-        if player_choice.chooseToBuyAsset(this_player, new_business_asset,
+                                             picked_card.price,
+                                             picked_card.down_payment,
+                                             picked_card.cash_flow,
+                                             picked_card.price_range_low,
+                                             picked_card.price_range_high)
+        if player_choice.choose_to_buy_asset(this_player, new_business_asset,
                                           verbose):
-            this_player.buyBusiness(new_business_asset, verbose)
+            this_player.buy_business(new_business_asset, verbose)
         else:
             del new_business_asset
     elif picked_card_type == "HouseForSale":
-        new_house_asset = assets.RealEstate(picked_card.getTitle(),
+        new_house_asset = assets.RealEstate(picked_card.title,
                                             picked_card_type,
                                             "House",
-                                            picked_card.getPrice(),
-                                            picked_card.getDownPayment(),
-                                            picked_card.getCashFlow(),
-                                            picked_card.getPriceRangeLow(),
-                                            picked_card.getPriceRangeHigh(),
+                                            picked_card.price,
+                                            picked_card.down_payment,
+                                            picked_card.cash_flow,
+                                            picked_card.price_range_low,
+                                            picked_card.price_range_high,
                                             units=0,
                                             acres=0)
-        if player_choice.chooseToBuyAsset(this_player, new_house_asset,
+        if player_choice.choose_to_buy_asset(this_player, new_house_asset,
                                           verbose):
-            this_player.buyRealEstate(new_house_asset, verbose)
+            this_player.buy_real_estate(new_house_asset, verbose)
         else:
             del new_house_asset
     elif picked_card_type == "Land":
-        new_land_asset = assets.RealEstate(picked_card.getTitle(),
+        new_land_asset = assets.RealEstate(picked_card.title,
                                            picked_card_type,
                                            "None",
-                                           picked_card.getPrice(),
-                                           picked_card.getDownPayment(),
+                                           picked_card.price,
+                                           picked_card.down_payment,
                                            0,  # cashFlow
-                                           picked_card.getPriceRangeLow(),
-                                           picked_card.getPriceRangeHigh(),
+                                           picked_card.price_range_low,
+                                           picked_card.price_range_high,
                                            0,  # units
-                                           picked_card.getAcres())
-        if player_choice.chooseToBuyAsset(this_player,
+                                           picked_card.acres)
+        if player_choice.choose_to_buy_asset(this_player,
                                           new_land_asset, verbose):
-            this_player.buyRealEstate(new_land_asset, verbose)
+            this_player.buy_real_estate(new_land_asset, verbose)
         else:
             del new_land_asset
     elif picked_card_type == "Expense":
-        if picked_card.getCostIfHaveRealEstate() > 0:
-            for real_estate_asset in this_player.getRealEstateAssets():
-                if real_estate_asset.getType() in ["HouseForSale",
+        if picked_card.cost_if_have_real_estate > 0:
+            for real_estate_asset in this_player.real_estate_assets:
+                if real_estate_asset.asset_type in ["HouseForSale",
                                                    "ApartmentHouseForSale",
                                                    "XPlex"]:
-                    # havePropertyCost = picked_card.getCostIfHaveRealEstate()
+                    # havePropertyCost = picked_card.cost_if_have_real_estate
                     break
-        elif picked_card.getCostIfHave8Plex() > 0:
-            for real_estate_asset in this_player.getRealEstateAssets():
-                if real_estate_asset.getType() == "XPlex":
-                    if real_estate_asset.getUnits == 8:
-                        # havePropertyCost = picked_card.getCostIfHave8Plex()
+        elif picked_card.cost_if_have8_plex > 0:
+            for real_estate_asset in this_player.real_estate_assets:
+                if real_estate_asset.asset_type == "XPlex":
+                    if real_estate_asset.units == 8:
+                        # havePropertyCost = picked_card.cost_if_have8_plex
                         break
 
 
 def do_small_deal_action(this_player, picked_card, board, verbose):
     """Do action indicated on Small Deal Card."""
-    picked_card_type = picked_card.getCardType()
+    picked_card_type = picked_card.card_type
     if verbose:
-        print("In do_small_deal_action, Savings:", this_player.getSavings(),
+        print("In do_small_deal_action, Savings:", this_player.savings,
               "Card:", picked_card)
     assert picked_card_type in ["Stock", "StockSplit", "HouseForSale",
                                 "StartCompany", "Asset", "Land",
                                 "LoanNotToBeRepaid", "CostIfRentalProperty"]
 
     if picked_card_type == "Stock":
-        newStock = assets.Stock(picked_card.getSymbol(),
+        new_stock = assets.Stock(picked_card.symbol,
                                 0,
-                                picked_card.getPrice(),
-                                picked_card.getDividend(),
-                                picked_card.getPriceRangeLow(),
-                                picked_card.getPriceRangeHigh())
-        if not player_choice.chooseToBuyStockAsset(this_player, newStock,
+                                picked_card.price,
+                                picked_card.dividend,
+                                picked_card.price_range_low,
+                                picked_card.price_range_high)
+        if not player_choice.choose_to_buy_stock_asset(this_player, new_stock,
                                                    verbose):
-            del newStock
+            del new_stock
             return
-        this_player.buyStock(newStock, picked_card.getPrice(), verbose)
+        this_player.buy_stock(new_stock, picked_card.price, verbose)
     #
     elif picked_card_type == "StockSplit":
-        stock_symbol = picked_card.getSymbol()
-        stock_split_ratio = picked_card.getSplitRatio()
-        player_list = board.getPlayerList()
-        for eachPlayer in player_list:
-            listOfStocks = eachPlayer.getStockAssets()
-            for eachStock in listOfStocks:
-                if eachStock.getName() == stock_symbol:
-                    eachStock.stockSplit(stock_split_ratio)
+        stock_symbol = picked_card.symbol
+        stock_split_ratio = picked_card.split_ratio
+        the_players = board.players
+        for each_player_on_board in the_players:
+            each_player = each_player_on_board[0]
+            list_of_stocks = each_player.stock_assets
+            for each_stock in list_of_stocks:
+                if each_stock.name == stock_symbol:
+                    each_stock.stock_split(stock_split_ratio)
     #
     elif picked_card_type == "HouseForSale":
-        new_house_asset = assets.RealEstate(picked_card.getTitle(),
+        new_house_asset = assets.RealEstate(picked_card.title,
                                             picked_card_type,
                                             "House",
-                                            picked_card.getPrice(),
-                                            picked_card.getDownPayment(),
-                                            picked_card.getCashFlow(),
-                                            picked_card.getPriceRangeLow(),
-                                            picked_card.getPriceRangeHigh(),
+                                            picked_card.price,
+                                            picked_card.down_payment,
+                                            picked_card.cash_flow,
+                                            picked_card.price_range_low,
+                                            picked_card.price_range_high,
                                             units=0,
                                             acres=0)
-        if player_choice.chooseToBuyAsset(this_player, new_house_asset,
+        if player_choice.choose_to_buy_asset(this_player, new_house_asset,
                                           verbose):
-            this_player.buyRealEstate(new_house_asset, verbose)
+            this_player.buy_real_estate(new_house_asset, verbose)
         else:
             del new_house_asset
     elif picked_card_type in ["StartCompany", "Asset"]:
-        new_business_asset = assets.Business(picked_card.getTitle(),
+        new_business_asset = assets.Business(picked_card.title,
                                              picked_card_type,
-                                             picked_card.getPrice(),
-                                             picked_card.getDownPayment(),
-                                             picked_card.getCashFlow(),
-                                             picked_card.getPriceRangeLow(),
-                                             picked_card.getPriceRangeHigh())
-        if player_choice.chooseToBuyAsset(this_player, new_business_asset,
+                                             picked_card.price,
+                                             picked_card.down_payment,
+                                             picked_card.cash_flow,
+                                             picked_card.price_range_low,
+                                             picked_card.price_range_high)
+        if player_choice.choose_to_buy_asset(this_player, new_business_asset,
                                           verbose):
-            this_player.buyBusiness(new_business_asset, verbose)
+            this_player.buy_business(new_business_asset, verbose)
         else:
             del new_business_asset
     elif picked_card_type == "Land":
-        new_land_asset = assets.RealEstate(picked_card.getTitle(),
+        new_land_asset = assets.RealEstate(picked_card.title,
                                            picked_card_type,
                                            "None",
-                                           picked_card.getPrice(),
-                                           picked_card.getDownPayment(),
+                                           picked_card.price,
+                                           picked_card.down_payment,
                                            0,  # cashFlow
-                                           picked_card.getPriceRangeLow(),
-                                           picked_card.getPriceRangeHigh(),
+                                           picked_card.price_range_low,
+                                           picked_card.price_range_high,
                                            0,  # units
-                                           picked_card.getAcres())
-        if player_choice.chooseToBuyAsset(this_player, new_land_asset,
+                                           picked_card.acres)
+        if player_choice.choose_to_buy_asset(this_player, new_land_asset,
                                           verbose):
-            this_player.buyRealEstate(new_land_asset, verbose)
+            this_player.buy_real_estate(new_land_asset, verbose)
         else:
             del new_land_asset
     elif picked_card_type == "LoanNotToBeRepaid":
-        loanNotToBeRepaidAmount = picked_card.getPrice()
-        if this_player.getSavings() < loanNotToBeRepaidAmount:
-            newLoanAmount = (int(((float(loanNotToBeRepaidAmount) -
-                                   float(this_player.getSavings())) /
+        loan_not_to_be_repaid_amount = picked_card.price
+        if this_player.savings < loan_not_to_be_repaid_amount:
+            new_loan_amount = (int(((float(loan_not_to_be_repaid_amount) -
+                                   float(this_player.savings)) /
                                   1000) + 1) * 1000)
             if verbose:
                 print("Not enough money, getting loan for",
-                      str(newLoanAmount) + ".")
-            newLoan = loans.Loan("Bank Loan", newLoanAmount,
-                                 int(newLoanAmount/10), True)
-            this_player.makeLoan(newLoan)
-        this_player.makePayment(loanNotToBeRepaidAmount)
+                      str(new_loan_amount) + ".")
+            new_loan = loans.Loan("Bank Loan", new_loan_amount,
+                                 int(new_loan_amount/10), True)
+            this_player.make_loan(new_loan)
+        this_player.make_payment(loan_not_to_be_repaid_amount)
     elif picked_card_type == "CostIfRentalProperty":
-        costIfRentalPropertyAmount = picked_card.getPrice()
-        player_list = board.getPlayerList()
-        for eachPlayer in player_list:
-            if len(eachPlayer.getRealEstateAssets()) > 0:
-                if eachPlayer.getSavings() < costIfRentalPropertyAmount:
-                    newLoanAmount = (int(((float(costIfRentalPropertyAmount) -
-                                          float(eachPlayer.getSavings())) /
+        cost_if_rental_property_amount = picked_card.price
+        the_players = board.players
+        for each_player_on_board in the_players:
+            each_player = each_player_on_board[0]
+            if len(each_player.real_estate_assets) > 0:
+                if each_player.savings < cost_if_rental_property_amount:
+                    new_loan_amount = (int(((float(cost_if_rental_property_amount) -
+                                          float(each_player.savings)) /
                                           1000) + 1) * 1000)
                     if verbose:
                         print("Not enough money, getting loan for",
-                              str(newLoanAmount) + ".")
-                    newLoan = loans.Loan("Bank Loan", newLoanAmount,
-                                         int(newLoanAmount / 10), True)
-                    eachPlayer.makeLoan(newLoan)
-                eachPlayer.makePayment(costIfRentalPropertyAmount)
+                              str(new_loan_amount) + ".")
+                    new_loan = loans.Loan("Bank Loan", new_loan_amount,
+                                         int(new_loan_amount / 10), True)
+                    each_player.make_loan(new_loan)
+                each_player.make_payment(cost_if_rental_property_amount)
     else:
         assert ValueError
 
 
-def doDoodadAction(a_player, picked_card, verbose):
+def do_doodad_action(a_player, picked_card, verbose):
     """Do action on Doodad Card."""
-    picked_card_type = picked_card.getCardType()
+    picked_card_type = picked_card.card_type
     if verbose:
-        print("In doDoodadAction, Savings:", a_player.getSavings(),
+        print("In do_doodad_action, Savings:", a_player.savings,
               "Card:", picked_card)
     assert picked_card_type in ["OneTimeExpense", "ChildCost", "NewLoan"]
     if picked_card_type == "OneTimeExpense":
-        payment = picked_card.getOneTimePayment()
-        if a_player.getSavings() < payment:
-            newLoanAmount = (int(((float(payment) -
-                                   float(a_player.getSavings())) /
+        payment = picked_card.one_time_payment
+        if a_player.savings < payment:
+            new_loan_amount = (int(((float(payment) -
+                                   float(a_player.savings)) /
                                   1000) + 1) * 1000)
-            newLoan = loans.Loan("Bank Loan", newLoanAmount,
-                                 int(newLoanAmount/10), True)
-            a_player.makeLoan(newLoan)
+            new_loan = loans.Loan("Bank Loan", new_loan_amount,
+                                 int(new_loan_amount/10), True)
+            a_player.make_loan(new_loan)
         if verbose:
             print("Making payment of", payment)
-            print("Savings before:", a_player.getSavings())
-        a_player.makePayment(payment)
+            print("Savings before:", a_player.savings)
+        a_player.make_payment(payment)
         if verbose:
-            print("Savings  after:", a_player.getSavings())
+            print("Savings  after:", a_player.savings)
     elif picked_card_type == "ChildCost":
-        anyChildCost = picked_card.getAnyChildPayment()
-        perChildCost = picked_card.getEachChildPayment()
-        noChildren = a_player.getNoChildren()
-        if noChildren > 0:
+        any_cost_per_child = picked_card.any_child_payment
+        per_cost_per_child = picked_card.each_child_payment
+        no_children = a_player.no_children
+        if no_children > 0:
             if verbose:
                 print("You have kids, you must pay")
-            payment = anyChildCost + noChildren * perChildCost
-            if a_player.getSavings() < payment:
-                newLoanAmount = (int(((float(payment) -
-                                       float(a_player.getSavings())) /
+            payment = any_cost_per_child + no_children * per_cost_per_child
+            if a_player.savings < payment:
+                new_loan_amount = (int(((float(payment) -
+                                       float(a_player.savings)) /
                                       1000) + 1) * 1000)
-                newLoan = loans.Loan("Bank Loan", newLoanAmount,
-                                     int(newLoanAmount / 10), True)
-                a_player.makeLoan(newLoan)
-            a_player.makePayment(payment)
+                new_loan = loans.Loan("Bank Loan", new_loan_amount,
+                                     int(new_loan_amount / 10), True)
+                a_player.make_loan(new_loan)
+            a_player.make_payment(payment)
         else:
             if verbose:
                 print("No kids, no payment required")
     elif picked_card_type == "NewLoan":
-        newLoanAmount = picked_card.getLoanAmount()
-        newLoan = loans.Loan(picked_card.getLoanTitle(), newLoanAmount,
-                             picked_card.getLoanPayment(), False)
-        a_player.makeLoan(newLoan)
-        a_player.makePayment(newLoanAmount + picked_card.getOneTimePayment())
+        new_loan_amount = picked_card.loan_amount
+        new_loan = loans.Loan(picked_card.loan_title, new_loan_amount,
+                             picked_card.loan_payment, False)
+        a_player.make_loan(new_loan)
+        a_player.make_payment(new_loan_amount + picked_card.one_time_payment)
     else:
         assert ValueError
 
@@ -474,207 +487,209 @@ def doDoodadAction(a_player, picked_card, verbose):
 if __name__ == '__main__':
     import cards
     import player
-    import dieRoll
+    import profession
+    import strategy
+    import die_roll
     import copy
     import sys
     import random
     random.seed(2)
-    ratRaceBoard = board.getBoardSpaces("RatRaceBoardSpaces.json")
+    rat_race_board = board.load_board_spaces("RatRaceBoardSpaces.json")
 
-    small_deal_card_deck_master = cards.loadAllSmallDealCards(
+    small_deal_card_deck_master = cards.load_all_small_deal_cards(
         "SmallDealCards.json")
-    big_deal_card_deck_master = cards.loadAllBigDealCards("BigDealCards.json")
-    doodadCardDeckMaster = cards.loadAllDoodadCards("DoodadCards.json")
-    market_card_deck_master = cards.loadAllMarketCards("MarketCards.json")
+    big_deal_card_deck_master = cards.load_all_big_deal_cards("BigDealCards.json")
+    doodad_card_deck_master = cards.load_all_doodad_cards("DoodadCards.json")
+    market_card_deck_master = cards.load_all_market_cards("MarketCards.json")
     small_deal_card_deck = copy.copy(small_deal_card_deck_master)
     big_deal_card_deck = copy.copy(big_deal_card_deck_master)
-    doodadCardDeck = copy.copy(doodadCardDeckMaster)
-    marketCardDeck = copy.copy(market_card_deck_master)
+    doodad_card_deck = copy.copy(doodad_card_deck_master)
+    market_card_deck = copy.copy(market_card_deck_master)
 
-    turnHistory = []
+    turn_history = []
 
     small_deal_card_deck.shuffle()
     big_deal_card_deck.shuffle()
-    doodadCardDeck.shuffle()
-    marketCardDeck.shuffle()
+    doodad_card_deck.shuffle()
+    market_card_deck.shuffle()
 
     # Make Available Strategies to Test
-    manualStrategy = player.Strategy(strategyName="Manual", manual=True)
-    standardAutoStrategy = player.Strategy(strategyName="Standard Auto",
+    manual_strategy = strategy.Strategy(name="Manual", manual=True)
+    standard_auto_strategy = strategy.Strategy(name="Standard Auto",
                                            manual=False)
-    daveRamseyAutoStrategy = player.Strategy(strategyName="Dave Ramsey",
-                                             manual=True,
-                                             roiThreshold=0.20,
-                                             priceRatioThreshold=0.5,
-                                             takeDownpaymentLoans=False,
-                                             takeAnyLoans=False)
-    noDownPaymentLoanAutoStrategy = player.Strategy(
-        strategyName="No Down Payment Loans",
+    dave_ramsey_auto_atrategy = strategy.Strategy(name="Dave Ramsey",
+                                                manual=True,
+                                                roi_threshold=0.20,
+                                                price_ratio_threshold=0.5,
+                                                take_downpayment_loans=False,
+                                                take_any_loans=False)
+    no_down_payment_loan_auto_strategy = strategy.Strategy(
+        name="No Down Payment Loans",
         manual=True,
-        roiThreshold=0.20,
-        priceRatioThreshold=0.5,
-        takeDownpaymentLoans=False,
-        takeAnyLoans=True)
-    professionDict = player.getProfessionDict("ProfessionsList.json")
-    me = player.Player("Paulcool", professionDict["Engineer"],
-                       standardAutoStrategy)
-    ratRaceBoard.addPlayer(me, 0)
-    meOnBoard = ratRaceBoard.getNextPlayer()
+        roi_threshold=0.20,
+        price_ratio_threshold=0.5,
+        take_downpayment_loans=False,
+        take_any_loans=True)
+    profession_dict = profession.get_profession_defs("ProfessionsList.json")
+    me = player.Player("Paulcool", profession_dict["Engineer"],
+                       standard_auto_strategy)
+    rat_race_board.add_player(me, 0)
+    me_on_board = rat_race_board.next_player
     verbose = True
-    verboseLoc = ""
-    verboseLoc = "test_logfile.txt"
-    if verboseLoc != "":
+    verbose_loc = ""
+    # verbose_loc = "test_logfile.txt"
+    if verbose_loc != "":
         saveout = sys.stdout
-        outputFile = open(verboseLoc, 'w')
-        sys.stdout = outputFile
+        output_file = open(verbose_loc, 'w')
+        sys.stdout = output_file
     turn = 0
     while True:
         turn += 1
-        singleTurnDetail = [turn]
-        singleTurnDetail.append(meOnBoard[0].getName())
-        singleTurnDetail.append(meOnBoard[0].getProfession())
-        singleTurnDetail.append(meOnBoard[0].getStrategy().getName())
-        singleTurnDetail.append(meOnBoard[0].getSalary())
-        singleTurnDetail.append(meOnBoard[0].getPassiveIncome())
-        singleTurnDetail.append(meOnBoard[0].getTaxes())
-        singleTurnDetail.append(meOnBoard[0].getOtherExpenses())
-        singleTurnDetail.append(meOnBoard[0].getTotalExpenses())
-        singleTurnDetail.append(meOnBoard[0].getChildCost())
-        singleTurnDetail.append(meOnBoard[0].getSavings())
-        singleTurnDetail.append(len(meOnBoard[0].getLoans()))
-        singleTurnDetail.append(len(meOnBoard[0].getSoldAssets()))
-        singleTurnDetail.append(meOnBoard[0].getNoChildren())
-        singleTurnDetail.append(meOnBoard[0].getMonthlyCashFlow())
-        singleTurnDetail.append(len(meOnBoard[0].getStockAssets()))
-        singleTurnDetail.append(len(meOnBoard[0].getRealEstateAssets()))
-        singleTurnDetail.append(len(meOnBoard[0].getBusinessAssets()))
+        single_turn_detail = [turn]
+        single_turn_detail.append(me_on_board[0].name)
+        single_turn_detail.append(me_on_board[0].profession)
+        single_turn_detail.append(me_on_board[0].strategy.name)
+        single_turn_detail.append(me_on_board[0].salary)
+        single_turn_detail.append(me_on_board[0].passive_income)
+        single_turn_detail.append(me_on_board[0].taxes)
+        single_turn_detail.append(me_on_board[0].expense_other)
+        single_turn_detail.append(me_on_board[0].total_expenses)
+        single_turn_detail.append(me_on_board[0].cost_per_child)
+        single_turn_detail.append(me_on_board[0].savings)
+        single_turn_detail.append(len(me_on_board[0].loan_list))
+        single_turn_detail.append(len(me_on_board[0].sold_assets))
+        single_turn_detail.append(me_on_board[0].no_children)
+        single_turn_detail.append(me_on_board[0].monthly_cash_flow)
+        single_turn_detail.append(len(me_on_board[0].stock_assets))
+        single_turn_detail.append(len(me_on_board[0].real_estate_assets))
+        single_turn_detail.append(len(me_on_board[0].business_assets))
         if verbose:
-            print("\nSample Turn:", turn, str(meOnBoard[0]))
-        if meOnBoard[0].getCharityTurns() > 0:
-            meOnBoard[0].useCharityTurn()
-            noOfDice = player_choice.chooseNoDie([1, 2],
-                                                 meOnBoard[0].getStrategy(),
+            print("\nSample Turn:", turn, str(me_on_board[0]))
+        if me_on_board[0].charity_turns_remaining > 0:
+            me_on_board[0].use_charity_turn()
+            no_of_dice = player_choice.choose_no_die([1, 2],
+                                                 me_on_board[0].strategy,
                                                  verbose)
         else:
-            noOfDice = 1
-        singleTurnDetail.append(noOfDice)
-        if meOnBoard[0].getSkippedTurnsRemaining() > 0:
+            no_of_dice = 1
+        single_turn_detail.append(no_of_dice)
+        if me_on_board[0].skipped_turns_remaining > 0:
             if verbose:
                 print("Using a layoff day, " +
-                      str(meOnBoard[0].getSkippedTurnsRemaining()) +
+                      str(me_on_board[0].skipped_turns_remaining) +
                       " turns remaining")
-            meOnBoard[0].useLayoff()
-            singleTurnDetail.append("Use Layoff")
-            turnHistory.append(singleTurnDetail)
+            me_on_board[0].use_layoff()
+            single_turn_detail.append("Use Layoff")
+            turn_history.append(single_turn_detail)
             continue
-        aDieRoll = dieRoll.rollDie(meOnBoard[0].getStrategy(), noOfDice,
+        a_die_roll = die_roll.roll_die(me_on_board[0].strategy, no_of_dice,
                                    verbose)
-        singleTurnDetail.append(aDieRoll)
-        singleTurnDetail.append(meOnBoard[1])
-        meOnBoard[1], passedPaycheck, new_board_space = (
-            ratRaceBoard.movePlayerBoardSpaces(meOnBoard, aDieRoll))
-        singleTurnDetail.append(meOnBoard[1])
-        singleTurnDetail.append(passedPaycheck)
-        singleTurnDetail.append(new_board_space.getBoardSpaceType())
-        if passedPaycheck:
+        single_turn_detail.append(a_die_roll)
+        single_turn_detail.append(me_on_board[1])
+        me_on_board[1], passed_paycheck, new_board_space = (
+            rat_race_board.move_player_board_spaces(me_on_board, a_die_roll))
+        single_turn_detail.append(me_on_board[1])
+        single_turn_detail.append(passed_paycheck)
+        single_turn_detail.append(new_board_space.board_space_type)
+        if passed_paycheck:
             if verbose:
                 print("Passed payday")
-            meOnBoard[0].earnSalary()
-        board_space_action(meOnBoard,
+            me_on_board[0].earn_salary()
+        board_space_action(me_on_board,
                            new_board_space,
                            verbose,
                            small_deal_card_deck,
                            big_deal_card_deck,
-                           doodadCardDeck,
-                           marketCardDeck,
-                           ratRaceBoard)
-        amIRich, amIBroke = me.refresh()
-        if amIRich:
-            print("After", turn, "turns, Player", me.getName(),
+                           doodad_card_deck,
+                           market_card_deck,
+                           rat_race_board)
+        am_i_rich, am_i_broke = me.refresh()
+        if am_i_rich:
+            print("After", turn, "turns, Player", me.name,
                   "is rich and wins")
             print(me)
-            print("Sold Assets\n\n", me.getSoldAssets())
+            print("Sold Assets\n\n", me.sold_assets)
             break
-        elif amIBroke:
-            print("After", turn, "turns, Player", me.getName(),
+        elif am_i_broke:
+            print("After", turn, "turns, Player", me.name,
                   "is broke and looses")
             print(me)
-            print("Sold Assets\n\n", me.getSoldAssets())
+            print("Sold Assets\n\n", me.sold_assets)
             break
 
-        if doodadCardDeck.getNoCards() == 0:
+        if doodad_card_deck.no_cards == 0:
             if verbose:
                 print("At the bottom of Doodad Deck, shuffling...")
-            doodadCardDeck = copy.copy(doodadCardDeckMaster)
-            doodadCardDeck.shuffle()
+            doodad_card_deck = copy.copy(doodad_card_deck_master)
+            doodad_card_deck.shuffle()
             if verbose:
                 print("After shuffling, cards now in Doodad Deck:",
-                      doodadCardDeck.getNoCards())
-        elif small_deal_card_deck.getNoCards() == 0:
+                      doodad_card_deck.no_cards)
+        elif small_deal_card_deck.no_cards == 0:
             if verbose:
                 print("At the bottom of Small Deal Deck, shuffling...")
             small_deal_card_deck = copy.copy(small_deal_card_deck_master)
             small_deal_card_deck.shuffle()
             if verbose:
                 print("After shuffling, cards now in Small Deal Deck:",
-                      small_deal_card_deck.getNoCards())
-        elif big_deal_card_deck.getNoCards() == 0:
+                      small_deal_card_deck.no_cards)
+        elif big_deal_card_deck.no_cards == 0:
             if verbose:
                 print("At the bottom of Big Deal Deck, shuffling...")
             big_deal_card_deck = copy.copy(big_deal_card_deck_master)
             big_deal_card_deck.shuffle()
             if verbose:
                 print("After shuffling, cards now in Big Deal Deck:",
-                      big_deal_card_deck.getNoCards())
-        elif marketCardDeck.getNoCards() == 0:
+                      big_deal_card_deck.no_cards)
+        elif market_card_deck.no_cards == 0:
             if verbose:
                 print("At the bottom of Market Deck, shuffling...")
-            marketCardDeck = copy.copy(market_card_deck_master)
-            marketCardDeck.shuffle()
+            market_card_deck = copy.copy(market_card_deck_master)
+            market_card_deck.shuffle()
             if verbose:
                 print("After shuffling, cards now in Market Deck:",
-                      marketCardDeck.getNoCards())
-        turnHistory.append(singleTurnDetail)
-    singleTurnDetail = [turn]
-    singleTurnDetail.append(meOnBoard[0].getName())
-    singleTurnDetail.append(meOnBoard[0].getProfession())
-    singleTurnDetail.append(meOnBoard[0].getStrategy().getName())
-    singleTurnDetail.append(meOnBoard[0].getSalary())
-    singleTurnDetail.append(meOnBoard[0].getPassiveIncome())
-    singleTurnDetail.append(meOnBoard[0].getTaxes())
-    singleTurnDetail.append(meOnBoard[0].getOtherExpenses())
-    singleTurnDetail.append(meOnBoard[0].getTotalExpenses())
-    singleTurnDetail.append(meOnBoard[0].getChildCost())
-    singleTurnDetail.append(meOnBoard[0].getSavings())
-    singleTurnDetail.append(len(meOnBoard[0].getLoans()))
-    singleTurnDetail.append(len(meOnBoard[0].getSoldAssets()))
-    singleTurnDetail.append(meOnBoard[0].getNoChildren())
-    singleTurnDetail.append(meOnBoard[0].getMonthlyCashFlow())
-    singleTurnDetail.append(len(meOnBoard[0].getStockAssets()))
-    singleTurnDetail.append(len(meOnBoard[0].getRealEstateAssets()))
-    singleTurnDetail.append(len(meOnBoard[0].getBusinessAssets()))
-    singleTurnDetail.append(noOfDice)
-    singleTurnDetail.append(dieRoll)
-    singleTurnDetail.append(meOnBoard[1])
-    singleTurnDetail.append(meOnBoard[1])
-    singleTurnDetail.append(passedPaycheck)
-    singleTurnDetail.append(new_board_space.getBoardSpaceType())
-    turnHistory.append(singleTurnDetail)
-    turnHistory.append("End of simulation")
+                      market_card_deck.no_cards)
+        turn_history.append(single_turn_detail)
+    single_turn_detail = [turn]
+    single_turn_detail.append(me_on_board[0].name)
+    single_turn_detail.append(me_on_board[0].profession)
+    single_turn_detail.append(me_on_board[0].strategy.name)
+    single_turn_detail.append(me_on_board[0].salary)
+    single_turn_detail.append(me_on_board[0].passive_income)
+    single_turn_detail.append(me_on_board[0].taxes)
+    single_turn_detail.append(me_on_board[0].expense_other)
+    single_turn_detail.append(me_on_board[0].total_expenses)
+    single_turn_detail.append(me_on_board[0].cost_per_child)
+    single_turn_detail.append(me_on_board[0].savings)
+    single_turn_detail.append(len(me_on_board[0].loan_list))
+    single_turn_detail.append(len(me_on_board[0].sold_assets))
+    single_turn_detail.append(me_on_board[0].no_children)
+    single_turn_detail.append(me_on_board[0].monthly_cash_flow)
+    single_turn_detail.append(len(me_on_board[0].stock_assets))
+    single_turn_detail.append(len(me_on_board[0].real_estate_assets))
+    single_turn_detail.append(len(me_on_board[0].business_assets))
+    single_turn_detail.append(no_of_dice)
+    single_turn_detail.append(die_roll)
+    single_turn_detail.append(me_on_board[1])
+    single_turn_detail.append(me_on_board[1])
+    single_turn_detail.append(passed_paycheck)
+    single_turn_detail.append(new_board_space.board_space_type)
+    turn_history.append(single_turn_detail)
+    turn_history.append("End of simulation")
 
-    print("Entries in Turn Detail List", len(turnHistory), "\n",
-          turnHistory[:5], "\n", turnHistory[-5:])
-    if verboseLoc != "":
+    print("Entries in Turn Detail List", len(turn_history), "\n",
+          turn_history[:5], "\n", turn_history[-5:])
+    if verbose_loc != "":
         sys.stdout = saveout
-        outputFile.close()
+        output_file.close()
 
     import csv
     import datetime
     oneGameFileLogFilename = ("GameLog-" +
                               datetime.datetime.now().strftime(
                                   "%Y%m%d-%H%M%S") + ".csv")
-    with open(oneGameFileLogFilename, "w") as OutputFile:
-        writer = csv.writer(OutputFile, delimiter=",")
+    with open(oneGameFileLogFilename, "w") as output_file:
+        writer = csv.writer(output_file, delimiter=",")
         writer.writerow(["Turn", "Player Name", "Profession", "Strategy",
                          "Salary", "Passive Income", "Taxes", "Other Expenses",
                          "Total Expenses", "Child Cost", "Savings", "Loans",
@@ -683,6 +698,6 @@ if __name__ == '__main__':
                          "Business Assets", "No. Dice", "Die Roll",
                          "Board Space No. Before", "Board Space No. After",
                          "Passed Paycheck", "Board Space After"])
-        for turn in turnHistory:
+        for turn in turn_history:
             writer.writerow(turn)
-        OutputFile.close()
+        output_file.close()
