@@ -65,7 +65,6 @@ class Player(object):
     def start_charity_turns(self):
         """Start charity turns where you can roll multiple dies."""
         self.charity_turns_remaining = 3
-        return
 
     def use_charity_turn(self):
         """Use a charity turn."""
@@ -74,7 +73,6 @@ class Player(object):
     def start_layoff(self):
         """Start a layoff for two turns."""
         self.skipped_turns_remaining = 2
-        return
 
     def use_layoff(self):
         """Use a layoff day."""
@@ -195,31 +193,27 @@ class Player(object):
             self.savings += (price - asset.loan_amount)
             self.sold_assets.append([asset, price])
             if verbose:
-                print("Sold " + asset.name + ", " + asset.asset_type + " for " +
-                      price + ".")
+                print("Sold " + asset.name + ", " + asset.asset_type +
+                      " for " + price + ".")
 
     def have_child(self, verbose=False):
         """Have a child."""
         if self.no_children >= 3:
             if verbose:
                 print("Three kids is enough for anyone")
-            return self.no_children
+            # return self.no_children
         self.no_children += 1
-        return self.no_children
+        # return self.no_children
 
     def refresh(self):
         """Recalc. tot. inc.,passive income,total expenses,am Irich,amIPoor."""
-        if self.monthly_cash_flow < 0 and (-1 * self.monthly_cash_flow >
+        if self.monthly_cash_flow < 0 and (-self.monthly_cash_flow >
                                            self.savings):  # You're broke!
-            self.am_i_broke = True
-            self.am_i_rich = False
+            return False, True  # am_i_rich, am_i_broke
         elif self.passive_income > self.total_expenses:  # You're rich!
-            self.am_i_broke = False
-            self.am_i_rich = True
+            return True, False  # am_i_rich, am_i_broke
         else:
-            self.am_i_broke = False
-            self.am_i_rich = False
-        return self.am_i_rich, self.am_i_broke
+            return False, False  # am_i_rich, am_i_broke
 
     def __str__(self):
         """Create string to be returned when str method is called."""

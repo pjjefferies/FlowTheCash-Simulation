@@ -1,0 +1,3001 @@
+test no.,professionName,strategyName,Am I Rich,Am I Poor,Turns
+0,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,54
+1,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,36
+2,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,27
+3,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,19
+4,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,26
+5,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,26
+6,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,42
+7,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+9,Lawyer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,48
+0,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,68
+1,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,29
+2,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,27
+3,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,55
+4,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,19
+5,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,27
+6,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,41
+7,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,29
+9,Lawyer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,45
+0,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,48
+1,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,23
+2,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+3,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,55
+4,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,18
+5,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,27
+6,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,42
+7,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,29
+9,Lawyer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,39
+0,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,65
+1,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,21
+2,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,34
+3,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,71
+4,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,18
+5,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,27
+6,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,48
+7,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,32
+8,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,27
+9,Lawyer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,55
+0,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,61
+1,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,38
+2,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,57
+3,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,99
+4,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,29
+5,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,36
+6,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,64
+7,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,42
+8,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,27
+9,Lawyer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,50
+0,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,54
+1,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,36
+2,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,27
+3,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,19
+4,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,26
+5,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,26
+6,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,42
+7,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+9,Lawyer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,48
+0,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,68
+1,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,29
+2,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,27
+3,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,55
+4,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,19
+5,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,27
+6,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,41
+7,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,29
+9,Lawyer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,45
+0,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,48
+1,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,23
+2,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+3,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,55
+4,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,18
+5,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,27
+6,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,45
+7,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,29
+9,Lawyer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,39
+0,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,65
+1,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,21
+2,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,34
+3,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,79
+4,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,18
+5,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,27
+6,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,48
+7,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,32
+8,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,27
+9,Lawyer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,48
+0,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,61
+1,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,38
+2,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,60
+3,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,99
+4,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,29
+5,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,27
+6,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,67
+7,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,35
+8,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,27
+9,Lawyer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,50
+0,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,54
+1,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,36
+2,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,19
+4,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,26
+5,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,26
+6,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,42
+7,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+9,Lawyer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,48
+0,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,68
+1,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,29
+2,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,55
+4,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,41
+7,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,45
+0,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,48
+1,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,23
+2,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,39
+3,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,55
+4,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,45
+7,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,36
+0,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,49
+1,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,39
+2,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,60
+3,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,53
+4,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,48
+7,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,47
+0,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,49
+1,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,39
+2,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,51
+3,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,53
+4,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,60
+7,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,50
+0,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,54
+1,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,36
+2,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,19
+4,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,26
+5,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,26
+6,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,42
+7,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+9,Lawyer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,48
+0,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,68
+1,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,29
+2,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,55
+4,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,41
+7,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,44
+0,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,64
+1,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,23
+2,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,59
+4,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,41
+7,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,36
+0,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,51
+1,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+2,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,59
+4,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,45
+7,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,62
+0,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,48
+1,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+2,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,31
+3,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,59
+4,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,45
+7,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,45
+0,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,54
+1,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,36
+2,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,19
+4,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,26
+5,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,26
+6,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,42
+7,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+9,Lawyer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,48
+0,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,66
+1,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,29
+2,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,55
+4,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,41
+7,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,44
+0,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,66
+1,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,29
+2,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,59
+4,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,41
+7,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,36
+0,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,66
+1,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,29
+2,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,59
+4,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,44
+7,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,60
+0,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,66
+1,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,29
+2,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,27
+3,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,59
+4,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,19
+5,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,27
+6,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,44
+7,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,29
+9,Lawyer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,60
+0,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,45
+1,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,18
+2,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,35
+3,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,36
+4,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+5,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,75
+6,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,24
+7,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,27
+9,Engineer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,41
+0,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,48
+1,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,16
+2,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,35
+3,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,36
+4,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+5,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,40
+6,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,22
+7,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,26
+9,Engineer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+0,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,22
+1,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,16
+2,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,27
+3,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,36
+4,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+5,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,58
+6,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,27
+7,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,26
+9,Engineer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,43
+0,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,58
+1,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,39
+2,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,50
+3,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,52
+4,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,59
+5,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+6,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,46
+7,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,54
+8,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,25
+9,Engineer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,44
+0,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,65
+1,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,39
+2,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,57
+3,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,52
+4,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,73
+5,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,67
+6,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,52
+7,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,62
+8,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,25
+9,Engineer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,52
+0,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,45
+1,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,18
+2,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,35
+3,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,36
+4,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+5,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,75
+6,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,24
+7,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,27
+9,Engineer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,41
+0,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,48
+1,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,16
+2,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,35
+3,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,36
+4,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+5,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,40
+6,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,22
+7,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,26
+9,Engineer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+0,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,22
+1,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,16
+2,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,27
+3,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,36
+4,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+5,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,40
+6,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,27
+7,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,26
+9,Engineer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,38
+0,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,58
+1,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,39
+2,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,50
+3,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,52
+4,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,59
+5,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,40
+6,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,46
+7,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,54
+8,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,25
+9,Engineer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,44
+0,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,65
+1,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,39
+2,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,60
+3,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,52
+4,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,64
+5,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,66
+6,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,48
+7,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,62
+8,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,25
+9,Engineer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,44
+0,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,45
+1,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,18
+2,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,36
+4,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,75
+6,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,24
+7,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,27
+9,Engineer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,41
+0,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,48
+1,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,22
+7,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+0,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,17
+1,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,27
+7,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+0,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,22
+1,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,40
+2,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,47
+4,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,42
+7,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,42
+0,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,29
+1,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,40
+2,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,50
+3,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,48
+4,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,48
+5,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,53
+6,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,47
+7,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,42
+0,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,45
+1,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,18
+2,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,36
+4,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,75
+6,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,24
+7,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,27
+9,Engineer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,41
+0,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,48
+1,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,22
+7,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+0,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,48
+1,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,22
+7,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+0,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,18
+1,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,28
+7,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,45
+0,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,18
+1,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,36
+5,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,28
+7,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,42
+0,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,51
+1,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,18
+2,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,36
+4,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,75
+6,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,24
+7,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,27
+9,Engineer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,41
+0,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,61
+1,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,22
+7,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+0,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,51
+1,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,22
+7,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+0,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,51
+1,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,28
+7,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+0,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,51
+1,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,16
+2,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,35
+3,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,36
+4,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,31
+5,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,40
+6,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,28
+7,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,26
+9,Engineer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+0,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,50
+1,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,21
+2,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,45
+3,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,26
+4,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,28
+5,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,28
+6,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,48
+7,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,50
+8,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,38
+9,Doctor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,33
+0,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,52
+1,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,21
+2,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,45
+3,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,29
+4,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,21
+5,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,32
+6,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,48
+7,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,54
+8,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,39
+9,Doctor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,33
+0,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,53
+1,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,23
+2,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,34
+3,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,29
+4,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,21
+5,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,27
+6,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,60
+7,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,63
+8,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,26
+9,Doctor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,33
+0,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,54
+1,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,38
+2,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,51
+3,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,34
+4,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,21
+5,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,35
+6,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,67
+7,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,31
+8,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,22
+9,Doctor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,35
+0,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,60
+1,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,74
+2,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,56
+3,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,48
+4,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,59
+5,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,73
+6,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,82
+7,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,40
+8,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,40
+9,Doctor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,69
+0,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,50
+1,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,21
+2,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,45
+3,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,26
+4,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,28
+5,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,28
+6,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,48
+7,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,50
+8,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,38
+9,Doctor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,33
+0,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,52
+1,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,21
+2,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,45
+3,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,29
+4,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,21
+5,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,32
+6,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,48
+7,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,54
+8,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,39
+9,Doctor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,33
+0,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,53
+1,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,23
+2,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,34
+3,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,29
+4,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,21
+5,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,32
+6,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,52
+7,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,63
+8,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,26
+9,Doctor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,33
+0,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,54
+1,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,38
+2,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,51
+3,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,34
+4,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,21
+5,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,39
+6,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,67
+7,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,31
+8,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,22
+9,Doctor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,33
+0,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,60
+1,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,74
+2,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,51
+3,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,48
+4,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,54
+5,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,62
+6,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,67
+7,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,31
+8,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,39
+9,Doctor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,52
+0,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,50
+1,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,28
+5,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,28
+6,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,50
+8,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,38
+9,Doctor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,52
+1,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,29
+4,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,54
+8,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,39
+9,Doctor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,52
+1,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,23
+2,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,46
+3,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,29
+4,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,52
+7,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,63
+8,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,26
+9,Doctor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,53
+1,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,38
+2,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,35
+3,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,29
+4,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,63
+7,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,58
+8,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,25
+9,Doctor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,53
+1,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,38
+2,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,50
+3,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,46
+4,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,67
+7,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,63
+8,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,25
+9,Doctor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,50
+1,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,28
+5,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,28
+6,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,50
+8,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,38
+9,Doctor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,52
+1,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,50
+8,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,39
+9,Doctor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,52
+1,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,23
+2,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,56
+8,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,26
+9,Doctor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,52
+1,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,38
+2,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,48
+3,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,60
+7,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,57
+8,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,26
+9,Doctor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,52
+1,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+2,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,50
+3,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,60
+7,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,57
+8,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,26
+9,Doctor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,68
+1,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,28
+5,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,28
+6,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,49
+8,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,38
+9,Doctor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,60
+1,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,49
+8,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,39
+9,Doctor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,60
+1,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,45
+3,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,46
+7,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,49
+8,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,39
+9,Doctor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,33
+0,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,60
+1,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,48
+3,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,49
+8,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,39
+9,Doctor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,43
+0,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,60
+1,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,21
+2,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,48
+3,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,26
+4,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,21
+5,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,32
+6,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,48
+7,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,49
+8,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,39
+9,Doctor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,43
+0,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,68
+1,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,55
+2,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,46
+3,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,91
+4,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,53
+5,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,72
+6,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,79
+7,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,90
+9,Secretary,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,41
+0,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,47
+1,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,47
+2,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,46
+3,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+4,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,53
+5,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,72
+6,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,37
+7,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,39
+9,Secretary,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,35
+0,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,47
+1,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,59
+2,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+3,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,38
+4,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,53
+5,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,72
+6,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,40
+7,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,39
+9,Secretary,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,37
+0,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,51
+1,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,125
+2,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,69
+3,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,94
+4,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,67
+5,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,79
+6,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,44
+7,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,78
+8,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,90
+9,Secretary,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,61
+0,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,89
+1,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",False,True,374
+2,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,202
+3,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,241
+4,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,103
+5,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,140
+6,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,87
+7,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,78
+8,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,117
+9,Secretary,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,68
+0,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,68
+1,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,55
+2,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,46
+3,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,91
+4,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,53
+5,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,72
+6,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,79
+7,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,90
+9,Secretary,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,41
+0,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,47
+1,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,47
+2,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,46
+3,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+4,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,53
+5,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,72
+6,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,37
+7,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,39
+9,Secretary,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,35
+0,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,47
+1,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,59
+2,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+3,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,38
+4,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,53
+5,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,72
+6,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,40
+7,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,39
+9,Secretary,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,37
+0,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,51
+1,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,125
+2,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,91
+3,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,94
+4,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,60
+5,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,79
+6,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,45
+7,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,72
+8,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,90
+9,Secretary,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,61
+0,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,91
+1,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",False,True,374
+2,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,113
+3,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,207
+4,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,103
+5,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,140
+6,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,87
+7,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,79
+8,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,117
+9,Secretary,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,68
+0,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,68
+1,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,55
+2,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,46
+3,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,91
+4,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,53
+5,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,72
+6,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,79
+7,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,90
+9,Secretary,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,41
+0,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,47
+2,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,46
+3,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,53
+5,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,72
+6,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,37
+7,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,35
+0,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,18
+1,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,57
+2,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,35
+3,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,49
+5,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,72
+6,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,37
+0,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,18
+1,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,80
+2,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,81
+4,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,60
+5,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,79
+6,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,37
+0,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,18
+1,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,80
+2,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,57
+3,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,134
+4,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,60
+5,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,77
+6,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,39
+7,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,68
+0,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,68
+1,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,55
+2,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,46
+3,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,91
+4,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,53
+5,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,72
+6,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,79
+7,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,90
+9,Secretary,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,41
+0,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,47
+2,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,46
+3,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,53
+5,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,72
+6,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,37
+7,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,35
+0,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,47
+2,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,35
+3,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,49
+5,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,72
+6,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,37
+0,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,68
+2,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,57
+5,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,74
+6,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+0,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,48
+1,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,67
+2,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+3,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,57
+5,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,86
+6,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+0,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,68
+1,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,55
+2,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,46
+3,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,83
+4,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,57
+5,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,48
+6,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,87
+7,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,109
+9,Secretary,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,41
+0,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,47
+2,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,46
+3,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,57
+5,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,48
+6,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,37
+7,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,35
+0,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,47
+2,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,35
+3,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,57
+5,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,48
+6,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,37
+0,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,47
+2,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,35
+3,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,57
+5,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,48
+6,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,37
+0,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,47
+1,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,47
+2,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,35
+3,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+4,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,57
+5,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,48
+6,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,40
+7,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,39
+9,Secretary,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,37
+0,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,28
+1,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+2,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,38
+3,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,62
+4,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+5,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,75
+6,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,59
+7,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,49
+9,Nurse,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,38
+0,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,18
+1,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+2,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+3,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+4,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+5,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,75
+6,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,36
+7,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,36
+9,Nurse,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,33
+0,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,48
+1,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,40
+2,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+3,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,38
+4,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,50
+5,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,75
+6,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,37
+7,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,36
+9,Nurse,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,30
+0,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,68
+1,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,125
+2,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,50
+3,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,95
+4,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,74
+5,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,84
+6,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,56
+7,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+8,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,90
+9,Nurse,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,37
+0,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,71
+1,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,306
+2,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,159
+3,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,168
+4,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,106
+5,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,135
+6,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,85
+7,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,78
+8,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,93
+9,Nurse,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,70
+0,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,28
+1,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+2,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,38
+3,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,62
+4,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+5,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,75
+6,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,59
+7,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,49
+9,Nurse,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,38
+0,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,18
+1,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+2,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+3,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+4,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+5,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,75
+6,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,36
+7,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,36
+9,Nurse,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,33
+0,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,48
+1,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,40
+2,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+3,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,38
+4,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,49
+5,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,75
+6,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,37
+7,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,36
+9,Nurse,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,33
+0,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,68
+1,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,125
+2,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,50
+3,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,95
+4,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,73
+5,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,84
+6,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,56
+7,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,60
+8,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,90
+9,Nurse,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,40
+0,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,71
+1,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,306
+2,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,116
+3,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,215
+4,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,106
+5,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,135
+6,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,85
+7,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,79
+8,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,93
+9,Nurse,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,70
+0,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,28
+1,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,62
+4,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,75
+6,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,59
+7,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,49
+9,Nurse,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,38
+0,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,75
+6,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,36
+7,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,33
+0,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,40
+2,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,75
+6,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,37
+7,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,32
+0,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,67
+2,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,35
+3,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,94
+4,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,84
+6,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,40
+7,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,37
+0,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,67
+2,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,34
+3,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,62
+4,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,60
+5,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,84
+6,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,45
+7,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,37
+0,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,28
+1,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,62
+4,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,75
+6,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,59
+7,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,49
+9,Nurse,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,38
+0,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,75
+6,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,36
+7,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,33
+0,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,75
+6,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,37
+7,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,32
+0,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,44
+2,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,84
+6,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+7,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+0,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,18
+1,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,44
+2,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,46
+5,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,84
+6,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+7,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+0,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,23
+1,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,62
+4,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,34
+6,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,59
+7,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,49
+9,Nurse,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,38
+0,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,23
+1,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,34
+6,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,36
+7,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,33
+0,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,23
+1,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,31
+2,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,34
+6,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,37
+7,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,32
+0,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,23
+1,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,47
+2,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,34
+6,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,37
+7,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,32
+0,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,23
+1,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,47
+2,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+3,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+4,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,31
+5,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,34
+6,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,37
+7,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,36
+9,Nurse,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,32
+0,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,45
+1,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,18
+2,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,35
+3,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,56
+4,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,34
+5,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,57
+6,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,24
+7,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,27
+9,Business Manager,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,45
+0,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,44
+1,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,18
+2,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,35
+3,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,72
+4,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,34
+5,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,57
+6,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,22
+7,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,26
+9,Business Manager,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+0,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,22
+1,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,18
+2,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,27
+3,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,43
+4,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+5,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,55
+6,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,27
+7,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,26
+9,Business Manager,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,38
+0,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,58
+1,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,119
+2,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,34
+3,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,50
+4,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,59
+5,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+6,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,48
+7,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,32
+8,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,40
+9,Business Manager,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,44
+0,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,66
+1,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,81
+2,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,60
+3,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,52
+4,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,65
+5,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,67
+6,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,57
+7,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,32
+8,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,40
+9,Business Manager,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,64
+0,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,45
+1,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,18
+2,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,35
+3,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,56
+4,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,34
+5,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,57
+6,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,24
+7,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,27
+9,Business Manager,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,45
+0,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,44
+1,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,18
+2,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,35
+3,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,72
+4,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,34
+5,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,57
+6,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,22
+7,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,26
+9,Business Manager,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+0,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,22
+1,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,18
+2,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,27
+3,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,43
+4,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+5,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,55
+6,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,27
+7,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,26
+9,Business Manager,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,38
+0,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,58
+1,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,119
+2,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,34
+3,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,50
+4,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,59
+5,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,60
+6,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,44
+7,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,32
+8,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,40
+9,Business Manager,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,44
+0,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,66
+1,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,78
+2,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,69
+3,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,52
+4,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,58
+5,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,67
+6,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,48
+7,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,32
+8,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,40
+9,Business Manager,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,44
+0,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,45
+1,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,56
+4,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,57
+6,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,24
+7,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,27
+9,Business Manager,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,45
+0,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,44
+1,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,72
+4,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,57
+6,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,22
+7,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,17
+1,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,47
+4,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,32
+5,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,57
+6,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,27
+7,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,19
+1,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,68
+2,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,33
+4,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,32
+5,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,60
+6,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,42
+7,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,19
+1,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,65
+2,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,50
+3,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,44
+4,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,45
+5,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,68
+6,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,42
+7,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,42
+0,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,45
+1,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,56
+4,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,57
+6,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,24
+7,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,27
+9,Business Manager,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,45
+0,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,44
+1,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,72
+4,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,57
+6,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,22
+7,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,48
+1,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,47
+4,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,57
+6,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,22
+7,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,18
+1,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,47
+4,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,57
+6,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,25
+7,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,42
+0,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,18
+1,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+3,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,47
+4,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,31
+5,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,58
+6,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,25
+7,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,48
+1,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,56
+4,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,68
+6,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,24
+7,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,27
+9,Business Manager,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,45
+0,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,48
+1,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,72
+4,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,68
+6,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,22
+7,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,48
+1,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,47
+4,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,68
+6,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,22
+7,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,48
+1,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,47
+4,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,68
+6,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,25
+7,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+0,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,48
+1,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,18
+2,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,35
+3,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,47
+4,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,34
+5,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,68
+6,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,25
+7,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,26
+9,Business Manager,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+0,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,92
+1,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,36
+2,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,34
+5,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,30
+6,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,45
+7,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,42
+7,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,50
+1,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,35
+3,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,46
+7,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,36
+9,Airline Pilot,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,30
+0,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,50
+1,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,34
+3,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,33
+4,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,28
+5,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,32
+6,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,61
+7,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,29
+8,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,35
+9,Airline Pilot,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,64
+1,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,38
+2,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,34
+3,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,50
+4,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,34
+5,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,66
+6,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,70
+7,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,34
+8,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,35
+9,Airline Pilot,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,44
+0,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,92
+1,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,36
+2,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,34
+5,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,30
+6,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,45
+7,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,42
+7,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,50
+1,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,35
+3,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,46
+7,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,36
+9,Airline Pilot,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,30
+0,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,50
+1,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,34
+3,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,33
+4,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,28
+5,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,32
+6,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,64
+7,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,29
+8,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,35
+9,Airline Pilot,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,38
+0,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,38
+2,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,34
+3,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,50
+4,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,34
+5,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,32
+6,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,67
+7,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,34
+8,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,35
+9,Airline Pilot,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,38
+0,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,92
+1,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,36
+2,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,34
+5,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,30
+6,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,45
+7,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,42
+7,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,49
+1,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,33
+3,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,46
+7,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,36
+9,Airline Pilot,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,30
+0,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,51
+1,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,33
+4,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,48
+7,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,36
+9,Airline Pilot,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,38
+0,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,51
+1,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,34
+3,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,34
+4,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,64
+7,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,36
+9,Airline Pilot,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,38
+0,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,92
+1,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,36
+2,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,34
+5,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,30
+6,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,45
+7,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,42
+7,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,43
+7,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,30
+0,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,49
+1,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,33
+3,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,46
+7,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,33
+0,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,49
+1,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+3,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,46
+7,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,42
+0,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,66
+1,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,36
+2,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,34
+5,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,30
+6,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,45
+7,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,42
+7,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,35
+0,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,42
+7,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,33
+0,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,43
+7,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,33
+0,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,52
+1,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,21
+2,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,31
+3,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,29
+4,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,21
+5,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,27
+6,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,43
+7,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+9,Airline Pilot,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,33
+0,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,59
+1,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,63
+2,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,35
+3,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,90
+4,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,49
+5,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,64
+6,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,111
+7,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+8,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,90
+9,Mechanic,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,42
+0,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,46
+1,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,68
+2,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,35
+3,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,81
+4,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,49
+5,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,64
+6,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,111
+7,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+8,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,82
+9,Mechanic,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,39
+0,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,59
+1,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,68
+2,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,35
+3,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,94
+4,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,49
+5,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,68
+6,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,37
+7,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+8,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,88
+9,Mechanic,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,29
+0,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,42
+1,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,125
+2,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+3,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,94
+4,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+5,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,84
+6,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,62
+7,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+8,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,89
+9,Mechanic,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,61
+0,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,89
+1,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",False,True,172
+2,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,216
+3,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",False,True,556
+4,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,202
+5,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,129
+6,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,140
+7,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,78
+8,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,95
+9,Mechanic,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,116
+0,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,59
+1,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,63
+2,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,35
+3,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,90
+4,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,49
+5,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,64
+6,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,111
+7,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+8,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,90
+9,Mechanic,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,42
+0,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,46
+1,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,68
+2,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,35
+3,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,81
+4,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,49
+5,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,64
+6,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,111
+7,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+8,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,82
+9,Mechanic,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,39
+0,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,59
+1,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,68
+2,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,35
+3,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,94
+4,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,49
+5,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,68
+6,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,35
+7,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+8,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,88
+9,Mechanic,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,29
+0,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,42
+1,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,125
+2,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,100
+3,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,94
+4,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,60
+5,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,84
+6,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,62
+7,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,60
+8,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,89
+9,Mechanic,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,61
+0,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,127
+1,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",False,True,172
+2,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,216
+3,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",False,True,556
+4,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,202
+5,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,129
+6,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,163
+7,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,108
+8,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,95
+9,Mechanic,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,116
+0,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,59
+1,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,63
+2,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,90
+4,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,111
+7,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+8,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,90
+9,Mechanic,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,42
+0,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,46
+1,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,81
+4,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,111
+7,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+8,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,39
+0,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,18
+1,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,76
+4,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,35
+7,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,31
+8,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,29
+0,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,18
+1,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,49
+3,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,84
+4,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,84
+6,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,37
+7,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,56
+8,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,79
+9,Mechanic,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,42
+0,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,18
+1,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,102
+2,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,50
+3,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,100
+4,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,87
+5,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,84
+6,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,37
+7,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,58
+8,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,93
+9,Mechanic,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,77
+0,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,59
+1,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,63
+2,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,90
+4,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,111
+7,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+8,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,90
+9,Mechanic,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,42
+0,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,46
+1,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,81
+4,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,111
+7,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+8,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,39
+0,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,51
+1,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,76
+4,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,35
+7,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+8,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,29
+0,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,51
+1,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,84
+4,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+7,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,41
+8,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,79
+9,Mechanic,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,29
+0,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,49
+1,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,67
+2,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,84
+4,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,84
+6,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+7,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,48
+8,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,96
+9,Mechanic,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,29
+0,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,59
+1,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,63
+2,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,90
+4,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,101
+7,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,73
+8,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,90
+9,Mechanic,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,42
+0,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,46
+1,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,81
+4,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,49
+5,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,101
+7,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,54
+8,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,39
+0,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,51
+1,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,76
+4,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,53
+5,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,35
+7,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,54
+8,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,29
+0,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,51
+1,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,84
+4,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,53
+5,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,35
+7,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,54
+8,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,29
+0,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,51
+1,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,68
+2,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,35
+3,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,84
+4,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,53
+5,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,64
+6,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,35
+7,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,54
+8,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,82
+9,Mechanic,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,29
+0,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,30
+1,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,94
+4,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,52
+7,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,67
+9,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,55
+0,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,19
+1,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,49
+4,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,36
+0,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,48
+1,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,40
+2,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,35
+3,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,44
+4,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,50
+5,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,48
+9,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,70
+1,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,79
+2,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,34
+3,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,119
+4,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,88
+5,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,84
+6,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,59
+7,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,56
+8,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,102
+9,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,99
+1,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,363
+2,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,57
+3,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,374
+4,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,132
+5,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,135
+6,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,143
+7,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,87
+8,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,112
+9,Teacher (K-12),"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,44
+0,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,30
+1,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,94
+4,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,52
+7,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,67
+9,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,55
+0,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,19
+1,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,49
+4,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,36
+0,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,48
+1,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,40
+2,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,35
+3,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,44
+4,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,51
+5,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,39
+7,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,48
+9,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,70
+1,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,79
+2,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,34
+3,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,119
+4,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,88
+5,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,84
+6,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,64
+7,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,56
+8,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,89
+9,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,128
+1,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,311
+2,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,71
+3,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,337
+4,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,88
+5,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,135
+6,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,163
+7,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,79
+8,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,93
+9,Teacher (K-12),"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,44
+0,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,30
+1,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,94
+4,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,52
+7,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,67
+9,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,55
+0,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,19
+1,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,49
+4,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,36
+0,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,18
+1,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,40
+2,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,45
+4,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,39
+7,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,48
+9,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,49
+1,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,69
+2,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,96
+4,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,84
+6,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,45
+7,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,48
+9,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,49
+1,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,80
+2,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,34
+3,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,65
+4,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,67
+5,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,88
+6,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,45
+7,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,48
+9,Teacher (K-12),"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,52
+0,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,30
+1,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,94
+4,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,52
+7,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,67
+9,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,55
+0,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,19
+1,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,49
+4,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,36
+0,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,19
+1,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,45
+4,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,75
+6,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,39
+7,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,47
+1,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,50
+2,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,45
+4,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,84
+6,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,47
+1,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,50
+2,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,45
+4,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,53
+5,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,86
+6,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,19
+1,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,94
+4,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,34
+6,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,52
+7,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,67
+9,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,55
+0,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,19
+1,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,49
+4,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,34
+6,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,37
+7,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,36
+0,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,19
+1,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,37
+2,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,45
+4,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,34
+6,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,39
+7,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,19
+1,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,40
+2,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,45
+4,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,34
+6,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,39
+7,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+0,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,19
+1,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,40
+2,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+3,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,45
+4,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,31
+5,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,34
+6,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,39
+7,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,49
+9,Teacher (K-12),"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+0,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,55
+2,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,116
+3,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,91
+4,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,79
+7,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,90
+9,Truck Driver,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,41
+0,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,49
+1,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,100
+3,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,37
+7,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,35
+0,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,47
+1,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,59
+2,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+3,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,53
+5,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,125
+2,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,69
+3,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,94
+4,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,67
+5,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,79
+6,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,44
+7,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,78
+8,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,90
+9,Truck Driver,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,61
+0,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,89
+1,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",False,True,370
+2,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,202
+3,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,241
+4,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,103
+5,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,140
+6,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,87
+7,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,78
+8,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,117
+9,Truck Driver,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,68
+0,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,55
+2,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,116
+3,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,91
+4,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,79
+7,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,90
+9,Truck Driver,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,41
+0,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,49
+1,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,100
+3,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,37
+7,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,35
+0,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,47
+1,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,59
+2,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+3,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,53
+5,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,125
+2,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,91
+3,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,94
+4,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,70
+5,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,79
+6,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,45
+7,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,72
+8,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,90
+9,Truck Driver,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,61
+0,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,91
+1,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",False,True,370
+2,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,113
+3,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,207
+4,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,103
+5,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,140
+6,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,87
+7,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,79
+8,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,117
+9,Truck Driver,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,68
+0,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,55
+2,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,116
+3,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,91
+4,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,79
+7,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,90
+9,Truck Driver,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,41
+0,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,49
+1,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,100
+3,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,37
+7,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,35
+0,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,45
+1,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,57
+2,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,35
+3,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,49
+5,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,80
+2,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,81
+4,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,60
+5,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,79
+6,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,52
+1,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,80
+2,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,57
+3,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,134
+4,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,60
+5,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,77
+6,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,39
+7,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,68
+0,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,55
+2,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,116
+3,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,91
+4,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,79
+7,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,90
+9,Truck Driver,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,41
+0,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,49
+1,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,100
+3,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,37
+7,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,35
+0,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,45
+1,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,35
+3,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,49
+5,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,72
+6,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,45
+1,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,67
+2,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,57
+5,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,74
+6,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,45
+1,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,67
+2,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+3,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,57
+5,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,79
+6,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,51
+1,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,55
+2,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,96
+3,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,83
+4,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,48
+6,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,87
+7,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,108
+9,Truck Driver,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,41
+0,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,49
+1,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,96
+3,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,50
+5,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,48
+6,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,37
+7,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,35
+0,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,45
+1,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,35
+3,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,57
+5,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,48
+6,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,45
+1,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,35
+3,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,57
+5,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,48
+6,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,37
+0,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,45
+1,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,47
+2,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,35
+3,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+4,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,57
+5,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,48
+6,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,40
+7,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,39
+9,Truck Driver,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,37
+0,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,45
+1,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+2,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,35
+3,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,42
+4,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,31
+5,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,75
+6,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,58
+7,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,31
+8,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,57
+9,Police Officer,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,37
+0,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,18
+1,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+2,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,35
+3,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,29
+4,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,31
+5,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,75
+6,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,36
+7,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,31
+8,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,45
+9,Police Officer,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,33
+0,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,18
+1,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,37
+2,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,31
+3,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,29
+4,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,50
+5,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,66
+6,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,37
+7,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",False,True,31
+8,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,46
+9,Police Officer,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,21
+0,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,65
+1,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,114
+2,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,34
+3,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,94
+4,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,73
+5,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,84
+6,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,56
+7,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,34
+8,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,87
+9,Police Officer,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,37
+0,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,68
+1,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,184
+2,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,57
+3,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,175
+4,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,103
+5,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,99
+6,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,64
+7,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,42
+8,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,87
+9,Police Officer,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,46
+0,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,45
+1,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+2,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,35
+3,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,42
+4,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,31
+5,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,75
+6,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,58
+7,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,31
+8,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,57
+9,Police Officer,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,37
+0,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,18
+1,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+2,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,35
+3,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,29
+4,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,31
+5,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,75
+6,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,36
+7,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,31
+8,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,45
+9,Police Officer,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,33
+0,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,18
+1,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,37
+2,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,31
+3,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,29
+4,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,49
+5,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,66
+6,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,37
+7,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",False,True,31
+8,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,46
+9,Police Officer,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,33
+0,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,65
+1,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,116
+2,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,34
+3,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,94
+4,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,73
+5,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,84
+6,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,56
+7,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,34
+8,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,86
+9,Police Officer,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,40
+0,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,68
+1,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,184
+2,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,72
+3,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,207
+4,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,73
+5,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,99
+6,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,64
+7,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,42
+8,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,86
+9,Police Officer,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,46
+0,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,45
+1,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,42
+4,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,75
+6,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,58
+7,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,57
+9,Police Officer,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,37
+0,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,75
+6,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,36
+7,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,45
+9,Police Officer,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,33
+0,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,37
+2,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,38
+3,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,75
+6,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,37
+7,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,46
+9,Police Officer,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,33
+0,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,59
+2,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,68
+4,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,84
+6,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,40
+7,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,46
+9,Police Officer,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,37
+0,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,59
+2,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,34
+3,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,50
+4,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,53
+5,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,84
+6,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,45
+7,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,46
+9,Police Officer,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,37
+0,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,45
+1,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,42
+4,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,75
+6,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,58
+7,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,57
+9,Police Officer,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,37
+0,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,75
+6,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,36
+7,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,45
+9,Police Officer,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,33
+0,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,38
+3,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,75
+6,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,37
+7,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,48
+9,Police Officer,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,33
+0,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,41
+2,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,84
+6,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,37
+7,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,48
+9,Police Officer,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+0,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,18
+1,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,41
+2,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,46
+5,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,84
+6,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,37
+7,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,48
+9,Police Officer,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+0,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,23
+1,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,42
+4,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,34
+6,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,58
+7,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,57
+9,Police Officer,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,37
+0,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,23
+1,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,35
+3,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,34
+6,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,36
+7,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,45
+9,Police Officer,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,33
+0,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,23
+1,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,31
+2,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,38
+3,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,34
+6,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,37
+7,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,48
+9,Police Officer,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,33
+0,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,23
+1,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,40
+2,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,38
+3,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,34
+6,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,37
+7,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,48
+9,Police Officer,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,32
+0,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,23
+1,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,40
+2,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,38
+3,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,29
+4,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,31
+5,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,34
+6,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,37
+7,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",False,True,31
+8,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,48
+9,Police Officer,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,32
+0,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,70
+1,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,72
+2,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,34
+3,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,91
+4,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,64
+5,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,65
+6,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,28
+7,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,50
+8,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",False,True,79
+9,Janitor,"ZeroBDT, -1.0PRT, 0.0ROIT",True,False,43
+0,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,70
+1,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,72
+2,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,34
+3,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,81
+4,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,99
+5,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,65
+6,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",False,True,28
+7,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,48
+8,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,82
+9,Janitor,"ZeroBDT, -1.0PRT, 0.2ROIT",True,False,43
+0,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,62
+1,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,56
+2,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,29
+3,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,94
+4,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,45
+5,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,57
+6,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,32
+7,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,48
+8,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,72
+9,Janitor,"ZeroBDT, -1.0PRT, 0.4ROIT",True,False,42
+0,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,51
+1,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,125
+2,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,50
+3,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,94
+4,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+5,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",False,True,84
+6,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,75
+7,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,60
+8,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,89
+9,Janitor,"ZeroBDT, -1.0PRT, 0.5ROIT",True,False,52
+0,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,89
+1,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",False,True,528
+2,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,202
+3,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,172
+4,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,103
+5,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,128
+6,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,170
+7,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,131
+8,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,91
+9,Janitor,"ZeroBDT, -1.0PRT, 0.8ROIT",True,False,103
+0,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,70
+1,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,72
+2,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,34
+3,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,91
+4,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,64
+5,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,65
+6,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,28
+7,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,50
+8,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",False,True,79
+9,Janitor,"ZeroBDT, -0.3PRT, 0.0ROIT",True,False,43
+0,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,70
+1,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,72
+2,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,34
+3,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,81
+4,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,99
+5,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,65
+6,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",False,True,28
+7,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,48
+8,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,82
+9,Janitor,"ZeroBDT, -0.3PRT, 0.2ROIT",True,False,43
+0,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,62
+1,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,56
+2,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,29
+3,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,94
+4,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,45
+5,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,57
+6,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,32
+7,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,48
+8,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,72
+9,Janitor,"ZeroBDT, -0.3PRT, 0.4ROIT",True,False,42
+0,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,51
+1,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,125
+2,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,50
+3,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,94
+4,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,60
+5,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",False,True,84
+6,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,75
+7,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,60
+8,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,89
+9,Janitor,"ZeroBDT, -0.3PRT, 0.5ROIT",True,False,52
+0,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,115
+1,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",False,True,528
+2,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,202
+3,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,197
+4,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,103
+5,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,128
+6,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,145
+7,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,108
+8,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,91
+9,Janitor,"ZeroBDT, -0.3PRT, 0.8ROIT",True,False,103
+0,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,70
+1,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,72
+2,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,91
+4,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,64
+5,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,28
+7,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,50
+8,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",False,True,79
+9,Janitor,"ZeroBDT, 0.0PRT, 0.0ROIT",True,False,43
+0,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,70
+1,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,72
+2,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,81
+4,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,99
+5,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",False,True,28
+7,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,82
+9,Janitor,"ZeroBDT, 0.0PRT, 0.2ROIT",True,False,43
+0,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,62
+1,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,68
+2,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,92
+4,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,99
+5,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,32
+7,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,85
+9,Janitor,"ZeroBDT, 0.0PRT, 0.4ROIT",True,False,42
+0,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,51
+1,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,57
+2,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,92
+4,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,109
+5,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,57
+6,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,37
+7,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,56
+8,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,82
+9,Janitor,"ZeroBDT, 0.0PRT, 0.5ROIT",True,False,42
+0,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,110
+1,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,104
+2,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,49
+3,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,94
+4,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,103
+5,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",False,True,84
+6,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,37
+7,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,57
+8,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,148
+9,Janitor,"ZeroBDT, 0.0PRT, 0.8ROIT",True,False,77
+0,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,70
+1,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,72
+2,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,91
+4,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,64
+5,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,28
+7,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,50
+8,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",False,True,79
+9,Janitor,"ZeroBDT, 0.3PRT, 0.0ROIT",True,False,43
+0,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,70
+1,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,72
+2,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,81
+4,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,99
+5,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",False,True,28
+7,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,82
+9,Janitor,"ZeroBDT, 0.3PRT, 0.2ROIT",True,False,43
+0,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,62
+1,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,68
+2,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,92
+4,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,99
+5,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,32
+7,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,85
+9,Janitor,"ZeroBDT, 0.3PRT, 0.4ROIT",True,False,42
+0,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,62
+1,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,68
+2,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,92
+4,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,109
+5,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,35
+7,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,85
+9,Janitor,"ZeroBDT, 0.3PRT, 0.5ROIT",True,False,42
+0,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,73
+1,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,52
+2,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,29
+3,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,94
+4,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,103
+5,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,35
+7,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,60
+8,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,85
+9,Janitor,"ZeroBDT, 0.3PRT, 0.8ROIT",True,False,42
+0,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,70
+1,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,72
+2,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,76
+4,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,64
+5,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,28
+7,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,50
+8,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",False,True,79
+9,Janitor,"ZeroBDT, 0.6PRT, 0.0ROIT",True,False,43
+0,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,70
+1,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,72
+2,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,81
+4,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,99
+5,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",False,True,28
+7,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,82
+9,Janitor,"ZeroBDT, 0.6PRT, 0.2ROIT",True,False,43
+0,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,62
+1,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,68
+2,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,81
+4,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,99
+5,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,32
+7,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,85
+9,Janitor,"ZeroBDT, 0.6PRT, 0.4ROIT",True,False,42
+0,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,62
+1,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,68
+2,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,81
+4,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,109
+5,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,32
+7,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,85
+9,Janitor,"ZeroBDT, 0.6PRT, 0.5ROIT",True,False,42
+0,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,62
+1,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,68
+2,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,34
+3,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,81
+4,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,109
+5,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,65
+6,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,32
+7,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,48
+8,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,85
+9,Janitor,"ZeroBDT, 0.6PRT, 0.8ROIT",True,False,42

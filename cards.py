@@ -660,7 +660,7 @@ class Deck(object):
     def add_card(self, card):
         """Add a card to the deck. This is how you create a deck."""
         self.cards.append(card)
-        return self.no_cards
+        # return self.no_cards
 
     def take_random_card(self):
         """Take a random card from the deck. Wh? We don't know either."""

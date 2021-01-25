@@ -4,12 +4,12 @@ Created on Mon Oct 19 22:20:09 2015.
 @author: PaulJ
 """
 
+import random
+import cash_flow_rat_race_simulation as cfrrs
 
-def single_run_repeat(a_profession, a_strategy, repetitions, verbose):
+
+def single_run_repeat(a_profession, a_strategy, repetitions, verbose=False):
     """Run Cash Flow Simulations."""
-    import random
-    import cash_flow_rat_race_simulation as cfrrs
-
     results = []
 
     for test in range(0, repetitions):
@@ -42,31 +42,31 @@ if __name__ == '__main__':
     import csv
     import datetime
 
-    verbose = False
-    tests_to_run = 100
+    VERBOSE = False
+    TESTS_TO_RUN = 10
     profession_defs = profession.get_profession_defs("ProfessionsList.json")
     strategy_defs = strategy.get_strategy_defs("Strategies_3.json")
     no_sims = len(profession_defs) * len(strategy_defs)
     time_sim = True
 
-    results_title_list = ['test no.', 'professionName', 'strategyName',
+    RESULTS_TITLE_LIST = ['test no.', 'professionName', 'strategyName',
                           'Am I Rich', 'Am I Poor', 'Turns']
-    results = []
 
     game_file_log_filename = "GameLog-" + datetime.datetime.now().strftime(
         '%Y%m%d-%H%M%S') + 'csv'
     with open(game_file_log_filename, "w", newline='') as output_file:
         writer = csv.writer(output_file, delimiter=",")
-        writer.writerow(results_title_list)
+        writer.writerow(RESULTS_TITLE_LIST)
         start_time = time.time()
         if time_sim:
             single_start_time = time.time()
-        for a_profession in iter(profession_defs):
+        for a_prof in iter(profession_defs):
             for strategy_to_eval in iter(strategy_defs):
                 results_list_to_save = single_run_repeat(
-                    profession_defs[a_profession],
-                    strategy_defs[strategy_to_eval],
-                    tests_to_run, verbose)
+                    a_profession=profession_defs[a_prof],
+                    a_strategy=strategy_defs[strategy_to_eval],
+                    repetitions=TESTS_TO_RUN,
+                    verbose=VERBOSE)
                 for game_result in results_list_to_save:
                     writer.writerow(game_result)
                 if time_sim:
@@ -78,5 +78,5 @@ if __name__ == '__main__':
                     time_sim = False
         output_file.close()
 
-    print("Time to run", tests_to_run, "tests for each profession/strategy:",
+    print("Time to run", TESTS_TO_RUN, "tests for each profession/strategy:",
           '{0:.2f}'.format(time.time() - start_time), "seconds.")

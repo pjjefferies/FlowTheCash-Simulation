@@ -2,29 +2,17 @@
 import json
 
 
-def load_json(fileName: str) -> None:
+def load_json(file_name: str) -> None:
     """Load file from JSON file."""
-    try:
-        f = open(fileName, "r")
-    except OSError:
-        raise OSError
-        return
-    try:
+    with open(file_name) as f:
         json_data = json.load(f)
-    except ValueError:
-        raise ValueError
-        return
-    f.close()
+
     return json_data
 
 
 def write_json(file_name: str, data: list) -> None:
     """Write data to JSON file."""
-    try:
-        f = open(file_name, "w")
-        json_data = json.dumps(data, indent="\t", sort_keys=True)
+    json_data = json.dumps(data, indent='\t', sort_keys=True)
+
+    with open(file_name, 'w') as f:
         f.write(json_data)
-        f.close()
-        return
-    except OSError:
-        return
