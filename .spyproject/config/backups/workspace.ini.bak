@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['tests\\cash_flow_rat_race_simulate_game_test.py', 'cashflowsim\\player_choice.py', 'cashflowsim\\cash_flow_rat_race_simulate_game.py', 'tests\\player_test.py', 'cashflowsim\\board_space_action.py', 'tests\\board_space_action_test.py', 'tests\\board_test.py', 'cashflowsim\\board.py', 'cashflowsim\\strategy.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+

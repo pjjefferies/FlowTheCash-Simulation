@@ -1,0 +1,118 @@
+Turn,Player Name,Profession,Strategy,Salary,Passive Income,Taxes,Other Expenses,Total Expenses,Child Cost,Savings,Loans,Sold Assets,No. Children,Cashflow,Stock Assets,Real Estate Assets,Business Assets,No. Dice,Die Roll,Board Space No. Before,Board Space No. After,Passed Paycheck,Board Space After
+1,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3210,250,400,5,0,0,1690,0,0,0,1,2,0,2,False,Opportunity
+2,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3210,250,400,5,0,0,1690,0,0,0,1,5,2,7,True,The Market
+3,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3210,250,2090,5,0,0,1690,0,0,0,1,5,7,12,False,Opportunity
+4,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,90,6,0,0,1590,0,0,0,1,4,12,16,True,Opportunity
+5,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,1680,6,0,0,1590,0,0,0,1,4,16,20,False,Opportunity
+6,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,1680,6,0,0,1590,0,0,0,1,5,20,2,True,Opportunity
+7,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,3270,6,0,0,1590,0,0,0,1,3,2,5,True,Pay Check
+8,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,4860,6,0,0,1590,0,0,0,1,2,5,7,False,The Market
+9,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,4860,6,0,0,1590,0,0,0,1,3,7,10,False,Opportunity
+10,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,4860,6,0,0,1590,0,0,0,1,3,10,13,True,Pay Check
+11,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,6450,6,0,0,1590,0,0,0,1,3,13,16,False,Opportunity
+12,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,6450,6,0,0,1590,0,0,0,1,5,16,21,True,Pay Check
+13,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,8040,6,0,0,1590,0,0,0,1,4,21,2,False,Opportunity
+14,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,8040,6,0,0,1590,0,0,0,1,6,2,8,True,Opportunity
+15,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,9630,6,0,0,1590,0,0,0,1,1,8,9,False,Doodads
+16,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,9630,6,0,0,1590,0,0,0,1,6,9,15,True,The Market
+17,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,11220,6,0,0,1590,0,0,0,1,5,15,20,False,Opportunity
+18,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,11220,6,0,0,1590,0,0,0,1,2,20,22,True,Opportunity
+19,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,12810,6,0,0,1590,0,0,0,1,6,22,5,True,Pay Check
+20,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,14400,6,0,0,1590,0,0,0,1,1,5,6,False,Opportunity
+21,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,14400,6,0,0,1590,0,0,0,1,3,6,9,False,Doodads
+22,Paulcool,Engineer,Standard Auto,4900,0,1050,1090,3310,250,14200,6,0,0,1590,0,0,0,1,1,9,10,False,Opportunity
+23,Paulcool,Engineer,Standard Auto,4900,400,1050,1090,3310,250,2200,6,0,0,1990,0,1,0,1,2,10,12,False,Opportunity
+24,Paulcool,Engineer,Standard Auto,4900,400,1050,1090,3310,250,0,6,0,0,1990,1,1,0,1,2,12,14,True,Opportunity
+25,Paulcool,Engineer,Standard Auto,4900,400,1050,1090,3310,250,1990,6,0,0,1990,1,1,0,1,2,14,16,False,Opportunity
+26,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3310,250,1990,6,0,0,2090,1,2,0,1,1,16,17,False,Doodads
+27,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3310,250,1890,6,0,0,2090,1,2,0,1,4,17,21,True,Pay Check
+28,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3310,250,3980,6,0,0,2090,1,2,0,1,6,21,4,False,Opportunity
+29,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3310,250,0,6,0,0,2090,2,2,0,1,2,4,6,True,Opportunity
+30,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3310,250,2090,6,0,0,2090,2,2,0,1,5,6,11,False,Baby
+31,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3560,250,2090,6,0,1,1840,2,2,0,1,6,11,17,True,Doodads
+32,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3560,250,3830,6,0,1,1840,2,2,0,1,1,17,18,False,Opportunity
+33,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3560,250,3830,6,0,1,1840,2,2,0,1,2,18,20,False,Opportunity
+34,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3560,250,3830,6,0,1,1840,2,2,0,1,2,20,22,True,Opportunity
+35,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3560,250,5670,6,0,1,1840,2,2,0,1,6,22,5,True,Pay Check
+36,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3560,250,7510,6,0,1,1840,2,2,0,1,4,5,9,False,Doodads
+37,Paulcool,Engineer,Standard Auto,4900,500,1050,1090,3560,250,7310,6,0,1,1840,2,2,0,1,1,9,10,False,Opportunity
+38,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3560,250,310,6,0,1,1980,2,3,0,1,3,10,13,True,Pay Check
+39,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3560,250,2290,6,0,1,1980,2,3,0,1,1,13,14,False,Opportunity
+40,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3560,250,2290,6,0,1,1980,2,3,0,1,5,14,19,False,Downsized
+41,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,730,7,0,1,1780,2,3,0,1,Use Layoff
+42,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,730,7,0,1,1780,2,3,0,1,Use Layoff
+43,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,730,7,0,1,1780,2,3,0,1,2,19,21,True,Pay Check
+44,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,2510,7,0,1,1780,2,3,0,1,5,21,3,False,Charity
+45,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,2020,7,0,1,1780,2,3,0,2,11,3,14,True,Opportunity
+46,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,0,7,0,1,1780,3,3,0,2,6,14,20,False,Opportunity
+47,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,0,7,0,1,1780,3,3,0,2,10,20,7,True,The Market
+48,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,1780,7,0,1,1780,3,3,0,1,3,7,10,False,Opportunity
+49,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,1780,7,0,1,1780,3,3,0,1,5,10,15,True,The Market
+50,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,3560,7,0,1,1780,3,3,0,1,1,15,16,False,Opportunity
+51,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,0,7,0,1,1780,4,3,0,1,2,16,18,False,Opportunity
+52,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,3760,250,0,7,0,1,1780,4,3,0,1,1,18,19,False,Downsized
+53,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,240,8,0,1,1380,4,3,0,1,Use Layoff
+54,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,240,8,0,1,1380,4,3,0,1,Use Layoff
+55,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,240,8,0,1,1380,4,3,0,1,4,19,0,True,Opportunity
+56,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,1620,8,0,1,1380,4,3,0,1,4,0,4,False,Opportunity
+57,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,1620,8,0,1,1380,4,3,0,1,2,4,6,True,Opportunity
+58,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,3000,8,0,1,1380,4,3,0,1,1,6,7,False,The Market
+59,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,3000,8,0,1,1380,4,3,0,1,5,7,12,False,Opportunity
+60,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,3000,8,0,1,1380,4,3,0,1,6,12,18,True,Opportunity
+61,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,4380,8,0,1,1380,4,3,0,1,1,18,19,False,Downsized
+62,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,220,8,0,1,1380,4,3,0,1,Use Layoff
+63,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,220,8,0,1,1380,4,3,0,1,Use Layoff
+64,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,220,8,0,1,1380,4,3,0,1,2,19,21,True,Pay Check
+65,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,1600,8,0,1,1380,4,3,0,1,1,21,22,False,Opportunity
+66,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,0,8,0,1,1380,5,3,0,1,1,22,0,False,Opportunity
+67,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4160,250,0,8,0,1,1380,5,3,0,1,1,0,1,False,Doodads
+68,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4260,250,980,9,0,1,1280,5,3,0,1,2,1,3,False,Charity
+69,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4260,250,490,9,0,1,1280,5,3,0,2,3,3,6,True,Opportunity
+70,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4260,250,1770,9,0,1,1280,5,3,0,2,3,6,9,False,Doodads
+71,Paulcool,Engineer,Standard Auto,4900,640,1050,1090,4260,250,1670,9,0,1,1280,5,3,0,2,11,9,20,True,Opportunity
+72,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,950,9,0,1,1530,5,4,0,1,4,20,1,True,Doodads
+73,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,2380,9,0,1,1530,5,4,0,1,4,1,5,True,Pay Check
+74,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,3910,9,0,1,1530,5,4,0,1,3,5,8,False,Opportunity
+75,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,3910,9,0,1,1530,5,4,0,1,5,8,13,True,Pay Check
+76,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,5440,9,0,1,1530,5,4,0,1,6,13,19,False,Downsized
+77,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,1180,9,0,1,1530,5,4,0,1,Use Layoff
+78,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,1180,9,0,1,1530,5,4,0,1,Use Layoff
+79,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,1180,9,0,1,1530,5,4,0,1,4,19,0,True,Opportunity
+80,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,0,9,0,1,1530,6,4,0,1,2,0,2,False,Opportunity
+81,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,0,9,0,1,1530,6,4,0,1,6,2,8,True,Opportunity
+82,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,1530,9,0,1,1530,6,4,0,1,2,8,10,False,Opportunity
+83,Paulcool,Engineer,Standard Auto,4900,890,1050,1090,4260,250,0,9,0,1,1530,7,4,0,1,6,10,16,True,Opportunity
+84,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,1530,9,0,1,1430,7,5,0,1,4,16,20,False,Opportunity
+85,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,1530,9,0,1,1430,7,5,0,1,4,20,1,True,Doodads
+86,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,2610,9,0,1,1430,7,5,0,1,5,1,6,True,Opportunity
+87,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,4040,9,0,1,1430,7,5,0,1,1,6,7,False,The Market
+88,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,4040,9,0,1,1430,7,5,0,1,5,7,12,False,Opportunity
+89,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,4040,9,0,1,1430,7,5,0,1,5,12,17,True,Doodads
+90,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,4770,9,0,1,1430,7,5,0,1,1,17,18,False,Opportunity
+91,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,0,9,0,1,1430,8,5,0,1,4,18,22,True,Opportunity
+92,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,1430,9,0,1,1430,8,5,0,1,5,22,4,False,Opportunity
+93,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,1430,9,0,1,1430,8,5,0,1,5,4,9,True,Doodads
+94,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4260,250,1360,9,0,1,1430,8,5,0,1,2,9,11,False,Baby
+95,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,1360,9,0,2,1180,8,5,0,1,1,11,12,False,Opportunity
+96,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,1360,9,0,2,1180,8,5,0,1,6,12,18,True,Opportunity
+97,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,2540,9,0,2,1180,8,5,0,1,4,18,22,True,Opportunity
+98,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,0,9,0,2,1180,9,5,0,1,3,22,2,False,Opportunity
+99,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,0,9,0,2,1180,9,5,0,1,1,2,3,False,Charity
+100,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,0,9,0,2,1180,9,5,0,1,5,3,8,True,Opportunity
+101,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,1180,9,0,2,1180,9,5,0,1,1,8,9,False,Doodads
+102,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,1030,9,0,2,1180,9,5,0,1,5,9,14,True,Opportunity
+103,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,2210,9,0,2,1180,9,5,0,1,3,14,17,False,Doodads
+104,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,1610,9,0,2,1180,9,5,0,1,3,17,20,False,Opportunity
+105,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,1610,9,0,2,1180,9,5,0,1,6,20,3,True,Charity
+106,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4510,250,2300,9,0,2,1180,9,5,0,2,6,3,9,True,Doodads
+107,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4850,250,2480,10,0,2,840,9,5,0,2,7,9,16,True,Opportunity
+108,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4850,250,3320,10,0,2,840,9,5,0,2,5,16,21,True,Pay Check
+109,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4850,250,4160,10,0,2,840,9,5,0,1,1,21,22,False,Opportunity
+110,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,4850,250,0,10,0,2,840,10,5,0,1,3,22,2,False,Opportunity
+111,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,5450,250,1000,11,0,2,240,10,5,0,1,2,2,4,False,Opportunity
+112,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,5450,250,1000,11,0,2,240,10,5,0,1,6,4,10,True,Opportunity
+113,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,5450,250,1240,11,0,2,240,10,5,0,1,1,10,11,False,Baby
+114,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,5700,250,1240,11,0,3,-10,10,5,0,1,4,11,15,True,The Market
+115,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,5700,250,1230,11,0,3,-10,10,5,0,1,1,15,16,False,Opportunity
+116,Paulcool,Engineer,Standard Auto,4900,790,1050,1090,5700,250,0,11,0,3,-10,11,5,0,1,<module 'cashflowsim.roll_die' from 'c:\\users\\paulj\\data\\computers & internet\\python\\cashflow simulation\\cashflowsim\\roll_die.py'>,20,20,False,Opportunity
+E,n,d, ,o,f, ,s,i,m,u,l,a,t,i,o,n
