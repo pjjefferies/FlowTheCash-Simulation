@@ -1,0 +1,12 @@
+{
+	"SmallDealCard001": {
+		"Title": "Bitcoin crap",
+		"Type": "Crypto",
+		"Symbol": "BTC",
+		"Cost": 20000,
+		"Dividend": 0,
+		"Price Range Low": 1,
+		"Price Range High": 30000,
+		"All May Buy": "True"
+	}
+}

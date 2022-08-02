@@ -1,43 +1,53 @@
 """Object and functions for working with Loans for Game Simulations."""
 
 
-class Loan(object):
+from dataclasses import dataclass
+import logging
+
+log: logging.Logger = logging.getLogger(__name__)
+
+
+@dataclass(kw_only=True)
+class Loan:
     """Object to manage Loans in Game Simulations."""
 
-    def __init__(self,
-                 name,
-                 balance,
-                 monthly_payment,
-                 partial_payment_allowed=False):
-        """Create a Loan."""
-        self.name = name
-        self.balance = balance
-        self.monthly_payment = monthly_payment
-        self.partial_payment_allowed = partial_payment_allowed
+    name: str
+    balance: int
+    monthly_payment: int
+    partial_payment_allowed: bool = False
 
-    def make_payment(self, payment):
+    def make_payment(self, *, payment: int) -> bool:
         """Make a Payment on a Loan."""
-        if payment == self.balance or (self.partial_payment_allowed and
-                                       (payment % 1000) == 0 and
-                                       payment >= 1000 and
-                                       payment <= self.balance):
-            self.balance -= payment
-            if self.balance == 0:
-                return True
-                # return 0, 0
-
-            # Rule for Bank Loan, the only partially payable loan
-            self.monthly_payment = int(self.balance * 0.10)
-            # Return nothing, see who complains and why they can't get from
-            # properties
-            return True
-        else:
+        log.info(f"Making a Payment on a Loan: {self.name}")
+        log.info(f"self.partial_payment_allowed: {self.partial_payment_allowed}")
+        log.info(f"payment: {payment}")
+        log.info(f"self.balance: {self.balance}")
+        if (
+            (not self.partial_payment_allowed and payment != self.balance)
+            or (payment % 1000) != 0
+            or payment < 1000
+            or payment > self.balance
+        ):
+            log.info(f"Not able to make payment on the loan")
             return False
+
+        if payment == self.balance:
+            log.info(
+                f"Loan is being paid-off. This leaves a zero balance loan on player's books"
+            )
+        log.info(f"Able to make payment on the loan")
+        self.balance -= payment
+        log.info(f"New balance: {self.balance}")
+
+        # Rule for Bank Loan, the only partially payable loan
+        self.monthly_payment = int(self.balance * 0.10)
+        return True
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        return ("  Loan Name:          " + self.name +
-                "\n   Loan Balance:       " + str(self.balance) +
-                "\n   Loan Payment:       " + str(self.monthly_payment) +
-                "\n   Part. Pay. Allowed: " +
-                str(self.partial_payment_allowed))
+        return (
+            f"Loan Name:             {self.name}"
+            f"\n   Loan Balance:       {self.balance}"
+            f"\n   Loan Payment:       {self.monthly_payment}"
+            f"\n   Part. Pay. Allowed: {self.partial_payment_allowed}"
+        )

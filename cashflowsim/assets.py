@@ -1,62 +1,70 @@
 """Module containing Asset Object."""
 
+from __future__ import annotations
 from dataclasses import dataclass
+import logging
+
+log = logging.getLogger(__name__)
 
 
-@dataclass(slots=True, kw_only=True)
+@dataclass(kw_only=True)
 class Asset:
     """Create Object to represent Assets."""
 
     name: str
     asset_type: str
-    cost: int
-    down_payment: int
-    cash_flow: int
-    price_range_low: int
-    price_range_high: int
-    # roi: float = field(init=False)
-    # loan_amount: float = field(init=False)
+    cost: int = 0
+    down_payment: int = 0
+    cash_flow: int = 0
+    price_range_low: int = 0
+    price_range_high: int = 1_000_000
 
     @property
     def roi(self):
         """Return return on investment (aka ROI)."""
         if self.down_payment > 0:
-            return float(self.cash_flow) * 12.0 / float(self.down_payment)
+            roi_result = float(self.cash_flow) * 12.0 / float(self.down_payment)
+            log.info(f"ROI: {roi_result}")
+            return roi_result
         else:
             return 1.0
 
     @property
-    def loan_amount(self) -> float:
+    def loan_amount(self) -> int:
         """Return loan amount for asset."""
         return self.cost - self.down_payment
 
     def __str__(self):
         """Create string to be returned when str method is called."""
         return (
-            f"\nType:            {self.asset_type}"
+            f"Type:            {self.asset_type}"
             f"\n   Name:         {self.name}"
-            f"\n   Cost:         {str(self.cost)}"
+            f"\n   Cost:         {self.cost}"
             f"\n   Type:         {self.asset_type}"
-            f"\n   Down Payment: {str(self.down_payment)}"
-            f"\n   Cash Flow:    {str(self.cash_flow)}"
-            f"\n   Price Range:  {str(self.price_range_low)} - "
-            f"{str(self.price_range_high)}"
-            f"\n   ROI:          {str(self.roi)}"
+            f"\n   Down Payment: {self.down_payment}"
+            f"\n   Cash Flow:    {self.cash_flow}"
+            f"\n   Price Range:  {self.price_range_low} - {self.price_range_high}"
+            f"\n   ROI:          {self.roi}"
         )
 
 
-@dataclass(slots=True, kw_only=True)
+def roi(asset: Asset | RealEstate | Business) -> float:
+    """Return return on investment (aka ROI)."""
+    if asset.down_payment > 0:
+        roi_result = float(asset.cash_flow) * 12.0 / float(asset.down_payment)
+        log.info(f"ROI: {roi_result}")
+        return roi_result
+    else:
+        return 1.0
+
+
+@dataclass(kw_only=True)
 class Stock(Asset):
     """Create Stock Asset Object."""
 
-    name: str
-    shares: int
-    cost_per_share: int
-    dividend_interest: int
-    price_range_low: int
-    price_range_high: int
-
-    # Asset.__init__(self, name, "Stock", 0, 0, 0, price_range_low, price_range_high)
+    cost_per_share: int = 0
+    dividend_interest: int = 0
+    shares: int = 0
 
     @property
     def total_cost(self) -> int:
@@ -86,63 +94,47 @@ class Stock(Asset):
     def __str__(self):
         """Create string to be returned when str method is called."""
         return (
-            f"\nType:                Stock"
+            f"Type:                Stock"
             f"\n   Symbol:           {self.name}"
-            f"\n   Shares:           {str(self.shares)}"
-            f"\n   Cost per Share:   {str(self.cost_per_share)}"
-            f"\n   Total Cost:       {str(self.shares * self.cost_per_share)}"
-            f"\n   Dividends/share:  {str(self.dividend_interest)}"
-            f"\n   Price Range:      {str(self.price_range_low)} - "
-            f"{str(self.price_range_high)}"
-            f"\n   ROI:              {str(self.roi)}"
+            f"\n   Shares:           {self.shares}"
+            f"\n   Cost per Share:   {self.cost_per_share}"
+            f"\n   Total Cost:       {self.shares * self.cost_per_share}"
+            f"\n   Dividends/share:  {self.dividend_interest}"
+            f"\n   Price Range:      {self.price_range_low} - {self.price_range_high}"
+            f"\n   ROI:              {self.roi}"
         )
 
 
-@dataclass(slots=True, kw_only=True)
+@dataclass(kw_only=True)
 class RealEstate(Asset):
     """Create Real Estate Asset."""
 
-    name: str
-    real_estate_type: str
+    # real_estate_type: str
     house_or_condo: str
-    cost: int
-    down_payment: int
-    cash_flow: int = 0
-    price_range_low: int = 0
-    price_range_high: int = 0
     units: int = 0
     acres: int = 0
 
     def __str__(self):
         """Create string to be returned when str method is called."""
         return (
-            f"\n Type:             {self.asset_type}"
+            f" Type:             {self.asset_type}"
             f"\n   Name:           {self.name}"
-            f"\n   house_or_condo: {str(self.house_or_condo)}"
-            f"\n   Cost:           {str(self.cost)}"
-            f"\n   Down Payment:   {str(self.down_payment)}"
-            f"\n   Cash Flow:      {str(self.cash_flow)}"
-            f"\n   Units:          {str(self.units)}"
-            f"\n   Acres:          {str(self.acres)}"
-            f"\n   Price Range:    {str(self.price_range_low)} - "
-            f"{str(self.price_range_high)}"
-            f"\n   ROI:            {str(self.roi)}"
+            f"\n   house_or_condo: {self.house_or_condo}"
+            f"\n   Cost:           {self.cost}"
+            f"\n   Down Payment:   {self.down_payment}"
+            f"\n   Cash Flow:      {self.cash_flow}"
+            f"\n   Units:          {self.units}"
+            f"\n   Acres:          {self.acres}"
+            f"\n   Price Range:    {self.price_range_low} - {self.price_range_high}"
+            f"\n   ROI:            {roi(self)}"
         )
 
 
-@dataclass(slots=True, kw_only=True)
+@dataclass(kw_only=True)
 class Business(Asset):
     """Create Business Asset."""
 
-    name: str
-    card_type: str
-    cost: int
-    down_payment: int
-    cash_flow: int = 0
-    price_range_low: int = 0
-    price_range_high: int = 0
-
-    def increase_cash_flow(self, increase_amount: int) -> int:
+    def increase_cash_flow(self, *, increase_amount: int) -> int:
         """Increase Cash Flow by increaseAmount."""
         self.cash_flow += increase_amount
         return self.cash_flow

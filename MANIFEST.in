@@ -1,0 +1,11 @@
+include cashflowsim/game_data/BigDealCards.json
+include cashflowsim/game_data/SmallDealCards.json
+include cashflowsim/game_data/DoodadCards.json
+include cashflowsim/game_data/MarketCards.json
+include cashflowsim/game_data/ProfessionsList.json
+include cashflowsim/game_data/RatRaceBoardSpaces.json
+include cashflowsim/simulation_strategies/Strategies - Small back-up with manual.json
+include cashflowsim/simulation_strategies/Strategies_1.json
+include cashflowsim/simulation_strategies/Strategies_2.json
+include cashflowsim/simulation_strategies/Strategies_3.json
+include cashflowsim/simulation_strategies/Strategies.json

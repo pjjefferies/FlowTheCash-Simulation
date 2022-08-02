@@ -1,0 +1,125 @@
+{
+	"Standard Auto": {
+		"manual": "False"
+	},
+	"Super Conservative": {
+		"manual": "False",
+		"roiThreshold": 0.20,
+		"priceRatioThreshold": 0.5,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "False",
+		"charitable": "False",
+		"bigDealSmallDealThreshold": 100000,
+		"loanPayback": "Smallest"
+	},
+	"Dave Ramsey": {
+		"manual": "False",
+		"roiThreshold": 0.20,
+		"priceRatioThreshold": 0.5,
+		"takeDownpaymentLoans": "False",
+		"takeAnyLoans": "False",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 5000,
+		"loanPayback": "Smallest"
+	},
+	"No Down Payment Loans": {
+		"manual": "False",
+		"roiThreshold": 0.20,
+		"priceRatioThreshold": 0.5,
+		"takeDownpaymentLoans": "False",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 5000,
+		"loanPayback": "Highest Interest"
+	},
+	"Low ROI Threshold": {
+		"manual": "False",
+		"roiThreshold": 0.05,
+		"priceRatioThreshold": 0.5,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 5000,
+		"loanPayback": "Smallest"
+	},
+	"High ROI Threshold": {
+		"manual": "False",
+		"roiThreshold": 0.3,
+		"priceRatioThreshold": 0.5,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 5000,
+		"loanPayback": "Smallest"
+	},
+	"Low Price Raito Threshold": {
+		"manual": "False",
+		"roiThreshold": 0.2,
+		"priceRatioThreshold": 0.25,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 5000,
+		"loanPayback": "Smallest"
+	},
+	"High Price Raito Threshold": {
+		"manual": "False",
+		"roiThreshold": 0.2,
+		"priceRatioThreshold": 0.75,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 5000,
+		"loanPayback": "Smallest"
+	},
+	"Low Big Deal Threshold": {
+		"manual": "False",
+		"roiThreshold": 0.2,
+		"priceRatioThreshold": 0.5,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 2500,
+		"loanPayback": "Smallest"
+	},
+	"LowBDT, LowPRT, HighROIT": {
+		"manual": "False",
+		"roiThreshold": 0.3,
+		"priceRatioThreshold": 0.25,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 2500,
+		"loanPayback": "Smallest"
+	},
+	"LowLowBDT, LowPRT, HighROIT": {
+		"manual": "False",
+		"roiThreshold": 0.3,
+		"priceRatioThreshold": 0.25,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 1000,
+		"loanPayback": "Smallest"
+	},
+	"LowBDT, LowLowPRT, HighROIT": {
+		"manual": "False",
+		"roiThreshold": 0.3,
+		"priceRatioThreshold": 0.1,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 2500,
+		"loanPayback": "Smallest"
+	},
+	"LowBDT, LowPRT, HighHighROIT": {
+		"manual": "False",
+		"roiThreshold": 0.5,
+		"priceRatioThreshold": 0.25,
+		"takeDownpaymentLoans": "True",
+		"takeAnyLoans": "True",
+		"charitable": "True",
+		"bigDealSmallDealThreshold": 2500,
+		"loanPayback": "Smallest"
+	}
+}

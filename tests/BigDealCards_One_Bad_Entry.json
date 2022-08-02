@@ -1,0 +1,12 @@
+{
+	"BigDealCard001": {
+		"Title": "Apartment House for Sale",
+		"Type": "DirtHouseForSale",
+		"Units": 144,
+		"Cost": 35000000,
+		"Down Payment": 5,
+		"Cash Flow": 240,
+		"Price Range Low": 3000,
+		"Price Range High": 4800
+	}
+}

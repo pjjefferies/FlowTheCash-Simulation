@@ -1,0 +1,14 @@
+{
+	"Player1": {
+		"Profession": "Program Manager",
+		"Salary": 70000,
+		"Strategy": "Manual",
+		"name": "Player3 Name"
+	},
+	"Player2": {
+		"Profession": "Doctor",
+		"Salary": 150000,
+		"Strategy": "Dave Ramsey",
+		"name": "Players Name"
+	}
+}

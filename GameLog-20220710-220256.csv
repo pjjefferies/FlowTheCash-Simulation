@@ -1,0 +1,1914 @@
+Turn,Player Name,Profession,Strategy,Salary,Passive Income,Taxes,Other Expenses,Total Expenses,Child Cost,Savings,Loans,Sold Assets,No. Children,Cashflow,Stock Assets,Real Estate Assets,Business Assets,No. Dice,Die Roll,Board Space No. Before,Board Space No. After,Passed Paycheck,Board Space After
+1,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,400,5,0,0,1690,0,0,0,1,1,0,1,False,Doodads
+2,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,300,5,0,0,1690,0,0,0,1,1,1,2,False,Opportunity
+3,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,300,5,0,0,1690,0,0,0,1,1,2,3,False,Charity
+4,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,300,5,0,0,1690,0,0,0,1,3,3,6,True,Opportunity
+5,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,1990,5,0,0,1690,0,0,0,1,2,6,8,False,Opportunity
+6,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,0,5,0,0,1690,1,0,0,1,6,8,14,True,Opportunity
+7,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,1690,5,0,0,1690,1,0,0,1,6,14,20,False,Opportunity
+8,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,1690,5,0,0,1690,1,0,0,1,3,20,0,True,Opportunity
+9,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,3380,5,0,0,1690,1,0,0,1,3,0,3,False,Charity
+10,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,2890,5,0,0,1690,1,0,0,2,7,3,10,True,Opportunity
+11,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,4580,5,0,0,1690,1,0,0,2,6,10,16,True,Opportunity
+12,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,6270,5,0,0,1690,1,0,0,2,11,16,4,True,Opportunity
+13,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,7960,5,0,0,1690,1,0,0,1,2,4,6,True,Opportunity
+14,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,9650,5,0,0,1690,1,0,0,1,4,6,10,False,Opportunity
+15,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,0,1050,1090,3210,250,9650,5,0,0,1690,1,0,0,1,6,10,16,True,Opportunity
+16,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4110,250,340,6,0,0,1190,1,1,0,1,4,16,20,False,Opportunity
+17,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4110,250,340,6,0,0,1190,1,1,0,1,6,20,3,True,Charity
+18,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4110,250,1040,6,0,0,1190,1,1,0,2,8,3,11,True,Baby
+19,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4360,250,2230,6,0,1,940,1,1,0,2,9,11,20,True,Opportunity
+20,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4360,250,3170,6,0,1,940,1,1,0,2,8,20,5,True,Pay Check
+21,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4360,250,4110,6,0,1,940,1,1,0,1,1,5,6,False,Opportunity
+22,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4360,250,0,6,0,1,940,2,1,0,1,1,6,7,False,The Market
+23,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4360,250,0,6,0,1,940,2,1,0,1,3,7,10,False,Opportunity
+24,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4360,250,0,6,0,1,940,2,1,0,1,4,10,14,True,Opportunity
+25,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4360,250,0,6,0,1,940,3,1,0,1,3,14,17,False,Doodads
+26,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,950,7,0,1,840,3,1,0,1,4,17,21,True,Pay Check
+27,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,1790,7,0,1,840,3,1,0,1,4,21,2,False,Opportunity
+28,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,0,7,0,1,840,4,1,0,1,5,2,7,True,The Market
+29,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,840,7,0,1,840,4,1,0,1,2,7,9,False,Doodads
+30,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,490,7,0,1,840,4,1,0,1,5,9,14,True,Opportunity
+31,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,1330,7,0,1,840,4,1,0,1,2,14,16,False,Opportunity
+32,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,1330,7,0,1,840,4,1,0,1,2,16,18,False,Opportunity
+33,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,1330,7,0,1,840,4,1,0,1,2,18,20,False,Opportunity
+34,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,1330,7,0,1,840,4,1,0,1,1,20,21,True,Pay Check
+35,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,2170,7,0,1,840,4,1,0,1,2,21,0,False,Opportunity
+36,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,0,7,0,1,840,5,1,0,1,3,0,3,False,Charity
+37,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,0,7,0,1,840,5,1,0,1,2,3,5,True,Pay Check
+38,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,840,7,0,1,840,5,1,0,1,2,5,7,False,The Market
+39,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,840,7,0,1,840,5,1,0,1,5,7,12,False,Opportunity
+40,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,0,7,0,1,840,6,1,0,1,5,12,17,True,Doodads
+41,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,740,7,0,1,840,6,1,0,1,3,17,20,False,Opportunity
+42,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,0,7,0,1,840,7,1,0,1,5,20,2,True,Opportunity
+43,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,0,7,0,1,840,8,1,0,1,6,2,8,True,Opportunity
+44,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,840,7,0,1,840,8,1,0,1,5,8,13,True,Pay Check
+45,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,1680,7,0,1,840,8,1,0,1,2,13,15,False,The Market
+46,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4460,250,1680,7,0,1,840,8,1,0,1,4,15,19,False,Downsized
+47,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4760,250,220,8,0,1,540,8,1,0,1,Use Layoff
+48,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4760,250,220,8,0,1,540,8,1,0,1,Use Layoff
+49,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4760,250,220,8,0,1,540,8,1,0,1,4,19,0,True,Opportunity
+50,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4760,250,760,8,0,1,540,8,1,0,1,6,0,6,True,Opportunity
+51,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,4760,250,1300,8,0,1,540,8,1,0,1,5,6,11,False,Baby
+52,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,5010,250,1300,8,0,2,290,8,1,0,1,3,11,14,True,Opportunity
+53,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,5010,250,1590,8,0,2,290,8,1,0,1,5,14,19,False,Downsized
+54,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,5410,250,580,9,0,2,-110,8,1,0,1,Use Layoff
+55,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,5410,250,580,9,0,2,-110,8,1,0,1,Use Layoff
+56,Player1,"
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False",Dave Ramsey,4900,400,1050,1090,5410,250,0,9,0,2,-110,9,1,0,1,3,"
+Name:              Player1
+Profession:        
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           0
+Total Income:      5300
+Passive Income:    400
+Total Expenses:    5410
+Monthly Cash Flow: -110
+No. Loans:         9
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+Loan Name:             Bank Loan
+   Loan Balance:       9000
+   Loan Payment:       900
+   Part. Pay. Allowed: True
+Loan Name:             Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+Loan Name:             Bank Loan
+   Loan Balance:       3000
+   Loan Payment:       300
+   Part. Pay. Allowed: True
+Loan Name:             Bank Loan
+   Loan Balance:       4000
+   Loan Payment:       400
+   Part. Pay. Allowed: True
+
+No. Assets:        10
+Type:                Stock
+   Symbol:           GRO4US
+   Shares:           199
+   Cost per Share:   10
+   Total Cost:       1990
+   Dividends/share:  0
+   Price Range:      10 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           MYT4U
+   Shares:           4110
+   Cost per Share:   1
+   Total Cost:       4110
+   Dividends/share:  0
+   Price Range:      5 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           MYT4U
+   Shares:           188
+   Cost per Share:   5
+   Total Cost:       940
+   Dividends/share:  0
+   Price Range:      5 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           MYT4U
+   Shares:           179
+   Cost per Share:   10
+   Total Cost:       1790
+   Dividends/share:  0
+   Price Range:      5 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           2170
+   Cost per Share:   1
+   Total Cost:       2170
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           168
+   Cost per Share:   5
+   Total Cost:       840
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           74
+   Cost per Share:   10
+   Total Cost:       740
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           84
+   Cost per Share:   10
+   Total Cost:       840
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           ON2U
+   Shares:           94
+   Cost per Share:   5
+   Total Cost:       470
+   Dividends/share:  0
+   Price Range:      10 - 30
+   ROI:              0.0
+ Type:             XPlex
+   Name:           4-plex for Sale
+   house_or_condo: 
+   Cost:           80000
+   Down Payment:   20000
+   Cash Flow:      400
+   Units:          4
+   Acres:          0
+   Price Range:    100000 - 140000
+   ROI:            0.24
+
+Strategy:          
+ Strategy Name:              Dave Ramsey
+ Manual:                     False
+ ROI Threshold:              0.2
+ Price Ratio Threshold:      0.5
+ Take Downpayment Loans:     True
+ Take Any Loans:             True
+ Charitable:                 True
+ Big Deal Savings Threshold: 5000
+ Loan Payback Strategy:      Smallest","
+Name:              Player1
+Profession:        
+Profession:     Engineer
+Salary:         4900
+Taxes:          1050
+Other Expenses: 1090
+Cost per Child: 250
+Savings:        400
+No. Loans:      5
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+
+Salary:            4900
+Taxes:             1050
+Other Expenses:    1090
+Children:          2
+Cost per Child:    250
+Savings:           0
+Total Income:      5300
+Passive Income:    400
+Total Expenses:    5410
+Monthly Cash Flow: -110
+No. Loans:         9
+Loan Name:             Mortgage
+   Loan Balance:       75000
+   Loan Payment:       700
+   Part. Pay. Allowed: False
+Loan Name:             School Loans
+   Loan Balance:       12000
+   Loan Payment:       60
+   Part. Pay. Allowed: False
+Loan Name:             Car Loans
+   Loan Balance:       7000
+   Loan Payment:       140
+   Part. Pay. Allowed: False
+Loan Name:             Credit Cards
+   Loan Balance:       4000
+   Loan Payment:       120
+   Part. Pay. Allowed: False
+Loan Name:             Retail Debt
+   Loan Balance:       1000
+   Loan Payment:       50
+   Part. Pay. Allowed: False
+Loan Name:             Bank Loan
+   Loan Balance:       9000
+   Loan Payment:       900
+   Part. Pay. Allowed: True
+Loan Name:             Bank Loan
+   Loan Balance:       1000
+   Loan Payment:       100
+   Part. Pay. Allowed: True
+Loan Name:             Bank Loan
+   Loan Balance:       3000
+   Loan Payment:       300
+   Part. Pay. Allowed: True
+Loan Name:             Bank Loan
+   Loan Balance:       4000
+   Loan Payment:       400
+   Part. Pay. Allowed: True
+
+No. Assets:        10
+Type:                Stock
+   Symbol:           GRO4US
+   Shares:           199
+   Cost per Share:   10
+   Total Cost:       1990
+   Dividends/share:  0
+   Price Range:      10 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           MYT4U
+   Shares:           4110
+   Cost per Share:   1
+   Total Cost:       4110
+   Dividends/share:  0
+   Price Range:      5 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           MYT4U
+   Shares:           188
+   Cost per Share:   5
+   Total Cost:       940
+   Dividends/share:  0
+   Price Range:      5 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           MYT4U
+   Shares:           179
+   Cost per Share:   10
+   Total Cost:       1790
+   Dividends/share:  0
+   Price Range:      5 - 30
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           2170
+   Cost per Share:   1
+   Total Cost:       2170
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           168
+   Cost per Share:   5
+   Total Cost:       840
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           74
+   Cost per Share:   10
+   Total Cost:       740
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           OK4U
+   Shares:           84
+   Cost per Share:   10
+   Total Cost:       840
+   Dividends/share:  0
+   Price Range:      5 - 40
+   ROI:              0.0
+Type:                Stock
+   Symbol:           ON2U
+   Shares:           94
+   Cost per Share:   5
+   Total Cost:       470
+   Dividends/share:  0
+   Price Range:      10 - 30
+   ROI:              0.0
+ Type:             XPlex
+   Name:           4-plex for Sale
+   house_or_condo: 
+   Cost:           80000
+   Down Payment:   20000
+   Cash Flow:      400
+   Units:          4
+   Acres:          0
+   Price Range:    100000 - 140000
+   ROI:            0.24
+
+Strategy:          
+ Strategy Name:              Dave Ramsey
+ Manual:                     False
+ ROI Threshold:              0.2
+ Price Ratio Threshold:      0.5
+ Take Downpayment Loans:     True
+ Take Any Loans:             True
+ Charitable:                 True
+ Big Deal Savings Threshold: 5000
+ Loan Payback Strategy:      Smallest",True,Opportunity
+End of simulation

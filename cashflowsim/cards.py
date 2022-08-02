@@ -1,303 +1,277 @@
 """Manage cards for Game simulation."""
-from __future__ import annotations  # requried to create a Deck from Deck method
+# from __future__ import annotations  # requried to create a Deck from Deck method
+import logging
 from cashflowsim.json_read_write_file import load_json
 from dataclasses import dataclass, field
 from typing import List
 import random
 
+log: logging.Logger = logging.getLogger(__name__)
 
-@dataclass(slots=True, kw_only=True)
-class Card(object):
+
+class EmptyDeckError(Exception):
+    pass
+
+
+@dataclass(kw_only=True)
+class Card:
     """Create card object."""
 
     title: str
-
-
-@dataclass(slots=True, kw_only=True)
-class DoodadCard(Card):
-    """Object to manage Doodad Cards."""
-
-    card_type: str
-    one_time_payment: int = 0
+    category: str
+    card_type: str = ""
+    acres: int = 0
+    added_price: int = 0
+    all_may_buy: bool = False
     any_child_payment: int = 0
+    cash_flow: int = 0
+    cost_if_have_8plex: int = 0
+    cost_if_have_real_estate: int = 0
+    dividend: int = 0
+    down_payment: int = 0
     each_child_payment: int = 0
-    loan_title: str = ""
+    house_or_condo: str = ""
+    increased_cash_flow: int = 0
     loan_amount: int = 0
     loan_payment: int = 0
-
-    def __post_init__(self):
-        """Create Doodad Card Object."""
-        assert (
-            (self.card_type == 'OneTimeExpense' and self.one_time_payment > 0)
-            or (
-                self.card_type == 'ChildCost'
-                and ((self.any_child_payment > 0) or (self.each_child_payment > 0))
-            )
-            or (
-                self.card_type == 'NewLoan'
-                and self.loan_title != ""
-                and self.loan_amount > 0
-                and self.loan_payment > 0
-            )
-        )
-        if self.card_type not in ['OneTimeExpense', 'ChildCost', 'NewLoan']:
-            print('Card Type: ', self.card_type, 'not found in Card creation')
+    loan_title: str = ""
+    must_sell: bool = False
+    one_time_payment: int = 0
+    price: int = 0
+    price_range_high: int = 0
+    price_range_low: int = 0
+    self_only: bool = False
+    split_ratio: float = 1.0
+    symbol: str = ""
+    units: int = 0
 
     def __str__(self):
         """Create string to be returned when str method is called."""
         # Create General part first
         str_text = (
-            f'\nTitle:            {self.title}'
-            f'\nType:             {self.card_type}'
+            f"\nTitle:            {self.title}"
+            f"\nCategory:         {self.category}"
+            f"\nType:             {self.card_type}"
         )
-        match self.card_type:
-            case 'OneTimeExpense':
-                return ''.join([str_text,
-                                f'\nOne Time Payment: {str(self.one_time_payment)}'])
-            case 'ChildCost':
-                return ''.join([str_text,
-                    f'\nAny Child Cost:   {str(self.any_child_payment)}'
-                    f'\nEach Child Cost:  {str(self.each_child_payment)}'])
-            case 'NewLoan':
-                return ''.join([str_text,
-                    f'\nLoan Title  :     {self.loan_title}'
-                    f'\nLoan Amount :     {str(self.loan_amount)}'
-                    f'\nLoan Payment:     {str(self.loan_payment)}'])
+        match self.category:
+            case "Doodad":
+                match self.card_type:
+                    case "OneTimeExpense":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"One Time Payment: {self.one_time_payment}",
+                            ]
+                        )
+                    case "ChildCost":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Any Child Cost:   {self.any_child_payment}",
+                                f"Each Child Cost:  {self.each_child_payment}",
+                            ]
+                        )
+                    case "NewLoan":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Loan Title  :     {self.loan_title}",
+                                f"Loan Amount :     {self.loan_amount}",
+                                f"Loan Payment:     {self.loan_payment}",
+                            ]
+                        )
+                    case _:
+                        err_msg = f"Card Type: {self.card_type} not found in doodad card string conversion"
+                        log.error(err_msg)
+                        raise ValueError(err_msg)
+            case "Market":
+                match self.title:
+                    case "Small Business Improves":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Increased Cash Flow:     {self.increased_cash_flow}",
+                                f"Must Sell:               {self.must_sell}",
+                            ]
+                        )
+
+                    case (
+                        "Condo Buyer - 2Br/1Ba"
+                        | "Shopping Mall Wanted"
+                        | "Buyer for 20 Acres"
+                        | "Price of Gold Soars"
+                        | "Car Wash Buyer"
+                        | "Software Company Buyer"
+                        | "Apartment House Buyer"
+                        | "House Buyer - 3Br/2Ba"
+                        | "Plex Buyer"
+                    ):
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Price:     {self.price}",
+                                f"Must Sell: {self.must_sell}",
+                            ]
+                        )
+                    case "Limited Partnership Sold":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Price Multiple: {self.price}",
+                                f"Must Sell:      {self.must_sell}",
+                            ]
+                        )
+                    case "Interest Rates Drop!":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Added Price: {self.added_price}",
+                                f"Must Sell:   {self.must_sell}",
+                                f"Self Only:   {self.self_only}",
+                            ]
+                        )
+                    case "Inflation Hits!":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Title:          {self.title}",
+                                f"Must Sell:      {self.must_sell}",
+                            ]
+                        )
+                    case _:
+                        err_msg = f"Card Type: {self.title} not found in market card string conversion"
+                        log.error(err_msg)
+                        raise ValueError(err_msg)
+            case "Small Deal":
+                match self.card_type:
+                    case "Stock":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Symbol:           {self.symbol}",
+                                f"Price:            {self.price}",
+                                f"Dividends:        {self.dividend}",
+                                f"Price Range:      {self.price_range_low} - {self.price_range_high}",
+                            ]
+                        )
+                    case "StockSplit":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Symbol:           {self.symbol}",
+                                f"Split Ratio:      {self.split_ratio}",
+                            ]
+                        )
+                    case "HouseForSale":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"House or Condo:   {self.house_or_condo}",
+                                f"Price:            {self.price}",
+                                f"Down Payment:     {self.down_payment}",
+                                f"Cash Flow:        {self.cash_flow}",
+                                f"Price Range:      {self.price_range_low} - {self.price_range_high}",
+                            ]
+                        )
+                    case "Asset":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Price:            {self.price}",
+                                f"Cash Flow:        {self.cash_flow}",
+                                f"Price Range:      {self.price_range_low} - {self.price_range_high}",
+                            ]
+                        )
+                    case "Land":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Price:            {self.price}",
+                                f"Acres:            {self.acres}",
+                            ]
+                        )
+                    case "LoanNotToBeRepaid" | "CostIfRentalProperty":
+                        return "\n".join([str_text, f"Price:            {self.price}"])
+                    case "StartCompany":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Price:            {self.price}",
+                                f"Down Payment:     {self.down_payment}",
+                                f"Cash Flow:        {self.cash_flow}",
+                            ]
+                        )
+                    case _:
+                        err_msg = f"Card Type: {self.card_type} not found in small deal card string conversion"
+                        log.error(err_msg)
+                        raise ValueError(err_msg)
+            case "Big Deal":
+                match self.card_type:
+                    case "ApartmentHouseForSale" | "XPlex":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Units:            {self.units}",
+                                f"Price:            {self.price}",
+                                f"Down Payment:     {self.down_payment}",
+                                f"Cash Flow:        {self.cash_flow}",
+                                f"Price Range:      {self.price_range_low} - {self.price_range_high}",
+                            ]
+                        )
+                    case "HouseForSale":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"House or Condo:   {self.house_or_condo}",
+                                f"Price:            {self.price}",
+                                f"Down Payment:     {self.down_payment}",
+                                f"Cash Flow:        {self.cash_flow}",
+                                f"Price Range:      {self.price_range_low} - {self.price_range_high}",
+                            ]
+                        )
+                    case "Partnership" | "Business":
+                        return "".join(
+                            [
+                                str_text,
+                                f"Price:            {self.price}",
+                                f"Down Payment:     {self.down_payment}",
+                                f"Cash Flow:        {self.cash_flow}",
+                                f"Price Range:      {self.price_range_low} - {self.price_range_high}",
+                            ]
+                        )
+                    case "Land":
+                        return "".join(
+                            [
+                                str_text,
+                                f"Acres:            {self.acres}",
+                                f"Price:            {self.price}",
+                                f"Down Payment:     {self.down_payment}",
+                                f"Cash Flow:        {self.cash_flow}",
+                            ]
+                        )
+                    case "Expense":
+                        return "\n".join(
+                            [
+                                str_text,
+                                f"Cost if Have Real Estate: {self.cost_if_have_real_estate}",
+                                f"Cost if Have 8-Plex:      {self.cost_if_have_8plex}",
+                                f"Price:                    {self.price}",
+                                f"Down Payment:             {self.down_payment}",
+                                f"Cash Flow:                {self.cash_flow}",
+                            ]
+                        )
+                    case _:
+                        err_msg = f"Card Type: {self.card_type} not found in big deal card string conversion"
+                        log.warning(err_msg)
+                        raise ValueError(err_msg)
             case _:
-                print("Card Type: ", self.card_type, " not found in string conversion")
-                return ''
+                err_msg = f"Card Category: {self.category} not one of standard types"
+                log.error(err_msg)
+                raise ValueError(err_msg)
 
 
-@dataclass(slots=True, kw_only=True)
-class MarketCard(Card):
-    """Object to represent Market Card in Game Simulation."""
-
-    price: int = 0
-    added_price: int = 0
-    increased_cash_flow: int = 0
-    must_sell: bool = False
-    self_only: bool = False
-
-    def __post_init__(self):
-        """Create Market Card object."""
-        assert ((self.price > 0 and self.title in [
-            'Condo Buyer - 2Br/1Ba', 'Shopping Mall Wanted',
-            'Buyer for 20 Acres', 'Price of Gold Soars', 'Car Wash Buyer',
-            'Software Company Buyer', 'Apartment House Buyer',
-            'House Buyer - 3Br/2Ba', 'Plex Buyer', 'Limited Partnership Sold',
-            'Interest Rates Drop!', 'Inflation Hits!']) or
-            (self.title == "Small Business Improves" and self.increased_cash_flow > 0))
-
-        assert (self.title in ['Small Business Improves',
-            'Condo Buyer - 2Br/1Ba', 'Shopping Mall Wanted',
-            'Buyer for 20 Acres', 'Price of Gold Soars',
-            'Car Wash Buyer', 'Software Company Buyer',
-            'Apartment House Buyer', 'House Buyer - 3Br/2Ba',
-            'Plex Buyer', 'Limited Partnership Sold',
-            'Interest Rates Drop!', 'Inflation Hits!'])
-
-    def __str__(self):
-        """Create string to be returned when str method is called."""
-        match self.title:
-            case 'Small Business Improves':
-                return (
-                    f'\nTitle:                   {self.title}'
-                    f'\nIncreased Cash Flow:     {str(self.increased_cash_flow)}'
-                    f'\nMust Sell:               {str(self.must_sell)}'
-                )
-            case ('Condo Buyer - 2Br/1Ba' | 'Shopping Mall Wanted' |
-                  'Buyer for 20 Acres' | 'Price of Gold Soars' |
-                  'Car Wash Buyer' | 'Software Company Buyer' |
-                  'Apartment House Buyer' | 'House Buyer - 3Br/2Ba' |
-                  'Plex Buyer'):
-                return (f'\nTitle:     {self.title}'
-                        f'\nPrice:     {str(self.price)}'
-                        f'\nMust Sell: {str(self.must_sell)}'
-                )
-            case 'Limited Partnership Sold':
-                return (f'\nTitle:          {self.title}'
-                        f'\nPrice Multiple: {str(self.price)}'
-                        f'\nMust Sell:      {str(self.must_sell)}'
-                )
-            case 'Interest Rates Drop!':
-                return (f'\nTitle:       {self.title}'
-                        f'\nAdded Price: {str(self.added_price)}'
-                        f'\nMust Sell:   {str(self.must_sell)}'
-                        f'\nSelf Only:   {str(self.self_only)}'
-                )
-            case 'Inflation Hits!':
-                return (f'\nTitle:          {self.title}'
-                        f'\nMust Sell:      {str(self.must_sell)}'
-                )
-            case _:
-                return f'Card Type: {self.title} not found in card string conversion'
-
-
-@dataclass(slots=True, kw_only=True)
-class DealCard(Card):
-    """Object to represent Deal Cards in Game Simulations."""
-
-    card_type: str = ''
-    house_or_condo: str = ''
-    price: int = 0
-    down_payment: int = 0
-    cash_flow: int = 0
-    price_range_low: int = 0
-    price_range_high: int = 0
-    all_may_buy: bool = False
-    acres: int = 0
-
-    def __post_init__(self):
-        """Create Deal Card Object."""
-        assert self.card_type != "HouseForSale" or self.price > 0
-
-
-@dataclass(slots=True, kw_only=True)
-class SmallDealCard(DealCard):
-    """Object to manage Small Deal Cards in Game Simulation."""
-
-    symbol: str = ''
-    dividend: int = 0
-    split_ratio: float = 1.0
-
-    def __post_init__(self):
-        """Create Small Deal Card to be added to Small Deal Deck."""
-        available_stocks = ["OK4U", "ON2U", "GRO4US", "2BIG", "MYT4U", "CD"]
-        assert (
-            (self.card_type == "Stock" and self.symbol in available_stocks and self.price > 0)
-            or (
-                self.card_type == "StockSplit"
-                and self.symbol in available_stocks
-                and self.split_ratio > 0
-            )
-            or (self.price >0 and (self.card_type in ['HouseForSale', 'Asset', 'Land', 'LoanNotToBeRepaid',
-            'CostIfRentalProperty', 'StartCompany']))
-        )
-
-    def __str__(self):
-        """Create string to be returned when str method is called."""
-        str_text: str = (
-            f'\nSmall Deal Card:'
-            f'\nTitle:            {self.title}'
-            f'\nType:             {self.card_type}'
-        )
-        match self.card_type:
-            case 'Stock':
-                return ''.join([str_text,
-                                f'\nSymbol:           {str(self.symbol)}',
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDividends:        {str(self.dividend)}',
-                                f'\nPrice Range:      {str(self.price_range_low)} - ',
-                                f'{str(self.price_range_high)}'])
-            case 'StockSplit':
-                return ''.join([str_text,
-                                f'\nSymbol:           {str(self.symbol)}',
-                                f'\nSplit Ratio:      {str(self.split_ratio)}'])
-            case 'HouseForSale':
-                return ''.join([str_text,
-                                f'\nHouse or Condo:   {self.house_or_condo}'
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDown Payment:     {str(self.down_payment)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}',
-                                f'\nPrice Range:      {str(self.price_range_low)} - ',
-                                f'{str(self.price_range_high)}'])
-            case 'Asset':
-                return ''.join([str_text,
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}',
-                                f'\nPrice Range:      {str(self.price_range_low)} - ',
-                                f'{str(self.price_range_high)}'])
-            case 'Land':
-                return ''.join([str_text,
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nAcres:            {str(self.acres)}'])
-            case 'LoanNotToBeRepaid' | 'CostIfRentalProperty':
-                return ''.join([str_text,
-                                f'\nPrice:            {str(self.price)}'])
-            case 'StartCompany':
-                return ''.join([str_text,
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDown Payment:     {str(self.down_payment)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}'])
-            case _:
-                print('Small Deal Card Type: ', self.card_type, ' not found in string conversion')
-                return ''
-
-
-@dataclass(slots=True, kw_only=True)
-class BigDealCard(DealCard):
-    """Object to manage Big Deal Cards in Game Simulation."""
-
-    units: int = 0
-    cost_if_have_real_estate: int = 0
-    cost_if_have_8plex: int = 0
-
-    def __post_init__(self):
-        assert (
-            (
-                self.card_type in ["ApartmentHouseForSale", "XPlex"]
-                and self.units > 0
-                and self.price > 0
-            )
-            or (self.card_type in ["HouseForSale", "Business"] and self.price > 0)
-            or (self.card_type == "Land" and self.acres > 0 and self.price > 0)
-            or (
-                self.card_type == "Expense"
-                and (self.cost_if_have_real_estate > 0 or self.cost_if_have_8plex > 0)
-            )
-        )
-
-    def __str__(self):
-        """Create string to be returned when str method is called."""
-        str_text: str = (
-            f'\nBig Deal Card:'
-            f'\nTitle:            {self.title}'
-            f'\nType:             {self.card_type}'
-        )
-        match self.card_type:
-            case 'ApartmentHouseForSale' | 'XPlex':
-                return ''.join([str_text,
-                                f'\nUnits:            {str(self.units)}',
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDown Payment:     {str(self.down_payment)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}',
-                                f'\nPrice Range:      {str(self.price_range_low)} - ',
-                                f'{str(self.price_range_high)}'])
-            case 'HouseForSale':
-                return ''.join([str_text,
-                                f'\nHouse or Condo:   {str(self.house_or_condo)}',
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDown Payment:     {str(self.down_payment)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}',
-                                f'\nPrice Range:      {str(self.price_range_low)} - ',
-                                f'{str(self.price_range_high)}'])
-            case 'Partnership' | 'Business':
-                return ''.join([str_text,
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDown Payment:     {str(self.down_payment)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}',
-                                f'\nPrice Range:      {str(self.price_range_low)} - ',
-                                f'{str(self.price_range_high)}'])
-            case 'Land':
-                return ''.join([str_text,
-                                f'\nAcres:            {str(self.acres)}',
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDown Payment:     {str(self.down_payment)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}'])
-            case 'Expense':
-                return ''.join([str_text,
-                                f'\nCost if Have Real Estate: {str(self.cost_if_have_real_estate)}',
-                                f'\nCost if Have 8-Plex: {str(self.cost_if_have_8plex)}',
-                                f'\nPrice:            {str(self.price)}',
-                                f'\nDown Payment:     {str(self.down_payment)}',
-                                f'\nCash Flow:        {str(self.cash_flow)}'])
-            case _:
-                print('Big Deal Card Type: ', self.card_type, ' not found in string conversion')
-                return ''
-
-
-@dataclass(slots=True, kw_only=True)
-class Deck(object):
+@dataclass(kw_only=True)
+class CardDeck:
     """Object to hod a Deck of Cards in Game Simulation."""
 
     deck_type: str
@@ -314,320 +288,393 @@ class Deck(object):
     def add_card(self, card: Card) -> None:
         """Add a card to the deck. This is how you create a deck."""
         self.cards.append(card)
-        # return self.no_cards
 
-    def take_random_card(self) -> Card | None:
-        """Take a random card from the deck. Wh? We don't know either."""
-        try:
-            return self.cards.pop(int(random.random() * self.no_cards))
-        except IndexError:
-            return None
-
-    def take_top_card(self) -> Card | None:
+    def take_top_card(self) -> Card:
         """Take the top card of a deck. This is what to use."""
         try:
-            return self.cards.pop()
+            log.info(f"Card taken:\n{self.cards[0]}. len(self.cards) remaining.")
+            return self.cards.pop(0)
         except IndexError:
-            return None
+            log.error(f"No card taken. Deck is empty")
+            raise EmptyDeckError(f"Deck is empty!")
 
     def shuffle(self) -> None:
         """Shuffle the deck."""
+        log.info(f"Shuffling the deck: {self.deck_type}")
         random.shuffle(self.cards)
-
-    def __copy__(self) -> 'Deck':
-        """Copy a deck. So a deck can be created once, and copied for each Monte Carlo run"""
-        newDeck = Deck(deck_type=self.deck_type)
-        for card in self.cards:
-            newDeck.add_card(card)
-        return newDeck
 
     def __str__(self):
         """Create string to be returned when str method is called."""
-        return '\n'.join([str(card) for card in self.cards])
+        return "\n".join([f"{card}" for card in self.cards])
 
-def load_all_doodad_cards(doodad_cards_filename: str) -> Deck:
+
+def load_all_doodad_cards(*, doodad_cards_filename: str) -> CardDeck:
     """Load all Doodad Cards."""
     try:
-        doodad_cards_dict = load_json(doodad_cards_filename)
+        cards_dict: dict[str, dict[str, str]] = load_json(
+            file_name=doodad_cards_filename
+        )
     except OSError:
-        print('No good Doodad Cards json file found, file not found, please fix')
-        raise OSError
+        err_msg = f"No good Doodad Cards json file found, file not found, please fix"
+        log.error(f"{err_msg}\nFile name: {doodad_cards_filename}")
+        raise OSError(err_msg)
     except ValueError:
-        print('No good Doodad Cards json file found, ValueError, please fix')
-        raise ValueError
+        err_msg = f"No good Doodad Cards json file found, ValueError, please fix"
+        log.error(f"{err_msg}\nFile name: {doodad_cards_filename}")
+        raise ValueError(err_msg)
 
-    doodad_card_deck = Deck(deck_type='Doodad Cards')
-    for card in doodad_cards_dict:
-        if doodad_cards_dict[card]['Type'] == 'OneTimeExpense':
-            doodad_card_deck.add_card(
-                DoodadCard(
-                    title=str(doodad_cards_dict[card]['Title']),
-                    card_type=str(doodad_cards_dict[card]['Type']),
-                    one_time_payment=int(doodad_cards_dict[card]['Cost']),
+    card_deck: CardDeck = CardDeck(deck_type="Doodad")
+    for card in cards_dict:
+        match cards_dict[card]["Type"]:
+            case "OneTimeExpense":
+                new_card: Card = Card(
+                    category="Doodad",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    one_time_payment=int(cards_dict[card]["Cost"]),
+                )
+
+            case "ChildCost":
+                new_card: Card = Card(
+                    category="Doodad",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    any_child_payment=int(cards_dict[card]["Cost if any Child"]),
+                    each_child_payment=int(cards_dict[card]["Cost per Child"]),
+                )
+            case "NewLoan":
+                new_card: Card = Card(
+                    category="Doodad",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    one_time_payment=int(cards_dict[card]["Down Payment"]),
+                    loan_title=str(cards_dict[card]["Loan Name"]),
+                    loan_amount=int(cards_dict[card]["Loan Amount"]),
+                    loan_payment=int(cards_dict[card]["Payment"]),
+                )
+            case _:
+                raise ValueError(
+                    f"Known Doodad card not found in row: {cards_dict[card]}"
+                )
+
+        assert (
+            (new_card.card_type == "OneTimeExpense" and new_card.one_time_payment > 0)
+            or (
+                new_card.card_type == "ChildCost"
+                and (
+                    (new_card.any_child_payment > 0)
+                    or (new_card.each_child_payment > 0)
                 )
             )
-        elif doodad_cards_dict[card]['Type'] == 'ChildCost':
-            doodad_card_deck.add_card(
-                DoodadCard(
-                    title=str(doodad_cards_dict[card]['Title']),
-                    card_type=str(doodad_cards_dict[card]['Type']),
-                    any_child_payment = int(doodad_cards_dict[card]['Cost if any Child']),
-                    each_child_payment = int(doodad_cards_dict[card]['Cost per Child']),
-                )
+            or (
+                new_card.card_type == "NewLoan"
+                and new_card.loan_title != ""
+                and new_card.loan_amount > 0
+                and new_card.loan_payment > 0
             )
-        elif doodad_cards_dict[card]['Type'] == 'NewLoan':
-            doodad_card_deck.add_card(
-                DoodadCard(
-                    title=str(doodad_cards_dict[card]['Title']),
-                    card_type=str(doodad_cards_dict[card]['Type']),
-                    one_time_payment=int(doodad_cards_dict[card]['Down Payment']),
-                    loan_title=str(doodad_cards_dict[card]['Loan Name']),
-                    loan_amount=int(doodad_cards_dict[card]['Loan Amount']),
-                    loan_payment=int(doodad_cards_dict[card]['Payment']),
-                )
-            )
-        else:
-            print('Known Doodad card not found in row: ', doodad_cards_dict[card])
-    return doodad_card_deck
+        )
+        card_deck.add_card(new_card)
+
+    return card_deck
 
 
-def load_all_market_cards(market_cards_filename: str) -> Deck:
+def load_all_market_cards(*, market_cards_filename: str) -> CardDeck:
     """Load all Market Cards from JSON File."""
     try:
-        market_cards_dict = load_json(market_cards_filename)
+        cards_dict: dict[str, dict[str, str]] = load_json(
+            file_name=market_cards_filename
+        )
     except OSError:
-        print('No good Market Cards json file found, file not found, please fix')
-        raise OSError
+        err_msg = f"No good Market Cards json file found, file not found, please fix"
+        log.error(f"{err_msg}\nFile name: {market_cards_filename}")
+        raise OSError(err_msg)
     except ValueError:
-        print('No good Market Cards json file found, ValueError, please fix')
-        raise ValueError
+        err_msg = f"No good Market Cards json file found, ValueError, please fix"
+        log.error(f"{err_msg}\nFile name: {market_cards_filename}")
+        raise ValueError(err_msg)
 
-    market_card_deck = Deck(deck_type='Market Cards')
-    for card in market_cards_dict:
-        match market_cards_dict[card]['Title']:
-            case 'Small Business Improves':
-                market_card_deck.add_card(
-                    MarketCard(
-                        title=str(market_cards_dict[card]['Title']),
-                        increased_cash_flow=int(market_cards_dict[card]['Increased Cash Flow']),
-                        must_sell=False,
-                        self_only=False,
-                    )
+    card_deck: CardDeck = CardDeck(deck_type="Market")
+    for card in cards_dict:
+        match cards_dict[card]["Title"]:
+            case "Small Business Improves":
+                new_card: Card = Card(
+                    category="Market",
+                    title=str(cards_dict[card]["Title"]),
+                    increased_cash_flow=int(cards_dict[card]["Increased Cash Flow"]),
+                    must_sell=False,
+                    self_only=False,
                 )
-            case ('Condo Buyer - 2Br/1Ba' | 'Shopping Mall Wanted' |
-                  'Buyer for 20 Acres' | 'Price of Gold Soars' |
-                  'Car Wash Buyer' | 'Software Company Buyer' |
-                  'Apartment House Buyer' | 'House Buyer - 3Br/2Ba' |
-                  'Limited Partnership Sold' | 'Plex Buyer'):
-                market_card_deck.add_card(
-                    MarketCard(
-                        title = str(market_cards_dict[card]['Title']),
-                        price=int(market_cards_dict[card]['Cost']),
-                        must_sell=True if (
-                            str(market_cards_dict[card]['Must Sell']) == 'True') else False
-                    )
+                assert new_card.increased_cash_flow > 0
+            case (
+                "Condo Buyer - 2Br/1Ba"
+                | "Shopping Mall Wanted"
+                | "Buyer for 20 Acres"
+                | "Price of Gold Soars"
+                | "Car Wash Buyer"
+                | "Software Company Buyer"
+                | "Apartment House Buyer"
+                | "House Buyer - 3Br/2Ba"
+                | "Limited Partnership Sold"
+                | "Plex Buyer"
+            ):
+                new_card: Card = Card(
+                    category="Market",
+                    title=str(cards_dict[card]["Title"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    must_sell=str(cards_dict[card]["Must Sell"]) == "True",
                 )
-            case 'Interest Rates Drop!':
-                market_card_deck.add_card(
-                    MarketCard(
-                        title=str(market_cards_dict[card]['Title']),
-                        price=int(market_cards_dict[card]['Cost']),
-                        must_sell=True if (
-                            str(market_cards_dict[card]['Must Sell'])) == 'True' else False,
-                        self_only=True if (
-                            str(market_cards_dict[card]['Self Only'])) == 'True' else False
-                    )
+                assert new_card.price >= 0
+            case "Interest Rates Drop!":
+                new_card: Card = Card(
+                    category="Market",
+                    title=str(cards_dict[card]["Title"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    must_sell=str(cards_dict[card]["Must Sell"]) == "True",
+                    self_only=str(cards_dict[card]["Self Only"]) == "True",
                 )
-            case 'Inflation Hits!':
-                market_card_deck.add_card(
-                    MarketCard(
-                        title=str(market_cards_dict[card]['Title']),
-                        must_sell=True,
-                        self_only=True,
-                    )
+                assert new_card.price >= 0
+            case "Inflation Hits!":
+                new_card: Card = Card(
+                    category="Market",
+                    title=str(cards_dict[card]["Title"]),
+                    must_sell=True,
+                    self_only=True,
                 )
             case _:
-                print('Known Market card not found in row: ', market_cards_dict[card])
-    return market_card_deck
+                raise ValueError(
+                    f"Known Market card not found in row: {cards_dict[card]}"
+                )
+
+        card_deck.add_card(new_card)
+
+    return card_deck
 
 
-def load_all_small_deal_cards(small_deal_cards_filename: str) -> Deck:
+def load_all_small_deal_cards(*, small_deal_cards_filename: str) -> CardDeck:
     """Load all small deal cards for game simulation."""
     try:
-        small_deal_cards_dict = load_json(small_deal_cards_filename)
-    except OSError:
-        print(
-            'No good Small Deal Cards json file found, file not found, please fix'
+        cards_dict: dict[str, dict[str, str]] = load_json(
+            file_name=small_deal_cards_filename
         )
-        raise OSError
+    except OSError:
+        err_msg = (
+            f"No good Small Deal Cards json file found, file not found, please fix"
+        )
+        log.error(f"{err_msg}\nFile name: {small_deal_cards_filename}")
+        raise OSError(err_msg)
     except ValueError:
-        print('No good Small Deal Cards json file found, ValueError, please fix')
-        raise ValueError
-    #    else:
-    #        noSmallDealCards = len(small_deal_cards_dict)
-    #        print(noSmallDealCards, 'Small Deal Cards loaded')
+        err_msg = f"No good Small Deal Cards json file found, ValueError, please fix"
+        log.error(f"{err_msg}\nFile name: {small_deal_cards_filename}")
+        raise ValueError(err_msg)
 
-    small_deal_card_deck = Deck(deck_type='Small Deal Cards')
-    for card in small_deal_cards_dict:
-        match small_deal_cards_dict[card]['Type']:
-            case 'Stock':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        symbol=str(small_deal_cards_dict[card]['Symbol']),
-                        price=int(small_deal_cards_dict[card]['Cost']),
-                        dividend=int(small_deal_cards_dict[card]['Dividend']),
-                        price_range_low=int(small_deal_cards_dict[card]['Price Range Low']),
-                        price_range_high=int(small_deal_cards_dict[card]['Price Range High']),
-                        all_may_buy=True,
-                    )
+    card_deck: CardDeck = CardDeck(deck_type="Small Deal")
+    for card in cards_dict:
+        match cards_dict[card]["Type"]:
+            case "Stock":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    symbol=str(cards_dict[card]["Symbol"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    dividend=int(cards_dict[card]["Dividend"]),
+                    price_range_low=int(cards_dict[card]["Price Range Low"]),
+                    price_range_high=int(cards_dict[card]["Price Range High"]),
+                    all_may_buy=True,
                 )
-            case 'StockSplit':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        symbol= str(small_deal_cards_dict[card]['Symbol']),
-                        split_ratio=float(small_deal_cards_dict[card]['Split Ratio']),
-                        all_may_buy=True,
-                    )
+            case "StockSplit":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    symbol=str(cards_dict[card]["Symbol"]),
+                    split_ratio=float(cards_dict[card]["Split Ratio"]),
+                    all_may_buy=True,
                 )
-            case 'HouseForSale':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        house_or_condo=str(small_deal_cards_dict[card]['HouseOrCondo']),
-                        price=int(small_deal_cards_dict[card]['Cost']),
-                        down_payment=int(small_deal_cards_dict[card]['Down Payment']),
-                        cash_flow=int(small_deal_cards_dict[card]['Cash Flow']),
-                        price_range_low=int(small_deal_cards_dict[card]['Price Range Low']),
-                        price_range_high=int(small_deal_cards_dict[card]['Price Range High']),
-                    )
+            case "HouseForSale":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    house_or_condo=str(cards_dict[card]["HouseOrCondo"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    down_payment=int(cards_dict[card]["Down Payment"]),
+                    cash_flow=int(cards_dict[card]["Cash Flow"]),
+                    price_range_low=int(cards_dict[card]["Price Range Low"]),
+                    price_range_high=int(cards_dict[card]["Price Range High"]),
                 )
-            case 'StartCompany':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        price=int(small_deal_cards_dict[card]['Cost']),
-                        down_payment=int(small_deal_cards_dict[card]['Down Payment']),
-                        cash_flow=int(small_deal_cards_dict[card]['Cash Flow']),
-                    )
+            case "StartCompany":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    down_payment=int(cards_dict[card]["Down Payment"]),
+                    cash_flow=int(cards_dict[card]["Cash Flow"]),
                 )
-            case 'Asset':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        price=int(small_deal_cards_dict[card]['Cost']),
-                        cash_flow=int(small_deal_cards_dict[card]['Cash Flow']),
-                        price_range_low=int(small_deal_cards_dict[card]['Price Range Low']),
-                        price_range_high=int(small_deal_cards_dict[card]['Price Range High']),
-                    )
+            case "Asset":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    cash_flow=int(cards_dict[card]["Cash Flow"]),
+                    price_range_low=int(cards_dict[card]["Price Range Low"]),
+                    price_range_high=int(cards_dict[card]["Price Range High"]),
                 )
-            case 'Land':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        price=int(small_deal_cards_dict[card]['Cost']),
-                        down_payment=int(small_deal_cards_dict[card]['Down Payment']),
-                        acres=int(small_deal_cards_dict[card]['Acres']),
-                    )
+            case "Land":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    down_payment=int(cards_dict[card]["Down Payment"]),
+                    acres=int(cards_dict[card]["Acres"]),
                 )
-            case 'LoanNotToBeRepaid':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        price=int(small_deal_cards_dict[card]['Cost'])
-                    )
+            case "LoanNotToBeRepaid":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
                 )
-            case 'CostIfRentalProperty':
-                small_deal_card_deck.add_card(
-                    SmallDealCard(
-                        title=str(small_deal_cards_dict[card]['Title']),
-                        card_type=str(small_deal_cards_dict[card]['Type']),
-                        price=int(small_deal_cards_dict[card]['Cost'])
-                    )
+            case "CostIfRentalProperty":
+                new_card: Card = Card(
+                    category="Small Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
                 )
             case _:
-                print(
-                    'Small Deal Card known card not found in record: ',
-                    small_deal_cards_dict[card],
+                raise ValueError(
+                    f"Known Small Deal card not found in row: {cards_dict[card]}"
                 )
-    return small_deal_card_deck
+
+        assert new_card.card_type != "HouseForSale" or new_card.price > 0
+
+        AVAILABLE_STOCKS: list[str] = ["OK4U", "ON2U", "GRO4US", "2BIG", "MYT4U", "CD"]
+        assert (
+            (
+                new_card.card_type == "Stock"
+                and new_card.symbol in AVAILABLE_STOCKS
+                and new_card.price > 0
+            )
+            or (
+                new_card.card_type == "StockSplit"
+                and new_card.symbol in AVAILABLE_STOCKS
+                and new_card.split_ratio > 0
+            )
+            or (
+                new_card.price > 0
+                and (
+                    new_card.card_type
+                    in [
+                        "HouseForSale",
+                        "Asset",
+                        "Land",
+                        "LoanNotToBeRepaid",
+                        "CostIfRentalProperty",
+                        "StartCompany",
+                    ]
+                )
+            )
+        )
+
+        card_deck.add_card(new_card)
+
+    return card_deck
 
 
-def load_all_big_deal_cards(big_deal_cards_filename: str) -> Deck:
+def load_all_big_deal_cards(*, big_deal_cards_filename: str) -> CardDeck:
     """Load all Big Deal Cards for Game Simulations."""
     try:
-        big_deal_cards_dict = load_json(big_deal_cards_filename)
+        cards_dict: dict[str, dict[str, str]] = load_json(
+            file_name=big_deal_cards_filename
+        )
     except OSError:
-        print('No good Big Deal Cards json file found, file not found, please fix')
-        raise OSError
+        err_msg = f"No good Big Deal Cards json file found, file not found, please fix"
+        log.error(f"{err_msg}\nFile name: {big_deal_cards_filename}")
+        raise OSError(err_msg)
     except ValueError:
-        print('No good Big Deal Cards json file found, ValueError, please fix')
-        raise ValueError
-    #    else:
-    #        noBigDealCards = len(big_deal_cards_dict)
-    #        print(noBigDealCards, 'Big Deal Cards loaded')
+        err_msg = f"No good Big Deal Cards json file found, ValueError, please fix"
+        log.error(f"{err_msg}\nFile name: {big_deal_cards_filename}")
+        raise ValueError(err_msg)
 
-    big_deal_card_deck = Deck(deck_type='Big Deal Cards')
-    for card in big_deal_cards_dict:
-        match big_deal_cards_dict[card]['Type']:
-            case 'ApartmentHouseForSale' | 'XPlex':
-                big_deal_card_deck.add_card(
-                    BigDealCard(
-                        title=str(big_deal_cards_dict[card]['Title']),
-                        card_type=str(big_deal_cards_dict[card]['Type']),
-                        price=int(big_deal_cards_dict[card]['Cost']),
-                        down_payment=int(big_deal_cards_dict[card]['Down Payment']),
-                        cash_flow=int(big_deal_cards_dict[card]['Cash Flow']),
-                        units=int(big_deal_cards_dict[card]['Units']),
-                        price_range_low=int(big_deal_cards_dict[card]['Price Range Low']),
-                        price_range_high=int(big_deal_cards_dict[card]['Price Range High'])
-                    )
+    card_deck: CardDeck = CardDeck(deck_type="Big Deal")
+    for card in cards_dict:
+        match cards_dict[card]["Type"]:
+            case "ApartmentHouseForSale" | "XPlex":
+                new_card: Card = Card(
+                    category="Big Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    down_payment=int(cards_dict[card]["Down Payment"]),
+                    cash_flow=int(cards_dict[card]["Cash Flow"]),
+                    units=int(cards_dict[card]["Units"]),
+                    price_range_low=int(cards_dict[card]["Price Range Low"]),
+                    price_range_high=int(cards_dict[card]["Price Range High"]),
                 )
-            case 'HouseForSale' | 'Business':
-                big_deal_card_deck.add_card(
-                    BigDealCard(
-                        title=str(big_deal_cards_dict[card]['Title']),
-                        card_type=str(big_deal_cards_dict[card]['Type']),
-                        price=int(big_deal_cards_dict[card]['Cost']),
-                        down_payment=int(big_deal_cards_dict[card]['Down Payment']),
-                        cash_flow=int(big_deal_cards_dict[card]['Cash Flow']),
-                        price_range_low=int(big_deal_cards_dict[card]['Price Range Low']),
-                        price_range_high=int(big_deal_cards_dict[card]['Price Range High']),
-                    )
+            case "HouseForSale" | "Business":
+                new_card: Card = Card(
+                    category="Big Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    down_payment=int(cards_dict[card]["Down Payment"]),
+                    cash_flow=int(cards_dict[card]["Cash Flow"]),
+                    price_range_low=int(cards_dict[card]["Price Range Low"]),
+                    price_range_high=int(cards_dict[card]["Price Range High"]),
                 )
-            case 'Land':
-                big_deal_card_deck.add_card(
-                    BigDealCard(
-                        title=str(big_deal_cards_dict[card]['Title']),
-                        card_type=str(big_deal_cards_dict[card]['Type']),
-                        price=int(big_deal_cards_dict[card]['Cost']),
-                        down_payment=int(big_deal_cards_dict[card]['Down Payment']),
-                        cash_flow=int(big_deal_cards_dict[card]['Cash Flow']),
-                        acres=int(big_deal_cards_dict[card]['Acres']),
-                    )
-                )  # 11-unused-Cost if Have 8-Plex
-            case 'Expense':
-                big_deal_card_deck.add_card(
-                    BigDealCard(
-                        title=str(big_deal_cards_dict[card]['Title']),
-                        card_type=str(big_deal_cards_dict[card]['Type']),
-                        cost_if_have_real_estate=int(
-                            big_deal_cards_dict[card]['Cost If Have Real Estate']),
-                        cost_if_have_8plex=int(
-                            big_deal_cards_dict[card]['Cost If Have 8-Plex']),
-                    )
+            case "Land":
+                new_card: Card = Card(
+                    category="Big Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    price=int(cards_dict[card]["Cost"]),
+                    down_payment=int(cards_dict[card]["Down Payment"]),
+                    cash_flow=int(cards_dict[card]["Cash Flow"]),
+                    acres=int(cards_dict[card]["Acres"]),
+                )
+            case "Expense":
+                new_card: Card = Card(
+                    category="Big Deal",
+                    title=str(cards_dict[card]["Title"]),
+                    card_type=str(cards_dict[card]["Type"]),
+                    cost_if_have_real_estate=int(
+                        cards_dict[card]["Cost If Have Real Estate"]
+                    ),
+                    cost_if_have_8plex=int(cards_dict[card]["Cost If Have 8-Plex"]),
                 )
             case _:
-                print(
-                    'Big Deal Card known card not found in record: ',
-                    big_deal_cards_dict[card],
+                raise ValueError(
+                    f"Known Big Deal card not found in row: {cards_dict[card]}"
                 )
-    return big_deal_card_deck
+
+        assert (
+            (
+                new_card.card_type in ["ApartmentHouseForSale", "XPlex"]
+                and new_card.units > 0
+                and new_card.price > 0
+            )
+            or (
+                new_card.card_type in ["HouseForSale", "Business"]
+                and new_card.price > 0
+            )
+            or (
+                new_card.card_type == "Land"
+                and new_card.acres > 0
+                and new_card.price > 0
+            )
+            or (
+                new_card.card_type == "Expense"
+                and (
+                    new_card.cost_if_have_real_estate > 0
+                    or new_card.cost_if_have_8plex > 0
+                )
+            )
+        )
+
+        card_deck.add_card(new_card)
+
+    return card_deck

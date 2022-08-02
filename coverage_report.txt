@@ -1,0 +1,18 @@
+Name                                              Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------------------------------------
+cashflowsim\cash_flow_rat_race_simulate_game.py     105      0     22      1    99%   42->exit
+cashflowsim\board_space_action.py                   301      0    220      2    99%   410->435, 426->435
+archive\performance_test.py                          31      0      0      0   100%
+cashflowsim\__init__.py                               1      0      0      0   100%
+cashflowsim\assets.py                                66      0     18      0   100%
+cashflowsim\board.py                                 75      0     26      0   100%
+cashflowsim\cards.py                                249      0    110      0   100%
+cashflowsim\json_read_write_file.py                  10      0      4      0   100%
+cashflowsim\loans.py                                 26      0      6      0   100%
+cashflowsim\player.py                               164      0     40      0   100%
+cashflowsim\player_choice.py                        322      0    120      0   100%
+cashflowsim\profession.py                            39      0     10      0   100%
+cashflowsim\roll_die.py                              15      0      8      0   100%
+cashflowsim\strategy.py                              50      0     16      0   100%
+---------------------------------------------------------------------------------------------
+TOTAL                                              1454      0    600      3    99%

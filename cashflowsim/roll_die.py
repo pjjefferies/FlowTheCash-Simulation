@@ -1,18 +1,22 @@
 """Functions related to rolling a die."""
 
+import logging
 import random
 
-def roll_die(strategy="Manual", no_of_dice=1, verbose=False):
+log = logging.getLogger(__name__)
+
+
+def roll_die(*, strategy: str = "Manual", no_of_dice: int = 1) -> int:
     """Roll a die."""
     if strategy == "Manual":
-        verbose = True
         if no_of_dice == 1:
-            input("Hit 'Enter' to roll die ")
+            input(f"Hit 'Enter' to roll die")
         else:
-            input("Hit 'Enter' to roll " + str(no_of_dice) + " dice")
-    total_die_roll = 0
+            input(f"Hit 'Enter' to roll {no_of_dice} dice")
+    total_die_roll: int = 0
     for _ in range(no_of_dice):
         total_die_roll += random.choice([1, 2, 3, 4, 5, 6])
-    if verbose:
-        print("Total Dice: ", str(total_die_roll))
+    if strategy == "Manual":
+        print(f"Total of Dice: {total_die_roll}")
+    log.info(f"Total of Dice: {total_die_roll}")
     return total_die_roll
